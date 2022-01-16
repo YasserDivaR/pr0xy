@@ -5,16 +5,173 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {name: '🇺🇸_US_美国_1', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
-  - {name: '🇺🇸_US_美国_2', server: 102.165.20.38, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
-  - {name: '🇺🇸_US_美国_3', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
-  - {name: '🇺🇸_US_美国_4', server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: dax6ujai.com }}
-  - {name: '🇺🇸_US_美国_5', server: 142.202.48.45, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇺🇸_US_美国_6', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: 'AR+🇦🇷+Buenos+Aires_1', server: 131.255.4.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: UHu5NzfXjuur52h9}
+  - {name: 'AU+🇦🇺+Sydney_2', server: 46.102.153.106, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: dsHq7JmRFhSkvxzCuMFy}
+  - {name: 'BR+🇧🇷+Sao+Paulo_3', server: 177.54.152.89, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 2GWsqE7Gr3nRMuuQZfFa}
+  - {name: 'BRA+🇧🇷+Sao+Paulo_4', server: 177.54.150.39, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'CAN+🇨🇦+Montreal_5', server: 134.195.198.250, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'CAN+🇨🇦+Toronto_6', server: 134.195.196.81, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'CAN+🇨🇦+Toronto_7', server: 134.195.196.165, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'CAN+🇨🇦+Toronto_8', server: 134.195.196.165, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'CAN+🇨🇦+Toronto_9', server: 134.195.196.165, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'CAN+🇨🇦+Toronto_10', server: 134.195.196.81, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'CAN+🇨🇦+Toronto_11', server: 134.195.196.133, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'EG+🇪🇬+Cairo_12', server: 188.214.122.138, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QhtEqbEtn74KsTUM4MUg}
+  - {name: 'ES+🇪🇸+Madrid_13', server: 45.152.183.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
+  - {name: 'FI+🇫🇮+Helsinki_14', server: 185.212.149.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
+  - {name: 'FI+🇫🇮+Oulu_15', server: 188.126.89.174, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: SkGJxCjsuc8DJsB2GtM4}
+  - {name: 'FRA+🇫🇷+Paris_16', server: 141.95.0.26, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'ID+🇮🇩+Jakarta_17', server: 45.133.181.58, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qzj5NqakK4YvYYU87eFF}
+  - {name: 'IL+🇮🇱+Tel+Aviv_18', server: 212.199.61.55, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: 'IN+🇮🇳+Chennai_19', server: 169.38.107.52, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 7D4GYNDaFy4eebe47tvF}
+  - {name: 'IND+🇮🇳+Mumbai_20', server: 192.46.208.153, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'JP+🇯🇵+Tokyo_21', server: 84.17.34.8, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: FuynHKjkzhBnmcLpaLKm}
+  - {name: 'JPN+🇯🇵+Tokyo_22', server: 89.31.125.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'JPN+🇯🇵+Tokyo_23', server: 185.160.24.217, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'JPN+🇯🇵+Tokyo_24', server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'KR+🇰🇷+Seoul_25', server: 169.56.83.206, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: V9eSCwLbC8xS97e3Brm3}
+  - {name: 'LU+🇱🇺+Luxembourg_26', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
+  - {name: 'NG+🇳🇬+Lagos_27', server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
+  - {name: 'NOR+🇳🇴+Kristiansad_28', server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'Norway_29', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'Norway🇳🇴_30', server: 46.29.218.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'NZ+🇳🇿+Auckland_31', server: 103.108.94.226, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: bFfLrvbG3GjjNSxKBWt5}
+  - {name: 'PT+🇵🇹+Lisbon_32', server: 185.90.57.152, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qSnstpCypymLvPeyLRqf}
+  - {name: 'RO+🇷🇴+Bucharest_33', server: 86.105.25.162, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
+  - {name: 'RU+🇷🇺+St+Petersburg_34', server: 82.202.220.242, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Kw6hMXQ2Z7ey7mf2Uqyr}
+  - {name: 'SG+🇸🇬+Singapore_35', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
+  - {name: 'Shadow+socks+😂_36', server: 134.195.196.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'SNG+🇸🇬+Singapore_37', server: 81.90.188.167, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'TrojanTurkey_38', server: 1221ec66c4a54ac7946d467ec2c93574.hypervpn.org, port: 9090, type: trojan, password: m1gPvBumonVxD0fF}
+  - {name: 'TUR+🇹🇷+Bahçelievler_39', server: 185.17.113.234, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'TUR+🇹🇷+Istanbul_40', server: 185.17.113.234, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'UA+🇺🇦+Kyiv_41', server: 37.19.218.197, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: Mx6DztQqZb7j34FdWjER}
+  - {name: 'UK+🇬🇧+London_42', server: 172.99.190.230, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'UK+🇬🇧+London_43', server: 172.99.190.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'UK+🇬🇧+London_44', server: 172.99.190.186, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'UK+🇬🇧+London_45', server: 172.99.190.186, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'UK+🇬🇧+London_46', server: 172.99.190.35, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'US+🇺🇸+Los+Angeles_47', server: 66.55.92.101, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: NK4wZejCzDfPdWXTK4FW}
+  - {name: 'US+🇺🇸+Los+Angeles-PF_48', server: 66.55.92.75, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 6g8n89NARNcuTH2XvUtZ}
+  - {name: 'US+🇺🇸+Phoenix_49', server: 170.130.15.34, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q8gsJVLZ5eYXU3uhmnbH}
+  - {name: 'US+🇺🇸+San+Jose_50', server: 169.62.109.140, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 74cf7gsXJgd9Z4MAW42L}
+  - {name: 'USA+🇺🇸+Atlanta_51', server: 167.88.63.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'USA+🇺🇸+California_52', server: 5.188.111.182, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'USA+🇺🇸+Georgia_53', server: 167.88.63.89, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'USA+🇺🇸+Georgia_54', server: 167.88.63.89, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'USA+🇺🇸+LosAngeles_55', server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'VN+🇻🇳+Hanoi_56', server: 188.214.152.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: t8BFcaM3GSCw5FHbph27}
+  - {name: 'WinForm+Canada+1_57', server: 134.195.196.202, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'WinForm+Canada+2_58', server: 134.195.196.50, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'WinForm+Canada+🇨🇦+Toronto_59', server: 134.195.196.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'WinForm+Germany+🇩🇪+Dusseldorf+1_60', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'WinForm+Italy_61', server: 158.58.173.240, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm+Japan-Tokyo_62', server: 103.140.136.200, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm+NL🇳🇱_63', server: 178.239.173.20, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
+  - {name: 'WinForm+RO🇷🇴_64', server: 185.233.150.6, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3}
+  - {name: 'WinForm+RU🇷🇺_65', server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
+  - {name: 'WinForm+UnitedStates+11_66', server: 167.88.63.119, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'WinForm+UnitedStates+3_67', server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'WinForm+UnitedStates+5_68', server: 77.247.126.153, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm+UnitedStates+6_69', server: 167.88.63.119, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'WinForm+UnitedStates+7_70', server: 167.88.63.11, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'WinForm+UnitedStates+8_71', server: 167.88.63.11, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'WinForm+UnitedStates+9_72', server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'WinForm_Shadow+10_73', server: 141.95.0.23, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm_Shadow+11_74', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'WinForm_Shadow+12_75', server: 158.58.173.54, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm_Shadow+15_76', server: 46.29.219.246, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: 'WinForm_Shadow+18_77', server: 185.212.149.152, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: SxFvGWWUtEjyQnGbggq2}
+  - {name: 'WinForm_Shadow+4_78', server: 146.0.36.44, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'WinForm_Shadow+5_79', server: 141.95.0.23, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm_Shadow+6_80', server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'WinForm_Shadow+9_81', server: 5.188.108.155, port: 890, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
+  - {name: 'WinFormShadow+1_82', server: 146.0.36.23, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: 'WinFormShadow+2_83', server: 134.195.196.147, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'WinformShadow+3_84', server: 185.126.119.229, port: 8465, type: ss, cipher: aes-256-gcm, password: 77908a2jxMC3ag7tv00}
+  - {name: 'WinFormShadow166🇨🇦_85', server: 134.195.196.97, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'WinFormShadow168🇭🇰_86', server: 118.107.244.113, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'WinFormShadow175🇳🇴_87', server: 46.29.218.6, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: 'ZA+🇿🇦+Johannesburg_88', server: 102.165.20.38, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: VLGVpK9npKaFqBLHcnu9}
+  - {name: '🇨🇦CA_Canada_89', server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇨🇦Canada_90', server: 134.195.196.36, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇸🇬+Singapore+2_91', server: 81.90.188.167, port: 827, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'WinForm+UnitedStates+5_92', server: 77.247.126.153, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm+SS4_93', server: 5.188.111.182, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'WinForm+SS2_94', server: 81.90.188.167, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
+  - {name: 'WinForm+shadoW_95', server: 134.195.196.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 'WinForm+RU🇷🇺_96', server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
+  - {name: 'WinForm+RO🇷🇴_97', server: 185.233.150.6, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3}
+  - {name: 'WinForm+NOR+🇳🇴+Kristiansad_98', server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'WinForm+Japan-Tokyo_99', server: 103.140.136.200, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm+Italy_100', server: 158.58.173.240, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'WinForm+Germany+🇩🇪+Dusseldorf+1_101', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'WinForm+Canada+🇨🇦+Toronto_102', server: 134.195.196.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: 'ufo+USA+🇺🇸+Seattle_103', server: 169.197.143.15, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'ufo+USA+🇺🇸+LosAngeles_104', server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'ufo+United+Kingdom+🇬🇧+London+5_105', server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'ufo+Japan+🇯🇵+Tokyo+5_106', server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'ufo+Japan+🇯🇵+Tokyo+4_107', server: 89.31.125.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'ufo+Japan+🇯🇵+Tokyo+3_108', server: 103.140.136.200, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 'Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb', server: 169.62.109.140, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 74cf7gsXJgd9Z4MAW42L}
+  - {name: '🇺🇸US_1071+|64.43Mb', server: 142.202.48.99, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1067+|54.96Mb', server: 142.202.48.55, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_1065+|68.23Mb', server: 142.202.48.52, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1064+|28.97Mb', server: 142.202.48.34, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1059+|19.76Mb', server: 142.202.48.45, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸US_1058+|67.14Mb', server: 142.202.48.52, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_1057+|66.37Mb', server: 167.88.63.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1056+|60.70Mb', server: 142.202.48.78, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1055+|53.38Mb', server: 142.202.48.81, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1054+|55.00Mb', server: 142.202.48.43, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸US_1053+|65.42Mb', server: 142.202.48.114, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1052+|48.12Mb', server: 167.88.63.89, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸US_1051+|55.27Mb', server: 142.202.48.105, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1049+|70.30Mb', server: 167.88.63.79, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸US_1045+|68.45Mb', server: 142.202.48.43, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1043+|68.44Mb', server: 142.202.48.77, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1042+|70.83Mb', server: 167.88.63.71, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1034+|69.27Mb', server: 142.202.48.74, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1027+|65.88Mb', server: 142.202.48.17, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸US_1025+|58.97Mb', server: 142.202.48.83, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_1024+|67.81Mb', server: 142.202.48.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_1014+|19.88Mb', server: 142.202.48.105, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸US_1012+|47.27Mb', server: 142.202.48.43, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸US_1008+|66.48Mb', server: 167.88.63.114, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇺🇸US_1003+|66.55Mb', server: 142.202.48.52, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸US_1001+|57.40Mb', server: 142.202.48.43, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸United+States_136', server: 167.88.62.24, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸United+States_137', server: 167.88.62.24, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸United+States_138', server: 167.88.62.24, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸United+States_139', server: 167.88.62.24, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸United+States_140', server: 142.202.48.99, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇺🇸United+States_141', server: 142.202.48.45, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸United+States_142', server: 167.88.62.24, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸United+States_143', server: 167.88.63.108, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇺🇸United+States_144', server: 142.202.48.74, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸United+States_145', server: 167.88.62.24, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇺🇸United+States_146', server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸United+States_147', server: 142.202.48.74, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇺🇸United+States_148', server: 142.202.48.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸United+States_149', server: 142.202.48.45, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇺🇸United+States_150', server: 142.202.48.45, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸United+States_151', server: 142.202.48.45, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇺🇸United+States_152', server: 142.202.48.45, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇺🇸United+States_153', server: 142.202.48.114, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸United+States_154', server: 142.202.48.114, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇺🇸United+States_155', server: 142.202.48.99, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸United+States_156', server: 167.88.63.93, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸United+States_157', server: 167.88.63.93, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸United+States_158', server: 167.88.63.108, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇺🇸United+States_159', server: 167.88.63.93, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇺🇸_US_美国_160', server: 69.39.239.72, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 2jQLXYq5xgrE3gKXmfjB}
+  - {name: '🇺🇸_US_美国_161', server: 45.58.150.130, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: dax6ujai.com }}
+  - {name: '🇺🇸_US_美国_162', server: 142.202.48.45, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇺🇸_US_美国_163', server: 170.130.31.114, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 4W2SJmdKUMJjjkVfRDdh}
+  - {name: '🇺🇸_US_美国_164', server: 23.226.131.146, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: ckX2YfENbjCtVzVJphFP}
   - {name: '🇸🇬SG_831+|16.74Mb', server: 81.90.189.18, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇸🇬SG_828+|18.43Mb', server: 81.90.189.18, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇸🇬SG_827+|15.19Mb', server: 81.90.189.18, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇸🇬SG_825+|15.35Mb', server: 81.90.189.18, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇸🇬SG_822+|15.43Mb', server: 81.90.189.18, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇸🇬SG_803+|17.16Mb', server: 81.90.189.18, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇸🇬SG_758+|15.01Mb', server: 81.90.189.18, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
@@ -25,25 +182,24 @@ proxies:
   - {name: '🇸🇬SG_688+|16.46Mb', server: 81.90.189.18, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇵🇱PL_653+|20.03Mb', server: 5.188.108.155, port: 889, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
   - {name: '🇵🇱PL_643+|21.69Mb', server: 5.188.108.155, port: 890, type: ss, cipher: chacha20-ietf-poly1305, password: KhS1x8JT7p58RIp7gz}
-  - {name: '🇳🇴Norway_21', server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴Norway_178', server: 46.29.218.146, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
   - {name: '🇳🇴NO_612+|+5.62Mb', server: 46.29.218.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: '🇳🇴NO_611+|20.16Mb', server: 46.29.219.246, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇴_NO_挪威_24', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇳🇴_NO_挪威_25', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇴_NO_挪威_26', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇳🇴_NO_挪威_27', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇳🇴_NO_挪威_28', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇳🇴_NO_挪威_181', server: 46.29.218.6, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇳🇴_NO_挪威_182', server: 46.29.218.6, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇳🇴_NO_挪威_183', server: 46.29.218.6, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴_NO_挪威_184', server: 46.29.218.6, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
+  - {name: '🇳🇴_NO_挪威_185', server: 46.29.218.6, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
   - {name: '🇯🇵JP_526+|+2.30Mb', server: 5.181.5.136, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇯🇵JP_521+|+2.25Mb', server: 5.181.5.136, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇯🇵JP_512+|+2.43Mb', server: 185.160.24.217, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇯🇵JP_486+|+2.34Mb', server: 5.181.5.136, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇮🇹IT_477+|10.42Mb', server: 158.58.173.54, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇮🇹IT_476+|10.42Mb', server: 158.58.173.54, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇮🇱_IL_以色列_35', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
-  - {name: '🇭🇰Hong+Kong_36', server: 118.107.244.109, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇭🇰_HK_香港_37', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇭🇰_HK_香港_38', server: cmhk04.xc188.net, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: { path: "/clientarea", host: cmhk04.xc188.net }}
-  - {name: '🇭🇰_HK_香港_39', server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: { path: "/clientarea", host: cmhk04.xc188.net }}
+  - {name: '🇮🇱_IL_以色列_192', server: 212.199.61.55, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: scDj68fv6xkMg2np9RgW}
+  - {name: '🇭🇰Hong+Kong_193', server: 118.107.244.109, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇭🇰_HK_香港_194', server: 118.107.244.110, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇭🇰_HK_香港_195', server: 161.81.195.100, port: 443, type: vmess, uuid: 65cac56d-4155-43c8-bae0-f368cb21f771, alterId: 1, cipher: auto, tls: true, network: ws, ws-opts: { path: "/clientarea", host: cmhk04.xc188.net }}
   - {name: '🇬🇧GB_374+|108.45Mb', server: 77.247.126.153, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇩🇪DE_300+|19.26Mb', server: 146.0.36.23, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: '🇩🇪DE_296+|19.30Mb', server: 146.0.36.23, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
@@ -52,94 +208,236 @@ proxies:
   - {name: '🇩🇪DE_289+|24.43Mb', server: 146.0.36.23, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
   - {name: '🇩🇪DE_286+|22.88Mb', server: 146.0.36.23, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: '🇩🇪DE_258+|10.54Mb', server: 146.0.36.23, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇩🇪_DE_德国_48', server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: germany-dusseldorf.mah3Hoet.com }}
-  - {name: '🇩🇪_DE_德国_49', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: germany-dusseldorf.mah3Hoet.com }}
-  - {name: '🇨🇦Canada_50', server: 134.195.196.230, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇨🇦Canada_51', server: 134.195.196.12, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇨🇦Canada_52', server: 134.195.196.36, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦Canada_53', server: 134.195.196.56, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇨🇦Canada_54', server: 134.195.196.230, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
-  - {name: '🇨🇦Canada_55', server: 134.195.196.149, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇨🇦Canada_56', server: 134.195.196.56, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇨🇦Canada_57', server: 134.195.196.56, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
-  - {name: '🇨🇦Canada_58', server: 134.195.196.217, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
-  - {name: '🇨🇦Canada_59', server: 134.195.196.64, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇨🇦Canada_60', server: 134.195.196.24, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦Canada_61', server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
-  - {name: '🇨🇦Canada_62', server: 134.195.196.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: '🇨🇦Canada_63', server: 134.195.196.214, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
-  - {name: '🇨🇦Canada_64', server: 134.195.196.64, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: '🇨🇦Canada_65', server: 134.195.196.219, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦Canada_66', server: 134.195.196.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇨🇦Canada_67', server: 134.195.196.217, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
-  - {name: '🇨🇦Canada_68', server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
-  - {name: '🇨🇦Canada_69', server: 134.195.196.184, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
-  - {name: '🇨🇦Canada_70', server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: '🇨🇦Canada_71', server: 134.195.196.230, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇩🇪_DE_德国_204', server: germany-dusseldorf.mah3Hoet.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: germany-dusseldorf.mah3Hoet.com }}
+  - {name: '🇩🇪_DE_德国_205', server: 146.0.42.87, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws", host: germany-dusseldorf.mah3Hoet.com }}
+  - {name: '🇨🇦Canada_206', server: 134.195.196.184, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇨🇦Canada_207', server: 134.195.196.184, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇨🇦Canada_208', server: 134.195.196.184, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_209', server: 134.195.196.184, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦Canada_210', server: 134.195.196.184, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_211', server: 134.195.196.184, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦Canada_212', server: 134.195.196.214, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦Canada_213', server: 134.195.196.147, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇦Canada_214', server: 134.195.196.214, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦Canada_215', server: 134.195.196.147, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_216', server: 134.195.196.12, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇦Canada_217', server: 134.195.196.149, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4}
+  - {name: '🇨🇦Canada_218', server: 134.195.196.24, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇨🇦Canada_219', server: 134.195.196.219, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_220', server: 134.195.196.230, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇦Canada_221', server: 134.195.196.36, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_222', server: 134.195.196.230, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦Canada_223', server: 134.195.196.230, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇨🇦Canada_224', server: 134.195.196.44, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇦Canada_225', server: 134.195.196.230, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦Canada_226', server: 134.195.196.230, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇨🇦Canada_227', server: 134.195.196.231, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦Canada_228', server: 134.195.196.24, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_229', server: 134.195.196.199, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇨🇦Canada_230', server: 134.195.196.214, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇨🇦Canada_231', server: 134.195.196.44, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_232', server: 134.195.196.56, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇨🇦Canada_233', server: 134.195.196.214, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
+  - {name: '🇨🇦Canada_234', server: 134.195.196.219, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦Canada_235', server: 134.195.196.56, port: 445, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v}
+  - {name: '🇨🇦Canada_236', server: 134.195.196.56, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦Canada_237', server: 134.195.196.219, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦Canada_238', server: 134.195.196.230, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM}
+  - {name: '🇨🇦Canada_239', server: 134.195.196.217, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG}
+  - {name: '🇨🇦Canada_240', server: 134.195.196.36, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_241', server: 134.195.196.230, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦Canada_242', server: 134.195.196.64, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
+  - {name: '🇨🇦Canada_243', server: 134.195.196.214, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: '🇨🇦Canada_244', server: 134.195.196.217, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_245', server: 134.195.196.219, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm}
+  - {name: '🇨🇦Canada_246', server: 134.195.196.199, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC}
+  - {name: '🇨🇦Canada_247', server: 134.195.196.217, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
+  - {name: '🇨🇦Canada_248', server: 134.195.196.64, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇨🇦Canada_249', server: 134.195.196.12, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN}
+  - {name: '🇨🇦Canada_250', server: 134.195.196.149, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId}
+  - {name: '🇨🇦Canada_251', server: 134.195.196.214, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
+  - {name: '🇨🇦CA_174+|29.57Mb', server: 51.161.118.38, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇨🇦CA_172+|28.55Mb', server: 51.161.118.38, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇨🇦CA_171+|29.28Mb', server: 51.161.118.38, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇨🇦CA_141+|27.84Mb', server: 51.161.118.38, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇨🇦CA_117+|31.37Mb', server: 51.161.118.38, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: '🇨🇦CA_112+|30.36Mb', server: 51.161.118.38, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
   - {name: '🇨🇦CA_109+|30.02Mb', server: 51.161.118.38, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇨🇦_CA_加拿大_73', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
+  - {name: '🇨🇦_CA_加拿大_259', server: 184.75.208.234, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: 47GH3wQRw7V4Zhd35bFs}
   - {name: '🇧🇷BR_96+|18.73Mb', server: 177.54.150.39, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇦🇺_AU_澳大利亚_75', server: Ze9baeS5.com, port: 443, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, network: ws, ws-opts: { path: "/ws" }}
-  - {name: 'WinForm+UnitedStates+5_76', server: 77.247.126.153, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'WinForm+SS4_77', server: 5.188.111.182, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'WinForm+SS2_78', server: 81.90.188.167, port: 826, type: ss, cipher: chacha20-ietf-poly1305, password: sF43Xt2gONqcgFX563}
-  - {name: 'WinForm+shadoW_79', server: 134.195.196.70, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: 'WinForm+shadoW_80', server: 134.195.196.19, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY}
-  - {name: 'WinForm+shadoW_81', server: 134.195.196.6, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
-  - {name: 'WinForm+RU🇷🇺_82', server: 194.34.239.105, port: 18760, type: ss, cipher: chacha20-ietf-poly1305, password: hg49$WH8943g3}
-  - {name: 'WinForm+RO🇷🇴_83', server: 185.233.150.6, port: 18760, type: ss, cipher: aes-256-gcm, password: hg49$WH8943g3}
-  - {name: 'WinForm+NOR+🇳🇴+Kristiansad_84', server: 46.29.219.246, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'WinForm+Japan-Tokyo_85', server: 103.140.136.200, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'WinForm+Italy_86', server: 158.58.173.240, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'WinForm+Germany+🇩🇪+Dusseldorf+1_87', server: 146.0.36.23, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'WinForm+Canada+🇨🇦+Toronto_88', server: 134.195.196.6, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
-  - {name: 'ufo+USA+🇺🇸+Seattle_89', server: 169.197.143.15, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo+USA+🇺🇸+LosAngeles_90', server: 77.247.126.153, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo+United+Kingdom+🇬🇧+London+5_91', server: 92.223.59.188, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo+Japan+🇯🇵+Tokyo+5_92', server: 185.160.24.217, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo+Japan+🇯🇵+Tokyo+4_93', server: 89.31.125.101, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'ufo+Japan+🇯🇵+Tokyo+3_94', server: 103.140.136.200, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb', server: 169.62.109.140, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 74cf7gsXJgd9Z4MAW42L}
-  - {name: 'Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb', server: 170.130.15.34, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: q8gsJVLZ5eYXU3uhmnbH}
-  - {name: 'Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb', server: 102.129.144.142, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
-  - {name: 'Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb', server: 102.129.144.142, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: QzTsOpqsdj29bWqIqWR6}
-  - {name: 'Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb', server: 84.17.38.144, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: gTYdduTTEBBdVZ4LcBnT}
-  - {name: 'Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb', server: 86.105.25.162, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: gKDDFZyBmBH5Ru46xBAK}
-  - {name: 'Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb', server: 223.25.246.4, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: w4GUD28Bw9uCMdbc2pqA}
-  - {name: 'Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb', server: 5.253.204.194, port: 8389, type: ss, cipher: chacha20-ietf-poly1305, password: qLzS7DF9qRYxJTHfckhC}
-  - {name: 'Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb', server: 45.152.183.242, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: r4MP5DzDNmAqbBHzbSXw}
-  - {name: 'Pool_🇸🇬SG_785+|18.04Mb', server: 81.90.189.57, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇸🇬SG_784+|17.54Mb', server: 81.90.189.57, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇸🇬SG_783+|17.51Mb', server: 81.90.189.57, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇸🇬SG_780+|17.07Mb', server: 81.90.189.57, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇷🇴RO_666+|+6.15Mb', server: 62.216.92.167, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇷🇴RO_662+|+3.38Mb', server: 62.216.92.167, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇷🇴RO_661+|+3.02Mb', server: 62.216.92.167, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇷🇴RO_660+|+2.45Mb', server: 62.216.92.167, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇷🇴RO_659+|+3.76Mb', server: 62.216.92.167, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇷🇴RO_658+|+5.96Mb', server: 62.216.92.167, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇷🇴RO_656+|+3.07Mb', server: 62.216.92.167, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 'Pool_🇷🇴RO_655+|+2.72Mb', server: 62.216.92.167, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: '🇺🇸United+States_116', server: 142.202.48.114, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP}
-  - {name: '🇺🇸United+States_117', server: 142.202.48.45, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
-  - {name: '🇺🇸United+States_118', server: 142.202.48.74, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS}
-  - {name: '🇺🇸United+States_119', server: 142.202.48.99, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - AR+🇦🇷+Buenos+Aires_1
+      - AU+🇦🇺+Sydney_2
+      - BR+🇧🇷+Sao+Paulo_3
+      - BRA+🇧🇷+Sao+Paulo_4
+      - CAN+🇨🇦+Montreal_5
+      - CAN+🇨🇦+Toronto_6
+      - CAN+🇨🇦+Toronto_7
+      - CAN+🇨🇦+Toronto_8
+      - CAN+🇨🇦+Toronto_9
+      - CAN+🇨🇦+Toronto_10
+      - CAN+🇨🇦+Toronto_11
+      - EG+🇪🇬+Cairo_12
+      - ES+🇪🇸+Madrid_13
+      - FI+🇫🇮+Helsinki_14
+      - FI+🇫🇮+Oulu_15
+      - FRA+🇫🇷+Paris_16
+      - ID+🇮🇩+Jakarta_17
+      - IL+🇮🇱+Tel+Aviv_18
+      - IN+🇮🇳+Chennai_19
+      - IND+🇮🇳+Mumbai_20
+      - JP+🇯🇵+Tokyo_21
+      - JPN+🇯🇵+Tokyo_22
+      - JPN+🇯🇵+Tokyo_23
+      - JPN+🇯🇵+Tokyo_24
+      - KR+🇰🇷+Seoul_25
+      - LU+🇱🇺+Luxembourg_26
+      - NG+🇳🇬+Lagos_27
+      - NOR+🇳🇴+Kristiansad_28
+      - Norway_29
+      - Norway🇳🇴_30
+      - NZ+🇳🇿+Auckland_31
+      - PT+🇵🇹+Lisbon_32
+      - RO+🇷🇴+Bucharest_33
+      - RU+🇷🇺+St+Petersburg_34
+      - SG+🇸🇬+Singapore_35
+      - Shadow+socks+😂_36
+      - SNG+🇸🇬+Singapore_37
+      - TrojanTurkey_38
+      - TUR+🇹🇷+Bahçelievler_39
+      - TUR+🇹🇷+Istanbul_40
+      - UA+🇺🇦+Kyiv_41
+      - UK+🇬🇧+London_42
+      - UK+🇬🇧+London_43
+      - UK+🇬🇧+London_44
+      - UK+🇬🇧+London_45
+      - UK+🇬🇧+London_46
+      - US+🇺🇸+Los+Angeles_47
+      - US+🇺🇸+Los+Angeles-PF_48
+      - US+🇺🇸+Phoenix_49
+      - US+🇺🇸+San+Jose_50
+      - USA+🇺🇸+Atlanta_51
+      - USA+🇺🇸+California_52
+      - USA+🇺🇸+Georgia_53
+      - USA+🇺🇸+Georgia_54
+      - USA+🇺🇸+LosAngeles_55
+      - VN+🇻🇳+Hanoi_56
+      - WinForm+Canada+1_57
+      - WinForm+Canada+2_58
+      - WinForm+Canada+🇨🇦+Toronto_59
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_60
+      - WinForm+Italy_61
+      - WinForm+Japan-Tokyo_62
+      - WinForm+NL🇳🇱_63
+      - WinForm+RO🇷🇴_64
+      - WinForm+RU🇷🇺_65
+      - WinForm+UnitedStates+11_66
+      - WinForm+UnitedStates+3_67
+      - WinForm+UnitedStates+5_68
+      - WinForm+UnitedStates+6_69
+      - WinForm+UnitedStates+7_70
+      - WinForm+UnitedStates+8_71
+      - WinForm+UnitedStates+9_72
+      - WinForm_Shadow+10_73
+      - WinForm_Shadow+11_74
+      - WinForm_Shadow+12_75
+      - WinForm_Shadow+15_76
+      - WinForm_Shadow+18_77
+      - WinForm_Shadow+4_78
+      - WinForm_Shadow+5_79
+      - WinForm_Shadow+6_80
+      - WinForm_Shadow+9_81
+      - WinFormShadow+1_82
+      - WinFormShadow+2_83
+      - WinformShadow+3_84
+      - WinFormShadow166🇨🇦_85
+      - WinFormShadow168🇭🇰_86
+      - WinFormShadow175🇳🇴_87
+      - ZA+🇿🇦+Johannesburg_88
+      - 🇨🇦CA_Canada_89
+      - 🇨🇦Canada_90
+      - 🇸🇬+Singapore+2_91
+      - WinForm+UnitedStates+5_92
+      - WinForm+SS4_93
+      - WinForm+SS2_94
+      - WinForm+shadoW_95
+      - WinForm+RU🇷🇺_96
+      - WinForm+RO🇷🇴_97
+      - WinForm+NOR+🇳🇴+Kristiansad_98
+      - WinForm+Japan-Tokyo_99
+      - WinForm+Italy_100
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_101
+      - WinForm+Canada+🇨🇦+Toronto_102
+      - ufo+USA+🇺🇸+Seattle_103
+      - ufo+USA+🇺🇸+LosAngeles_104
+      - ufo+United+Kingdom+🇬🇧+London+5_105
+      - ufo+Japan+🇯🇵+Tokyo+5_106
+      - ufo+Japan+🇯🇵+Tokyo+4_107
+      - ufo+Japan+🇯🇵+Tokyo+3_108
+      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
+      - 🇺🇸US_1071+|64.43Mb
+      - 🇺🇸US_1067+|54.96Mb
+      - 🇺🇸US_1065+|68.23Mb
+      - 🇺🇸US_1064+|28.97Mb
+      - 🇺🇸US_1059+|19.76Mb
+      - 🇺🇸US_1058+|67.14Mb
+      - 🇺🇸US_1057+|66.37Mb
+      - 🇺🇸US_1056+|60.70Mb
+      - 🇺🇸US_1055+|53.38Mb
+      - 🇺🇸US_1054+|55.00Mb
+      - 🇺🇸US_1053+|65.42Mb
+      - 🇺🇸US_1052+|48.12Mb
+      - 🇺🇸US_1051+|55.27Mb
+      - 🇺🇸US_1049+|70.30Mb
+      - 🇺🇸US_1045+|68.45Mb
+      - 🇺🇸US_1043+|68.44Mb
+      - 🇺🇸US_1042+|70.83Mb
+      - 🇺🇸US_1034+|69.27Mb
+      - 🇺🇸US_1027+|65.88Mb
+      - 🇺🇸US_1025+|58.97Mb
+      - 🇺🇸US_1024+|67.81Mb
+      - 🇺🇸US_1014+|19.88Mb
+      - 🇺🇸US_1012+|47.27Mb
+      - 🇺🇸US_1008+|66.48Mb
+      - 🇺🇸US_1003+|66.55Mb
+      - 🇺🇸US_1001+|57.40Mb
+      - 🇺🇸United+States_136
+      - 🇺🇸United+States_137
+      - 🇺🇸United+States_138
+      - 🇺🇸United+States_139
+      - 🇺🇸United+States_140
+      - 🇺🇸United+States_141
+      - 🇺🇸United+States_142
+      - 🇺🇸United+States_143
+      - 🇺🇸United+States_144
+      - 🇺🇸United+States_145
+      - 🇺🇸United+States_146
+      - 🇺🇸United+States_147
+      - 🇺🇸United+States_148
+      - 🇺🇸United+States_149
+      - 🇺🇸United+States_150
+      - 🇺🇸United+States_151
+      - 🇺🇸United+States_152
+      - 🇺🇸United+States_153
+      - 🇺🇸United+States_154
+      - 🇺🇸United+States_155
+      - 🇺🇸United+States_156
+      - 🇺🇸United+States_157
+      - 🇺🇸United+States_158
+      - 🇺🇸United+States_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
       - 🇸🇬SG_831+|16.74Mb
       - 🇸🇬SG_828+|18.43Mb
       - 🇸🇬SG_827+|15.19Mb
-      - 🇸🇬SG_825+|15.35Mb
       - 🇸🇬SG_822+|15.43Mb
       - 🇸🇬SG_803+|17.16Mb
       - 🇸🇬SG_758+|15.01Mb
@@ -150,25 +448,24 @@ proxy-groups:
       - 🇸🇬SG_688+|16.46Mb
       - 🇵🇱PL_653+|20.03Mb
       - 🇵🇱PL_643+|21.69Mb
-      - 🇳🇴Norway_21
+      - 🇳🇴Norway_178
       - 🇳🇴NO_612+|+5.62Mb
       - 🇳🇴NO_611+|20.16Mb
-      - 🇳🇴_NO_挪威_24
-      - 🇳🇴_NO_挪威_25
-      - 🇳🇴_NO_挪威_26
-      - 🇳🇴_NO_挪威_27
-      - 🇳🇴_NO_挪威_28
+      - 🇳🇴_NO_挪威_181
+      - 🇳🇴_NO_挪威_182
+      - 🇳🇴_NO_挪威_183
+      - 🇳🇴_NO_挪威_184
+      - 🇳🇴_NO_挪威_185
       - 🇯🇵JP_526+|+2.30Mb
       - 🇯🇵JP_521+|+2.25Mb
       - 🇯🇵JP_512+|+2.43Mb
       - 🇯🇵JP_486+|+2.34Mb
       - 🇮🇹IT_477+|10.42Mb
       - 🇮🇹IT_476+|10.42Mb
-      - 🇮🇱_IL_以色列_35
-      - 🇭🇰Hong+Kong_36
-      - 🇭🇰_HK_香港_37
-      - 🇭🇰_HK_香港_38
-      - 🇭🇰_HK_香港_39
+      - 🇮🇱_IL_以色列_192
+      - 🇭🇰Hong+Kong_193
+      - 🇭🇰_HK_香港_194
+      - 🇭🇰_HK_香港_195
       - 🇬🇧GB_374+|108.45Mb
       - 🇩🇪DE_300+|19.26Mb
       - 🇩🇪DE_296+|19.30Mb
@@ -177,93 +474,235 @@ proxy-groups:
       - 🇩🇪DE_289+|24.43Mb
       - 🇩🇪DE_286+|22.88Mb
       - 🇩🇪DE_258+|10.54Mb
-      - 🇩🇪_DE_德国_48
-      - 🇩🇪_DE_德国_49
-      - 🇨🇦Canada_50
-      - 🇨🇦Canada_51
-      - 🇨🇦Canada_52
-      - 🇨🇦Canada_53
-      - 🇨🇦Canada_54
-      - 🇨🇦Canada_55
-      - 🇨🇦Canada_56
-      - 🇨🇦Canada_57
-      - 🇨🇦Canada_58
-      - 🇨🇦Canada_59
-      - 🇨🇦Canada_60
-      - 🇨🇦Canada_61
-      - 🇨🇦Canada_62
-      - 🇨🇦Canada_63
-      - 🇨🇦Canada_64
-      - 🇨🇦Canada_65
-      - 🇨🇦Canada_66
-      - 🇨🇦Canada_67
-      - 🇨🇦Canada_68
-      - 🇨🇦Canada_69
-      - 🇨🇦Canada_70
-      - 🇨🇦Canada_71
+      - 🇩🇪_DE_德国_204
+      - 🇩🇪_DE_德国_205
+      - 🇨🇦Canada_206
+      - 🇨🇦Canada_207
+      - 🇨🇦Canada_208
+      - 🇨🇦Canada_209
+      - 🇨🇦Canada_210
+      - 🇨🇦Canada_211
+      - 🇨🇦Canada_212
+      - 🇨🇦Canada_213
+      - 🇨🇦Canada_214
+      - 🇨🇦Canada_215
+      - 🇨🇦Canada_216
+      - 🇨🇦Canada_217
+      - 🇨🇦Canada_218
+      - 🇨🇦Canada_219
+      - 🇨🇦Canada_220
+      - 🇨🇦Canada_221
+      - 🇨🇦Canada_222
+      - 🇨🇦Canada_223
+      - 🇨🇦Canada_224
+      - 🇨🇦Canada_225
+      - 🇨🇦Canada_226
+      - 🇨🇦Canada_227
+      - 🇨🇦Canada_228
+      - 🇨🇦Canada_229
+      - 🇨🇦Canada_230
+      - 🇨🇦Canada_231
+      - 🇨🇦Canada_232
+      - 🇨🇦Canada_233
+      - 🇨🇦Canada_234
+      - 🇨🇦Canada_235
+      - 🇨🇦Canada_236
+      - 🇨🇦Canada_237
+      - 🇨🇦Canada_238
+      - 🇨🇦Canada_239
+      - 🇨🇦Canada_240
+      - 🇨🇦Canada_241
+      - 🇨🇦Canada_242
+      - 🇨🇦Canada_243
+      - 🇨🇦Canada_244
+      - 🇨🇦Canada_245
+      - 🇨🇦Canada_246
+      - 🇨🇦Canada_247
+      - 🇨🇦Canada_248
+      - 🇨🇦Canada_249
+      - 🇨🇦Canada_250
+      - 🇨🇦Canada_251
+      - 🇨🇦CA_174+|29.57Mb
+      - 🇨🇦CA_172+|28.55Mb
+      - 🇨🇦CA_171+|29.28Mb
+      - 🇨🇦CA_141+|27.84Mb
+      - 🇨🇦CA_117+|31.37Mb
+      - 🇨🇦CA_112+|30.36Mb
       - 🇨🇦CA_109+|30.02Mb
-      - 🇨🇦_CA_加拿大_73
+      - 🇨🇦_CA_加拿大_259
       - 🇧🇷BR_96+|18.73Mb
-      - 🇦🇺_AU_澳大利亚_75
-      - WinForm+UnitedStates+5_76
-      - WinForm+SS4_77
-      - WinForm+SS2_78
-      - WinForm+shadoW_79
-      - WinForm+shadoW_80
-      - WinForm+shadoW_81
-      - WinForm+RU🇷🇺_82
-      - WinForm+RO🇷🇴_83
-      - WinForm+NOR+🇳🇴+Kristiansad_84
-      - WinForm+Japan-Tokyo_85
-      - WinForm+Italy_86
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_87
-      - WinForm+Canada+🇨🇦+Toronto_88
-      - ufo+USA+🇺🇸+Seattle_89
-      - ufo+USA+🇺🇸+LosAngeles_90
-      - ufo+United+Kingdom+🇬🇧+London+5_91
-      - ufo+Japan+🇯🇵+Tokyo+5_92
-      - ufo+Japan+🇯🇵+Tokyo+4_93
-      - ufo+Japan+🇯🇵+Tokyo+3_94
-      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
-      - Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb
-      - Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb
-      - Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb
-      - Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - Pool_🇸🇬SG_785+|18.04Mb
-      - Pool_🇸🇬SG_784+|17.54Mb
-      - Pool_🇸🇬SG_783+|17.51Mb
-      - Pool_🇸🇬SG_780+|17.07Mb
-      - Pool_🇷🇴RO_666+|+6.15Mb
-      - Pool_🇷🇴RO_662+|+3.38Mb
-      - Pool_🇷🇴RO_661+|+3.02Mb
-      - Pool_🇷🇴RO_660+|+2.45Mb
-      - Pool_🇷🇴RO_659+|+3.76Mb
-      - Pool_🇷🇴RO_658+|+5.96Mb
-      - Pool_🇷🇴RO_656+|+3.07Mb
-      - Pool_🇷🇴RO_655+|+2.72Mb
-      - 🇺🇸United+States_116
-      - 🇺🇸United+States_117
-      - 🇺🇸United+States_118
-      - 🇺🇸United+States_119
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - AR+🇦🇷+Buenos+Aires_1
+      - AU+🇦🇺+Sydney_2
+      - BR+🇧🇷+Sao+Paulo_3
+      - BRA+🇧🇷+Sao+Paulo_4
+      - CAN+🇨🇦+Montreal_5
+      - CAN+🇨🇦+Toronto_6
+      - CAN+🇨🇦+Toronto_7
+      - CAN+🇨🇦+Toronto_8
+      - CAN+🇨🇦+Toronto_9
+      - CAN+🇨🇦+Toronto_10
+      - CAN+🇨🇦+Toronto_11
+      - EG+🇪🇬+Cairo_12
+      - ES+🇪🇸+Madrid_13
+      - FI+🇫🇮+Helsinki_14
+      - FI+🇫🇮+Oulu_15
+      - FRA+🇫🇷+Paris_16
+      - ID+🇮🇩+Jakarta_17
+      - IL+🇮🇱+Tel+Aviv_18
+      - IN+🇮🇳+Chennai_19
+      - IND+🇮🇳+Mumbai_20
+      - JP+🇯🇵+Tokyo_21
+      - JPN+🇯🇵+Tokyo_22
+      - JPN+🇯🇵+Tokyo_23
+      - JPN+🇯🇵+Tokyo_24
+      - KR+🇰🇷+Seoul_25
+      - LU+🇱🇺+Luxembourg_26
+      - NG+🇳🇬+Lagos_27
+      - NOR+🇳🇴+Kristiansad_28
+      - Norway_29
+      - Norway🇳🇴_30
+      - NZ+🇳🇿+Auckland_31
+      - PT+🇵🇹+Lisbon_32
+      - RO+🇷🇴+Bucharest_33
+      - RU+🇷🇺+St+Petersburg_34
+      - SG+🇸🇬+Singapore_35
+      - Shadow+socks+😂_36
+      - SNG+🇸🇬+Singapore_37
+      - TrojanTurkey_38
+      - TUR+🇹🇷+Bahçelievler_39
+      - TUR+🇹🇷+Istanbul_40
+      - UA+🇺🇦+Kyiv_41
+      - UK+🇬🇧+London_42
+      - UK+🇬🇧+London_43
+      - UK+🇬🇧+London_44
+      - UK+🇬🇧+London_45
+      - UK+🇬🇧+London_46
+      - US+🇺🇸+Los+Angeles_47
+      - US+🇺🇸+Los+Angeles-PF_48
+      - US+🇺🇸+Phoenix_49
+      - US+🇺🇸+San+Jose_50
+      - USA+🇺🇸+Atlanta_51
+      - USA+🇺🇸+California_52
+      - USA+🇺🇸+Georgia_53
+      - USA+🇺🇸+Georgia_54
+      - USA+🇺🇸+LosAngeles_55
+      - VN+🇻🇳+Hanoi_56
+      - WinForm+Canada+1_57
+      - WinForm+Canada+2_58
+      - WinForm+Canada+🇨🇦+Toronto_59
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_60
+      - WinForm+Italy_61
+      - WinForm+Japan-Tokyo_62
+      - WinForm+NL🇳🇱_63
+      - WinForm+RO🇷🇴_64
+      - WinForm+RU🇷🇺_65
+      - WinForm+UnitedStates+11_66
+      - WinForm+UnitedStates+3_67
+      - WinForm+UnitedStates+5_68
+      - WinForm+UnitedStates+6_69
+      - WinForm+UnitedStates+7_70
+      - WinForm+UnitedStates+8_71
+      - WinForm+UnitedStates+9_72
+      - WinForm_Shadow+10_73
+      - WinForm_Shadow+11_74
+      - WinForm_Shadow+12_75
+      - WinForm_Shadow+15_76
+      - WinForm_Shadow+18_77
+      - WinForm_Shadow+4_78
+      - WinForm_Shadow+5_79
+      - WinForm_Shadow+6_80
+      - WinForm_Shadow+9_81
+      - WinFormShadow+1_82
+      - WinFormShadow+2_83
+      - WinformShadow+3_84
+      - WinFormShadow166🇨🇦_85
+      - WinFormShadow168🇭🇰_86
+      - WinFormShadow175🇳🇴_87
+      - ZA+🇿🇦+Johannesburg_88
+      - 🇨🇦CA_Canada_89
+      - 🇨🇦Canada_90
+      - 🇸🇬+Singapore+2_91
+      - WinForm+UnitedStates+5_92
+      - WinForm+SS4_93
+      - WinForm+SS2_94
+      - WinForm+shadoW_95
+      - WinForm+RU🇷🇺_96
+      - WinForm+RO🇷🇴_97
+      - WinForm+NOR+🇳🇴+Kristiansad_98
+      - WinForm+Japan-Tokyo_99
+      - WinForm+Italy_100
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_101
+      - WinForm+Canada+🇨🇦+Toronto_102
+      - ufo+USA+🇺🇸+Seattle_103
+      - ufo+USA+🇺🇸+LosAngeles_104
+      - ufo+United+Kingdom+🇬🇧+London+5_105
+      - ufo+Japan+🇯🇵+Tokyo+5_106
+      - ufo+Japan+🇯🇵+Tokyo+4_107
+      - ufo+Japan+🇯🇵+Tokyo+3_108
+      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
+      - 🇺🇸US_1071+|64.43Mb
+      - 🇺🇸US_1067+|54.96Mb
+      - 🇺🇸US_1065+|68.23Mb
+      - 🇺🇸US_1064+|28.97Mb
+      - 🇺🇸US_1059+|19.76Mb
+      - 🇺🇸US_1058+|67.14Mb
+      - 🇺🇸US_1057+|66.37Mb
+      - 🇺🇸US_1056+|60.70Mb
+      - 🇺🇸US_1055+|53.38Mb
+      - 🇺🇸US_1054+|55.00Mb
+      - 🇺🇸US_1053+|65.42Mb
+      - 🇺🇸US_1052+|48.12Mb
+      - 🇺🇸US_1051+|55.27Mb
+      - 🇺🇸US_1049+|70.30Mb
+      - 🇺🇸US_1045+|68.45Mb
+      - 🇺🇸US_1043+|68.44Mb
+      - 🇺🇸US_1042+|70.83Mb
+      - 🇺🇸US_1034+|69.27Mb
+      - 🇺🇸US_1027+|65.88Mb
+      - 🇺🇸US_1025+|58.97Mb
+      - 🇺🇸US_1024+|67.81Mb
+      - 🇺🇸US_1014+|19.88Mb
+      - 🇺🇸US_1012+|47.27Mb
+      - 🇺🇸US_1008+|66.48Mb
+      - 🇺🇸US_1003+|66.55Mb
+      - 🇺🇸US_1001+|57.40Mb
+      - 🇺🇸United+States_136
+      - 🇺🇸United+States_137
+      - 🇺🇸United+States_138
+      - 🇺🇸United+States_139
+      - 🇺🇸United+States_140
+      - 🇺🇸United+States_141
+      - 🇺🇸United+States_142
+      - 🇺🇸United+States_143
+      - 🇺🇸United+States_144
+      - 🇺🇸United+States_145
+      - 🇺🇸United+States_146
+      - 🇺🇸United+States_147
+      - 🇺🇸United+States_148
+      - 🇺🇸United+States_149
+      - 🇺🇸United+States_150
+      - 🇺🇸United+States_151
+      - 🇺🇸United+States_152
+      - 🇺🇸United+States_153
+      - 🇺🇸United+States_154
+      - 🇺🇸United+States_155
+      - 🇺🇸United+States_156
+      - 🇺🇸United+States_157
+      - 🇺🇸United+States_158
+      - 🇺🇸United+States_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
       - 🇸🇬SG_831+|16.74Mb
       - 🇸🇬SG_828+|18.43Mb
       - 🇸🇬SG_827+|15.19Mb
-      - 🇸🇬SG_825+|15.35Mb
       - 🇸🇬SG_822+|15.43Mb
       - 🇸🇬SG_803+|17.16Mb
       - 🇸🇬SG_758+|15.01Mb
@@ -274,25 +713,24 @@ proxy-groups:
       - 🇸🇬SG_688+|16.46Mb
       - 🇵🇱PL_653+|20.03Mb
       - 🇵🇱PL_643+|21.69Mb
-      - 🇳🇴Norway_21
+      - 🇳🇴Norway_178
       - 🇳🇴NO_612+|+5.62Mb
       - 🇳🇴NO_611+|20.16Mb
-      - 🇳🇴_NO_挪威_24
-      - 🇳🇴_NO_挪威_25
-      - 🇳🇴_NO_挪威_26
-      - 🇳🇴_NO_挪威_27
-      - 🇳🇴_NO_挪威_28
+      - 🇳🇴_NO_挪威_181
+      - 🇳🇴_NO_挪威_182
+      - 🇳🇴_NO_挪威_183
+      - 🇳🇴_NO_挪威_184
+      - 🇳🇴_NO_挪威_185
       - 🇯🇵JP_526+|+2.30Mb
       - 🇯🇵JP_521+|+2.25Mb
       - 🇯🇵JP_512+|+2.43Mb
       - 🇯🇵JP_486+|+2.34Mb
       - 🇮🇹IT_477+|10.42Mb
       - 🇮🇹IT_476+|10.42Mb
-      - 🇮🇱_IL_以色列_35
-      - 🇭🇰Hong+Kong_36
-      - 🇭🇰_HK_香港_37
-      - 🇭🇰_HK_香港_38
-      - 🇭🇰_HK_香港_39
+      - 🇮🇱_IL_以色列_192
+      - 🇭🇰Hong+Kong_193
+      - 🇭🇰_HK_香港_194
+      - 🇭🇰_HK_香港_195
       - 🇬🇧GB_374+|108.45Mb
       - 🇩🇪DE_300+|19.26Mb
       - 🇩🇪DE_296+|19.30Mb
@@ -301,94 +739,236 @@ proxy-groups:
       - 🇩🇪DE_289+|24.43Mb
       - 🇩🇪DE_286+|22.88Mb
       - 🇩🇪DE_258+|10.54Mb
-      - 🇩🇪_DE_德国_48
-      - 🇩🇪_DE_德国_49
-      - 🇨🇦Canada_50
-      - 🇨🇦Canada_51
-      - 🇨🇦Canada_52
-      - 🇨🇦Canada_53
-      - 🇨🇦Canada_54
-      - 🇨🇦Canada_55
-      - 🇨🇦Canada_56
-      - 🇨🇦Canada_57
-      - 🇨🇦Canada_58
-      - 🇨🇦Canada_59
-      - 🇨🇦Canada_60
-      - 🇨🇦Canada_61
-      - 🇨🇦Canada_62
-      - 🇨🇦Canada_63
-      - 🇨🇦Canada_64
-      - 🇨🇦Canada_65
-      - 🇨🇦Canada_66
-      - 🇨🇦Canada_67
-      - 🇨🇦Canada_68
-      - 🇨🇦Canada_69
-      - 🇨🇦Canada_70
-      - 🇨🇦Canada_71
+      - 🇩🇪_DE_德国_204
+      - 🇩🇪_DE_德国_205
+      - 🇨🇦Canada_206
+      - 🇨🇦Canada_207
+      - 🇨🇦Canada_208
+      - 🇨🇦Canada_209
+      - 🇨🇦Canada_210
+      - 🇨🇦Canada_211
+      - 🇨🇦Canada_212
+      - 🇨🇦Canada_213
+      - 🇨🇦Canada_214
+      - 🇨🇦Canada_215
+      - 🇨🇦Canada_216
+      - 🇨🇦Canada_217
+      - 🇨🇦Canada_218
+      - 🇨🇦Canada_219
+      - 🇨🇦Canada_220
+      - 🇨🇦Canada_221
+      - 🇨🇦Canada_222
+      - 🇨🇦Canada_223
+      - 🇨🇦Canada_224
+      - 🇨🇦Canada_225
+      - 🇨🇦Canada_226
+      - 🇨🇦Canada_227
+      - 🇨🇦Canada_228
+      - 🇨🇦Canada_229
+      - 🇨🇦Canada_230
+      - 🇨🇦Canada_231
+      - 🇨🇦Canada_232
+      - 🇨🇦Canada_233
+      - 🇨🇦Canada_234
+      - 🇨🇦Canada_235
+      - 🇨🇦Canada_236
+      - 🇨🇦Canada_237
+      - 🇨🇦Canada_238
+      - 🇨🇦Canada_239
+      - 🇨🇦Canada_240
+      - 🇨🇦Canada_241
+      - 🇨🇦Canada_242
+      - 🇨🇦Canada_243
+      - 🇨🇦Canada_244
+      - 🇨🇦Canada_245
+      - 🇨🇦Canada_246
+      - 🇨🇦Canada_247
+      - 🇨🇦Canada_248
+      - 🇨🇦Canada_249
+      - 🇨🇦Canada_250
+      - 🇨🇦Canada_251
+      - 🇨🇦CA_174+|29.57Mb
+      - 🇨🇦CA_172+|28.55Mb
+      - 🇨🇦CA_171+|29.28Mb
+      - 🇨🇦CA_141+|27.84Mb
+      - 🇨🇦CA_117+|31.37Mb
+      - 🇨🇦CA_112+|30.36Mb
       - 🇨🇦CA_109+|30.02Mb
-      - 🇨🇦_CA_加拿大_73
+      - 🇨🇦_CA_加拿大_259
       - 🇧🇷BR_96+|18.73Mb
-      - 🇦🇺_AU_澳大利亚_75
-      - WinForm+UnitedStates+5_76
-      - WinForm+SS4_77
-      - WinForm+SS2_78
-      - WinForm+shadoW_79
-      - WinForm+shadoW_80
-      - WinForm+shadoW_81
-      - WinForm+RU🇷🇺_82
-      - WinForm+RO🇷🇴_83
-      - WinForm+NOR+🇳🇴+Kristiansad_84
-      - WinForm+Japan-Tokyo_85
-      - WinForm+Italy_86
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_87
-      - WinForm+Canada+🇨🇦+Toronto_88
-      - ufo+USA+🇺🇸+Seattle_89
-      - ufo+USA+🇺🇸+LosAngeles_90
-      - ufo+United+Kingdom+🇬🇧+London+5_91
-      - ufo+Japan+🇯🇵+Tokyo+5_92
-      - ufo+Japan+🇯🇵+Tokyo+4_93
-      - ufo+Japan+🇯🇵+Tokyo+3_94
-      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
-      - Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb
-      - Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb
-      - Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb
-      - Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - Pool_🇸🇬SG_785+|18.04Mb
-      - Pool_🇸🇬SG_784+|17.54Mb
-      - Pool_🇸🇬SG_783+|17.51Mb
-      - Pool_🇸🇬SG_780+|17.07Mb
-      - Pool_🇷🇴RO_666+|+6.15Mb
-      - Pool_🇷🇴RO_662+|+3.38Mb
-      - Pool_🇷🇴RO_661+|+3.02Mb
-      - Pool_🇷🇴RO_660+|+2.45Mb
-      - Pool_🇷🇴RO_659+|+3.76Mb
-      - Pool_🇷🇴RO_658+|+5.96Mb
-      - Pool_🇷🇴RO_656+|+3.07Mb
-      - Pool_🇷🇴RO_655+|+2.72Mb
-      - 🇺🇸United+States_116
-      - 🇺🇸United+States_117
-      - 🇺🇸United+States_118
-      - 🇺🇸United+States_119
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - AR+🇦🇷+Buenos+Aires_1
+      - AU+🇦🇺+Sydney_2
+      - BR+🇧🇷+Sao+Paulo_3
+      - BRA+🇧🇷+Sao+Paulo_4
+      - CAN+🇨🇦+Montreal_5
+      - CAN+🇨🇦+Toronto_6
+      - CAN+🇨🇦+Toronto_7
+      - CAN+🇨🇦+Toronto_8
+      - CAN+🇨🇦+Toronto_9
+      - CAN+🇨🇦+Toronto_10
+      - CAN+🇨🇦+Toronto_11
+      - EG+🇪🇬+Cairo_12
+      - ES+🇪🇸+Madrid_13
+      - FI+🇫🇮+Helsinki_14
+      - FI+🇫🇮+Oulu_15
+      - FRA+🇫🇷+Paris_16
+      - ID+🇮🇩+Jakarta_17
+      - IL+🇮🇱+Tel+Aviv_18
+      - IN+🇮🇳+Chennai_19
+      - IND+🇮🇳+Mumbai_20
+      - JP+🇯🇵+Tokyo_21
+      - JPN+🇯🇵+Tokyo_22
+      - JPN+🇯🇵+Tokyo_23
+      - JPN+🇯🇵+Tokyo_24
+      - KR+🇰🇷+Seoul_25
+      - LU+🇱🇺+Luxembourg_26
+      - NG+🇳🇬+Lagos_27
+      - NOR+🇳🇴+Kristiansad_28
+      - Norway_29
+      - Norway🇳🇴_30
+      - NZ+🇳🇿+Auckland_31
+      - PT+🇵🇹+Lisbon_32
+      - RO+🇷🇴+Bucharest_33
+      - RU+🇷🇺+St+Petersburg_34
+      - SG+🇸🇬+Singapore_35
+      - Shadow+socks+😂_36
+      - SNG+🇸🇬+Singapore_37
+      - TrojanTurkey_38
+      - TUR+🇹🇷+Bahçelievler_39
+      - TUR+🇹🇷+Istanbul_40
+      - UA+🇺🇦+Kyiv_41
+      - UK+🇬🇧+London_42
+      - UK+🇬🇧+London_43
+      - UK+🇬🇧+London_44
+      - UK+🇬🇧+London_45
+      - UK+🇬🇧+London_46
+      - US+🇺🇸+Los+Angeles_47
+      - US+🇺🇸+Los+Angeles-PF_48
+      - US+🇺🇸+Phoenix_49
+      - US+🇺🇸+San+Jose_50
+      - USA+🇺🇸+Atlanta_51
+      - USA+🇺🇸+California_52
+      - USA+🇺🇸+Georgia_53
+      - USA+🇺🇸+Georgia_54
+      - USA+🇺🇸+LosAngeles_55
+      - VN+🇻🇳+Hanoi_56
+      - WinForm+Canada+1_57
+      - WinForm+Canada+2_58
+      - WinForm+Canada+🇨🇦+Toronto_59
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_60
+      - WinForm+Italy_61
+      - WinForm+Japan-Tokyo_62
+      - WinForm+NL🇳🇱_63
+      - WinForm+RO🇷🇴_64
+      - WinForm+RU🇷🇺_65
+      - WinForm+UnitedStates+11_66
+      - WinForm+UnitedStates+3_67
+      - WinForm+UnitedStates+5_68
+      - WinForm+UnitedStates+6_69
+      - WinForm+UnitedStates+7_70
+      - WinForm+UnitedStates+8_71
+      - WinForm+UnitedStates+9_72
+      - WinForm_Shadow+10_73
+      - WinForm_Shadow+11_74
+      - WinForm_Shadow+12_75
+      - WinForm_Shadow+15_76
+      - WinForm_Shadow+18_77
+      - WinForm_Shadow+4_78
+      - WinForm_Shadow+5_79
+      - WinForm_Shadow+6_80
+      - WinForm_Shadow+9_81
+      - WinFormShadow+1_82
+      - WinFormShadow+2_83
+      - WinformShadow+3_84
+      - WinFormShadow166🇨🇦_85
+      - WinFormShadow168🇭🇰_86
+      - WinFormShadow175🇳🇴_87
+      - ZA+🇿🇦+Johannesburg_88
+      - 🇨🇦CA_Canada_89
+      - 🇨🇦Canada_90
+      - 🇸🇬+Singapore+2_91
+      - WinForm+UnitedStates+5_92
+      - WinForm+SS4_93
+      - WinForm+SS2_94
+      - WinForm+shadoW_95
+      - WinForm+RU🇷🇺_96
+      - WinForm+RO🇷🇴_97
+      - WinForm+NOR+🇳🇴+Kristiansad_98
+      - WinForm+Japan-Tokyo_99
+      - WinForm+Italy_100
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_101
+      - WinForm+Canada+🇨🇦+Toronto_102
+      - ufo+USA+🇺🇸+Seattle_103
+      - ufo+USA+🇺🇸+LosAngeles_104
+      - ufo+United+Kingdom+🇬🇧+London+5_105
+      - ufo+Japan+🇯🇵+Tokyo+5_106
+      - ufo+Japan+🇯🇵+Tokyo+4_107
+      - ufo+Japan+🇯🇵+Tokyo+3_108
+      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
+      - 🇺🇸US_1071+|64.43Mb
+      - 🇺🇸US_1067+|54.96Mb
+      - 🇺🇸US_1065+|68.23Mb
+      - 🇺🇸US_1064+|28.97Mb
+      - 🇺🇸US_1059+|19.76Mb
+      - 🇺🇸US_1058+|67.14Mb
+      - 🇺🇸US_1057+|66.37Mb
+      - 🇺🇸US_1056+|60.70Mb
+      - 🇺🇸US_1055+|53.38Mb
+      - 🇺🇸US_1054+|55.00Mb
+      - 🇺🇸US_1053+|65.42Mb
+      - 🇺🇸US_1052+|48.12Mb
+      - 🇺🇸US_1051+|55.27Mb
+      - 🇺🇸US_1049+|70.30Mb
+      - 🇺🇸US_1045+|68.45Mb
+      - 🇺🇸US_1043+|68.44Mb
+      - 🇺🇸US_1042+|70.83Mb
+      - 🇺🇸US_1034+|69.27Mb
+      - 🇺🇸US_1027+|65.88Mb
+      - 🇺🇸US_1025+|58.97Mb
+      - 🇺🇸US_1024+|67.81Mb
+      - 🇺🇸US_1014+|19.88Mb
+      - 🇺🇸US_1012+|47.27Mb
+      - 🇺🇸US_1008+|66.48Mb
+      - 🇺🇸US_1003+|66.55Mb
+      - 🇺🇸US_1001+|57.40Mb
+      - 🇺🇸United+States_136
+      - 🇺🇸United+States_137
+      - 🇺🇸United+States_138
+      - 🇺🇸United+States_139
+      - 🇺🇸United+States_140
+      - 🇺🇸United+States_141
+      - 🇺🇸United+States_142
+      - 🇺🇸United+States_143
+      - 🇺🇸United+States_144
+      - 🇺🇸United+States_145
+      - 🇺🇸United+States_146
+      - 🇺🇸United+States_147
+      - 🇺🇸United+States_148
+      - 🇺🇸United+States_149
+      - 🇺🇸United+States_150
+      - 🇺🇸United+States_151
+      - 🇺🇸United+States_152
+      - 🇺🇸United+States_153
+      - 🇺🇸United+States_154
+      - 🇺🇸United+States_155
+      - 🇺🇸United+States_156
+      - 🇺🇸United+States_157
+      - 🇺🇸United+States_158
+      - 🇺🇸United+States_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
       - 🇸🇬SG_831+|16.74Mb
       - 🇸🇬SG_828+|18.43Mb
       - 🇸🇬SG_827+|15.19Mb
-      - 🇸🇬SG_825+|15.35Mb
       - 🇸🇬SG_822+|15.43Mb
       - 🇸🇬SG_803+|17.16Mb
       - 🇸🇬SG_758+|15.01Mb
@@ -399,25 +979,24 @@ proxy-groups:
       - 🇸🇬SG_688+|16.46Mb
       - 🇵🇱PL_653+|20.03Mb
       - 🇵🇱PL_643+|21.69Mb
-      - 🇳🇴Norway_21
+      - 🇳🇴Norway_178
       - 🇳🇴NO_612+|+5.62Mb
       - 🇳🇴NO_611+|20.16Mb
-      - 🇳🇴_NO_挪威_24
-      - 🇳🇴_NO_挪威_25
-      - 🇳🇴_NO_挪威_26
-      - 🇳🇴_NO_挪威_27
-      - 🇳🇴_NO_挪威_28
+      - 🇳🇴_NO_挪威_181
+      - 🇳🇴_NO_挪威_182
+      - 🇳🇴_NO_挪威_183
+      - 🇳🇴_NO_挪威_184
+      - 🇳🇴_NO_挪威_185
       - 🇯🇵JP_526+|+2.30Mb
       - 🇯🇵JP_521+|+2.25Mb
       - 🇯🇵JP_512+|+2.43Mb
       - 🇯🇵JP_486+|+2.34Mb
       - 🇮🇹IT_477+|10.42Mb
       - 🇮🇹IT_476+|10.42Mb
-      - 🇮🇱_IL_以色列_35
-      - 🇭🇰Hong+Kong_36
-      - 🇭🇰_HK_香港_37
-      - 🇭🇰_HK_香港_38
-      - 🇭🇰_HK_香港_39
+      - 🇮🇱_IL_以色列_192
+      - 🇭🇰Hong+Kong_193
+      - 🇭🇰_HK_香港_194
+      - 🇭🇰_HK_香港_195
       - 🇬🇧GB_374+|108.45Mb
       - 🇩🇪DE_300+|19.26Mb
       - 🇩🇪DE_296+|19.30Mb
@@ -426,93 +1005,235 @@ proxy-groups:
       - 🇩🇪DE_289+|24.43Mb
       - 🇩🇪DE_286+|22.88Mb
       - 🇩🇪DE_258+|10.54Mb
-      - 🇩🇪_DE_德国_48
-      - 🇩🇪_DE_德国_49
-      - 🇨🇦Canada_50
-      - 🇨🇦Canada_51
-      - 🇨🇦Canada_52
-      - 🇨🇦Canada_53
-      - 🇨🇦Canada_54
-      - 🇨🇦Canada_55
-      - 🇨🇦Canada_56
-      - 🇨🇦Canada_57
-      - 🇨🇦Canada_58
-      - 🇨🇦Canada_59
-      - 🇨🇦Canada_60
-      - 🇨🇦Canada_61
-      - 🇨🇦Canada_62
-      - 🇨🇦Canada_63
-      - 🇨🇦Canada_64
-      - 🇨🇦Canada_65
-      - 🇨🇦Canada_66
-      - 🇨🇦Canada_67
-      - 🇨🇦Canada_68
-      - 🇨🇦Canada_69
-      - 🇨🇦Canada_70
-      - 🇨🇦Canada_71
+      - 🇩🇪_DE_德国_204
+      - 🇩🇪_DE_德国_205
+      - 🇨🇦Canada_206
+      - 🇨🇦Canada_207
+      - 🇨🇦Canada_208
+      - 🇨🇦Canada_209
+      - 🇨🇦Canada_210
+      - 🇨🇦Canada_211
+      - 🇨🇦Canada_212
+      - 🇨🇦Canada_213
+      - 🇨🇦Canada_214
+      - 🇨🇦Canada_215
+      - 🇨🇦Canada_216
+      - 🇨🇦Canada_217
+      - 🇨🇦Canada_218
+      - 🇨🇦Canada_219
+      - 🇨🇦Canada_220
+      - 🇨🇦Canada_221
+      - 🇨🇦Canada_222
+      - 🇨🇦Canada_223
+      - 🇨🇦Canada_224
+      - 🇨🇦Canada_225
+      - 🇨🇦Canada_226
+      - 🇨🇦Canada_227
+      - 🇨🇦Canada_228
+      - 🇨🇦Canada_229
+      - 🇨🇦Canada_230
+      - 🇨🇦Canada_231
+      - 🇨🇦Canada_232
+      - 🇨🇦Canada_233
+      - 🇨🇦Canada_234
+      - 🇨🇦Canada_235
+      - 🇨🇦Canada_236
+      - 🇨🇦Canada_237
+      - 🇨🇦Canada_238
+      - 🇨🇦Canada_239
+      - 🇨🇦Canada_240
+      - 🇨🇦Canada_241
+      - 🇨🇦Canada_242
+      - 🇨🇦Canada_243
+      - 🇨🇦Canada_244
+      - 🇨🇦Canada_245
+      - 🇨🇦Canada_246
+      - 🇨🇦Canada_247
+      - 🇨🇦Canada_248
+      - 🇨🇦Canada_249
+      - 🇨🇦Canada_250
+      - 🇨🇦Canada_251
+      - 🇨🇦CA_174+|29.57Mb
+      - 🇨🇦CA_172+|28.55Mb
+      - 🇨🇦CA_171+|29.28Mb
+      - 🇨🇦CA_141+|27.84Mb
+      - 🇨🇦CA_117+|31.37Mb
+      - 🇨🇦CA_112+|30.36Mb
       - 🇨🇦CA_109+|30.02Mb
-      - 🇨🇦_CA_加拿大_73
+      - 🇨🇦_CA_加拿大_259
       - 🇧🇷BR_96+|18.73Mb
-      - 🇦🇺_AU_澳大利亚_75
-      - WinForm+UnitedStates+5_76
-      - WinForm+SS4_77
-      - WinForm+SS2_78
-      - WinForm+shadoW_79
-      - WinForm+shadoW_80
-      - WinForm+shadoW_81
-      - WinForm+RU🇷🇺_82
-      - WinForm+RO🇷🇴_83
-      - WinForm+NOR+🇳🇴+Kristiansad_84
-      - WinForm+Japan-Tokyo_85
-      - WinForm+Italy_86
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_87
-      - WinForm+Canada+🇨🇦+Toronto_88
-      - ufo+USA+🇺🇸+Seattle_89
-      - ufo+USA+🇺🇸+LosAngeles_90
-      - ufo+United+Kingdom+🇬🇧+London+5_91
-      - ufo+Japan+🇯🇵+Tokyo+5_92
-      - ufo+Japan+🇯🇵+Tokyo+4_93
-      - ufo+Japan+🇯🇵+Tokyo+3_94
-      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
-      - Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb
-      - Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb
-      - Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb
-      - Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - Pool_🇸🇬SG_785+|18.04Mb
-      - Pool_🇸🇬SG_784+|17.54Mb
-      - Pool_🇸🇬SG_783+|17.51Mb
-      - Pool_🇸🇬SG_780+|17.07Mb
-      - Pool_🇷🇴RO_666+|+6.15Mb
-      - Pool_🇷🇴RO_662+|+3.38Mb
-      - Pool_🇷🇴RO_661+|+3.02Mb
-      - Pool_🇷🇴RO_660+|+2.45Mb
-      - Pool_🇷🇴RO_659+|+3.76Mb
-      - Pool_🇷🇴RO_658+|+5.96Mb
-      - Pool_🇷🇴RO_656+|+3.07Mb
-      - Pool_🇷🇴RO_655+|+2.72Mb
-      - 🇺🇸United+States_116
-      - 🇺🇸United+States_117
-      - 🇺🇸United+States_118
-      - 🇺🇸United+States_119
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - AR+🇦🇷+Buenos+Aires_1
+      - AU+🇦🇺+Sydney_2
+      - BR+🇧🇷+Sao+Paulo_3
+      - BRA+🇧🇷+Sao+Paulo_4
+      - CAN+🇨🇦+Montreal_5
+      - CAN+🇨🇦+Toronto_6
+      - CAN+🇨🇦+Toronto_7
+      - CAN+🇨🇦+Toronto_8
+      - CAN+🇨🇦+Toronto_9
+      - CAN+🇨🇦+Toronto_10
+      - CAN+🇨🇦+Toronto_11
+      - EG+🇪🇬+Cairo_12
+      - ES+🇪🇸+Madrid_13
+      - FI+🇫🇮+Helsinki_14
+      - FI+🇫🇮+Oulu_15
+      - FRA+🇫🇷+Paris_16
+      - ID+🇮🇩+Jakarta_17
+      - IL+🇮🇱+Tel+Aviv_18
+      - IN+🇮🇳+Chennai_19
+      - IND+🇮🇳+Mumbai_20
+      - JP+🇯🇵+Tokyo_21
+      - JPN+🇯🇵+Tokyo_22
+      - JPN+🇯🇵+Tokyo_23
+      - JPN+🇯🇵+Tokyo_24
+      - KR+🇰🇷+Seoul_25
+      - LU+🇱🇺+Luxembourg_26
+      - NG+🇳🇬+Lagos_27
+      - NOR+🇳🇴+Kristiansad_28
+      - Norway_29
+      - Norway🇳🇴_30
+      - NZ+🇳🇿+Auckland_31
+      - PT+🇵🇹+Lisbon_32
+      - RO+🇷🇴+Bucharest_33
+      - RU+🇷🇺+St+Petersburg_34
+      - SG+🇸🇬+Singapore_35
+      - Shadow+socks+😂_36
+      - SNG+🇸🇬+Singapore_37
+      - TrojanTurkey_38
+      - TUR+🇹🇷+Bahçelievler_39
+      - TUR+🇹🇷+Istanbul_40
+      - UA+🇺🇦+Kyiv_41
+      - UK+🇬🇧+London_42
+      - UK+🇬🇧+London_43
+      - UK+🇬🇧+London_44
+      - UK+🇬🇧+London_45
+      - UK+🇬🇧+London_46
+      - US+🇺🇸+Los+Angeles_47
+      - US+🇺🇸+Los+Angeles-PF_48
+      - US+🇺🇸+Phoenix_49
+      - US+🇺🇸+San+Jose_50
+      - USA+🇺🇸+Atlanta_51
+      - USA+🇺🇸+California_52
+      - USA+🇺🇸+Georgia_53
+      - USA+🇺🇸+Georgia_54
+      - USA+🇺🇸+LosAngeles_55
+      - VN+🇻🇳+Hanoi_56
+      - WinForm+Canada+1_57
+      - WinForm+Canada+2_58
+      - WinForm+Canada+🇨🇦+Toronto_59
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_60
+      - WinForm+Italy_61
+      - WinForm+Japan-Tokyo_62
+      - WinForm+NL🇳🇱_63
+      - WinForm+RO🇷🇴_64
+      - WinForm+RU🇷🇺_65
+      - WinForm+UnitedStates+11_66
+      - WinForm+UnitedStates+3_67
+      - WinForm+UnitedStates+5_68
+      - WinForm+UnitedStates+6_69
+      - WinForm+UnitedStates+7_70
+      - WinForm+UnitedStates+8_71
+      - WinForm+UnitedStates+9_72
+      - WinForm_Shadow+10_73
+      - WinForm_Shadow+11_74
+      - WinForm_Shadow+12_75
+      - WinForm_Shadow+15_76
+      - WinForm_Shadow+18_77
+      - WinForm_Shadow+4_78
+      - WinForm_Shadow+5_79
+      - WinForm_Shadow+6_80
+      - WinForm_Shadow+9_81
+      - WinFormShadow+1_82
+      - WinFormShadow+2_83
+      - WinformShadow+3_84
+      - WinFormShadow166🇨🇦_85
+      - WinFormShadow168🇭🇰_86
+      - WinFormShadow175🇳🇴_87
+      - ZA+🇿🇦+Johannesburg_88
+      - 🇨🇦CA_Canada_89
+      - 🇨🇦Canada_90
+      - 🇸🇬+Singapore+2_91
+      - WinForm+UnitedStates+5_92
+      - WinForm+SS4_93
+      - WinForm+SS2_94
+      - WinForm+shadoW_95
+      - WinForm+RU🇷🇺_96
+      - WinForm+RO🇷🇴_97
+      - WinForm+NOR+🇳🇴+Kristiansad_98
+      - WinForm+Japan-Tokyo_99
+      - WinForm+Italy_100
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_101
+      - WinForm+Canada+🇨🇦+Toronto_102
+      - ufo+USA+🇺🇸+Seattle_103
+      - ufo+USA+🇺🇸+LosAngeles_104
+      - ufo+United+Kingdom+🇬🇧+London+5_105
+      - ufo+Japan+🇯🇵+Tokyo+5_106
+      - ufo+Japan+🇯🇵+Tokyo+4_107
+      - ufo+Japan+🇯🇵+Tokyo+3_108
+      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
+      - 🇺🇸US_1071+|64.43Mb
+      - 🇺🇸US_1067+|54.96Mb
+      - 🇺🇸US_1065+|68.23Mb
+      - 🇺🇸US_1064+|28.97Mb
+      - 🇺🇸US_1059+|19.76Mb
+      - 🇺🇸US_1058+|67.14Mb
+      - 🇺🇸US_1057+|66.37Mb
+      - 🇺🇸US_1056+|60.70Mb
+      - 🇺🇸US_1055+|53.38Mb
+      - 🇺🇸US_1054+|55.00Mb
+      - 🇺🇸US_1053+|65.42Mb
+      - 🇺🇸US_1052+|48.12Mb
+      - 🇺🇸US_1051+|55.27Mb
+      - 🇺🇸US_1049+|70.30Mb
+      - 🇺🇸US_1045+|68.45Mb
+      - 🇺🇸US_1043+|68.44Mb
+      - 🇺🇸US_1042+|70.83Mb
+      - 🇺🇸US_1034+|69.27Mb
+      - 🇺🇸US_1027+|65.88Mb
+      - 🇺🇸US_1025+|58.97Mb
+      - 🇺🇸US_1024+|67.81Mb
+      - 🇺🇸US_1014+|19.88Mb
+      - 🇺🇸US_1012+|47.27Mb
+      - 🇺🇸US_1008+|66.48Mb
+      - 🇺🇸US_1003+|66.55Mb
+      - 🇺🇸US_1001+|57.40Mb
+      - 🇺🇸United+States_136
+      - 🇺🇸United+States_137
+      - 🇺🇸United+States_138
+      - 🇺🇸United+States_139
+      - 🇺🇸United+States_140
+      - 🇺🇸United+States_141
+      - 🇺🇸United+States_142
+      - 🇺🇸United+States_143
+      - 🇺🇸United+States_144
+      - 🇺🇸United+States_145
+      - 🇺🇸United+States_146
+      - 🇺🇸United+States_147
+      - 🇺🇸United+States_148
+      - 🇺🇸United+States_149
+      - 🇺🇸United+States_150
+      - 🇺🇸United+States_151
+      - 🇺🇸United+States_152
+      - 🇺🇸United+States_153
+      - 🇺🇸United+States_154
+      - 🇺🇸United+States_155
+      - 🇺🇸United+States_156
+      - 🇺🇸United+States_157
+      - 🇺🇸United+States_158
+      - 🇺🇸United+States_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
       - 🇸🇬SG_831+|16.74Mb
       - 🇸🇬SG_828+|18.43Mb
       - 🇸🇬SG_827+|15.19Mb
-      - 🇸🇬SG_825+|15.35Mb
       - 🇸🇬SG_822+|15.43Mb
       - 🇸🇬SG_803+|17.16Mb
       - 🇸🇬SG_758+|15.01Mb
@@ -523,25 +1244,24 @@ proxy-groups:
       - 🇸🇬SG_688+|16.46Mb
       - 🇵🇱PL_653+|20.03Mb
       - 🇵🇱PL_643+|21.69Mb
-      - 🇳🇴Norway_21
+      - 🇳🇴Norway_178
       - 🇳🇴NO_612+|+5.62Mb
       - 🇳🇴NO_611+|20.16Mb
-      - 🇳🇴_NO_挪威_24
-      - 🇳🇴_NO_挪威_25
-      - 🇳🇴_NO_挪威_26
-      - 🇳🇴_NO_挪威_27
-      - 🇳🇴_NO_挪威_28
+      - 🇳🇴_NO_挪威_181
+      - 🇳🇴_NO_挪威_182
+      - 🇳🇴_NO_挪威_183
+      - 🇳🇴_NO_挪威_184
+      - 🇳🇴_NO_挪威_185
       - 🇯🇵JP_526+|+2.30Mb
       - 🇯🇵JP_521+|+2.25Mb
       - 🇯🇵JP_512+|+2.43Mb
       - 🇯🇵JP_486+|+2.34Mb
       - 🇮🇹IT_477+|10.42Mb
       - 🇮🇹IT_476+|10.42Mb
-      - 🇮🇱_IL_以色列_35
-      - 🇭🇰Hong+Kong_36
-      - 🇭🇰_HK_香港_37
-      - 🇭🇰_HK_香港_38
-      - 🇭🇰_HK_香港_39
+      - 🇮🇱_IL_以色列_192
+      - 🇭🇰Hong+Kong_193
+      - 🇭🇰_HK_香港_194
+      - 🇭🇰_HK_香港_195
       - 🇬🇧GB_374+|108.45Mb
       - 🇩🇪DE_300+|19.26Mb
       - 🇩🇪DE_296+|19.30Mb
@@ -550,93 +1270,235 @@ proxy-groups:
       - 🇩🇪DE_289+|24.43Mb
       - 🇩🇪DE_286+|22.88Mb
       - 🇩🇪DE_258+|10.54Mb
-      - 🇩🇪_DE_德国_48
-      - 🇩🇪_DE_德国_49
-      - 🇨🇦Canada_50
-      - 🇨🇦Canada_51
-      - 🇨🇦Canada_52
-      - 🇨🇦Canada_53
-      - 🇨🇦Canada_54
-      - 🇨🇦Canada_55
-      - 🇨🇦Canada_56
-      - 🇨🇦Canada_57
-      - 🇨🇦Canada_58
-      - 🇨🇦Canada_59
-      - 🇨🇦Canada_60
-      - 🇨🇦Canada_61
-      - 🇨🇦Canada_62
-      - 🇨🇦Canada_63
-      - 🇨🇦Canada_64
-      - 🇨🇦Canada_65
-      - 🇨🇦Canada_66
-      - 🇨🇦Canada_67
-      - 🇨🇦Canada_68
-      - 🇨🇦Canada_69
-      - 🇨🇦Canada_70
-      - 🇨🇦Canada_71
+      - 🇩🇪_DE_德国_204
+      - 🇩🇪_DE_德国_205
+      - 🇨🇦Canada_206
+      - 🇨🇦Canada_207
+      - 🇨🇦Canada_208
+      - 🇨🇦Canada_209
+      - 🇨🇦Canada_210
+      - 🇨🇦Canada_211
+      - 🇨🇦Canada_212
+      - 🇨🇦Canada_213
+      - 🇨🇦Canada_214
+      - 🇨🇦Canada_215
+      - 🇨🇦Canada_216
+      - 🇨🇦Canada_217
+      - 🇨🇦Canada_218
+      - 🇨🇦Canada_219
+      - 🇨🇦Canada_220
+      - 🇨🇦Canada_221
+      - 🇨🇦Canada_222
+      - 🇨🇦Canada_223
+      - 🇨🇦Canada_224
+      - 🇨🇦Canada_225
+      - 🇨🇦Canada_226
+      - 🇨🇦Canada_227
+      - 🇨🇦Canada_228
+      - 🇨🇦Canada_229
+      - 🇨🇦Canada_230
+      - 🇨🇦Canada_231
+      - 🇨🇦Canada_232
+      - 🇨🇦Canada_233
+      - 🇨🇦Canada_234
+      - 🇨🇦Canada_235
+      - 🇨🇦Canada_236
+      - 🇨🇦Canada_237
+      - 🇨🇦Canada_238
+      - 🇨🇦Canada_239
+      - 🇨🇦Canada_240
+      - 🇨🇦Canada_241
+      - 🇨🇦Canada_242
+      - 🇨🇦Canada_243
+      - 🇨🇦Canada_244
+      - 🇨🇦Canada_245
+      - 🇨🇦Canada_246
+      - 🇨🇦Canada_247
+      - 🇨🇦Canada_248
+      - 🇨🇦Canada_249
+      - 🇨🇦Canada_250
+      - 🇨🇦Canada_251
+      - 🇨🇦CA_174+|29.57Mb
+      - 🇨🇦CA_172+|28.55Mb
+      - 🇨🇦CA_171+|29.28Mb
+      - 🇨🇦CA_141+|27.84Mb
+      - 🇨🇦CA_117+|31.37Mb
+      - 🇨🇦CA_112+|30.36Mb
       - 🇨🇦CA_109+|30.02Mb
-      - 🇨🇦_CA_加拿大_73
+      - 🇨🇦_CA_加拿大_259
       - 🇧🇷BR_96+|18.73Mb
-      - 🇦🇺_AU_澳大利亚_75
-      - WinForm+UnitedStates+5_76
-      - WinForm+SS4_77
-      - WinForm+SS2_78
-      - WinForm+shadoW_79
-      - WinForm+shadoW_80
-      - WinForm+shadoW_81
-      - WinForm+RU🇷🇺_82
-      - WinForm+RO🇷🇴_83
-      - WinForm+NOR+🇳🇴+Kristiansad_84
-      - WinForm+Japan-Tokyo_85
-      - WinForm+Italy_86
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_87
-      - WinForm+Canada+🇨🇦+Toronto_88
-      - ufo+USA+🇺🇸+Seattle_89
-      - ufo+USA+🇺🇸+LosAngeles_90
-      - ufo+United+Kingdom+🇬🇧+London+5_91
-      - ufo+Japan+🇯🇵+Tokyo+5_92
-      - ufo+Japan+🇯🇵+Tokyo+4_93
-      - ufo+Japan+🇯🇵+Tokyo+3_94
-      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
-      - Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb
-      - Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb
-      - Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb
-      - Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - Pool_🇸🇬SG_785+|18.04Mb
-      - Pool_🇸🇬SG_784+|17.54Mb
-      - Pool_🇸🇬SG_783+|17.51Mb
-      - Pool_🇸🇬SG_780+|17.07Mb
-      - Pool_🇷🇴RO_666+|+6.15Mb
-      - Pool_🇷🇴RO_662+|+3.38Mb
-      - Pool_🇷🇴RO_661+|+3.02Mb
-      - Pool_🇷🇴RO_660+|+2.45Mb
-      - Pool_🇷🇴RO_659+|+3.76Mb
-      - Pool_🇷🇴RO_658+|+5.96Mb
-      - Pool_🇷🇴RO_656+|+3.07Mb
-      - Pool_🇷🇴RO_655+|+2.72Mb
-      - 🇺🇸United+States_116
-      - 🇺🇸United+States_117
-      - 🇺🇸United+States_118
-      - 🇺🇸United+States_119
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - AR+🇦🇷+Buenos+Aires_1
+      - AU+🇦🇺+Sydney_2
+      - BR+🇧🇷+Sao+Paulo_3
+      - BRA+🇧🇷+Sao+Paulo_4
+      - CAN+🇨🇦+Montreal_5
+      - CAN+🇨🇦+Toronto_6
+      - CAN+🇨🇦+Toronto_7
+      - CAN+🇨🇦+Toronto_8
+      - CAN+🇨🇦+Toronto_9
+      - CAN+🇨🇦+Toronto_10
+      - CAN+🇨🇦+Toronto_11
+      - EG+🇪🇬+Cairo_12
+      - ES+🇪🇸+Madrid_13
+      - FI+🇫🇮+Helsinki_14
+      - FI+🇫🇮+Oulu_15
+      - FRA+🇫🇷+Paris_16
+      - ID+🇮🇩+Jakarta_17
+      - IL+🇮🇱+Tel+Aviv_18
+      - IN+🇮🇳+Chennai_19
+      - IND+🇮🇳+Mumbai_20
+      - JP+🇯🇵+Tokyo_21
+      - JPN+🇯🇵+Tokyo_22
+      - JPN+🇯🇵+Tokyo_23
+      - JPN+🇯🇵+Tokyo_24
+      - KR+🇰🇷+Seoul_25
+      - LU+🇱🇺+Luxembourg_26
+      - NG+🇳🇬+Lagos_27
+      - NOR+🇳🇴+Kristiansad_28
+      - Norway_29
+      - Norway🇳🇴_30
+      - NZ+🇳🇿+Auckland_31
+      - PT+🇵🇹+Lisbon_32
+      - RO+🇷🇴+Bucharest_33
+      - RU+🇷🇺+St+Petersburg_34
+      - SG+🇸🇬+Singapore_35
+      - Shadow+socks+😂_36
+      - SNG+🇸🇬+Singapore_37
+      - TrojanTurkey_38
+      - TUR+🇹🇷+Bahçelievler_39
+      - TUR+🇹🇷+Istanbul_40
+      - UA+🇺🇦+Kyiv_41
+      - UK+🇬🇧+London_42
+      - UK+🇬🇧+London_43
+      - UK+🇬🇧+London_44
+      - UK+🇬🇧+London_45
+      - UK+🇬🇧+London_46
+      - US+🇺🇸+Los+Angeles_47
+      - US+🇺🇸+Los+Angeles-PF_48
+      - US+🇺🇸+Phoenix_49
+      - US+🇺🇸+San+Jose_50
+      - USA+🇺🇸+Atlanta_51
+      - USA+🇺🇸+California_52
+      - USA+🇺🇸+Georgia_53
+      - USA+🇺🇸+Georgia_54
+      - USA+🇺🇸+LosAngeles_55
+      - VN+🇻🇳+Hanoi_56
+      - WinForm+Canada+1_57
+      - WinForm+Canada+2_58
+      - WinForm+Canada+🇨🇦+Toronto_59
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_60
+      - WinForm+Italy_61
+      - WinForm+Japan-Tokyo_62
+      - WinForm+NL🇳🇱_63
+      - WinForm+RO🇷🇴_64
+      - WinForm+RU🇷🇺_65
+      - WinForm+UnitedStates+11_66
+      - WinForm+UnitedStates+3_67
+      - WinForm+UnitedStates+5_68
+      - WinForm+UnitedStates+6_69
+      - WinForm+UnitedStates+7_70
+      - WinForm+UnitedStates+8_71
+      - WinForm+UnitedStates+9_72
+      - WinForm_Shadow+10_73
+      - WinForm_Shadow+11_74
+      - WinForm_Shadow+12_75
+      - WinForm_Shadow+15_76
+      - WinForm_Shadow+18_77
+      - WinForm_Shadow+4_78
+      - WinForm_Shadow+5_79
+      - WinForm_Shadow+6_80
+      - WinForm_Shadow+9_81
+      - WinFormShadow+1_82
+      - WinFormShadow+2_83
+      - WinformShadow+3_84
+      - WinFormShadow166🇨🇦_85
+      - WinFormShadow168🇭🇰_86
+      - WinFormShadow175🇳🇴_87
+      - ZA+🇿🇦+Johannesburg_88
+      - 🇨🇦CA_Canada_89
+      - 🇨🇦Canada_90
+      - 🇸🇬+Singapore+2_91
+      - WinForm+UnitedStates+5_92
+      - WinForm+SS4_93
+      - WinForm+SS2_94
+      - WinForm+shadoW_95
+      - WinForm+RU🇷🇺_96
+      - WinForm+RO🇷🇴_97
+      - WinForm+NOR+🇳🇴+Kristiansad_98
+      - WinForm+Japan-Tokyo_99
+      - WinForm+Italy_100
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_101
+      - WinForm+Canada+🇨🇦+Toronto_102
+      - ufo+USA+🇺🇸+Seattle_103
+      - ufo+USA+🇺🇸+LosAngeles_104
+      - ufo+United+Kingdom+🇬🇧+London+5_105
+      - ufo+Japan+🇯🇵+Tokyo+5_106
+      - ufo+Japan+🇯🇵+Tokyo+4_107
+      - ufo+Japan+🇯🇵+Tokyo+3_108
+      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
+      - 🇺🇸US_1071+|64.43Mb
+      - 🇺🇸US_1067+|54.96Mb
+      - 🇺🇸US_1065+|68.23Mb
+      - 🇺🇸US_1064+|28.97Mb
+      - 🇺🇸US_1059+|19.76Mb
+      - 🇺🇸US_1058+|67.14Mb
+      - 🇺🇸US_1057+|66.37Mb
+      - 🇺🇸US_1056+|60.70Mb
+      - 🇺🇸US_1055+|53.38Mb
+      - 🇺🇸US_1054+|55.00Mb
+      - 🇺🇸US_1053+|65.42Mb
+      - 🇺🇸US_1052+|48.12Mb
+      - 🇺🇸US_1051+|55.27Mb
+      - 🇺🇸US_1049+|70.30Mb
+      - 🇺🇸US_1045+|68.45Mb
+      - 🇺🇸US_1043+|68.44Mb
+      - 🇺🇸US_1042+|70.83Mb
+      - 🇺🇸US_1034+|69.27Mb
+      - 🇺🇸US_1027+|65.88Mb
+      - 🇺🇸US_1025+|58.97Mb
+      - 🇺🇸US_1024+|67.81Mb
+      - 🇺🇸US_1014+|19.88Mb
+      - 🇺🇸US_1012+|47.27Mb
+      - 🇺🇸US_1008+|66.48Mb
+      - 🇺🇸US_1003+|66.55Mb
+      - 🇺🇸US_1001+|57.40Mb
+      - 🇺🇸United+States_136
+      - 🇺🇸United+States_137
+      - 🇺🇸United+States_138
+      - 🇺🇸United+States_139
+      - 🇺🇸United+States_140
+      - 🇺🇸United+States_141
+      - 🇺🇸United+States_142
+      - 🇺🇸United+States_143
+      - 🇺🇸United+States_144
+      - 🇺🇸United+States_145
+      - 🇺🇸United+States_146
+      - 🇺🇸United+States_147
+      - 🇺🇸United+States_148
+      - 🇺🇸United+States_149
+      - 🇺🇸United+States_150
+      - 🇺🇸United+States_151
+      - 🇺🇸United+States_152
+      - 🇺🇸United+States_153
+      - 🇺🇸United+States_154
+      - 🇺🇸United+States_155
+      - 🇺🇸United+States_156
+      - 🇺🇸United+States_157
+      - 🇺🇸United+States_158
+      - 🇺🇸United+States_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
       - 🇸🇬SG_831+|16.74Mb
       - 🇸🇬SG_828+|18.43Mb
       - 🇸🇬SG_827+|15.19Mb
-      - 🇸🇬SG_825+|15.35Mb
       - 🇸🇬SG_822+|15.43Mb
       - 🇸🇬SG_803+|17.16Mb
       - 🇸🇬SG_758+|15.01Mb
@@ -647,25 +1509,24 @@ proxy-groups:
       - 🇸🇬SG_688+|16.46Mb
       - 🇵🇱PL_653+|20.03Mb
       - 🇵🇱PL_643+|21.69Mb
-      - 🇳🇴Norway_21
+      - 🇳🇴Norway_178
       - 🇳🇴NO_612+|+5.62Mb
       - 🇳🇴NO_611+|20.16Mb
-      - 🇳🇴_NO_挪威_24
-      - 🇳🇴_NO_挪威_25
-      - 🇳🇴_NO_挪威_26
-      - 🇳🇴_NO_挪威_27
-      - 🇳🇴_NO_挪威_28
+      - 🇳🇴_NO_挪威_181
+      - 🇳🇴_NO_挪威_182
+      - 🇳🇴_NO_挪威_183
+      - 🇳🇴_NO_挪威_184
+      - 🇳🇴_NO_挪威_185
       - 🇯🇵JP_526+|+2.30Mb
       - 🇯🇵JP_521+|+2.25Mb
       - 🇯🇵JP_512+|+2.43Mb
       - 🇯🇵JP_486+|+2.34Mb
       - 🇮🇹IT_477+|10.42Mb
       - 🇮🇹IT_476+|10.42Mb
-      - 🇮🇱_IL_以色列_35
-      - 🇭🇰Hong+Kong_36
-      - 🇭🇰_HK_香港_37
-      - 🇭🇰_HK_香港_38
-      - 🇭🇰_HK_香港_39
+      - 🇮🇱_IL_以色列_192
+      - 🇭🇰Hong+Kong_193
+      - 🇭🇰_HK_香港_194
+      - 🇭🇰_HK_香港_195
       - 🇬🇧GB_374+|108.45Mb
       - 🇩🇪DE_300+|19.26Mb
       - 🇩🇪DE_296+|19.30Mb
@@ -674,93 +1535,235 @@ proxy-groups:
       - 🇩🇪DE_289+|24.43Mb
       - 🇩🇪DE_286+|22.88Mb
       - 🇩🇪DE_258+|10.54Mb
-      - 🇩🇪_DE_德国_48
-      - 🇩🇪_DE_德国_49
-      - 🇨🇦Canada_50
-      - 🇨🇦Canada_51
-      - 🇨🇦Canada_52
-      - 🇨🇦Canada_53
-      - 🇨🇦Canada_54
-      - 🇨🇦Canada_55
-      - 🇨🇦Canada_56
-      - 🇨🇦Canada_57
-      - 🇨🇦Canada_58
-      - 🇨🇦Canada_59
-      - 🇨🇦Canada_60
-      - 🇨🇦Canada_61
-      - 🇨🇦Canada_62
-      - 🇨🇦Canada_63
-      - 🇨🇦Canada_64
-      - 🇨🇦Canada_65
-      - 🇨🇦Canada_66
-      - 🇨🇦Canada_67
-      - 🇨🇦Canada_68
-      - 🇨🇦Canada_69
-      - 🇨🇦Canada_70
-      - 🇨🇦Canada_71
+      - 🇩🇪_DE_德国_204
+      - 🇩🇪_DE_德国_205
+      - 🇨🇦Canada_206
+      - 🇨🇦Canada_207
+      - 🇨🇦Canada_208
+      - 🇨🇦Canada_209
+      - 🇨🇦Canada_210
+      - 🇨🇦Canada_211
+      - 🇨🇦Canada_212
+      - 🇨🇦Canada_213
+      - 🇨🇦Canada_214
+      - 🇨🇦Canada_215
+      - 🇨🇦Canada_216
+      - 🇨🇦Canada_217
+      - 🇨🇦Canada_218
+      - 🇨🇦Canada_219
+      - 🇨🇦Canada_220
+      - 🇨🇦Canada_221
+      - 🇨🇦Canada_222
+      - 🇨🇦Canada_223
+      - 🇨🇦Canada_224
+      - 🇨🇦Canada_225
+      - 🇨🇦Canada_226
+      - 🇨🇦Canada_227
+      - 🇨🇦Canada_228
+      - 🇨🇦Canada_229
+      - 🇨🇦Canada_230
+      - 🇨🇦Canada_231
+      - 🇨🇦Canada_232
+      - 🇨🇦Canada_233
+      - 🇨🇦Canada_234
+      - 🇨🇦Canada_235
+      - 🇨🇦Canada_236
+      - 🇨🇦Canada_237
+      - 🇨🇦Canada_238
+      - 🇨🇦Canada_239
+      - 🇨🇦Canada_240
+      - 🇨🇦Canada_241
+      - 🇨🇦Canada_242
+      - 🇨🇦Canada_243
+      - 🇨🇦Canada_244
+      - 🇨🇦Canada_245
+      - 🇨🇦Canada_246
+      - 🇨🇦Canada_247
+      - 🇨🇦Canada_248
+      - 🇨🇦Canada_249
+      - 🇨🇦Canada_250
+      - 🇨🇦Canada_251
+      - 🇨🇦CA_174+|29.57Mb
+      - 🇨🇦CA_172+|28.55Mb
+      - 🇨🇦CA_171+|29.28Mb
+      - 🇨🇦CA_141+|27.84Mb
+      - 🇨🇦CA_117+|31.37Mb
+      - 🇨🇦CA_112+|30.36Mb
       - 🇨🇦CA_109+|30.02Mb
-      - 🇨🇦_CA_加拿大_73
+      - 🇨🇦_CA_加拿大_259
       - 🇧🇷BR_96+|18.73Mb
-      - 🇦🇺_AU_澳大利亚_75
-      - WinForm+UnitedStates+5_76
-      - WinForm+SS4_77
-      - WinForm+SS2_78
-      - WinForm+shadoW_79
-      - WinForm+shadoW_80
-      - WinForm+shadoW_81
-      - WinForm+RU🇷🇺_82
-      - WinForm+RO🇷🇴_83
-      - WinForm+NOR+🇳🇴+Kristiansad_84
-      - WinForm+Japan-Tokyo_85
-      - WinForm+Italy_86
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_87
-      - WinForm+Canada+🇨🇦+Toronto_88
-      - ufo+USA+🇺🇸+Seattle_89
-      - ufo+USA+🇺🇸+LosAngeles_90
-      - ufo+United+Kingdom+🇬🇧+London+5_91
-      - ufo+Japan+🇯🇵+Tokyo+5_92
-      - ufo+Japan+🇯🇵+Tokyo+4_93
-      - ufo+Japan+🇯🇵+Tokyo+3_94
-      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
-      - Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb
-      - Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb
-      - Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb
-      - Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - Pool_🇸🇬SG_785+|18.04Mb
-      - Pool_🇸🇬SG_784+|17.54Mb
-      - Pool_🇸🇬SG_783+|17.51Mb
-      - Pool_🇸🇬SG_780+|17.07Mb
-      - Pool_🇷🇴RO_666+|+6.15Mb
-      - Pool_🇷🇴RO_662+|+3.38Mb
-      - Pool_🇷🇴RO_661+|+3.02Mb
-      - Pool_🇷🇴RO_660+|+2.45Mb
-      - Pool_🇷🇴RO_659+|+3.76Mb
-      - Pool_🇷🇴RO_658+|+5.96Mb
-      - Pool_🇷🇴RO_656+|+3.07Mb
-      - Pool_🇷🇴RO_655+|+2.72Mb
-      - 🇺🇸United+States_116
-      - 🇺🇸United+States_117
-      - 🇺🇸United+States_118
-      - 🇺🇸United+States_119
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - AR+🇦🇷+Buenos+Aires_1
+      - AU+🇦🇺+Sydney_2
+      - BR+🇧🇷+Sao+Paulo_3
+      - BRA+🇧🇷+Sao+Paulo_4
+      - CAN+🇨🇦+Montreal_5
+      - CAN+🇨🇦+Toronto_6
+      - CAN+🇨🇦+Toronto_7
+      - CAN+🇨🇦+Toronto_8
+      - CAN+🇨🇦+Toronto_9
+      - CAN+🇨🇦+Toronto_10
+      - CAN+🇨🇦+Toronto_11
+      - EG+🇪🇬+Cairo_12
+      - ES+🇪🇸+Madrid_13
+      - FI+🇫🇮+Helsinki_14
+      - FI+🇫🇮+Oulu_15
+      - FRA+🇫🇷+Paris_16
+      - ID+🇮🇩+Jakarta_17
+      - IL+🇮🇱+Tel+Aviv_18
+      - IN+🇮🇳+Chennai_19
+      - IND+🇮🇳+Mumbai_20
+      - JP+🇯🇵+Tokyo_21
+      - JPN+🇯🇵+Tokyo_22
+      - JPN+🇯🇵+Tokyo_23
+      - JPN+🇯🇵+Tokyo_24
+      - KR+🇰🇷+Seoul_25
+      - LU+🇱🇺+Luxembourg_26
+      - NG+🇳🇬+Lagos_27
+      - NOR+🇳🇴+Kristiansad_28
+      - Norway_29
+      - Norway🇳🇴_30
+      - NZ+🇳🇿+Auckland_31
+      - PT+🇵🇹+Lisbon_32
+      - RO+🇷🇴+Bucharest_33
+      - RU+🇷🇺+St+Petersburg_34
+      - SG+🇸🇬+Singapore_35
+      - Shadow+socks+😂_36
+      - SNG+🇸🇬+Singapore_37
+      - TrojanTurkey_38
+      - TUR+🇹🇷+Bahçelievler_39
+      - TUR+🇹🇷+Istanbul_40
+      - UA+🇺🇦+Kyiv_41
+      - UK+🇬🇧+London_42
+      - UK+🇬🇧+London_43
+      - UK+🇬🇧+London_44
+      - UK+🇬🇧+London_45
+      - UK+🇬🇧+London_46
+      - US+🇺🇸+Los+Angeles_47
+      - US+🇺🇸+Los+Angeles-PF_48
+      - US+🇺🇸+Phoenix_49
+      - US+🇺🇸+San+Jose_50
+      - USA+🇺🇸+Atlanta_51
+      - USA+🇺🇸+California_52
+      - USA+🇺🇸+Georgia_53
+      - USA+🇺🇸+Georgia_54
+      - USA+🇺🇸+LosAngeles_55
+      - VN+🇻🇳+Hanoi_56
+      - WinForm+Canada+1_57
+      - WinForm+Canada+2_58
+      - WinForm+Canada+🇨🇦+Toronto_59
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_60
+      - WinForm+Italy_61
+      - WinForm+Japan-Tokyo_62
+      - WinForm+NL🇳🇱_63
+      - WinForm+RO🇷🇴_64
+      - WinForm+RU🇷🇺_65
+      - WinForm+UnitedStates+11_66
+      - WinForm+UnitedStates+3_67
+      - WinForm+UnitedStates+5_68
+      - WinForm+UnitedStates+6_69
+      - WinForm+UnitedStates+7_70
+      - WinForm+UnitedStates+8_71
+      - WinForm+UnitedStates+9_72
+      - WinForm_Shadow+10_73
+      - WinForm_Shadow+11_74
+      - WinForm_Shadow+12_75
+      - WinForm_Shadow+15_76
+      - WinForm_Shadow+18_77
+      - WinForm_Shadow+4_78
+      - WinForm_Shadow+5_79
+      - WinForm_Shadow+6_80
+      - WinForm_Shadow+9_81
+      - WinFormShadow+1_82
+      - WinFormShadow+2_83
+      - WinformShadow+3_84
+      - WinFormShadow166🇨🇦_85
+      - WinFormShadow168🇭🇰_86
+      - WinFormShadow175🇳🇴_87
+      - ZA+🇿🇦+Johannesburg_88
+      - 🇨🇦CA_Canada_89
+      - 🇨🇦Canada_90
+      - 🇸🇬+Singapore+2_91
+      - WinForm+UnitedStates+5_92
+      - WinForm+SS4_93
+      - WinForm+SS2_94
+      - WinForm+shadoW_95
+      - WinForm+RU🇷🇺_96
+      - WinForm+RO🇷🇴_97
+      - WinForm+NOR+🇳🇴+Kristiansad_98
+      - WinForm+Japan-Tokyo_99
+      - WinForm+Italy_100
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_101
+      - WinForm+Canada+🇨🇦+Toronto_102
+      - ufo+USA+🇺🇸+Seattle_103
+      - ufo+USA+🇺🇸+LosAngeles_104
+      - ufo+United+Kingdom+🇬🇧+London+5_105
+      - ufo+Japan+🇯🇵+Tokyo+5_106
+      - ufo+Japan+🇯🇵+Tokyo+4_107
+      - ufo+Japan+🇯🇵+Tokyo+3_108
+      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
+      - 🇺🇸US_1071+|64.43Mb
+      - 🇺🇸US_1067+|54.96Mb
+      - 🇺🇸US_1065+|68.23Mb
+      - 🇺🇸US_1064+|28.97Mb
+      - 🇺🇸US_1059+|19.76Mb
+      - 🇺🇸US_1058+|67.14Mb
+      - 🇺🇸US_1057+|66.37Mb
+      - 🇺🇸US_1056+|60.70Mb
+      - 🇺🇸US_1055+|53.38Mb
+      - 🇺🇸US_1054+|55.00Mb
+      - 🇺🇸US_1053+|65.42Mb
+      - 🇺🇸US_1052+|48.12Mb
+      - 🇺🇸US_1051+|55.27Mb
+      - 🇺🇸US_1049+|70.30Mb
+      - 🇺🇸US_1045+|68.45Mb
+      - 🇺🇸US_1043+|68.44Mb
+      - 🇺🇸US_1042+|70.83Mb
+      - 🇺🇸US_1034+|69.27Mb
+      - 🇺🇸US_1027+|65.88Mb
+      - 🇺🇸US_1025+|58.97Mb
+      - 🇺🇸US_1024+|67.81Mb
+      - 🇺🇸US_1014+|19.88Mb
+      - 🇺🇸US_1012+|47.27Mb
+      - 🇺🇸US_1008+|66.48Mb
+      - 🇺🇸US_1003+|66.55Mb
+      - 🇺🇸US_1001+|57.40Mb
+      - 🇺🇸United+States_136
+      - 🇺🇸United+States_137
+      - 🇺🇸United+States_138
+      - 🇺🇸United+States_139
+      - 🇺🇸United+States_140
+      - 🇺🇸United+States_141
+      - 🇺🇸United+States_142
+      - 🇺🇸United+States_143
+      - 🇺🇸United+States_144
+      - 🇺🇸United+States_145
+      - 🇺🇸United+States_146
+      - 🇺🇸United+States_147
+      - 🇺🇸United+States_148
+      - 🇺🇸United+States_149
+      - 🇺🇸United+States_150
+      - 🇺🇸United+States_151
+      - 🇺🇸United+States_152
+      - 🇺🇸United+States_153
+      - 🇺🇸United+States_154
+      - 🇺🇸United+States_155
+      - 🇺🇸United+States_156
+      - 🇺🇸United+States_157
+      - 🇺🇸United+States_158
+      - 🇺🇸United+States_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
       - 🇸🇬SG_831+|16.74Mb
       - 🇸🇬SG_828+|18.43Mb
       - 🇸🇬SG_827+|15.19Mb
-      - 🇸🇬SG_825+|15.35Mb
       - 🇸🇬SG_822+|15.43Mb
       - 🇸🇬SG_803+|17.16Mb
       - 🇸🇬SG_758+|15.01Mb
@@ -771,25 +1774,24 @@ proxy-groups:
       - 🇸🇬SG_688+|16.46Mb
       - 🇵🇱PL_653+|20.03Mb
       - 🇵🇱PL_643+|21.69Mb
-      - 🇳🇴Norway_21
+      - 🇳🇴Norway_178
       - 🇳🇴NO_612+|+5.62Mb
       - 🇳🇴NO_611+|20.16Mb
-      - 🇳🇴_NO_挪威_24
-      - 🇳🇴_NO_挪威_25
-      - 🇳🇴_NO_挪威_26
-      - 🇳🇴_NO_挪威_27
-      - 🇳🇴_NO_挪威_28
+      - 🇳🇴_NO_挪威_181
+      - 🇳🇴_NO_挪威_182
+      - 🇳🇴_NO_挪威_183
+      - 🇳🇴_NO_挪威_184
+      - 🇳🇴_NO_挪威_185
       - 🇯🇵JP_526+|+2.30Mb
       - 🇯🇵JP_521+|+2.25Mb
       - 🇯🇵JP_512+|+2.43Mb
       - 🇯🇵JP_486+|+2.34Mb
       - 🇮🇹IT_477+|10.42Mb
       - 🇮🇹IT_476+|10.42Mb
-      - 🇮🇱_IL_以色列_35
-      - 🇭🇰Hong+Kong_36
-      - 🇭🇰_HK_香港_37
-      - 🇭🇰_HK_香港_38
-      - 🇭🇰_HK_香港_39
+      - 🇮🇱_IL_以色列_192
+      - 🇭🇰Hong+Kong_193
+      - 🇭🇰_HK_香港_194
+      - 🇭🇰_HK_香港_195
       - 🇬🇧GB_374+|108.45Mb
       - 🇩🇪DE_300+|19.26Mb
       - 🇩🇪DE_296+|19.30Mb
@@ -798,94 +1800,236 @@ proxy-groups:
       - 🇩🇪DE_289+|24.43Mb
       - 🇩🇪DE_286+|22.88Mb
       - 🇩🇪DE_258+|10.54Mb
-      - 🇩🇪_DE_德国_48
-      - 🇩🇪_DE_德国_49
-      - 🇨🇦Canada_50
-      - 🇨🇦Canada_51
-      - 🇨🇦Canada_52
-      - 🇨🇦Canada_53
-      - 🇨🇦Canada_54
-      - 🇨🇦Canada_55
-      - 🇨🇦Canada_56
-      - 🇨🇦Canada_57
-      - 🇨🇦Canada_58
-      - 🇨🇦Canada_59
-      - 🇨🇦Canada_60
-      - 🇨🇦Canada_61
-      - 🇨🇦Canada_62
-      - 🇨🇦Canada_63
-      - 🇨🇦Canada_64
-      - 🇨🇦Canada_65
-      - 🇨🇦Canada_66
-      - 🇨🇦Canada_67
-      - 🇨🇦Canada_68
-      - 🇨🇦Canada_69
-      - 🇨🇦Canada_70
-      - 🇨🇦Canada_71
+      - 🇩🇪_DE_德国_204
+      - 🇩🇪_DE_德国_205
+      - 🇨🇦Canada_206
+      - 🇨🇦Canada_207
+      - 🇨🇦Canada_208
+      - 🇨🇦Canada_209
+      - 🇨🇦Canada_210
+      - 🇨🇦Canada_211
+      - 🇨🇦Canada_212
+      - 🇨🇦Canada_213
+      - 🇨🇦Canada_214
+      - 🇨🇦Canada_215
+      - 🇨🇦Canada_216
+      - 🇨🇦Canada_217
+      - 🇨🇦Canada_218
+      - 🇨🇦Canada_219
+      - 🇨🇦Canada_220
+      - 🇨🇦Canada_221
+      - 🇨🇦Canada_222
+      - 🇨🇦Canada_223
+      - 🇨🇦Canada_224
+      - 🇨🇦Canada_225
+      - 🇨🇦Canada_226
+      - 🇨🇦Canada_227
+      - 🇨🇦Canada_228
+      - 🇨🇦Canada_229
+      - 🇨🇦Canada_230
+      - 🇨🇦Canada_231
+      - 🇨🇦Canada_232
+      - 🇨🇦Canada_233
+      - 🇨🇦Canada_234
+      - 🇨🇦Canada_235
+      - 🇨🇦Canada_236
+      - 🇨🇦Canada_237
+      - 🇨🇦Canada_238
+      - 🇨🇦Canada_239
+      - 🇨🇦Canada_240
+      - 🇨🇦Canada_241
+      - 🇨🇦Canada_242
+      - 🇨🇦Canada_243
+      - 🇨🇦Canada_244
+      - 🇨🇦Canada_245
+      - 🇨🇦Canada_246
+      - 🇨🇦Canada_247
+      - 🇨🇦Canada_248
+      - 🇨🇦Canada_249
+      - 🇨🇦Canada_250
+      - 🇨🇦Canada_251
+      - 🇨🇦CA_174+|29.57Mb
+      - 🇨🇦CA_172+|28.55Mb
+      - 🇨🇦CA_171+|29.28Mb
+      - 🇨🇦CA_141+|27.84Mb
+      - 🇨🇦CA_117+|31.37Mb
+      - 🇨🇦CA_112+|30.36Mb
       - 🇨🇦CA_109+|30.02Mb
-      - 🇨🇦_CA_加拿大_73
+      - 🇨🇦_CA_加拿大_259
       - 🇧🇷BR_96+|18.73Mb
-      - 🇦🇺_AU_澳大利亚_75
-      - WinForm+UnitedStates+5_76
-      - WinForm+SS4_77
-      - WinForm+SS2_78
-      - WinForm+shadoW_79
-      - WinForm+shadoW_80
-      - WinForm+shadoW_81
-      - WinForm+RU🇷🇺_82
-      - WinForm+RO🇷🇴_83
-      - WinForm+NOR+🇳🇴+Kristiansad_84
-      - WinForm+Japan-Tokyo_85
-      - WinForm+Italy_86
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_87
-      - WinForm+Canada+🇨🇦+Toronto_88
-      - ufo+USA+🇺🇸+Seattle_89
-      - ufo+USA+🇺🇸+LosAngeles_90
-      - ufo+United+Kingdom+🇬🇧+London+5_91
-      - ufo+Japan+🇯🇵+Tokyo+5_92
-      - ufo+Japan+🇯🇵+Tokyo+4_93
-      - ufo+Japan+🇯🇵+Tokyo+3_94
-      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
-      - Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb
-      - Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb
-      - Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb
-      - Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - Pool_🇸🇬SG_785+|18.04Mb
-      - Pool_🇸🇬SG_784+|17.54Mb
-      - Pool_🇸🇬SG_783+|17.51Mb
-      - Pool_🇸🇬SG_780+|17.07Mb
-      - Pool_🇷🇴RO_666+|+6.15Mb
-      - Pool_🇷🇴RO_662+|+3.38Mb
-      - Pool_🇷🇴RO_661+|+3.02Mb
-      - Pool_🇷🇴RO_660+|+2.45Mb
-      - Pool_🇷🇴RO_659+|+3.76Mb
-      - Pool_🇷🇴RO_658+|+5.96Mb
-      - Pool_🇷🇴RO_656+|+3.07Mb
-      - Pool_🇷🇴RO_655+|+2.72Mb
-      - 🇺🇸United+States_116
-      - 🇺🇸United+States_117
-      - 🇺🇸United+States_118
-      - 🇺🇸United+States_119
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - AR+🇦🇷+Buenos+Aires_1
+      - AU+🇦🇺+Sydney_2
+      - BR+🇧🇷+Sao+Paulo_3
+      - BRA+🇧🇷+Sao+Paulo_4
+      - CAN+🇨🇦+Montreal_5
+      - CAN+🇨🇦+Toronto_6
+      - CAN+🇨🇦+Toronto_7
+      - CAN+🇨🇦+Toronto_8
+      - CAN+🇨🇦+Toronto_9
+      - CAN+🇨🇦+Toronto_10
+      - CAN+🇨🇦+Toronto_11
+      - EG+🇪🇬+Cairo_12
+      - ES+🇪🇸+Madrid_13
+      - FI+🇫🇮+Helsinki_14
+      - FI+🇫🇮+Oulu_15
+      - FRA+🇫🇷+Paris_16
+      - ID+🇮🇩+Jakarta_17
+      - IL+🇮🇱+Tel+Aviv_18
+      - IN+🇮🇳+Chennai_19
+      - IND+🇮🇳+Mumbai_20
+      - JP+🇯🇵+Tokyo_21
+      - JPN+🇯🇵+Tokyo_22
+      - JPN+🇯🇵+Tokyo_23
+      - JPN+🇯🇵+Tokyo_24
+      - KR+🇰🇷+Seoul_25
+      - LU+🇱🇺+Luxembourg_26
+      - NG+🇳🇬+Lagos_27
+      - NOR+🇳🇴+Kristiansad_28
+      - Norway_29
+      - Norway🇳🇴_30
+      - NZ+🇳🇿+Auckland_31
+      - PT+🇵🇹+Lisbon_32
+      - RO+🇷🇴+Bucharest_33
+      - RU+🇷🇺+St+Petersburg_34
+      - SG+🇸🇬+Singapore_35
+      - Shadow+socks+😂_36
+      - SNG+🇸🇬+Singapore_37
+      - TrojanTurkey_38
+      - TUR+🇹🇷+Bahçelievler_39
+      - TUR+🇹🇷+Istanbul_40
+      - UA+🇺🇦+Kyiv_41
+      - UK+🇬🇧+London_42
+      - UK+🇬🇧+London_43
+      - UK+🇬🇧+London_44
+      - UK+🇬🇧+London_45
+      - UK+🇬🇧+London_46
+      - US+🇺🇸+Los+Angeles_47
+      - US+🇺🇸+Los+Angeles-PF_48
+      - US+🇺🇸+Phoenix_49
+      - US+🇺🇸+San+Jose_50
+      - USA+🇺🇸+Atlanta_51
+      - USA+🇺🇸+California_52
+      - USA+🇺🇸+Georgia_53
+      - USA+🇺🇸+Georgia_54
+      - USA+🇺🇸+LosAngeles_55
+      - VN+🇻🇳+Hanoi_56
+      - WinForm+Canada+1_57
+      - WinForm+Canada+2_58
+      - WinForm+Canada+🇨🇦+Toronto_59
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_60
+      - WinForm+Italy_61
+      - WinForm+Japan-Tokyo_62
+      - WinForm+NL🇳🇱_63
+      - WinForm+RO🇷🇴_64
+      - WinForm+RU🇷🇺_65
+      - WinForm+UnitedStates+11_66
+      - WinForm+UnitedStates+3_67
+      - WinForm+UnitedStates+5_68
+      - WinForm+UnitedStates+6_69
+      - WinForm+UnitedStates+7_70
+      - WinForm+UnitedStates+8_71
+      - WinForm+UnitedStates+9_72
+      - WinForm_Shadow+10_73
+      - WinForm_Shadow+11_74
+      - WinForm_Shadow+12_75
+      - WinForm_Shadow+15_76
+      - WinForm_Shadow+18_77
+      - WinForm_Shadow+4_78
+      - WinForm_Shadow+5_79
+      - WinForm_Shadow+6_80
+      - WinForm_Shadow+9_81
+      - WinFormShadow+1_82
+      - WinFormShadow+2_83
+      - WinformShadow+3_84
+      - WinFormShadow166🇨🇦_85
+      - WinFormShadow168🇭🇰_86
+      - WinFormShadow175🇳🇴_87
+      - ZA+🇿🇦+Johannesburg_88
+      - 🇨🇦CA_Canada_89
+      - 🇨🇦Canada_90
+      - 🇸🇬+Singapore+2_91
+      - WinForm+UnitedStates+5_92
+      - WinForm+SS4_93
+      - WinForm+SS2_94
+      - WinForm+shadoW_95
+      - WinForm+RU🇷🇺_96
+      - WinForm+RO🇷🇴_97
+      - WinForm+NOR+🇳🇴+Kristiansad_98
+      - WinForm+Japan-Tokyo_99
+      - WinForm+Italy_100
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_101
+      - WinForm+Canada+🇨🇦+Toronto_102
+      - ufo+USA+🇺🇸+Seattle_103
+      - ufo+USA+🇺🇸+LosAngeles_104
+      - ufo+United+Kingdom+🇬🇧+London+5_105
+      - ufo+Japan+🇯🇵+Tokyo+5_106
+      - ufo+Japan+🇯🇵+Tokyo+4_107
+      - ufo+Japan+🇯🇵+Tokyo+3_108
+      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
+      - 🇺🇸US_1071+|64.43Mb
+      - 🇺🇸US_1067+|54.96Mb
+      - 🇺🇸US_1065+|68.23Mb
+      - 🇺🇸US_1064+|28.97Mb
+      - 🇺🇸US_1059+|19.76Mb
+      - 🇺🇸US_1058+|67.14Mb
+      - 🇺🇸US_1057+|66.37Mb
+      - 🇺🇸US_1056+|60.70Mb
+      - 🇺🇸US_1055+|53.38Mb
+      - 🇺🇸US_1054+|55.00Mb
+      - 🇺🇸US_1053+|65.42Mb
+      - 🇺🇸US_1052+|48.12Mb
+      - 🇺🇸US_1051+|55.27Mb
+      - 🇺🇸US_1049+|70.30Mb
+      - 🇺🇸US_1045+|68.45Mb
+      - 🇺🇸US_1043+|68.44Mb
+      - 🇺🇸US_1042+|70.83Mb
+      - 🇺🇸US_1034+|69.27Mb
+      - 🇺🇸US_1027+|65.88Mb
+      - 🇺🇸US_1025+|58.97Mb
+      - 🇺🇸US_1024+|67.81Mb
+      - 🇺🇸US_1014+|19.88Mb
+      - 🇺🇸US_1012+|47.27Mb
+      - 🇺🇸US_1008+|66.48Mb
+      - 🇺🇸US_1003+|66.55Mb
+      - 🇺🇸US_1001+|57.40Mb
+      - 🇺🇸United+States_136
+      - 🇺🇸United+States_137
+      - 🇺🇸United+States_138
+      - 🇺🇸United+States_139
+      - 🇺🇸United+States_140
+      - 🇺🇸United+States_141
+      - 🇺🇸United+States_142
+      - 🇺🇸United+States_143
+      - 🇺🇸United+States_144
+      - 🇺🇸United+States_145
+      - 🇺🇸United+States_146
+      - 🇺🇸United+States_147
+      - 🇺🇸United+States_148
+      - 🇺🇸United+States_149
+      - 🇺🇸United+States_150
+      - 🇺🇸United+States_151
+      - 🇺🇸United+States_152
+      - 🇺🇸United+States_153
+      - 🇺🇸United+States_154
+      - 🇺🇸United+States_155
+      - 🇺🇸United+States_156
+      - 🇺🇸United+States_157
+      - 🇺🇸United+States_158
+      - 🇺🇸United+States_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
       - 🇸🇬SG_831+|16.74Mb
       - 🇸🇬SG_828+|18.43Mb
       - 🇸🇬SG_827+|15.19Mb
-      - 🇸🇬SG_825+|15.35Mb
       - 🇸🇬SG_822+|15.43Mb
       - 🇸🇬SG_803+|17.16Mb
       - 🇸🇬SG_758+|15.01Mb
@@ -896,25 +2040,24 @@ proxy-groups:
       - 🇸🇬SG_688+|16.46Mb
       - 🇵🇱PL_653+|20.03Mb
       - 🇵🇱PL_643+|21.69Mb
-      - 🇳🇴Norway_21
+      - 🇳🇴Norway_178
       - 🇳🇴NO_612+|+5.62Mb
       - 🇳🇴NO_611+|20.16Mb
-      - 🇳🇴_NO_挪威_24
-      - 🇳🇴_NO_挪威_25
-      - 🇳🇴_NO_挪威_26
-      - 🇳🇴_NO_挪威_27
-      - 🇳🇴_NO_挪威_28
+      - 🇳🇴_NO_挪威_181
+      - 🇳🇴_NO_挪威_182
+      - 🇳🇴_NO_挪威_183
+      - 🇳🇴_NO_挪威_184
+      - 🇳🇴_NO_挪威_185
       - 🇯🇵JP_526+|+2.30Mb
       - 🇯🇵JP_521+|+2.25Mb
       - 🇯🇵JP_512+|+2.43Mb
       - 🇯🇵JP_486+|+2.34Mb
       - 🇮🇹IT_477+|10.42Mb
       - 🇮🇹IT_476+|10.42Mb
-      - 🇮🇱_IL_以色列_35
-      - 🇭🇰Hong+Kong_36
-      - 🇭🇰_HK_香港_37
-      - 🇭🇰_HK_香港_38
-      - 🇭🇰_HK_香港_39
+      - 🇮🇱_IL_以色列_192
+      - 🇭🇰Hong+Kong_193
+      - 🇭🇰_HK_香港_194
+      - 🇭🇰_HK_香港_195
       - 🇬🇧GB_374+|108.45Mb
       - 🇩🇪DE_300+|19.26Mb
       - 🇩🇪DE_296+|19.30Mb
@@ -923,78 +2066,63 @@ proxy-groups:
       - 🇩🇪DE_289+|24.43Mb
       - 🇩🇪DE_286+|22.88Mb
       - 🇩🇪DE_258+|10.54Mb
-      - 🇩🇪_DE_德国_48
-      - 🇩🇪_DE_德国_49
-      - 🇨🇦Canada_50
-      - 🇨🇦Canada_51
-      - 🇨🇦Canada_52
-      - 🇨🇦Canada_53
-      - 🇨🇦Canada_54
-      - 🇨🇦Canada_55
-      - 🇨🇦Canada_56
-      - 🇨🇦Canada_57
-      - 🇨🇦Canada_58
-      - 🇨🇦Canada_59
-      - 🇨🇦Canada_60
-      - 🇨🇦Canada_61
-      - 🇨🇦Canada_62
-      - 🇨🇦Canada_63
-      - 🇨🇦Canada_64
-      - 🇨🇦Canada_65
-      - 🇨🇦Canada_66
-      - 🇨🇦Canada_67
-      - 🇨🇦Canada_68
-      - 🇨🇦Canada_69
-      - 🇨🇦Canada_70
-      - 🇨🇦Canada_71
+      - 🇩🇪_DE_德国_204
+      - 🇩🇪_DE_德国_205
+      - 🇨🇦Canada_206
+      - 🇨🇦Canada_207
+      - 🇨🇦Canada_208
+      - 🇨🇦Canada_209
+      - 🇨🇦Canada_210
+      - 🇨🇦Canada_211
+      - 🇨🇦Canada_212
+      - 🇨🇦Canada_213
+      - 🇨🇦Canada_214
+      - 🇨🇦Canada_215
+      - 🇨🇦Canada_216
+      - 🇨🇦Canada_217
+      - 🇨🇦Canada_218
+      - 🇨🇦Canada_219
+      - 🇨🇦Canada_220
+      - 🇨🇦Canada_221
+      - 🇨🇦Canada_222
+      - 🇨🇦Canada_223
+      - 🇨🇦Canada_224
+      - 🇨🇦Canada_225
+      - 🇨🇦Canada_226
+      - 🇨🇦Canada_227
+      - 🇨🇦Canada_228
+      - 🇨🇦Canada_229
+      - 🇨🇦Canada_230
+      - 🇨🇦Canada_231
+      - 🇨🇦Canada_232
+      - 🇨🇦Canada_233
+      - 🇨🇦Canada_234
+      - 🇨🇦Canada_235
+      - 🇨🇦Canada_236
+      - 🇨🇦Canada_237
+      - 🇨🇦Canada_238
+      - 🇨🇦Canada_239
+      - 🇨🇦Canada_240
+      - 🇨🇦Canada_241
+      - 🇨🇦Canada_242
+      - 🇨🇦Canada_243
+      - 🇨🇦Canada_244
+      - 🇨🇦Canada_245
+      - 🇨🇦Canada_246
+      - 🇨🇦Canada_247
+      - 🇨🇦Canada_248
+      - 🇨🇦Canada_249
+      - 🇨🇦Canada_250
+      - 🇨🇦Canada_251
+      - 🇨🇦CA_174+|29.57Mb
+      - 🇨🇦CA_172+|28.55Mb
+      - 🇨🇦CA_171+|29.28Mb
+      - 🇨🇦CA_141+|27.84Mb
+      - 🇨🇦CA_117+|31.37Mb
+      - 🇨🇦CA_112+|30.36Mb
       - 🇨🇦CA_109+|30.02Mb
-      - 🇨🇦_CA_加拿大_73
+      - 🇨🇦_CA_加拿大_259
       - 🇧🇷BR_96+|18.73Mb
-      - 🇦🇺_AU_澳大利亚_75
-      - WinForm+UnitedStates+5_76
-      - WinForm+SS4_77
-      - WinForm+SS2_78
-      - WinForm+shadoW_79
-      - WinForm+shadoW_80
-      - WinForm+shadoW_81
-      - WinForm+RU🇷🇺_82
-      - WinForm+RO🇷🇴_83
-      - WinForm+NOR+🇳🇴+Kristiansad_84
-      - WinForm+Japan-Tokyo_85
-      - WinForm+Italy_86
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_87
-      - WinForm+Canada+🇨🇦+Toronto_88
-      - ufo+USA+🇺🇸+Seattle_89
-      - ufo+USA+🇺🇸+LosAngeles_90
-      - ufo+United+Kingdom+🇬🇧+London+5_91
-      - ufo+Japan+🇯🇵+Tokyo+5_92
-      - ufo+Japan+🇯🇵+Tokyo+4_93
-      - ufo+Japan+🇯🇵+Tokyo+3_94
-      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
-      - Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb
-      - Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb
-      - Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb
-      - Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - Pool_🇸🇬SG_785+|18.04Mb
-      - Pool_🇸🇬SG_784+|17.54Mb
-      - Pool_🇸🇬SG_783+|17.51Mb
-      - Pool_🇸🇬SG_780+|17.07Mb
-      - Pool_🇷🇴RO_666+|+6.15Mb
-      - Pool_🇷🇴RO_662+|+3.38Mb
-      - Pool_🇷🇴RO_661+|+3.02Mb
-      - Pool_🇷🇴RO_660+|+2.45Mb
-      - Pool_🇷🇴RO_659+|+3.76Mb
-      - Pool_🇷🇴RO_658+|+5.96Mb
-      - Pool_🇷🇴RO_656+|+3.07Mb
-      - Pool_🇷🇴RO_655+|+2.72Mb
-      - 🇺🇸United+States_116
-      - 🇺🇸United+States_117
-      - 🇺🇸United+States_118
-      - 🇺🇸United+States_119
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1010,16 +2138,173 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸_US_美国_1
-      - 🇺🇸_US_美国_2
-      - 🇺🇸_US_美国_3
-      - 🇺🇸_US_美国_4
-      - 🇺🇸_US_美国_5
-      - 🇺🇸_US_美国_6
+      - AR+🇦🇷+Buenos+Aires_1
+      - AU+🇦🇺+Sydney_2
+      - BR+🇧🇷+Sao+Paulo_3
+      - BRA+🇧🇷+Sao+Paulo_4
+      - CAN+🇨🇦+Montreal_5
+      - CAN+🇨🇦+Toronto_6
+      - CAN+🇨🇦+Toronto_7
+      - CAN+🇨🇦+Toronto_8
+      - CAN+🇨🇦+Toronto_9
+      - CAN+🇨🇦+Toronto_10
+      - CAN+🇨🇦+Toronto_11
+      - EG+🇪🇬+Cairo_12
+      - ES+🇪🇸+Madrid_13
+      - FI+🇫🇮+Helsinki_14
+      - FI+🇫🇮+Oulu_15
+      - FRA+🇫🇷+Paris_16
+      - ID+🇮🇩+Jakarta_17
+      - IL+🇮🇱+Tel+Aviv_18
+      - IN+🇮🇳+Chennai_19
+      - IND+🇮🇳+Mumbai_20
+      - JP+🇯🇵+Tokyo_21
+      - JPN+🇯🇵+Tokyo_22
+      - JPN+🇯🇵+Tokyo_23
+      - JPN+🇯🇵+Tokyo_24
+      - KR+🇰🇷+Seoul_25
+      - LU+🇱🇺+Luxembourg_26
+      - NG+🇳🇬+Lagos_27
+      - NOR+🇳🇴+Kristiansad_28
+      - Norway_29
+      - Norway🇳🇴_30
+      - NZ+🇳🇿+Auckland_31
+      - PT+🇵🇹+Lisbon_32
+      - RO+🇷🇴+Bucharest_33
+      - RU+🇷🇺+St+Petersburg_34
+      - SG+🇸🇬+Singapore_35
+      - Shadow+socks+😂_36
+      - SNG+🇸🇬+Singapore_37
+      - TrojanTurkey_38
+      - TUR+🇹🇷+Bahçelievler_39
+      - TUR+🇹🇷+Istanbul_40
+      - UA+🇺🇦+Kyiv_41
+      - UK+🇬🇧+London_42
+      - UK+🇬🇧+London_43
+      - UK+🇬🇧+London_44
+      - UK+🇬🇧+London_45
+      - UK+🇬🇧+London_46
+      - US+🇺🇸+Los+Angeles_47
+      - US+🇺🇸+Los+Angeles-PF_48
+      - US+🇺🇸+Phoenix_49
+      - US+🇺🇸+San+Jose_50
+      - USA+🇺🇸+Atlanta_51
+      - USA+🇺🇸+California_52
+      - USA+🇺🇸+Georgia_53
+      - USA+🇺🇸+Georgia_54
+      - USA+🇺🇸+LosAngeles_55
+      - VN+🇻🇳+Hanoi_56
+      - WinForm+Canada+1_57
+      - WinForm+Canada+2_58
+      - WinForm+Canada+🇨🇦+Toronto_59
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_60
+      - WinForm+Italy_61
+      - WinForm+Japan-Tokyo_62
+      - WinForm+NL🇳🇱_63
+      - WinForm+RO🇷🇴_64
+      - WinForm+RU🇷🇺_65
+      - WinForm+UnitedStates+11_66
+      - WinForm+UnitedStates+3_67
+      - WinForm+UnitedStates+5_68
+      - WinForm+UnitedStates+6_69
+      - WinForm+UnitedStates+7_70
+      - WinForm+UnitedStates+8_71
+      - WinForm+UnitedStates+9_72
+      - WinForm_Shadow+10_73
+      - WinForm_Shadow+11_74
+      - WinForm_Shadow+12_75
+      - WinForm_Shadow+15_76
+      - WinForm_Shadow+18_77
+      - WinForm_Shadow+4_78
+      - WinForm_Shadow+5_79
+      - WinForm_Shadow+6_80
+      - WinForm_Shadow+9_81
+      - WinFormShadow+1_82
+      - WinFormShadow+2_83
+      - WinformShadow+3_84
+      - WinFormShadow166🇨🇦_85
+      - WinFormShadow168🇭🇰_86
+      - WinFormShadow175🇳🇴_87
+      - ZA+🇿🇦+Johannesburg_88
+      - 🇨🇦CA_Canada_89
+      - 🇨🇦Canada_90
+      - 🇸🇬+Singapore+2_91
+      - WinForm+UnitedStates+5_92
+      - WinForm+SS4_93
+      - WinForm+SS2_94
+      - WinForm+shadoW_95
+      - WinForm+RU🇷🇺_96
+      - WinForm+RO🇷🇴_97
+      - WinForm+NOR+🇳🇴+Kristiansad_98
+      - WinForm+Japan-Tokyo_99
+      - WinForm+Italy_100
+      - WinForm+Germany+🇩🇪+Dusseldorf+1_101
+      - WinForm+Canada+🇨🇦+Toronto_102
+      - ufo+USA+🇺🇸+Seattle_103
+      - ufo+USA+🇺🇸+LosAngeles_104
+      - ufo+United+Kingdom+🇬🇧+London+5_105
+      - ufo+Japan+🇯🇵+Tokyo+5_106
+      - ufo+Japan+🇯🇵+Tokyo+4_107
+      - ufo+Japan+🇯🇵+Tokyo+3_108
+      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
+      - 🇺🇸US_1071+|64.43Mb
+      - 🇺🇸US_1067+|54.96Mb
+      - 🇺🇸US_1065+|68.23Mb
+      - 🇺🇸US_1064+|28.97Mb
+      - 🇺🇸US_1059+|19.76Mb
+      - 🇺🇸US_1058+|67.14Mb
+      - 🇺🇸US_1057+|66.37Mb
+      - 🇺🇸US_1056+|60.70Mb
+      - 🇺🇸US_1055+|53.38Mb
+      - 🇺🇸US_1054+|55.00Mb
+      - 🇺🇸US_1053+|65.42Mb
+      - 🇺🇸US_1052+|48.12Mb
+      - 🇺🇸US_1051+|55.27Mb
+      - 🇺🇸US_1049+|70.30Mb
+      - 🇺🇸US_1045+|68.45Mb
+      - 🇺🇸US_1043+|68.44Mb
+      - 🇺🇸US_1042+|70.83Mb
+      - 🇺🇸US_1034+|69.27Mb
+      - 🇺🇸US_1027+|65.88Mb
+      - 🇺🇸US_1025+|58.97Mb
+      - 🇺🇸US_1024+|67.81Mb
+      - 🇺🇸US_1014+|19.88Mb
+      - 🇺🇸US_1012+|47.27Mb
+      - 🇺🇸US_1008+|66.48Mb
+      - 🇺🇸US_1003+|66.55Mb
+      - 🇺🇸US_1001+|57.40Mb
+      - 🇺🇸United+States_136
+      - 🇺🇸United+States_137
+      - 🇺🇸United+States_138
+      - 🇺🇸United+States_139
+      - 🇺🇸United+States_140
+      - 🇺🇸United+States_141
+      - 🇺🇸United+States_142
+      - 🇺🇸United+States_143
+      - 🇺🇸United+States_144
+      - 🇺🇸United+States_145
+      - 🇺🇸United+States_146
+      - 🇺🇸United+States_147
+      - 🇺🇸United+States_148
+      - 🇺🇸United+States_149
+      - 🇺🇸United+States_150
+      - 🇺🇸United+States_151
+      - 🇺🇸United+States_152
+      - 🇺🇸United+States_153
+      - 🇺🇸United+States_154
+      - 🇺🇸United+States_155
+      - 🇺🇸United+States_156
+      - 🇺🇸United+States_157
+      - 🇺🇸United+States_158
+      - 🇺🇸United+States_159
+      - 🇺🇸_US_美国_160
+      - 🇺🇸_US_美国_161
+      - 🇺🇸_US_美国_162
+      - 🇺🇸_US_美国_163
+      - 🇺🇸_US_美国_164
       - 🇸🇬SG_831+|16.74Mb
       - 🇸🇬SG_828+|18.43Mb
       - 🇸🇬SG_827+|15.19Mb
-      - 🇸🇬SG_825+|15.35Mb
       - 🇸🇬SG_822+|15.43Mb
       - 🇸🇬SG_803+|17.16Mb
       - 🇸🇬SG_758+|15.01Mb
@@ -1030,25 +2315,24 @@ proxy-groups:
       - 🇸🇬SG_688+|16.46Mb
       - 🇵🇱PL_653+|20.03Mb
       - 🇵🇱PL_643+|21.69Mb
-      - 🇳🇴Norway_21
+      - 🇳🇴Norway_178
       - 🇳🇴NO_612+|+5.62Mb
       - 🇳🇴NO_611+|20.16Mb
-      - 🇳🇴_NO_挪威_24
-      - 🇳🇴_NO_挪威_25
-      - 🇳🇴_NO_挪威_26
-      - 🇳🇴_NO_挪威_27
-      - 🇳🇴_NO_挪威_28
+      - 🇳🇴_NO_挪威_181
+      - 🇳🇴_NO_挪威_182
+      - 🇳🇴_NO_挪威_183
+      - 🇳🇴_NO_挪威_184
+      - 🇳🇴_NO_挪威_185
       - 🇯🇵JP_526+|+2.30Mb
       - 🇯🇵JP_521+|+2.25Mb
       - 🇯🇵JP_512+|+2.43Mb
       - 🇯🇵JP_486+|+2.34Mb
       - 🇮🇹IT_477+|10.42Mb
       - 🇮🇹IT_476+|10.42Mb
-      - 🇮🇱_IL_以色列_35
-      - 🇭🇰Hong+Kong_36
-      - 🇭🇰_HK_香港_37
-      - 🇭🇰_HK_香港_38
-      - 🇭🇰_HK_香港_39
+      - 🇮🇱_IL_以色列_192
+      - 🇭🇰Hong+Kong_193
+      - 🇭🇰_HK_香港_194
+      - 🇭🇰_HK_香港_195
       - 🇬🇧GB_374+|108.45Mb
       - 🇩🇪DE_300+|19.26Mb
       - 🇩🇪DE_296+|19.30Mb
@@ -1057,78 +2341,63 @@ proxy-groups:
       - 🇩🇪DE_289+|24.43Mb
       - 🇩🇪DE_286+|22.88Mb
       - 🇩🇪DE_258+|10.54Mb
-      - 🇩🇪_DE_德国_48
-      - 🇩🇪_DE_德国_49
-      - 🇨🇦Canada_50
-      - 🇨🇦Canada_51
-      - 🇨🇦Canada_52
-      - 🇨🇦Canada_53
-      - 🇨🇦Canada_54
-      - 🇨🇦Canada_55
-      - 🇨🇦Canada_56
-      - 🇨🇦Canada_57
-      - 🇨🇦Canada_58
-      - 🇨🇦Canada_59
-      - 🇨🇦Canada_60
-      - 🇨🇦Canada_61
-      - 🇨🇦Canada_62
-      - 🇨🇦Canada_63
-      - 🇨🇦Canada_64
-      - 🇨🇦Canada_65
-      - 🇨🇦Canada_66
-      - 🇨🇦Canada_67
-      - 🇨🇦Canada_68
-      - 🇨🇦Canada_69
-      - 🇨🇦Canada_70
-      - 🇨🇦Canada_71
+      - 🇩🇪_DE_德国_204
+      - 🇩🇪_DE_德国_205
+      - 🇨🇦Canada_206
+      - 🇨🇦Canada_207
+      - 🇨🇦Canada_208
+      - 🇨🇦Canada_209
+      - 🇨🇦Canada_210
+      - 🇨🇦Canada_211
+      - 🇨🇦Canada_212
+      - 🇨🇦Canada_213
+      - 🇨🇦Canada_214
+      - 🇨🇦Canada_215
+      - 🇨🇦Canada_216
+      - 🇨🇦Canada_217
+      - 🇨🇦Canada_218
+      - 🇨🇦Canada_219
+      - 🇨🇦Canada_220
+      - 🇨🇦Canada_221
+      - 🇨🇦Canada_222
+      - 🇨🇦Canada_223
+      - 🇨🇦Canada_224
+      - 🇨🇦Canada_225
+      - 🇨🇦Canada_226
+      - 🇨🇦Canada_227
+      - 🇨🇦Canada_228
+      - 🇨🇦Canada_229
+      - 🇨🇦Canada_230
+      - 🇨🇦Canada_231
+      - 🇨🇦Canada_232
+      - 🇨🇦Canada_233
+      - 🇨🇦Canada_234
+      - 🇨🇦Canada_235
+      - 🇨🇦Canada_236
+      - 🇨🇦Canada_237
+      - 🇨🇦Canada_238
+      - 🇨🇦Canada_239
+      - 🇨🇦Canada_240
+      - 🇨🇦Canada_241
+      - 🇨🇦Canada_242
+      - 🇨🇦Canada_243
+      - 🇨🇦Canada_244
+      - 🇨🇦Canada_245
+      - 🇨🇦Canada_246
+      - 🇨🇦Canada_247
+      - 🇨🇦Canada_248
+      - 🇨🇦Canada_249
+      - 🇨🇦Canada_250
+      - 🇨🇦Canada_251
+      - 🇨🇦CA_174+|29.57Mb
+      - 🇨🇦CA_172+|28.55Mb
+      - 🇨🇦CA_171+|29.28Mb
+      - 🇨🇦CA_141+|27.84Mb
+      - 🇨🇦CA_117+|31.37Mb
+      - 🇨🇦CA_112+|30.36Mb
       - 🇨🇦CA_109+|30.02Mb
-      - 🇨🇦_CA_加拿大_73
+      - 🇨🇦_CA_加拿大_259
       - 🇧🇷BR_96+|18.73Mb
-      - 🇦🇺_AU_澳大利亚_75
-      - WinForm+UnitedStates+5_76
-      - WinForm+SS4_77
-      - WinForm+SS2_78
-      - WinForm+shadoW_79
-      - WinForm+shadoW_80
-      - WinForm+shadoW_81
-      - WinForm+RU🇷🇺_82
-      - WinForm+RO🇷🇴_83
-      - WinForm+NOR+🇳🇴+Kristiansad_84
-      - WinForm+Japan-Tokyo_85
-      - WinForm+Italy_86
-      - WinForm+Germany+🇩🇪+Dusseldorf+1_87
-      - WinForm+Canada+🇨🇦+Toronto_88
-      - ufo+USA+🇺🇸+Seattle_89
-      - ufo+USA+🇺🇸+LosAngeles_90
-      - ufo+United+Kingdom+🇬🇧+London+5_91
-      - ufo+Japan+🇯🇵+Tokyo+5_92
-      - ufo+Japan+🇯🇵+Tokyo+4_93
-      - ufo+Japan+🇯🇵+Tokyo+3_94
-      - Relay_🇺🇸US-🇺🇸US_1649+|157.95Mb
-      - Relay_🇺🇸US-🇺🇸US_1641+|109.49Mb
-      - Relay_🇺🇸US-🇳🇬NG_1636+|10.61Mb
-      - Relay_🇺🇸US-🇳🇬NG_1635+|14.66Mb
-      - Relay_🇸🇬SG-🇸🇬SG_687+|12.35Mb
-      - Relay_🇷🇴RO-🇷🇴RO_665+|31.21Mb
-      - Relay_🇲🇾MY-🇲🇾MY_587+|17.84Mb
-      - Relay_🇱🇺LU-🇩🇪DE_582+|23.94Mb
-      - Relay_🇪🇸ES-🇪🇸ES_309+|18.13Mb
-      - Pool_🇸🇬SG_785+|18.04Mb
-      - Pool_🇸🇬SG_784+|17.54Mb
-      - Pool_🇸🇬SG_783+|17.51Mb
-      - Pool_🇸🇬SG_780+|17.07Mb
-      - Pool_🇷🇴RO_666+|+6.15Mb
-      - Pool_🇷🇴RO_662+|+3.38Mb
-      - Pool_🇷🇴RO_661+|+3.02Mb
-      - Pool_🇷🇴RO_660+|+2.45Mb
-      - Pool_🇷🇴RO_659+|+3.76Mb
-      - Pool_🇷🇴RO_658+|+5.96Mb
-      - Pool_🇷🇴RO_656+|+3.07Mb
-      - Pool_🇷🇴RO_655+|+2.72Mb
-      - 🇺🇸United+States_116
-      - 🇺🇸United+States_117
-      - 🇺🇸United+States_118
-      - 🇺🇸United+States_119
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
