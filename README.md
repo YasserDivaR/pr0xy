@@ -24,6 +24,8 @@ Install v2ray client (support ss and v2ray configuration)
 
 Add feed address https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/ShadowSocks2021.txt
 
+Add new feed address https://raw.githubusercontent.com/YasserDivaR/pr0xy/main/mycustom1.txt
+
 
 Update feed
 
