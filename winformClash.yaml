@@ -5,809 +5,970 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"name":"🇺🇸【426节点池】US_3114","server":"38.75.136.102","port":5601,"type":"ss","country":"🇺🇸【426节点池】US_3114","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸【426节点池】US_3106","server":"38.75.136.102","port":8000,"type":"ss","country":"🇺🇸【426节点池】US_3106","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇮🇳【426节点池】IN_1378","server":"45.79.123.187","port":7001,"type":"ss","country":"🇮🇳【426节点池】IN_1378","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇮🇳_IN_印度_4","server":"172.105.39.228","port":3306,"type":"ss","country":"🇮🇳_IN_印度_4","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇮🇳_IN_印度_5","server":"172.105.39.228","port":8888,"type":"ss","country":"🇮🇳_IN_印度_5","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇮🇳India(IN)_6","server":"172.105.43.19","port":3306,"type":"ss","country":"🇮🇳India(IN)_6","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇮🇳India(IN)_7","server":"172.105.43.19","port":8888,"type":"ss","country":"🇮🇳India(IN)_7","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸【426节点池】US_2770","server":"38.91.100.102","port":5001,"type":"ss","country":"🇺🇸【426节点池】US_2770","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬Singapore(SG)_9","server":"139.99.123.156","port":9101,"type":"ss","country":"🇸🇬Singapore(SG)_9","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸【426节点池】US_2547","server":"38.91.100.102","port":8119,"type":"ss","country":"🇺🇸【426节点池】US_2547","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦Canada(CA)_11","server":"134.195.196.50","port":6379,"type":"ss","country":"🇨🇦Canada(CA)_11","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇭🇧426未名站_841","server":"134.195.196.43","port":8888,"type":"ss","country":"🇭🇧426未名站_841","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸UnitedStates(US)_13","server":"38.91.101.210","port":5004,"type":"ss","country":"🇺🇸UnitedStates(US)_13","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇺🇸【426节点池】US_2942","server":"38.91.100.102","port":5600,"type":"ss","country":"🇺🇸【426节点池】US_2942","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸UnitedStates(US)_15","server":"169.197.141.33","port":5500,"type":"ss","country":"🇺🇸UnitedStates(US)_15","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸【426节点池】US_2323","server":"38.91.100.102","port":7306,"type":"ss","country":"🇺🇸【426节点池】US_2323","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸【426节点池】US_2435","server":"38.91.100.102","port":7002,"type":"ss","country":"🇺🇸【426节点池】US_2435","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇭🇧426未名站_1246","server":"169.197.141.187","port":8888,"type":"ss","country":"🇭🇧426未名站_1246","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸UnitedStates(US)_19","server":"38.91.100.102","port":5601,"type":"ss","country":"🇺🇸UnitedStates(US)_19","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬【426节点池】SG_1728","server":"139.162.58.13","port":8000,"type":"ss","country":"🇸🇬【426节点池】SG_1728","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸【426节点池】US_2904","server":"38.91.100.102","port":3389,"type":"ss","country":"🇺🇸【426节点池】US_2904","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬【426节点池】SG_1748","server":"139.162.58.13","port":6679,"type":"ss","country":"🇸🇬【426节点池】SG_1748","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸UnitedStates(US)_23","server":"38.91.102.85","port":8881,"type":"ss","country":"🇺🇸UnitedStates(US)_23","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇸🇬【426节点池】SG_1773","server":"172.104.44.88","port":5001,"type":"ss","country":"🇸🇬【426节点池】SG_1773","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬【426节点池】SG_1720","server":"139.162.58.13","port":9102,"type":"ss","country":"🇸🇬【426节点池】SG_1720","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸【426节点池】US_2188","server":"38.91.100.102","port":7001,"type":"ss","country":"🇺🇸【426节点池】US_2188","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸UnitedStates(US)_27","server":"169.197.141.92","port":9101,"type":"ss","country":"🇺🇸UnitedStates(US)_27","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇸🇬【426节点池】SG_1777","server":"139.162.58.13","port":8090,"type":"ss","country":"🇸🇬【426节点池】SG_1777","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇸🇬【426节点池】SG_1682","server":"139.162.58.13","port":8118,"type":"ss","country":"🇸🇬【426节点池】SG_1682","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇸🇬【426节点池】SG_1768","server":"139.162.58.13","port":5000,"type":"ss","country":"🇸🇬【426节点池】SG_1768","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬【426节点池】SG_1770","server":"139.162.58.13","port":443,"type":"ss","country":"🇸🇬【426节点池】SG_1770","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇸🇬【426节点池】SG_1654","server":"139.162.58.13","port":7306,"type":"ss","country":"🇸🇬【426节点池】SG_1654","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇸🇬【426节点池】SG_1717","server":"139.162.58.13","port":2376,"type":"ss","country":"🇸🇬【426节点池】SG_1717","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇸🇬【426节点池】SG_1692","server":"139.162.58.13","port":5600,"type":"ss","country":"🇸🇬【426节点池】SG_1692","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬【426节点池】SG_1774","server":"139.162.58.13","port":9101,"type":"ss","country":"🇸🇬【426节点池】SG_1774","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇸🇬【426节点池】SG_1701","server":"139.162.58.13","port":5001,"type":"ss","country":"🇸🇬【426节点池】SG_1701","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬【426节点池】SG_1718","server":"139.162.58.13","port":5601,"type":"ss","country":"🇸🇬【426节点池】SG_1718","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇯🇵Japan(JP)_38","server":"172.104.82.126","port":445,"type":"ss","country":"🇯🇵Japan(JP)_38","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇯🇵Japan(JP)_39","server":"172.105.232.147","port":4444,"type":"ss","country":"🇯🇵Japan(JP)_39","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"CYL-科技（2022_01_09）_40","server":"usa-dallas.lvuft.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"CYL-科技（2022_01_09）_40","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}}}
-  - {"name":"🇺🇸UnitedStates(US)_41","server":"167.88.63.117","port":7306,"type":"ss","country":"🇺🇸UnitedStates(US)_41","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇺🇸UnitedStates(US)_42","server":"167.88.63.117","port":445,"type":"ss","country":"🇺🇸UnitedStates(US)_42","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇸🇬【426节点池】SG_1700","server":"139.162.58.13","port":7002,"type":"ss","country":"🇸🇬【426节点池】SG_1700","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸UnitedStates(US)_44","server":"167.88.63.117","port":8090,"type":"ss","country":"🇺🇸UnitedStates(US)_44","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸UnitedStates(US)_45","server":"38.91.100.138","port":9101,"type":"ss","country":"🇺🇸UnitedStates(US)_45","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"name":"🇺🇸UnitedStates(US)_46","server":"167.88.63.117","port":2376,"type":"ss","country":"🇺🇸UnitedStates(US)_46","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇦🇺Australia(AU)_47","server":"172.105.176.149","port":3389,"type":"ss","country":"🇦🇺Australia(AU)_47","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇭🇧426未名站_943","server":"134.195.196.128","port":3389,"type":"ss","country":"🇭🇧426未名站_943","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸UnitedStates(US)_49","server":"167.88.63.117","port":8119,"type":"ss","country":"🇺🇸UnitedStates(US)_49","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸UnitedStates(US)_50","server":"167.88.63.99","port":3389,"type":"ss","country":"🇺🇸UnitedStates(US)_50","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸UnitedStates(US)_51","server":"167.88.63.92","port":2376,"type":"ss","country":"🇺🇸UnitedStates(US)_51","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇺🇸UnitedStates(US)_52","server":"167.88.63.92","port":6679,"type":"ss","country":"🇺🇸UnitedStates(US)_52","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇺🇸UnitedStates(US)_53","server":"167.88.63.93","port":5004,"type":"ss","country":"🇺🇸UnitedStates(US)_53","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇦🇺Australia(AU)_54","server":"172.105.177.120","port":445,"type":"ss","country":"🇦🇺Australia(AU)_54","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸UnitedStates(US)_55","server":"167.88.63.93","port":6379,"type":"ss","country":"🇺🇸UnitedStates(US)_55","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸UnitedStates(US)_56","server":"167.88.63.99","port":4444,"type":"ss","country":"🇺🇸UnitedStates(US)_56","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸UnitedStates(US)_57","server":"167.88.63.93","port":6697,"type":"ss","country":"🇺🇸UnitedStates(US)_57","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇦🇺Australia(AU)_58","server":"172.105.162.49","port":8008,"type":"ss","country":"🇦🇺Australia(AU)_58","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"name":"🇦🇺Australia(AU)_59","server":"172.105.186.247","port":5000,"type":"ss","country":"🇦🇺Australia(AU)_59","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸_US_美国_60","server":"167.88.63.79","port":8119,"type":"ss","country":"🇺🇸_US_美国_60","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇦🇺Australia(AU)_61","server":"172.105.176.149","port":3306,"type":"ss","country":"🇦🇺Australia(AU)_61","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇦🇺Australia(AU)_62","server":"172.105.162.49","port":4444,"type":"ss","country":"🇦🇺Australia(AU)_62","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇸🇬【426节点池】SG_1702","server":"172.104.50.106","port":8119,"type":"ss","country":"🇸🇬【426节点池】SG_1702","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇸🇬【426节点池】SG_1715","server":"139.162.58.13","port":3306,"type":"ss","country":"🇸🇬【426节点池】SG_1715","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇦🇺Australia(AU)_65","server":"172.105.186.247","port":3306,"type":"ss","country":"🇦🇺Australia(AU)_65","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇸🇬【426节点池】SG_1690","server":"139.162.58.13","port":6379,"type":"ss","country":"🇸🇬【426节点池】SG_1690","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇦🇺Australia(AU)_67","server":"192.53.169.18","port":8091,"type":"ss","country":"🇦🇺Australia(AU)_67","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇦🇺Australia(AU)_68","server":"192.53.169.18","port":445,"type":"ss","country":"🇦🇺Australia(AU)_68","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇸🇬【426节点池】SG_1709","server":"139.162.58.13","port":7307,"type":"ss","country":"🇸🇬【426节点池】SG_1709","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇰🇷SouthKorea(KR)_70","server":"141.164.46.233","port":8091,"type":"ss","country":"🇰🇷SouthKorea(KR)_70","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇰🇷SouthKorea(KR)_71","server":"141.164.49.240","port":5601,"type":"ss","country":"🇰🇷SouthKorea(KR)_71","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇰🇷SouthKorea(KR)_72","server":"158.247.209.92","port":5601,"type":"ss","country":"🇰🇷SouthKorea(KR)_72","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇰🇷SouthKorea(KR)_73","server":"158.247.208.21","port":6697,"type":"ss","country":"🇰🇷SouthKorea(KR)_73","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇰🇷SouthKorea(KR)_74","server":"141.164.49.240","port":3389,"type":"ss","country":"🇰🇷SouthKorea(KR)_74","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇰🇷SouthKorea(KR)_75","server":"158.247.208.21","port":2375,"type":"ss","country":"🇰🇷SouthKorea(KR)_75","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇰🇷SouthKorea(KR)_76","server":"158.247.208.21","port":5500,"type":"ss","country":"🇰🇷SouthKorea(KR)_76","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇰🇷SouthKorea(KR)_77","server":"158.247.208.21","port":8881,"type":"ss","country":"🇰🇷SouthKorea(KR)_77","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇰🇷SouthKorea(KR)_78","server":"158.247.206.19","port":5004,"type":"ss","country":"🇰🇷SouthKorea(KR)_78","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇰🇷SouthKorea(KR)_79","server":"158.247.200.56","port":8888,"type":"ss","country":"🇰🇷SouthKorea(KR)_79","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇰🇷SouthKorea(KR)_80","server":"158.247.200.56","port":8118,"type":"ss","country":"🇰🇷SouthKorea(KR)_80","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇰🇷SouthKorea(KR)_81","server":"158.247.206.19","port":6697,"type":"ss","country":"🇰🇷SouthKorea(KR)_81","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇰🇷SouthKorea(KR)_82","server":"158.247.200.56","port":6697,"type":"ss","country":"🇰🇷SouthKorea(KR)_82","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"name":"🇬🇧UnitedKingdom(GB)_83","server":"54.38.72.170","port":8881,"type":"ss","country":"🇬🇧UnitedKingdom(GB)_83","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"name":"🇬🇧UnitedKingdom(GB)_84","server":"51.68.205.180","port":443,"type":"ss","country":"🇬🇧UnitedKingdom(GB)_84","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇫🇷France(FR)_85","server":"5.39.70.138","port":443,"type":"ss","country":"🇫🇷France(FR)_85","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇰🇷SouthKorea(KR)_86","server":"158.247.206.19","port":3306,"type":"ss","country":"🇰🇷SouthKorea(KR)_86","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇰🇷SouthKorea(KR)_87","server":"158.247.206.19","port":7307,"type":"ss","country":"🇰🇷SouthKorea(KR)_87","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"name":"🇫🇷France(FR)_88","server":"5.39.70.138","port":5601,"type":"ss","country":"🇫🇷France(FR)_88","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇰🇷SouthKorea(KR)_89","server":"158.247.200.56","port":5004,"type":"ss","country":"🇰🇷SouthKorea(KR)_89","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"name":"🇰🇷SouthKorea(KR)_90","server":"158.247.203.40","port":6379,"type":"ss","country":"🇰🇷SouthKorea(KR)_90","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇰🇷SouthKorea(KR)_91","server":"158.247.200.56","port":8000,"type":"ss","country":"🇰🇷SouthKorea(KR)_91","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸【426节点池】US_3128","server":"38.91.102.86","port":8000,"type":"ss","country":"🇺🇸【426节点池】US_3128","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇰🇷SouthKorea(KR)_93","server":"158.247.203.40","port":2375,"type":"ss","country":"🇰🇷SouthKorea(KR)_93","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"name":"🇰🇷SouthKorea(KR)_94","server":"158.247.200.56","port":3389,"type":"ss","country":"🇰🇷SouthKorea(KR)_94","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸【426节点池】US_2423","server":"38.91.102.86","port":8091,"type":"ss","country":"🇺🇸【426节点池】US_2423","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇺🇸UnitedStates(US)_96","server":"169.197.141.33","port":443,"type":"ss","country":"🇺🇸UnitedStates(US)_96","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸【426节点池】US_2675","server":"38.91.102.86","port":8119,"type":"ss","country":"🇺🇸【426节点池】US_2675","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇰🇷SouthKorea(KR)_98","server":"158.247.206.19","port":8000,"type":"ss","country":"🇰🇷SouthKorea(KR)_98","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇵🇱Poland(PL)_99","server":"54.36.174.181","port":7002,"type":"ss","country":"🇵🇱Poland(PL)_99","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"name":"🇺🇸【426节点池】US_2868","server":"38.114.114.77","port":5500,"type":"ss","country":"🇺🇸【426节点池】US_2868","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸UnitedStates(US)_101","server":"142.202.48.45","port":8000,"type":"ss","country":"🇺🇸UnitedStates(US)_101","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"🇺🇸UnitedStates(US)_102","server":"142.202.48.34","port":445,"type":"ss","country":"🇺🇸UnitedStates(US)_102","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸UnitedStates(US)_103","server":"142.202.48.83","port":8091,"type":"ss","country":"🇺🇸UnitedStates(US)_103","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"name":"🇩🇪Germany(DE)_104","server":"89.163.212.17","port":8118,"type":"ss","country":"🇩🇪Germany(DE)_104","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇨🇦Canada(CA)_105","server":"134.195.196.199","port":445,"type":"ss","country":"🇨🇦Canada(CA)_105","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇭🇧426未名站_950","server":"134.195.196.227","port":5001,"type":"ss","country":"🇭🇧426未名站_950","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"name":"🇺🇸UnitedStates(US)_107","server":"142.202.48.34","port":4444,"type":"ss","country":"🇺🇸UnitedStates(US)_107","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"name":"🇺🇸UnitedStates(US)_108","server":"142.202.48.74","port":8118,"type":"ss","country":"🇺🇸UnitedStates(US)_108","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"name":"🇺🇸UnitedStates(US)_109","server":"142.202.48.83","port":445,"type":"ss","country":"🇺🇸UnitedStates(US)_109","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"name":"🇺🇸UnitedStates(US)_110","server":"142.202.48.74","port":445,"type":"ss","country":"🇺🇸UnitedStates(US)_110","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇰🇷Korea,Republicof48_1","server":"158.247.201.207","port":7306,"type":"ss","country":"🇰🇷Korea,Republicof48_1","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇰🇷Korea,Republicof51_2","server":"141.164.38.135","port":2376,"type":"ss","country":"🇰🇷Korea,Republicof51_2","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸UFOSeattle_3","server":"169.197.143.15","port":812,"type":"ss","country":"🇺🇸UFOSeattle_3","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵UFOTokyo4_4","server":"89.31.125.101","port":812,"type":"ss","country":"🇯🇵UFOTokyo4_4","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇯🇵UFOTokyo5_5","server":"185.160.24.217","port":812,"type":"ss","country":"🇯🇵UFOTokyo5_5","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"🇮🇳India_6","server":"192.46.209.17","port":8000,"type":"ss","country":"🇮🇳India_6","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇰🇷Korea,Republicof45_7","server":"158.247.224.123","port":8009,"type":"ss","country":"🇰🇷Korea,Republicof45_7","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇦🇺Australia7_8","server":"192.53.169.116","port":8000,"type":"ss","country":"🇦🇺Australia7_8","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇰🇷Korea,Republicof28_9","server":"141.164.56.250","port":7001,"type":"ss","country":"🇰🇷Korea,Republicof28_9","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇰🇷Korea,Republicof19_10","server":"158.247.223.116","port":8091,"type":"ss","country":"🇰🇷Korea,Republicof19_10","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇰🇷Korea,Republicof38_11","server":"158.247.227.123","port":5600,"type":"ss","country":"🇰🇷Korea,Republicof38_11","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷Korea,Republicof9_12","server":"158.247.200.56","port":8000,"type":"ss","country":"🇰🇷Korea,Republicof9_12","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇰🇷Korea,Republicof47_13","server":"158.247.201.207","port":8119,"type":"ss","country":"🇰🇷Korea,Republicof47_13","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇰🇷Korea,Republicof16_14","server":"158.247.223.116","port":5004,"type":"ss","country":"🇰🇷Korea,Republicof16_14","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷Korea,Republicof15_15","server":"158.247.223.116","port":8882,"type":"ss","country":"🇰🇷Korea,Republicof15_15","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇰🇷Korea,Republicof20_16","server":"158.247.223.116","port":5001,"type":"ss","country":"🇰🇷Korea,Republicof20_16","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷Korea,Republicof60_17","server":"141.164.49.240","port":3389,"type":"ss","country":"🇰🇷Korea,Republicof60_17","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷Korea,Republicof41_18","server":"158.247.224.123","port":9102,"type":"ss","country":"🇰🇷Korea,Republicof41_18","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇰🇷Korea,Republicof18_19","server":"158.247.223.116","port":2375,"type":"ss","country":"🇰🇷Korea,Republicof18_19","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷Korea,Republicof17_20","server":"158.247.223.116","port":5003,"type":"ss","country":"🇰🇷Korea,Republicof17_20","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷Korea,Republicof31_21","server":"141.164.56.250","port":443,"type":"ss","country":"🇰🇷Korea,Republicof31_21","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇰🇷Korea,Republicof43_22","server":"158.247.224.123","port":8091,"type":"ss","country":"🇰🇷Korea,Republicof43_22","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇰🇷Korea,Republicof63_23","server":"158.247.226.61","port":5500,"type":"ss","country":"🇰🇷Korea,Republicof63_23","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇰🇷Korea,Republicof33_24","server":"141.164.56.250","port":5600,"type":"ss","country":"🇰🇷Korea,Republicof33_24","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷Korea,Republicof29_25","server":"141.164.56.250","port":3306,"type":"ss","country":"🇰🇷Korea,Republicof29_25","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷Korea,Republicof30_26","server":"141.164.56.250","port":8882,"type":"ss","country":"🇰🇷Korea,Republicof30_26","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇰🇷Korea,Republicof32_27","server":"141.164.56.250","port":2375,"type":"ss","country":"🇰🇷Korea,Republicof32_27","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷Korea,Republicof66_28","server":"141.164.56.110","port":8080,"type":"ss","country":"🇰🇷Korea,Republicof66_28","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇰🇷Korea,Republicof36_29","server":"158.247.227.123","port":7001,"type":"ss","country":"🇰🇷Korea,Republicof36_29","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇰🇷Korea,Republicof56_30","server":"158.247.209.92","port":5601,"type":"ss","country":"🇰🇷Korea,Republicof56_30","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷Korea,Republicof67_31","server":"141.164.56.110","port":8090,"type":"ss","country":"🇰🇷Korea,Republicof67_31","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇰🇷Korea,Republicof64_32","server":"158.247.226.61","port":5003,"type":"ss","country":"🇰🇷Korea,Republicof64_32","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷Korea,Republicof10_33","server":"158.247.200.56","port":5004,"type":"ss","country":"🇰🇷Korea,Republicof10_33","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇰🇷Korea,Republicof70_34","server":"141.164.46.233","port":2375,"type":"ss","country":"🇰🇷Korea,Republicof70_34","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇰🇷Korea,Republicof8_35","server":"158.247.200.56","port":8118,"type":"ss","country":"🇰🇷Korea,Republicof8_35","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦Canada16_36","server":"134.195.196.56","port":445,"type":"ss","country":"🇨🇦Canada16_36","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇰🇷Korea,Republicof65_37","server":"141.164.56.110","port":5600,"type":"ss","country":"🇰🇷Korea,Republicof65_37","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷Korea,Republicof34_38","server":"158.247.227.123","port":5000,"type":"ss","country":"🇰🇷Korea,Republicof34_38","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇰🇷Korea,Republicof57_39","server":"158.247.209.92","port":5003,"type":"ss","country":"🇰🇷Korea,Republicof57_39","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇬🇧UnitedKingdom17_40","server":"149.7.16.10","port":9102,"type":"ss","country":"🇬🇧UnitedKingdom17_40","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇰🇷Korea,Republicof69_41","server":"141.164.46.233","port":8091,"type":"ss","country":"🇰🇷Korea,Republicof69_41","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧UnitedKingdom19_42","server":"149.7.16.10","port":8119,"type":"ss","country":"🇬🇧UnitedKingdom19_42","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇰🇷Korea,Republicof39_43","server":"158.247.224.123","port":2376,"type":"ss","country":"🇰🇷Korea,Republicof39_43","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"XYVPNUK🇬🇧London_44","server":"172.99.190.87","port":2376,"type":"ss","country":"XYVPNUK🇬🇧London_44","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸UnitedStates61_45","server":"167.88.61.213","port":8091,"type":"ss","country":"🇺🇸UnitedStates61_45","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇬🇧UnitedKingdom18_46","server":"149.7.16.10","port":8118,"type":"ss","country":"🇬🇧UnitedKingdom18_46","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇰🇷Korea,Republicof49_47","server":"141.164.38.135","port":8008,"type":"ss","country":"🇰🇷Korea,Republicof49_47","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇰🇷Korea,Republicof50_48","server":"141.164.38.135","port":7002,"type":"ss","country":"🇰🇷Korea,Republicof50_48","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇰🇷Korea,Republicof68_49","server":"141.164.46.233","port":5000,"type":"ss","country":"🇰🇷Korea,Republicof68_49","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸UnitedStates18_50","server":"142.202.48.45","port":6697,"type":"ss","country":"🇺🇸UnitedStates18_50","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸UnitedStates23_51","server":"142.202.48.45","port":7307,"type":"ss","country":"🇺🇸UnitedStates23_51","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸UnitedStates29_52","server":"142.202.48.74","port":6679,"type":"ss","country":"🇺🇸UnitedStates29_52","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇺🇸UnitedStates21_53","server":"142.202.48.45","port":5001,"type":"ss","country":"🇺🇸UnitedStates21_53","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸UnitedStates22_54","server":"142.202.48.45","port":8009,"type":"ss","country":"🇺🇸UnitedStates22_54","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇺🇸UnitedStates19_55","server":"142.202.48.45","port":5000,"type":"ss","country":"🇺🇸UnitedStates19_55","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸UnitedStates24_56","server":"142.202.48.45","port":5500,"type":"ss","country":"🇺🇸UnitedStates24_56","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸UnitedStates9_57","server":"142.202.48.114","port":2375,"type":"ss","country":"🇺🇸UnitedStates9_57","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸UnitedStates17_58","server":"142.202.48.34","port":4444,"type":"ss","country":"🇺🇸UnitedStates17_58","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸UnitedStates15_59","server":"142.202.48.34","port":445,"type":"ss","country":"🇺🇸UnitedStates15_59","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"XYVPNUSA🇺🇸NewYork_60","server":"142.202.48.58","port":2376,"type":"ss","country":"XYVPNUSA🇺🇸NewYork_60","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇺🇸UnitedStates10_61","server":"142.202.48.114","port":6379,"type":"ss","country":"🇺🇸UnitedStates10_61","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸UnitedStates8_62","server":"142.202.48.114","port":7306,"type":"ss","country":"🇺🇸UnitedStates8_62","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸UnitedStates28_63","server":"142.202.48.74","port":445,"type":"ss","country":"🇺🇸UnitedStates28_63","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇺🇸UnitedStates27_64","server":"142.202.48.74","port":7307,"type":"ss","country":"🇺🇸UnitedStates27_64","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸UnitedStates26_65","server":"142.202.48.74","port":8118,"type":"ss","country":"🇺🇸UnitedStates26_65","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦Canada19_66","server":"134.195.196.36","port":8888,"type":"ss","country":"🇨🇦Canada19_66","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸UnitedStates33_67","server":"167.88.63.61","port":5600,"type":"ss","country":"🇺🇸UnitedStates33_67","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada26_68","server":"134.195.196.219","port":5000,"type":"ss","country":"🇨🇦Canada26_68","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada4_69","server":"134.195.196.230","port":6679,"type":"ss","country":"🇨🇦Canada4_69","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦Canada35_70","server":"134.195.196.184","port":4444,"type":"ss","country":"🇨🇦Canada35_70","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦Canada23_71","server":"134.195.196.219","port":8090,"type":"ss","country":"🇨🇦Canada23_71","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦Canada2_72","server":"134.195.196.217","port":5600,"type":"ss","country":"🇨🇦Canada2_72","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸UnitedStates65_73","server":"167.88.63.99","port":3389,"type":"ss","country":"🇺🇸UnitedStates65_73","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada69_74","server":"134.195.196.110","port":8009,"type":"ss","country":"🇨🇦Canada69_74","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦Canada_75","server":"134.195.196.217","port":6679,"type":"ss","country":"🇨🇦Canada_75","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦Canada46_76","server":"134.195.196.24","port":5600,"type":"ss","country":"🇨🇦Canada46_76","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada71_77","server":"134.195.196.231","port":5003,"type":"ss","country":"🇨🇦Canada71_77","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦Canada6_78","server":"134.195.196.230","port":4444,"type":"ss","country":"🇨🇦Canada6_78","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸UnitedStates43_79","server":"167.88.63.108","port":443,"type":"ss","country":"🇺🇸UnitedStates43_79","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸UnitedStates44_80","server":"167.88.63.108","port":5004,"type":"ss","country":"🇺🇸UnitedStates44_80","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦Canada22_81","server":"134.195.196.219","port":8091,"type":"ss","country":"🇨🇦Canada22_81","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦Canada43_82","server":"134.195.196.71","port":6697,"type":"ss","country":"🇨🇦Canada43_82","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦Canada40_83","server":"134.195.196.184","port":5601,"type":"ss","country":"🇨🇦Canada40_83","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada8_84","server":"134.195.196.230","port":443,"type":"ss","country":"🇨🇦Canada8_84","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦Canada15_85","server":"134.195.196.56","port":5500,"type":"ss","country":"🇨🇦Canada15_85","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇺🇸UnitedStates34_86","server":"167.88.63.61","port":5004,"type":"ss","country":"🇺🇸UnitedStates34_86","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦Canada42_87","server":"134.195.196.44","port":5600,"type":"ss","country":"🇨🇦Canada42_87","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada25_88","server":"134.195.196.219","port":2376,"type":"ss","country":"🇨🇦Canada25_88","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦Canada30_89","server":"134.195.196.64","port":2376,"type":"ss","country":"🇨🇦Canada30_89","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦Canada68_90","server":"134.195.196.110","port":9101,"type":"ss","country":"🇨🇦Canada68_90","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦Canada10_91","server":"134.195.196.230","port":5500,"type":"ss","country":"🇨🇦Canada10_91","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦Canada44_92","server":"134.195.196.71","port":8080,"type":"ss","country":"🇨🇦Canada44_92","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦Canada28_93","server":"134.195.196.219","port":5500,"type":"ss","country":"🇨🇦Canada28_93","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦Canada34_94","server":"134.195.196.184","port":8009,"type":"ss","country":"🇨🇦Canada34_94","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"name":"🇨🇦Canada52_95","server":"134.195.196.199","port":5601,"type":"ss","country":"🇨🇦Canada52_95","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada33_96","server":"134.195.196.107","port":7306,"type":"ss","country":"🇨🇦Canada33_96","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇺🇸UnitedStates66_97","server":"167.88.63.99","port":4444,"type":"ss","country":"🇺🇸UnitedStates66_97","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦Canada45_98","server":"134.195.196.24","port":7306,"type":"ss","country":"🇨🇦Canada45_98","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦Canada17_99","server":"134.195.196.56","port":9102,"type":"ss","country":"🇨🇦Canada17_99","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸UnitedStates40_100","server":"167.88.62.24","port":8091,"type":"ss","country":"🇺🇸UnitedStates40_100","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"name":"🇨🇦Canada37_101","server":"134.195.196.184","port":6379,"type":"ss","country":"🇨🇦Canada37_101","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇨🇦Canada7_102","server":"134.195.196.230","port":445,"type":"ss","country":"🇨🇦Canada7_102","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇨🇦Canada20_103","server":"134.195.196.36","port":5001,"type":"ss","country":"🇨🇦Canada20_103","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada38_104","server":"134.195.196.184","port":7307,"type":"ss","country":"🇨🇦Canada38_104","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦Canada11_105","server":"134.195.196.149","port":8881,"type":"ss","country":"🇨🇦Canada11_105","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇨🇦Canada14_106","server":"134.195.196.149","port":7307,"type":"ss","country":"🇨🇦Canada14_106","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"🇨🇦Canada18_107","server":"134.195.196.36","port":7002,"type":"ss","country":"🇨🇦Canada18_107","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇺🇸UnitedStates41_108","server":"167.88.62.24","port":4444,"type":"ss","country":"🇺🇸UnitedStates41_108","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇨🇦Canada13_109","server":"134.195.196.149","port":6679,"type":"ss","country":"🇨🇦Canada13_109","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦Canada29_110","server":"134.195.196.64","port":8118,"type":"ss","country":"🇨🇦Canada29_110","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦Canada48_111","server":"134.195.196.147","port":3306,"type":"ss","country":"🇨🇦Canada48_111","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada5_112","server":"134.195.196.230","port":9102,"type":"ss","country":"🇨🇦Canada5_112","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇺🇸UnitedStates42_113","server":"167.88.62.24","port":5000,"type":"ss","country":"🇺🇸UnitedStates42_113","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada49_114","server":"134.195.196.147","port":8881,"type":"ss","country":"🇨🇦Canada49_114","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"XYVPNUSA🇺🇸Dalas_115","server":"167.88.62.104","port":2376,"type":"ss","country":"XYVPNUSA🇺🇸Dalas_115","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"name":"🇨🇦Canada47_116","server":"134.195.196.24","port":8118,"type":"ss","country":"🇨🇦Canada47_116","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇺🇸UnitedStates38_117","server":"167.88.62.24","port":7001,"type":"ss","country":"🇺🇸UnitedStates38_117","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"name":"🇰🇷Korea,Republicof27_118","server":"141.164.56.250","port":7306,"type":"ss","country":"🇰🇷Korea,Republicof27_118","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"name":"PrivateVPNUSA🇺🇸California_119","server":"5.188.111.182","port":826,"type":"ss","country":"PrivateVPNUSA🇺🇸California_119","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563"}
+  - {"name":"🇺🇸UnitedStates16_120","server":"142.202.48.34","port":6379,"type":"ss","country":"🇺🇸UnitedStates16_120","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"name":"🇰🇷Korea,Republicof37_121","server":"158.247.227.123","port":9102,"type":"ss","country":"🇰🇷Korea,Republicof37_121","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"PrivateVPNUSA🇺🇸NewJersey_122","server":"92.38.169.196","port":826,"type":"ss","country":"PrivateVPNUSA🇺🇸NewJersey_122","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563"}
+  - {"name":"🇨🇦Canada70_123","server":"134.195.196.231","port":4444,"type":"ss","country":"🇨🇦Canada70_123","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"name":"🇺🇸UnitedStates35_124","server":"167.88.63.61","port":5003,"type":"ss","country":"🇺🇸UnitedStates35_124","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇨🇦Canada39_125","server":"134.195.196.184","port":5600,"type":"ss","country":"🇨🇦Canada39_125","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇨🇦Canada24_126","server":"134.195.196.219","port":3306,"type":"ss","country":"🇨🇦Canada24_126","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"name":"🇺🇸UnitedStates31_127","server":"167.88.63.93","port":5004,"type":"ss","country":"🇺🇸UnitedStates31_127","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"name":"🇺🇸UnitedStates69_128","server":"169.197.143.192","port":9101,"type":"ss","country":"🇺🇸UnitedStates69_128","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"name":"🇨🇦Canada41_129","server":"134.195.196.44","port":6679,"type":"ss","country":"🇨🇦Canada41_129","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"name":"🇨🇦Canada31_130","server":"134.195.196.107","port":8882,"type":"ss","country":"🇨🇦Canada31_130","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"name":"🇺🇸UnitedStates37_131","server":"167.88.62.24","port":8080,"type":"ss","country":"🇺🇸UnitedStates37_131","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"name":"🇨🇦Canada32_132","server":"134.195.196.107","port":8118,"type":"ss","country":"🇨🇦Canada32_132","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"name":"🇨🇦Canada12_133","server":"134.195.196.149","port":5003,"type":"ss","country":"🇨🇦Canada12_133","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇺🇸【426节点池】US_3114
-      - 🇺🇸【426节点池】US_3106
-      - 🇮🇳【426节点池】IN_1378
-      - 🇮🇳_IN_印度_4
-      - 🇮🇳_IN_印度_5
-      - 🇮🇳India(IN)_6
-      - 🇮🇳India(IN)_7
-      - 🇺🇸【426节点池】US_2770
-      - 🇸🇬Singapore(SG)_9
-      - 🇺🇸【426节点池】US_2547
-      - 🇨🇦Canada(CA)_11
-      - 🇭🇧426未名站_841
-      - 🇺🇸UnitedStates(US)_13
-      - 🇺🇸【426节点池】US_2942
-      - 🇺🇸UnitedStates(US)_15
-      - 🇺🇸【426节点池】US_2323
-      - 🇺🇸【426节点池】US_2435
-      - 🇭🇧426未名站_1246
-      - 🇺🇸UnitedStates(US)_19
-      - 🇸🇬【426节点池】SG_1728
-      - 🇺🇸【426节点池】US_2904
-      - 🇸🇬【426节点池】SG_1748
-      - 🇺🇸UnitedStates(US)_23
-      - 🇸🇬【426节点池】SG_1773
-      - 🇸🇬【426节点池】SG_1720
-      - 🇺🇸【426节点池】US_2188
-      - 🇺🇸UnitedStates(US)_27
-      - 🇸🇬【426节点池】SG_1777
-      - 🇸🇬【426节点池】SG_1682
-      - 🇸🇬【426节点池】SG_1768
-      - 🇸🇬【426节点池】SG_1770
-      - 🇸🇬【426节点池】SG_1654
-      - 🇸🇬【426节点池】SG_1717
-      - 🇸🇬【426节点池】SG_1692
-      - 🇸🇬【426节点池】SG_1774
-      - 🇸🇬【426节点池】SG_1701
-      - 🇸🇬【426节点池】SG_1718
-      - 🇯🇵Japan(JP)_38
-      - 🇯🇵Japan(JP)_39
-      - CYL-科技（2022_01_09）_40
-      - 🇺🇸UnitedStates(US)_41
-      - 🇺🇸UnitedStates(US)_42
-      - 🇸🇬【426节点池】SG_1700
-      - 🇺🇸UnitedStates(US)_44
-      - 🇺🇸UnitedStates(US)_45
-      - 🇺🇸UnitedStates(US)_46
-      - 🇦🇺Australia(AU)_47
-      - 🇭🇧426未名站_943
-      - 🇺🇸UnitedStates(US)_49
-      - 🇺🇸UnitedStates(US)_50
-      - 🇺🇸UnitedStates(US)_51
-      - 🇺🇸UnitedStates(US)_52
-      - 🇺🇸UnitedStates(US)_53
-      - 🇦🇺Australia(AU)_54
-      - 🇺🇸UnitedStates(US)_55
-      - 🇺🇸UnitedStates(US)_56
-      - 🇺🇸UnitedStates(US)_57
-      - 🇦🇺Australia(AU)_58
-      - 🇦🇺Australia(AU)_59
-      - 🇺🇸_US_美国_60
-      - 🇦🇺Australia(AU)_61
-      - 🇦🇺Australia(AU)_62
-      - 🇸🇬【426节点池】SG_1702
-      - 🇸🇬【426节点池】SG_1715
-      - 🇦🇺Australia(AU)_65
-      - 🇸🇬【426节点池】SG_1690
-      - 🇦🇺Australia(AU)_67
-      - 🇦🇺Australia(AU)_68
-      - 🇸🇬【426节点池】SG_1709
-      - 🇰🇷SouthKorea(KR)_70
-      - 🇰🇷SouthKorea(KR)_71
-      - 🇰🇷SouthKorea(KR)_72
-      - 🇰🇷SouthKorea(KR)_73
-      - 🇰🇷SouthKorea(KR)_74
-      - 🇰🇷SouthKorea(KR)_75
-      - 🇰🇷SouthKorea(KR)_76
-      - 🇰🇷SouthKorea(KR)_77
-      - 🇰🇷SouthKorea(KR)_78
-      - 🇰🇷SouthKorea(KR)_79
-      - 🇰🇷SouthKorea(KR)_80
-      - 🇰🇷SouthKorea(KR)_81
-      - 🇰🇷SouthKorea(KR)_82
-      - 🇬🇧UnitedKingdom(GB)_83
-      - 🇬🇧UnitedKingdom(GB)_84
-      - 🇫🇷France(FR)_85
-      - 🇰🇷SouthKorea(KR)_86
-      - 🇰🇷SouthKorea(KR)_87
-      - 🇫🇷France(FR)_88
-      - 🇰🇷SouthKorea(KR)_89
-      - 🇰🇷SouthKorea(KR)_90
-      - 🇰🇷SouthKorea(KR)_91
-      - 🇺🇸【426节点池】US_3128
-      - 🇰🇷SouthKorea(KR)_93
-      - 🇰🇷SouthKorea(KR)_94
-      - 🇺🇸【426节点池】US_2423
-      - 🇺🇸UnitedStates(US)_96
-      - 🇺🇸【426节点池】US_2675
-      - 🇰🇷SouthKorea(KR)_98
-      - 🇵🇱Poland(PL)_99
-      - 🇺🇸【426节点池】US_2868
-      - 🇺🇸UnitedStates(US)_101
-      - 🇺🇸UnitedStates(US)_102
-      - 🇺🇸UnitedStates(US)_103
-      - 🇩🇪Germany(DE)_104
-      - 🇨🇦Canada(CA)_105
-      - 🇭🇧426未名站_950
-      - 🇺🇸UnitedStates(US)_107
-      - 🇺🇸UnitedStates(US)_108
-      - 🇺🇸UnitedStates(US)_109
-      - 🇺🇸UnitedStates(US)_110
+      - 🇰🇷Korea,Republicof48_1
+      - 🇰🇷Korea,Republicof51_2
+      - 🇺🇸UFOSeattle_3
+      - 🇯🇵UFOTokyo4_4
+      - 🇯🇵UFOTokyo5_5
+      - 🇮🇳India_6
+      - 🇰🇷Korea,Republicof45_7
+      - 🇦🇺Australia7_8
+      - 🇰🇷Korea,Republicof28_9
+      - 🇰🇷Korea,Republicof19_10
+      - 🇰🇷Korea,Republicof38_11
+      - 🇰🇷Korea,Republicof9_12
+      - 🇰🇷Korea,Republicof47_13
+      - 🇰🇷Korea,Republicof16_14
+      - 🇰🇷Korea,Republicof15_15
+      - 🇰🇷Korea,Republicof20_16
+      - 🇰🇷Korea,Republicof60_17
+      - 🇰🇷Korea,Republicof41_18
+      - 🇰🇷Korea,Republicof18_19
+      - 🇰🇷Korea,Republicof17_20
+      - 🇰🇷Korea,Republicof31_21
+      - 🇰🇷Korea,Republicof43_22
+      - 🇰🇷Korea,Republicof63_23
+      - 🇰🇷Korea,Republicof33_24
+      - 🇰🇷Korea,Republicof29_25
+      - 🇰🇷Korea,Republicof30_26
+      - 🇰🇷Korea,Republicof32_27
+      - 🇰🇷Korea,Republicof66_28
+      - 🇰🇷Korea,Republicof36_29
+      - 🇰🇷Korea,Republicof56_30
+      - 🇰🇷Korea,Republicof67_31
+      - 🇰🇷Korea,Republicof64_32
+      - 🇰🇷Korea,Republicof10_33
+      - 🇰🇷Korea,Republicof70_34
+      - 🇰🇷Korea,Republicof8_35
+      - 🇨🇦Canada16_36
+      - 🇰🇷Korea,Republicof65_37
+      - 🇰🇷Korea,Republicof34_38
+      - 🇰🇷Korea,Republicof57_39
+      - 🇬🇧UnitedKingdom17_40
+      - 🇰🇷Korea,Republicof69_41
+      - 🇬🇧UnitedKingdom19_42
+      - 🇰🇷Korea,Republicof39_43
+      - XYVPNUK🇬🇧London_44
+      - 🇺🇸UnitedStates61_45
+      - 🇬🇧UnitedKingdom18_46
+      - 🇰🇷Korea,Republicof49_47
+      - 🇰🇷Korea,Republicof50_48
+      - 🇰🇷Korea,Republicof68_49
+      - 🇺🇸UnitedStates18_50
+      - 🇺🇸UnitedStates23_51
+      - 🇺🇸UnitedStates29_52
+      - 🇺🇸UnitedStates21_53
+      - 🇺🇸UnitedStates22_54
+      - 🇺🇸UnitedStates19_55
+      - 🇺🇸UnitedStates24_56
+      - 🇺🇸UnitedStates9_57
+      - 🇺🇸UnitedStates17_58
+      - 🇺🇸UnitedStates15_59
+      - XYVPNUSA🇺🇸NewYork_60
+      - 🇺🇸UnitedStates10_61
+      - 🇺🇸UnitedStates8_62
+      - 🇺🇸UnitedStates28_63
+      - 🇺🇸UnitedStates27_64
+      - 🇺🇸UnitedStates26_65
+      - 🇨🇦Canada19_66
+      - 🇺🇸UnitedStates33_67
+      - 🇨🇦Canada26_68
+      - 🇨🇦Canada4_69
+      - 🇨🇦Canada35_70
+      - 🇨🇦Canada23_71
+      - 🇨🇦Canada2_72
+      - 🇺🇸UnitedStates65_73
+      - 🇨🇦Canada69_74
+      - 🇨🇦Canada_75
+      - 🇨🇦Canada46_76
+      - 🇨🇦Canada71_77
+      - 🇨🇦Canada6_78
+      - 🇺🇸UnitedStates43_79
+      - 🇺🇸UnitedStates44_80
+      - 🇨🇦Canada22_81
+      - 🇨🇦Canada43_82
+      - 🇨🇦Canada40_83
+      - 🇨🇦Canada8_84
+      - 🇨🇦Canada15_85
+      - 🇺🇸UnitedStates34_86
+      - 🇨🇦Canada42_87
+      - 🇨🇦Canada25_88
+      - 🇨🇦Canada30_89
+      - 🇨🇦Canada68_90
+      - 🇨🇦Canada10_91
+      - 🇨🇦Canada44_92
+      - 🇨🇦Canada28_93
+      - 🇨🇦Canada34_94
+      - 🇨🇦Canada52_95
+      - 🇨🇦Canada33_96
+      - 🇺🇸UnitedStates66_97
+      - 🇨🇦Canada45_98
+      - 🇨🇦Canada17_99
+      - 🇺🇸UnitedStates40_100
+      - 🇨🇦Canada37_101
+      - 🇨🇦Canada7_102
+      - 🇨🇦Canada20_103
+      - 🇨🇦Canada38_104
+      - 🇨🇦Canada11_105
+      - 🇨🇦Canada14_106
+      - 🇨🇦Canada18_107
+      - 🇺🇸UnitedStates41_108
+      - 🇨🇦Canada13_109
+      - 🇨🇦Canada29_110
+      - 🇨🇦Canada48_111
+      - 🇨🇦Canada5_112
+      - 🇺🇸UnitedStates42_113
+      - 🇨🇦Canada49_114
+      - XYVPNUSA🇺🇸Dalas_115
+      - 🇨🇦Canada47_116
+      - 🇺🇸UnitedStates38_117
+      - 🇰🇷Korea,Republicof27_118
+      - PrivateVPNUSA🇺🇸California_119
+      - 🇺🇸UnitedStates16_120
+      - 🇰🇷Korea,Republicof37_121
+      - PrivateVPNUSA🇺🇸NewJersey_122
+      - 🇨🇦Canada70_123
+      - 🇺🇸UnitedStates35_124
+      - 🇨🇦Canada39_125
+      - 🇨🇦Canada24_126
+      - 🇺🇸UnitedStates31_127
+      - 🇺🇸UnitedStates69_128
+      - 🇨🇦Canada41_129
+      - 🇨🇦Canada31_130
+      - 🇺🇸UnitedStates37_131
+      - 🇨🇦Canada32_132
+      - 🇨🇦Canada12_133
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇺🇸【426节点池】US_3114
-      - 🇺🇸【426节点池】US_3106
-      - 🇮🇳【426节点池】IN_1378
-      - 🇮🇳_IN_印度_4
-      - 🇮🇳_IN_印度_5
-      - 🇮🇳India(IN)_6
-      - 🇮🇳India(IN)_7
-      - 🇺🇸【426节点池】US_2770
-      - 🇸🇬Singapore(SG)_9
-      - 🇺🇸【426节点池】US_2547
-      - 🇨🇦Canada(CA)_11
-      - 🇭🇧426未名站_841
-      - 🇺🇸UnitedStates(US)_13
-      - 🇺🇸【426节点池】US_2942
-      - 🇺🇸UnitedStates(US)_15
-      - 🇺🇸【426节点池】US_2323
-      - 🇺🇸【426节点池】US_2435
-      - 🇭🇧426未名站_1246
-      - 🇺🇸UnitedStates(US)_19
-      - 🇸🇬【426节点池】SG_1728
-      - 🇺🇸【426节点池】US_2904
-      - 🇸🇬【426节点池】SG_1748
-      - 🇺🇸UnitedStates(US)_23
-      - 🇸🇬【426节点池】SG_1773
-      - 🇸🇬【426节点池】SG_1720
-      - 🇺🇸【426节点池】US_2188
-      - 🇺🇸UnitedStates(US)_27
-      - 🇸🇬【426节点池】SG_1777
-      - 🇸🇬【426节点池】SG_1682
-      - 🇸🇬【426节点池】SG_1768
-      - 🇸🇬【426节点池】SG_1770
-      - 🇸🇬【426节点池】SG_1654
-      - 🇸🇬【426节点池】SG_1717
-      - 🇸🇬【426节点池】SG_1692
-      - 🇸🇬【426节点池】SG_1774
-      - 🇸🇬【426节点池】SG_1701
-      - 🇸🇬【426节点池】SG_1718
-      - 🇯🇵Japan(JP)_38
-      - 🇯🇵Japan(JP)_39
-      - CYL-科技（2022_01_09）_40
-      - 🇺🇸UnitedStates(US)_41
-      - 🇺🇸UnitedStates(US)_42
-      - 🇸🇬【426节点池】SG_1700
-      - 🇺🇸UnitedStates(US)_44
-      - 🇺🇸UnitedStates(US)_45
-      - 🇺🇸UnitedStates(US)_46
-      - 🇦🇺Australia(AU)_47
-      - 🇭🇧426未名站_943
-      - 🇺🇸UnitedStates(US)_49
-      - 🇺🇸UnitedStates(US)_50
-      - 🇺🇸UnitedStates(US)_51
-      - 🇺🇸UnitedStates(US)_52
-      - 🇺🇸UnitedStates(US)_53
-      - 🇦🇺Australia(AU)_54
-      - 🇺🇸UnitedStates(US)_55
-      - 🇺🇸UnitedStates(US)_56
-      - 🇺🇸UnitedStates(US)_57
-      - 🇦🇺Australia(AU)_58
-      - 🇦🇺Australia(AU)_59
-      - 🇺🇸_US_美国_60
-      - 🇦🇺Australia(AU)_61
-      - 🇦🇺Australia(AU)_62
-      - 🇸🇬【426节点池】SG_1702
-      - 🇸🇬【426节点池】SG_1715
-      - 🇦🇺Australia(AU)_65
-      - 🇸🇬【426节点池】SG_1690
-      - 🇦🇺Australia(AU)_67
-      - 🇦🇺Australia(AU)_68
-      - 🇸🇬【426节点池】SG_1709
-      - 🇰🇷SouthKorea(KR)_70
-      - 🇰🇷SouthKorea(KR)_71
-      - 🇰🇷SouthKorea(KR)_72
-      - 🇰🇷SouthKorea(KR)_73
-      - 🇰🇷SouthKorea(KR)_74
-      - 🇰🇷SouthKorea(KR)_75
-      - 🇰🇷SouthKorea(KR)_76
-      - 🇰🇷SouthKorea(KR)_77
-      - 🇰🇷SouthKorea(KR)_78
-      - 🇰🇷SouthKorea(KR)_79
-      - 🇰🇷SouthKorea(KR)_80
-      - 🇰🇷SouthKorea(KR)_81
-      - 🇰🇷SouthKorea(KR)_82
-      - 🇬🇧UnitedKingdom(GB)_83
-      - 🇬🇧UnitedKingdom(GB)_84
-      - 🇫🇷France(FR)_85
-      - 🇰🇷SouthKorea(KR)_86
-      - 🇰🇷SouthKorea(KR)_87
-      - 🇫🇷France(FR)_88
-      - 🇰🇷SouthKorea(KR)_89
-      - 🇰🇷SouthKorea(KR)_90
-      - 🇰🇷SouthKorea(KR)_91
-      - 🇺🇸【426节点池】US_3128
-      - 🇰🇷SouthKorea(KR)_93
-      - 🇰🇷SouthKorea(KR)_94
-      - 🇺🇸【426节点池】US_2423
-      - 🇺🇸UnitedStates(US)_96
-      - 🇺🇸【426节点池】US_2675
-      - 🇰🇷SouthKorea(KR)_98
-      - 🇵🇱Poland(PL)_99
-      - 🇺🇸【426节点池】US_2868
-      - 🇺🇸UnitedStates(US)_101
-      - 🇺🇸UnitedStates(US)_102
-      - 🇺🇸UnitedStates(US)_103
-      - 🇩🇪Germany(DE)_104
-      - 🇨🇦Canada(CA)_105
-      - 🇭🇧426未名站_950
-      - 🇺🇸UnitedStates(US)_107
-      - 🇺🇸UnitedStates(US)_108
-      - 🇺🇸UnitedStates(US)_109
-      - 🇺🇸UnitedStates(US)_110
+      - 🇰🇷Korea,Republicof48_1
+      - 🇰🇷Korea,Republicof51_2
+      - 🇺🇸UFOSeattle_3
+      - 🇯🇵UFOTokyo4_4
+      - 🇯🇵UFOTokyo5_5
+      - 🇮🇳India_6
+      - 🇰🇷Korea,Republicof45_7
+      - 🇦🇺Australia7_8
+      - 🇰🇷Korea,Republicof28_9
+      - 🇰🇷Korea,Republicof19_10
+      - 🇰🇷Korea,Republicof38_11
+      - 🇰🇷Korea,Republicof9_12
+      - 🇰🇷Korea,Republicof47_13
+      - 🇰🇷Korea,Republicof16_14
+      - 🇰🇷Korea,Republicof15_15
+      - 🇰🇷Korea,Republicof20_16
+      - 🇰🇷Korea,Republicof60_17
+      - 🇰🇷Korea,Republicof41_18
+      - 🇰🇷Korea,Republicof18_19
+      - 🇰🇷Korea,Republicof17_20
+      - 🇰🇷Korea,Republicof31_21
+      - 🇰🇷Korea,Republicof43_22
+      - 🇰🇷Korea,Republicof63_23
+      - 🇰🇷Korea,Republicof33_24
+      - 🇰🇷Korea,Republicof29_25
+      - 🇰🇷Korea,Republicof30_26
+      - 🇰🇷Korea,Republicof32_27
+      - 🇰🇷Korea,Republicof66_28
+      - 🇰🇷Korea,Republicof36_29
+      - 🇰🇷Korea,Republicof56_30
+      - 🇰🇷Korea,Republicof67_31
+      - 🇰🇷Korea,Republicof64_32
+      - 🇰🇷Korea,Republicof10_33
+      - 🇰🇷Korea,Republicof70_34
+      - 🇰🇷Korea,Republicof8_35
+      - 🇨🇦Canada16_36
+      - 🇰🇷Korea,Republicof65_37
+      - 🇰🇷Korea,Republicof34_38
+      - 🇰🇷Korea,Republicof57_39
+      - 🇬🇧UnitedKingdom17_40
+      - 🇰🇷Korea,Republicof69_41
+      - 🇬🇧UnitedKingdom19_42
+      - 🇰🇷Korea,Republicof39_43
+      - XYVPNUK🇬🇧London_44
+      - 🇺🇸UnitedStates61_45
+      - 🇬🇧UnitedKingdom18_46
+      - 🇰🇷Korea,Republicof49_47
+      - 🇰🇷Korea,Republicof50_48
+      - 🇰🇷Korea,Republicof68_49
+      - 🇺🇸UnitedStates18_50
+      - 🇺🇸UnitedStates23_51
+      - 🇺🇸UnitedStates29_52
+      - 🇺🇸UnitedStates21_53
+      - 🇺🇸UnitedStates22_54
+      - 🇺🇸UnitedStates19_55
+      - 🇺🇸UnitedStates24_56
+      - 🇺🇸UnitedStates9_57
+      - 🇺🇸UnitedStates17_58
+      - 🇺🇸UnitedStates15_59
+      - XYVPNUSA🇺🇸NewYork_60
+      - 🇺🇸UnitedStates10_61
+      - 🇺🇸UnitedStates8_62
+      - 🇺🇸UnitedStates28_63
+      - 🇺🇸UnitedStates27_64
+      - 🇺🇸UnitedStates26_65
+      - 🇨🇦Canada19_66
+      - 🇺🇸UnitedStates33_67
+      - 🇨🇦Canada26_68
+      - 🇨🇦Canada4_69
+      - 🇨🇦Canada35_70
+      - 🇨🇦Canada23_71
+      - 🇨🇦Canada2_72
+      - 🇺🇸UnitedStates65_73
+      - 🇨🇦Canada69_74
+      - 🇨🇦Canada_75
+      - 🇨🇦Canada46_76
+      - 🇨🇦Canada71_77
+      - 🇨🇦Canada6_78
+      - 🇺🇸UnitedStates43_79
+      - 🇺🇸UnitedStates44_80
+      - 🇨🇦Canada22_81
+      - 🇨🇦Canada43_82
+      - 🇨🇦Canada40_83
+      - 🇨🇦Canada8_84
+      - 🇨🇦Canada15_85
+      - 🇺🇸UnitedStates34_86
+      - 🇨🇦Canada42_87
+      - 🇨🇦Canada25_88
+      - 🇨🇦Canada30_89
+      - 🇨🇦Canada68_90
+      - 🇨🇦Canada10_91
+      - 🇨🇦Canada44_92
+      - 🇨🇦Canada28_93
+      - 🇨🇦Canada34_94
+      - 🇨🇦Canada52_95
+      - 🇨🇦Canada33_96
+      - 🇺🇸UnitedStates66_97
+      - 🇨🇦Canada45_98
+      - 🇨🇦Canada17_99
+      - 🇺🇸UnitedStates40_100
+      - 🇨🇦Canada37_101
+      - 🇨🇦Canada7_102
+      - 🇨🇦Canada20_103
+      - 🇨🇦Canada38_104
+      - 🇨🇦Canada11_105
+      - 🇨🇦Canada14_106
+      - 🇨🇦Canada18_107
+      - 🇺🇸UnitedStates41_108
+      - 🇨🇦Canada13_109
+      - 🇨🇦Canada29_110
+      - 🇨🇦Canada48_111
+      - 🇨🇦Canada5_112
+      - 🇺🇸UnitedStates42_113
+      - 🇨🇦Canada49_114
+      - XYVPNUSA🇺🇸Dalas_115
+      - 🇨🇦Canada47_116
+      - 🇺🇸UnitedStates38_117
+      - 🇰🇷Korea,Republicof27_118
+      - PrivateVPNUSA🇺🇸California_119
+      - 🇺🇸UnitedStates16_120
+      - 🇰🇷Korea,Republicof37_121
+      - PrivateVPNUSA🇺🇸NewJersey_122
+      - 🇨🇦Canada70_123
+      - 🇺🇸UnitedStates35_124
+      - 🇨🇦Canada39_125
+      - 🇨🇦Canada24_126
+      - 🇺🇸UnitedStates31_127
+      - 🇺🇸UnitedStates69_128
+      - 🇨🇦Canada41_129
+      - 🇨🇦Canada31_130
+      - 🇺🇸UnitedStates37_131
+      - 🇨🇦Canada32_132
+      - 🇨🇦Canada12_133
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇺🇸【426节点池】US_3114
-      - 🇺🇸【426节点池】US_3106
-      - 🇮🇳【426节点池】IN_1378
-      - 🇮🇳_IN_印度_4
-      - 🇮🇳_IN_印度_5
-      - 🇮🇳India(IN)_6
-      - 🇮🇳India(IN)_7
-      - 🇺🇸【426节点池】US_2770
-      - 🇸🇬Singapore(SG)_9
-      - 🇺🇸【426节点池】US_2547
-      - 🇨🇦Canada(CA)_11
-      - 🇭🇧426未名站_841
-      - 🇺🇸UnitedStates(US)_13
-      - 🇺🇸【426节点池】US_2942
-      - 🇺🇸UnitedStates(US)_15
-      - 🇺🇸【426节点池】US_2323
-      - 🇺🇸【426节点池】US_2435
-      - 🇭🇧426未名站_1246
-      - 🇺🇸UnitedStates(US)_19
-      - 🇸🇬【426节点池】SG_1728
-      - 🇺🇸【426节点池】US_2904
-      - 🇸🇬【426节点池】SG_1748
-      - 🇺🇸UnitedStates(US)_23
-      - 🇸🇬【426节点池】SG_1773
-      - 🇸🇬【426节点池】SG_1720
-      - 🇺🇸【426节点池】US_2188
-      - 🇺🇸UnitedStates(US)_27
-      - 🇸🇬【426节点池】SG_1777
-      - 🇸🇬【426节点池】SG_1682
-      - 🇸🇬【426节点池】SG_1768
-      - 🇸🇬【426节点池】SG_1770
-      - 🇸🇬【426节点池】SG_1654
-      - 🇸🇬【426节点池】SG_1717
-      - 🇸🇬【426节点池】SG_1692
-      - 🇸🇬【426节点池】SG_1774
-      - 🇸🇬【426节点池】SG_1701
-      - 🇸🇬【426节点池】SG_1718
-      - 🇯🇵Japan(JP)_38
-      - 🇯🇵Japan(JP)_39
-      - CYL-科技（2022_01_09）_40
-      - 🇺🇸UnitedStates(US)_41
-      - 🇺🇸UnitedStates(US)_42
-      - 🇸🇬【426节点池】SG_1700
-      - 🇺🇸UnitedStates(US)_44
-      - 🇺🇸UnitedStates(US)_45
-      - 🇺🇸UnitedStates(US)_46
-      - 🇦🇺Australia(AU)_47
-      - 🇭🇧426未名站_943
-      - 🇺🇸UnitedStates(US)_49
-      - 🇺🇸UnitedStates(US)_50
-      - 🇺🇸UnitedStates(US)_51
-      - 🇺🇸UnitedStates(US)_52
-      - 🇺🇸UnitedStates(US)_53
-      - 🇦🇺Australia(AU)_54
-      - 🇺🇸UnitedStates(US)_55
-      - 🇺🇸UnitedStates(US)_56
-      - 🇺🇸UnitedStates(US)_57
-      - 🇦🇺Australia(AU)_58
-      - 🇦🇺Australia(AU)_59
-      - 🇺🇸_US_美国_60
-      - 🇦🇺Australia(AU)_61
-      - 🇦🇺Australia(AU)_62
-      - 🇸🇬【426节点池】SG_1702
-      - 🇸🇬【426节点池】SG_1715
-      - 🇦🇺Australia(AU)_65
-      - 🇸🇬【426节点池】SG_1690
-      - 🇦🇺Australia(AU)_67
-      - 🇦🇺Australia(AU)_68
-      - 🇸🇬【426节点池】SG_1709
-      - 🇰🇷SouthKorea(KR)_70
-      - 🇰🇷SouthKorea(KR)_71
-      - 🇰🇷SouthKorea(KR)_72
-      - 🇰🇷SouthKorea(KR)_73
-      - 🇰🇷SouthKorea(KR)_74
-      - 🇰🇷SouthKorea(KR)_75
-      - 🇰🇷SouthKorea(KR)_76
-      - 🇰🇷SouthKorea(KR)_77
-      - 🇰🇷SouthKorea(KR)_78
-      - 🇰🇷SouthKorea(KR)_79
-      - 🇰🇷SouthKorea(KR)_80
-      - 🇰🇷SouthKorea(KR)_81
-      - 🇰🇷SouthKorea(KR)_82
-      - 🇬🇧UnitedKingdom(GB)_83
-      - 🇬🇧UnitedKingdom(GB)_84
-      - 🇫🇷France(FR)_85
-      - 🇰🇷SouthKorea(KR)_86
-      - 🇰🇷SouthKorea(KR)_87
-      - 🇫🇷France(FR)_88
-      - 🇰🇷SouthKorea(KR)_89
-      - 🇰🇷SouthKorea(KR)_90
-      - 🇰🇷SouthKorea(KR)_91
-      - 🇺🇸【426节点池】US_3128
-      - 🇰🇷SouthKorea(KR)_93
-      - 🇰🇷SouthKorea(KR)_94
-      - 🇺🇸【426节点池】US_2423
-      - 🇺🇸UnitedStates(US)_96
-      - 🇺🇸【426节点池】US_2675
-      - 🇰🇷SouthKorea(KR)_98
-      - 🇵🇱Poland(PL)_99
-      - 🇺🇸【426节点池】US_2868
-      - 🇺🇸UnitedStates(US)_101
-      - 🇺🇸UnitedStates(US)_102
-      - 🇺🇸UnitedStates(US)_103
-      - 🇩🇪Germany(DE)_104
-      - 🇨🇦Canada(CA)_105
-      - 🇭🇧426未名站_950
-      - 🇺🇸UnitedStates(US)_107
-      - 🇺🇸UnitedStates(US)_108
-      - 🇺🇸UnitedStates(US)_109
-      - 🇺🇸UnitedStates(US)_110
+      - 🇰🇷Korea,Republicof48_1
+      - 🇰🇷Korea,Republicof51_2
+      - 🇺🇸UFOSeattle_3
+      - 🇯🇵UFOTokyo4_4
+      - 🇯🇵UFOTokyo5_5
+      - 🇮🇳India_6
+      - 🇰🇷Korea,Republicof45_7
+      - 🇦🇺Australia7_8
+      - 🇰🇷Korea,Republicof28_9
+      - 🇰🇷Korea,Republicof19_10
+      - 🇰🇷Korea,Republicof38_11
+      - 🇰🇷Korea,Republicof9_12
+      - 🇰🇷Korea,Republicof47_13
+      - 🇰🇷Korea,Republicof16_14
+      - 🇰🇷Korea,Republicof15_15
+      - 🇰🇷Korea,Republicof20_16
+      - 🇰🇷Korea,Republicof60_17
+      - 🇰🇷Korea,Republicof41_18
+      - 🇰🇷Korea,Republicof18_19
+      - 🇰🇷Korea,Republicof17_20
+      - 🇰🇷Korea,Republicof31_21
+      - 🇰🇷Korea,Republicof43_22
+      - 🇰🇷Korea,Republicof63_23
+      - 🇰🇷Korea,Republicof33_24
+      - 🇰🇷Korea,Republicof29_25
+      - 🇰🇷Korea,Republicof30_26
+      - 🇰🇷Korea,Republicof32_27
+      - 🇰🇷Korea,Republicof66_28
+      - 🇰🇷Korea,Republicof36_29
+      - 🇰🇷Korea,Republicof56_30
+      - 🇰🇷Korea,Republicof67_31
+      - 🇰🇷Korea,Republicof64_32
+      - 🇰🇷Korea,Republicof10_33
+      - 🇰🇷Korea,Republicof70_34
+      - 🇰🇷Korea,Republicof8_35
+      - 🇨🇦Canada16_36
+      - 🇰🇷Korea,Republicof65_37
+      - 🇰🇷Korea,Republicof34_38
+      - 🇰🇷Korea,Republicof57_39
+      - 🇬🇧UnitedKingdom17_40
+      - 🇰🇷Korea,Republicof69_41
+      - 🇬🇧UnitedKingdom19_42
+      - 🇰🇷Korea,Republicof39_43
+      - XYVPNUK🇬🇧London_44
+      - 🇺🇸UnitedStates61_45
+      - 🇬🇧UnitedKingdom18_46
+      - 🇰🇷Korea,Republicof49_47
+      - 🇰🇷Korea,Republicof50_48
+      - 🇰🇷Korea,Republicof68_49
+      - 🇺🇸UnitedStates18_50
+      - 🇺🇸UnitedStates23_51
+      - 🇺🇸UnitedStates29_52
+      - 🇺🇸UnitedStates21_53
+      - 🇺🇸UnitedStates22_54
+      - 🇺🇸UnitedStates19_55
+      - 🇺🇸UnitedStates24_56
+      - 🇺🇸UnitedStates9_57
+      - 🇺🇸UnitedStates17_58
+      - 🇺🇸UnitedStates15_59
+      - XYVPNUSA🇺🇸NewYork_60
+      - 🇺🇸UnitedStates10_61
+      - 🇺🇸UnitedStates8_62
+      - 🇺🇸UnitedStates28_63
+      - 🇺🇸UnitedStates27_64
+      - 🇺🇸UnitedStates26_65
+      - 🇨🇦Canada19_66
+      - 🇺🇸UnitedStates33_67
+      - 🇨🇦Canada26_68
+      - 🇨🇦Canada4_69
+      - 🇨🇦Canada35_70
+      - 🇨🇦Canada23_71
+      - 🇨🇦Canada2_72
+      - 🇺🇸UnitedStates65_73
+      - 🇨🇦Canada69_74
+      - 🇨🇦Canada_75
+      - 🇨🇦Canada46_76
+      - 🇨🇦Canada71_77
+      - 🇨🇦Canada6_78
+      - 🇺🇸UnitedStates43_79
+      - 🇺🇸UnitedStates44_80
+      - 🇨🇦Canada22_81
+      - 🇨🇦Canada43_82
+      - 🇨🇦Canada40_83
+      - 🇨🇦Canada8_84
+      - 🇨🇦Canada15_85
+      - 🇺🇸UnitedStates34_86
+      - 🇨🇦Canada42_87
+      - 🇨🇦Canada25_88
+      - 🇨🇦Canada30_89
+      - 🇨🇦Canada68_90
+      - 🇨🇦Canada10_91
+      - 🇨🇦Canada44_92
+      - 🇨🇦Canada28_93
+      - 🇨🇦Canada34_94
+      - 🇨🇦Canada52_95
+      - 🇨🇦Canada33_96
+      - 🇺🇸UnitedStates66_97
+      - 🇨🇦Canada45_98
+      - 🇨🇦Canada17_99
+      - 🇺🇸UnitedStates40_100
+      - 🇨🇦Canada37_101
+      - 🇨🇦Canada7_102
+      - 🇨🇦Canada20_103
+      - 🇨🇦Canada38_104
+      - 🇨🇦Canada11_105
+      - 🇨🇦Canada14_106
+      - 🇨🇦Canada18_107
+      - 🇺🇸UnitedStates41_108
+      - 🇨🇦Canada13_109
+      - 🇨🇦Canada29_110
+      - 🇨🇦Canada48_111
+      - 🇨🇦Canada5_112
+      - 🇺🇸UnitedStates42_113
+      - 🇨🇦Canada49_114
+      - XYVPNUSA🇺🇸Dalas_115
+      - 🇨🇦Canada47_116
+      - 🇺🇸UnitedStates38_117
+      - 🇰🇷Korea,Republicof27_118
+      - PrivateVPNUSA🇺🇸California_119
+      - 🇺🇸UnitedStates16_120
+      - 🇰🇷Korea,Republicof37_121
+      - PrivateVPNUSA🇺🇸NewJersey_122
+      - 🇨🇦Canada70_123
+      - 🇺🇸UnitedStates35_124
+      - 🇨🇦Canada39_125
+      - 🇨🇦Canada24_126
+      - 🇺🇸UnitedStates31_127
+      - 🇺🇸UnitedStates69_128
+      - 🇨🇦Canada41_129
+      - 🇨🇦Canada31_130
+      - 🇺🇸UnitedStates37_131
+      - 🇨🇦Canada32_132
+      - 🇨🇦Canada12_133
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸【426节点池】US_3114
-      - 🇺🇸【426节点池】US_3106
-      - 🇮🇳【426节点池】IN_1378
-      - 🇮🇳_IN_印度_4
-      - 🇮🇳_IN_印度_5
-      - 🇮🇳India(IN)_6
-      - 🇮🇳India(IN)_7
-      - 🇺🇸【426节点池】US_2770
-      - 🇸🇬Singapore(SG)_9
-      - 🇺🇸【426节点池】US_2547
-      - 🇨🇦Canada(CA)_11
-      - 🇭🇧426未名站_841
-      - 🇺🇸UnitedStates(US)_13
-      - 🇺🇸【426节点池】US_2942
-      - 🇺🇸UnitedStates(US)_15
-      - 🇺🇸【426节点池】US_2323
-      - 🇺🇸【426节点池】US_2435
-      - 🇭🇧426未名站_1246
-      - 🇺🇸UnitedStates(US)_19
-      - 🇸🇬【426节点池】SG_1728
-      - 🇺🇸【426节点池】US_2904
-      - 🇸🇬【426节点池】SG_1748
-      - 🇺🇸UnitedStates(US)_23
-      - 🇸🇬【426节点池】SG_1773
-      - 🇸🇬【426节点池】SG_1720
-      - 🇺🇸【426节点池】US_2188
-      - 🇺🇸UnitedStates(US)_27
-      - 🇸🇬【426节点池】SG_1777
-      - 🇸🇬【426节点池】SG_1682
-      - 🇸🇬【426节点池】SG_1768
-      - 🇸🇬【426节点池】SG_1770
-      - 🇸🇬【426节点池】SG_1654
-      - 🇸🇬【426节点池】SG_1717
-      - 🇸🇬【426节点池】SG_1692
-      - 🇸🇬【426节点池】SG_1774
-      - 🇸🇬【426节点池】SG_1701
-      - 🇸🇬【426节点池】SG_1718
-      - 🇯🇵Japan(JP)_38
-      - 🇯🇵Japan(JP)_39
-      - CYL-科技（2022_01_09）_40
-      - 🇺🇸UnitedStates(US)_41
-      - 🇺🇸UnitedStates(US)_42
-      - 🇸🇬【426节点池】SG_1700
-      - 🇺🇸UnitedStates(US)_44
-      - 🇺🇸UnitedStates(US)_45
-      - 🇺🇸UnitedStates(US)_46
-      - 🇦🇺Australia(AU)_47
-      - 🇭🇧426未名站_943
-      - 🇺🇸UnitedStates(US)_49
-      - 🇺🇸UnitedStates(US)_50
-      - 🇺🇸UnitedStates(US)_51
-      - 🇺🇸UnitedStates(US)_52
-      - 🇺🇸UnitedStates(US)_53
-      - 🇦🇺Australia(AU)_54
-      - 🇺🇸UnitedStates(US)_55
-      - 🇺🇸UnitedStates(US)_56
-      - 🇺🇸UnitedStates(US)_57
-      - 🇦🇺Australia(AU)_58
-      - 🇦🇺Australia(AU)_59
-      - 🇺🇸_US_美国_60
-      - 🇦🇺Australia(AU)_61
-      - 🇦🇺Australia(AU)_62
-      - 🇸🇬【426节点池】SG_1702
-      - 🇸🇬【426节点池】SG_1715
-      - 🇦🇺Australia(AU)_65
-      - 🇸🇬【426节点池】SG_1690
-      - 🇦🇺Australia(AU)_67
-      - 🇦🇺Australia(AU)_68
-      - 🇸🇬【426节点池】SG_1709
-      - 🇰🇷SouthKorea(KR)_70
-      - 🇰🇷SouthKorea(KR)_71
-      - 🇰🇷SouthKorea(KR)_72
-      - 🇰🇷SouthKorea(KR)_73
-      - 🇰🇷SouthKorea(KR)_74
-      - 🇰🇷SouthKorea(KR)_75
-      - 🇰🇷SouthKorea(KR)_76
-      - 🇰🇷SouthKorea(KR)_77
-      - 🇰🇷SouthKorea(KR)_78
-      - 🇰🇷SouthKorea(KR)_79
-      - 🇰🇷SouthKorea(KR)_80
-      - 🇰🇷SouthKorea(KR)_81
-      - 🇰🇷SouthKorea(KR)_82
-      - 🇬🇧UnitedKingdom(GB)_83
-      - 🇬🇧UnitedKingdom(GB)_84
-      - 🇫🇷France(FR)_85
-      - 🇰🇷SouthKorea(KR)_86
-      - 🇰🇷SouthKorea(KR)_87
-      - 🇫🇷France(FR)_88
-      - 🇰🇷SouthKorea(KR)_89
-      - 🇰🇷SouthKorea(KR)_90
-      - 🇰🇷SouthKorea(KR)_91
-      - 🇺🇸【426节点池】US_3128
-      - 🇰🇷SouthKorea(KR)_93
-      - 🇰🇷SouthKorea(KR)_94
-      - 🇺🇸【426节点池】US_2423
-      - 🇺🇸UnitedStates(US)_96
-      - 🇺🇸【426节点池】US_2675
-      - 🇰🇷SouthKorea(KR)_98
-      - 🇵🇱Poland(PL)_99
-      - 🇺🇸【426节点池】US_2868
-      - 🇺🇸UnitedStates(US)_101
-      - 🇺🇸UnitedStates(US)_102
-      - 🇺🇸UnitedStates(US)_103
-      - 🇩🇪Germany(DE)_104
-      - 🇨🇦Canada(CA)_105
-      - 🇭🇧426未名站_950
-      - 🇺🇸UnitedStates(US)_107
-      - 🇺🇸UnitedStates(US)_108
-      - 🇺🇸UnitedStates(US)_109
-      - 🇺🇸UnitedStates(US)_110
+      - 🇰🇷Korea,Republicof48_1
+      - 🇰🇷Korea,Republicof51_2
+      - 🇺🇸UFOSeattle_3
+      - 🇯🇵UFOTokyo4_4
+      - 🇯🇵UFOTokyo5_5
+      - 🇮🇳India_6
+      - 🇰🇷Korea,Republicof45_7
+      - 🇦🇺Australia7_8
+      - 🇰🇷Korea,Republicof28_9
+      - 🇰🇷Korea,Republicof19_10
+      - 🇰🇷Korea,Republicof38_11
+      - 🇰🇷Korea,Republicof9_12
+      - 🇰🇷Korea,Republicof47_13
+      - 🇰🇷Korea,Republicof16_14
+      - 🇰🇷Korea,Republicof15_15
+      - 🇰🇷Korea,Republicof20_16
+      - 🇰🇷Korea,Republicof60_17
+      - 🇰🇷Korea,Republicof41_18
+      - 🇰🇷Korea,Republicof18_19
+      - 🇰🇷Korea,Republicof17_20
+      - 🇰🇷Korea,Republicof31_21
+      - 🇰🇷Korea,Republicof43_22
+      - 🇰🇷Korea,Republicof63_23
+      - 🇰🇷Korea,Republicof33_24
+      - 🇰🇷Korea,Republicof29_25
+      - 🇰🇷Korea,Republicof30_26
+      - 🇰🇷Korea,Republicof32_27
+      - 🇰🇷Korea,Republicof66_28
+      - 🇰🇷Korea,Republicof36_29
+      - 🇰🇷Korea,Republicof56_30
+      - 🇰🇷Korea,Republicof67_31
+      - 🇰🇷Korea,Republicof64_32
+      - 🇰🇷Korea,Republicof10_33
+      - 🇰🇷Korea,Republicof70_34
+      - 🇰🇷Korea,Republicof8_35
+      - 🇨🇦Canada16_36
+      - 🇰🇷Korea,Republicof65_37
+      - 🇰🇷Korea,Republicof34_38
+      - 🇰🇷Korea,Republicof57_39
+      - 🇬🇧UnitedKingdom17_40
+      - 🇰🇷Korea,Republicof69_41
+      - 🇬🇧UnitedKingdom19_42
+      - 🇰🇷Korea,Republicof39_43
+      - XYVPNUK🇬🇧London_44
+      - 🇺🇸UnitedStates61_45
+      - 🇬🇧UnitedKingdom18_46
+      - 🇰🇷Korea,Republicof49_47
+      - 🇰🇷Korea,Republicof50_48
+      - 🇰🇷Korea,Republicof68_49
+      - 🇺🇸UnitedStates18_50
+      - 🇺🇸UnitedStates23_51
+      - 🇺🇸UnitedStates29_52
+      - 🇺🇸UnitedStates21_53
+      - 🇺🇸UnitedStates22_54
+      - 🇺🇸UnitedStates19_55
+      - 🇺🇸UnitedStates24_56
+      - 🇺🇸UnitedStates9_57
+      - 🇺🇸UnitedStates17_58
+      - 🇺🇸UnitedStates15_59
+      - XYVPNUSA🇺🇸NewYork_60
+      - 🇺🇸UnitedStates10_61
+      - 🇺🇸UnitedStates8_62
+      - 🇺🇸UnitedStates28_63
+      - 🇺🇸UnitedStates27_64
+      - 🇺🇸UnitedStates26_65
+      - 🇨🇦Canada19_66
+      - 🇺🇸UnitedStates33_67
+      - 🇨🇦Canada26_68
+      - 🇨🇦Canada4_69
+      - 🇨🇦Canada35_70
+      - 🇨🇦Canada23_71
+      - 🇨🇦Canada2_72
+      - 🇺🇸UnitedStates65_73
+      - 🇨🇦Canada69_74
+      - 🇨🇦Canada_75
+      - 🇨🇦Canada46_76
+      - 🇨🇦Canada71_77
+      - 🇨🇦Canada6_78
+      - 🇺🇸UnitedStates43_79
+      - 🇺🇸UnitedStates44_80
+      - 🇨🇦Canada22_81
+      - 🇨🇦Canada43_82
+      - 🇨🇦Canada40_83
+      - 🇨🇦Canada8_84
+      - 🇨🇦Canada15_85
+      - 🇺🇸UnitedStates34_86
+      - 🇨🇦Canada42_87
+      - 🇨🇦Canada25_88
+      - 🇨🇦Canada30_89
+      - 🇨🇦Canada68_90
+      - 🇨🇦Canada10_91
+      - 🇨🇦Canada44_92
+      - 🇨🇦Canada28_93
+      - 🇨🇦Canada34_94
+      - 🇨🇦Canada52_95
+      - 🇨🇦Canada33_96
+      - 🇺🇸UnitedStates66_97
+      - 🇨🇦Canada45_98
+      - 🇨🇦Canada17_99
+      - 🇺🇸UnitedStates40_100
+      - 🇨🇦Canada37_101
+      - 🇨🇦Canada7_102
+      - 🇨🇦Canada20_103
+      - 🇨🇦Canada38_104
+      - 🇨🇦Canada11_105
+      - 🇨🇦Canada14_106
+      - 🇨🇦Canada18_107
+      - 🇺🇸UnitedStates41_108
+      - 🇨🇦Canada13_109
+      - 🇨🇦Canada29_110
+      - 🇨🇦Canada48_111
+      - 🇨🇦Canada5_112
+      - 🇺🇸UnitedStates42_113
+      - 🇨🇦Canada49_114
+      - XYVPNUSA🇺🇸Dalas_115
+      - 🇨🇦Canada47_116
+      - 🇺🇸UnitedStates38_117
+      - 🇰🇷Korea,Republicof27_118
+      - PrivateVPNUSA🇺🇸California_119
+      - 🇺🇸UnitedStates16_120
+      - 🇰🇷Korea,Republicof37_121
+      - PrivateVPNUSA🇺🇸NewJersey_122
+      - 🇨🇦Canada70_123
+      - 🇺🇸UnitedStates35_124
+      - 🇨🇦Canada39_125
+      - 🇨🇦Canada24_126
+      - 🇺🇸UnitedStates31_127
+      - 🇺🇸UnitedStates69_128
+      - 🇨🇦Canada41_129
+      - 🇨🇦Canada31_130
+      - 🇺🇸UnitedStates37_131
+      - 🇨🇦Canada32_132
+      - 🇨🇦Canada12_133
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇺🇸【426节点池】US_3114
-      - 🇺🇸【426节点池】US_3106
-      - 🇮🇳【426节点池】IN_1378
-      - 🇮🇳_IN_印度_4
-      - 🇮🇳_IN_印度_5
-      - 🇮🇳India(IN)_6
-      - 🇮🇳India(IN)_7
-      - 🇺🇸【426节点池】US_2770
-      - 🇸🇬Singapore(SG)_9
-      - 🇺🇸【426节点池】US_2547
-      - 🇨🇦Canada(CA)_11
-      - 🇭🇧426未名站_841
-      - 🇺🇸UnitedStates(US)_13
-      - 🇺🇸【426节点池】US_2942
-      - 🇺🇸UnitedStates(US)_15
-      - 🇺🇸【426节点池】US_2323
-      - 🇺🇸【426节点池】US_2435
-      - 🇭🇧426未名站_1246
-      - 🇺🇸UnitedStates(US)_19
-      - 🇸🇬【426节点池】SG_1728
-      - 🇺🇸【426节点池】US_2904
-      - 🇸🇬【426节点池】SG_1748
-      - 🇺🇸UnitedStates(US)_23
-      - 🇸🇬【426节点池】SG_1773
-      - 🇸🇬【426节点池】SG_1720
-      - 🇺🇸【426节点池】US_2188
-      - 🇺🇸UnitedStates(US)_27
-      - 🇸🇬【426节点池】SG_1777
-      - 🇸🇬【426节点池】SG_1682
-      - 🇸🇬【426节点池】SG_1768
-      - 🇸🇬【426节点池】SG_1770
-      - 🇸🇬【426节点池】SG_1654
-      - 🇸🇬【426节点池】SG_1717
-      - 🇸🇬【426节点池】SG_1692
-      - 🇸🇬【426节点池】SG_1774
-      - 🇸🇬【426节点池】SG_1701
-      - 🇸🇬【426节点池】SG_1718
-      - 🇯🇵Japan(JP)_38
-      - 🇯🇵Japan(JP)_39
-      - CYL-科技（2022_01_09）_40
-      - 🇺🇸UnitedStates(US)_41
-      - 🇺🇸UnitedStates(US)_42
-      - 🇸🇬【426节点池】SG_1700
-      - 🇺🇸UnitedStates(US)_44
-      - 🇺🇸UnitedStates(US)_45
-      - 🇺🇸UnitedStates(US)_46
-      - 🇦🇺Australia(AU)_47
-      - 🇭🇧426未名站_943
-      - 🇺🇸UnitedStates(US)_49
-      - 🇺🇸UnitedStates(US)_50
-      - 🇺🇸UnitedStates(US)_51
-      - 🇺🇸UnitedStates(US)_52
-      - 🇺🇸UnitedStates(US)_53
-      - 🇦🇺Australia(AU)_54
-      - 🇺🇸UnitedStates(US)_55
-      - 🇺🇸UnitedStates(US)_56
-      - 🇺🇸UnitedStates(US)_57
-      - 🇦🇺Australia(AU)_58
-      - 🇦🇺Australia(AU)_59
-      - 🇺🇸_US_美国_60
-      - 🇦🇺Australia(AU)_61
-      - 🇦🇺Australia(AU)_62
-      - 🇸🇬【426节点池】SG_1702
-      - 🇸🇬【426节点池】SG_1715
-      - 🇦🇺Australia(AU)_65
-      - 🇸🇬【426节点池】SG_1690
-      - 🇦🇺Australia(AU)_67
-      - 🇦🇺Australia(AU)_68
-      - 🇸🇬【426节点池】SG_1709
-      - 🇰🇷SouthKorea(KR)_70
-      - 🇰🇷SouthKorea(KR)_71
-      - 🇰🇷SouthKorea(KR)_72
-      - 🇰🇷SouthKorea(KR)_73
-      - 🇰🇷SouthKorea(KR)_74
-      - 🇰🇷SouthKorea(KR)_75
-      - 🇰🇷SouthKorea(KR)_76
-      - 🇰🇷SouthKorea(KR)_77
-      - 🇰🇷SouthKorea(KR)_78
-      - 🇰🇷SouthKorea(KR)_79
-      - 🇰🇷SouthKorea(KR)_80
-      - 🇰🇷SouthKorea(KR)_81
-      - 🇰🇷SouthKorea(KR)_82
-      - 🇬🇧UnitedKingdom(GB)_83
-      - 🇬🇧UnitedKingdom(GB)_84
-      - 🇫🇷France(FR)_85
-      - 🇰🇷SouthKorea(KR)_86
-      - 🇰🇷SouthKorea(KR)_87
-      - 🇫🇷France(FR)_88
-      - 🇰🇷SouthKorea(KR)_89
-      - 🇰🇷SouthKorea(KR)_90
-      - 🇰🇷SouthKorea(KR)_91
-      - 🇺🇸【426节点池】US_3128
-      - 🇰🇷SouthKorea(KR)_93
-      - 🇰🇷SouthKorea(KR)_94
-      - 🇺🇸【426节点池】US_2423
-      - 🇺🇸UnitedStates(US)_96
-      - 🇺🇸【426节点池】US_2675
-      - 🇰🇷SouthKorea(KR)_98
-      - 🇵🇱Poland(PL)_99
-      - 🇺🇸【426节点池】US_2868
-      - 🇺🇸UnitedStates(US)_101
-      - 🇺🇸UnitedStates(US)_102
-      - 🇺🇸UnitedStates(US)_103
-      - 🇩🇪Germany(DE)_104
-      - 🇨🇦Canada(CA)_105
-      - 🇭🇧426未名站_950
-      - 🇺🇸UnitedStates(US)_107
-      - 🇺🇸UnitedStates(US)_108
-      - 🇺🇸UnitedStates(US)_109
-      - 🇺🇸UnitedStates(US)_110
+      - 🇰🇷Korea,Republicof48_1
+      - 🇰🇷Korea,Republicof51_2
+      - 🇺🇸UFOSeattle_3
+      - 🇯🇵UFOTokyo4_4
+      - 🇯🇵UFOTokyo5_5
+      - 🇮🇳India_6
+      - 🇰🇷Korea,Republicof45_7
+      - 🇦🇺Australia7_8
+      - 🇰🇷Korea,Republicof28_9
+      - 🇰🇷Korea,Republicof19_10
+      - 🇰🇷Korea,Republicof38_11
+      - 🇰🇷Korea,Republicof9_12
+      - 🇰🇷Korea,Republicof47_13
+      - 🇰🇷Korea,Republicof16_14
+      - 🇰🇷Korea,Republicof15_15
+      - 🇰🇷Korea,Republicof20_16
+      - 🇰🇷Korea,Republicof60_17
+      - 🇰🇷Korea,Republicof41_18
+      - 🇰🇷Korea,Republicof18_19
+      - 🇰🇷Korea,Republicof17_20
+      - 🇰🇷Korea,Republicof31_21
+      - 🇰🇷Korea,Republicof43_22
+      - 🇰🇷Korea,Republicof63_23
+      - 🇰🇷Korea,Republicof33_24
+      - 🇰🇷Korea,Republicof29_25
+      - 🇰🇷Korea,Republicof30_26
+      - 🇰🇷Korea,Republicof32_27
+      - 🇰🇷Korea,Republicof66_28
+      - 🇰🇷Korea,Republicof36_29
+      - 🇰🇷Korea,Republicof56_30
+      - 🇰🇷Korea,Republicof67_31
+      - 🇰🇷Korea,Republicof64_32
+      - 🇰🇷Korea,Republicof10_33
+      - 🇰🇷Korea,Republicof70_34
+      - 🇰🇷Korea,Republicof8_35
+      - 🇨🇦Canada16_36
+      - 🇰🇷Korea,Republicof65_37
+      - 🇰🇷Korea,Republicof34_38
+      - 🇰🇷Korea,Republicof57_39
+      - 🇬🇧UnitedKingdom17_40
+      - 🇰🇷Korea,Republicof69_41
+      - 🇬🇧UnitedKingdom19_42
+      - 🇰🇷Korea,Republicof39_43
+      - XYVPNUK🇬🇧London_44
+      - 🇺🇸UnitedStates61_45
+      - 🇬🇧UnitedKingdom18_46
+      - 🇰🇷Korea,Republicof49_47
+      - 🇰🇷Korea,Republicof50_48
+      - 🇰🇷Korea,Republicof68_49
+      - 🇺🇸UnitedStates18_50
+      - 🇺🇸UnitedStates23_51
+      - 🇺🇸UnitedStates29_52
+      - 🇺🇸UnitedStates21_53
+      - 🇺🇸UnitedStates22_54
+      - 🇺🇸UnitedStates19_55
+      - 🇺🇸UnitedStates24_56
+      - 🇺🇸UnitedStates9_57
+      - 🇺🇸UnitedStates17_58
+      - 🇺🇸UnitedStates15_59
+      - XYVPNUSA🇺🇸NewYork_60
+      - 🇺🇸UnitedStates10_61
+      - 🇺🇸UnitedStates8_62
+      - 🇺🇸UnitedStates28_63
+      - 🇺🇸UnitedStates27_64
+      - 🇺🇸UnitedStates26_65
+      - 🇨🇦Canada19_66
+      - 🇺🇸UnitedStates33_67
+      - 🇨🇦Canada26_68
+      - 🇨🇦Canada4_69
+      - 🇨🇦Canada35_70
+      - 🇨🇦Canada23_71
+      - 🇨🇦Canada2_72
+      - 🇺🇸UnitedStates65_73
+      - 🇨🇦Canada69_74
+      - 🇨🇦Canada_75
+      - 🇨🇦Canada46_76
+      - 🇨🇦Canada71_77
+      - 🇨🇦Canada6_78
+      - 🇺🇸UnitedStates43_79
+      - 🇺🇸UnitedStates44_80
+      - 🇨🇦Canada22_81
+      - 🇨🇦Canada43_82
+      - 🇨🇦Canada40_83
+      - 🇨🇦Canada8_84
+      - 🇨🇦Canada15_85
+      - 🇺🇸UnitedStates34_86
+      - 🇨🇦Canada42_87
+      - 🇨🇦Canada25_88
+      - 🇨🇦Canada30_89
+      - 🇨🇦Canada68_90
+      - 🇨🇦Canada10_91
+      - 🇨🇦Canada44_92
+      - 🇨🇦Canada28_93
+      - 🇨🇦Canada34_94
+      - 🇨🇦Canada52_95
+      - 🇨🇦Canada33_96
+      - 🇺🇸UnitedStates66_97
+      - 🇨🇦Canada45_98
+      - 🇨🇦Canada17_99
+      - 🇺🇸UnitedStates40_100
+      - 🇨🇦Canada37_101
+      - 🇨🇦Canada7_102
+      - 🇨🇦Canada20_103
+      - 🇨🇦Canada38_104
+      - 🇨🇦Canada11_105
+      - 🇨🇦Canada14_106
+      - 🇨🇦Canada18_107
+      - 🇺🇸UnitedStates41_108
+      - 🇨🇦Canada13_109
+      - 🇨🇦Canada29_110
+      - 🇨🇦Canada48_111
+      - 🇨🇦Canada5_112
+      - 🇺🇸UnitedStates42_113
+      - 🇨🇦Canada49_114
+      - XYVPNUSA🇺🇸Dalas_115
+      - 🇨🇦Canada47_116
+      - 🇺🇸UnitedStates38_117
+      - 🇰🇷Korea,Republicof27_118
+      - PrivateVPNUSA🇺🇸California_119
+      - 🇺🇸UnitedStates16_120
+      - 🇰🇷Korea,Republicof37_121
+      - PrivateVPNUSA🇺🇸NewJersey_122
+      - 🇨🇦Canada70_123
+      - 🇺🇸UnitedStates35_124
+      - 🇨🇦Canada39_125
+      - 🇨🇦Canada24_126
+      - 🇺🇸UnitedStates31_127
+      - 🇺🇸UnitedStates69_128
+      - 🇨🇦Canada41_129
+      - 🇨🇦Canada31_130
+      - 🇺🇸UnitedStates37_131
+      - 🇨🇦Canada32_132
+      - 🇨🇦Canada12_133
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇺🇸【426节点池】US_3114
-      - 🇺🇸【426节点池】US_3106
-      - 🇮🇳【426节点池】IN_1378
-      - 🇮🇳_IN_印度_4
-      - 🇮🇳_IN_印度_5
-      - 🇮🇳India(IN)_6
-      - 🇮🇳India(IN)_7
-      - 🇺🇸【426节点池】US_2770
-      - 🇸🇬Singapore(SG)_9
-      - 🇺🇸【426节点池】US_2547
-      - 🇨🇦Canada(CA)_11
-      - 🇭🇧426未名站_841
-      - 🇺🇸UnitedStates(US)_13
-      - 🇺🇸【426节点池】US_2942
-      - 🇺🇸UnitedStates(US)_15
-      - 🇺🇸【426节点池】US_2323
-      - 🇺🇸【426节点池】US_2435
-      - 🇭🇧426未名站_1246
-      - 🇺🇸UnitedStates(US)_19
-      - 🇸🇬【426节点池】SG_1728
-      - 🇺🇸【426节点池】US_2904
-      - 🇸🇬【426节点池】SG_1748
-      - 🇺🇸UnitedStates(US)_23
-      - 🇸🇬【426节点池】SG_1773
-      - 🇸🇬【426节点池】SG_1720
-      - 🇺🇸【426节点池】US_2188
-      - 🇺🇸UnitedStates(US)_27
-      - 🇸🇬【426节点池】SG_1777
-      - 🇸🇬【426节点池】SG_1682
-      - 🇸🇬【426节点池】SG_1768
-      - 🇸🇬【426节点池】SG_1770
-      - 🇸🇬【426节点池】SG_1654
-      - 🇸🇬【426节点池】SG_1717
-      - 🇸🇬【426节点池】SG_1692
-      - 🇸🇬【426节点池】SG_1774
-      - 🇸🇬【426节点池】SG_1701
-      - 🇸🇬【426节点池】SG_1718
-      - 🇯🇵Japan(JP)_38
-      - 🇯🇵Japan(JP)_39
-      - CYL-科技（2022_01_09）_40
-      - 🇺🇸UnitedStates(US)_41
-      - 🇺🇸UnitedStates(US)_42
-      - 🇸🇬【426节点池】SG_1700
-      - 🇺🇸UnitedStates(US)_44
-      - 🇺🇸UnitedStates(US)_45
-      - 🇺🇸UnitedStates(US)_46
-      - 🇦🇺Australia(AU)_47
-      - 🇭🇧426未名站_943
-      - 🇺🇸UnitedStates(US)_49
-      - 🇺🇸UnitedStates(US)_50
-      - 🇺🇸UnitedStates(US)_51
-      - 🇺🇸UnitedStates(US)_52
-      - 🇺🇸UnitedStates(US)_53
-      - 🇦🇺Australia(AU)_54
-      - 🇺🇸UnitedStates(US)_55
-      - 🇺🇸UnitedStates(US)_56
-      - 🇺🇸UnitedStates(US)_57
-      - 🇦🇺Australia(AU)_58
-      - 🇦🇺Australia(AU)_59
-      - 🇺🇸_US_美国_60
-      - 🇦🇺Australia(AU)_61
-      - 🇦🇺Australia(AU)_62
-      - 🇸🇬【426节点池】SG_1702
-      - 🇸🇬【426节点池】SG_1715
-      - 🇦🇺Australia(AU)_65
-      - 🇸🇬【426节点池】SG_1690
-      - 🇦🇺Australia(AU)_67
-      - 🇦🇺Australia(AU)_68
-      - 🇸🇬【426节点池】SG_1709
-      - 🇰🇷SouthKorea(KR)_70
-      - 🇰🇷SouthKorea(KR)_71
-      - 🇰🇷SouthKorea(KR)_72
-      - 🇰🇷SouthKorea(KR)_73
-      - 🇰🇷SouthKorea(KR)_74
-      - 🇰🇷SouthKorea(KR)_75
-      - 🇰🇷SouthKorea(KR)_76
-      - 🇰🇷SouthKorea(KR)_77
-      - 🇰🇷SouthKorea(KR)_78
-      - 🇰🇷SouthKorea(KR)_79
-      - 🇰🇷SouthKorea(KR)_80
-      - 🇰🇷SouthKorea(KR)_81
-      - 🇰🇷SouthKorea(KR)_82
-      - 🇬🇧UnitedKingdom(GB)_83
-      - 🇬🇧UnitedKingdom(GB)_84
-      - 🇫🇷France(FR)_85
-      - 🇰🇷SouthKorea(KR)_86
-      - 🇰🇷SouthKorea(KR)_87
-      - 🇫🇷France(FR)_88
-      - 🇰🇷SouthKorea(KR)_89
-      - 🇰🇷SouthKorea(KR)_90
-      - 🇰🇷SouthKorea(KR)_91
-      - 🇺🇸【426节点池】US_3128
-      - 🇰🇷SouthKorea(KR)_93
-      - 🇰🇷SouthKorea(KR)_94
-      - 🇺🇸【426节点池】US_2423
-      - 🇺🇸UnitedStates(US)_96
-      - 🇺🇸【426节点池】US_2675
-      - 🇰🇷SouthKorea(KR)_98
-      - 🇵🇱Poland(PL)_99
-      - 🇺🇸【426节点池】US_2868
-      - 🇺🇸UnitedStates(US)_101
-      - 🇺🇸UnitedStates(US)_102
-      - 🇺🇸UnitedStates(US)_103
-      - 🇩🇪Germany(DE)_104
-      - 🇨🇦Canada(CA)_105
-      - 🇭🇧426未名站_950
-      - 🇺🇸UnitedStates(US)_107
-      - 🇺🇸UnitedStates(US)_108
-      - 🇺🇸UnitedStates(US)_109
-      - 🇺🇸UnitedStates(US)_110
+      - 🇰🇷Korea,Republicof48_1
+      - 🇰🇷Korea,Republicof51_2
+      - 🇺🇸UFOSeattle_3
+      - 🇯🇵UFOTokyo4_4
+      - 🇯🇵UFOTokyo5_5
+      - 🇮🇳India_6
+      - 🇰🇷Korea,Republicof45_7
+      - 🇦🇺Australia7_8
+      - 🇰🇷Korea,Republicof28_9
+      - 🇰🇷Korea,Republicof19_10
+      - 🇰🇷Korea,Republicof38_11
+      - 🇰🇷Korea,Republicof9_12
+      - 🇰🇷Korea,Republicof47_13
+      - 🇰🇷Korea,Republicof16_14
+      - 🇰🇷Korea,Republicof15_15
+      - 🇰🇷Korea,Republicof20_16
+      - 🇰🇷Korea,Republicof60_17
+      - 🇰🇷Korea,Republicof41_18
+      - 🇰🇷Korea,Republicof18_19
+      - 🇰🇷Korea,Republicof17_20
+      - 🇰🇷Korea,Republicof31_21
+      - 🇰🇷Korea,Republicof43_22
+      - 🇰🇷Korea,Republicof63_23
+      - 🇰🇷Korea,Republicof33_24
+      - 🇰🇷Korea,Republicof29_25
+      - 🇰🇷Korea,Republicof30_26
+      - 🇰🇷Korea,Republicof32_27
+      - 🇰🇷Korea,Republicof66_28
+      - 🇰🇷Korea,Republicof36_29
+      - 🇰🇷Korea,Republicof56_30
+      - 🇰🇷Korea,Republicof67_31
+      - 🇰🇷Korea,Republicof64_32
+      - 🇰🇷Korea,Republicof10_33
+      - 🇰🇷Korea,Republicof70_34
+      - 🇰🇷Korea,Republicof8_35
+      - 🇨🇦Canada16_36
+      - 🇰🇷Korea,Republicof65_37
+      - 🇰🇷Korea,Republicof34_38
+      - 🇰🇷Korea,Republicof57_39
+      - 🇬🇧UnitedKingdom17_40
+      - 🇰🇷Korea,Republicof69_41
+      - 🇬🇧UnitedKingdom19_42
+      - 🇰🇷Korea,Republicof39_43
+      - XYVPNUK🇬🇧London_44
+      - 🇺🇸UnitedStates61_45
+      - 🇬🇧UnitedKingdom18_46
+      - 🇰🇷Korea,Republicof49_47
+      - 🇰🇷Korea,Republicof50_48
+      - 🇰🇷Korea,Republicof68_49
+      - 🇺🇸UnitedStates18_50
+      - 🇺🇸UnitedStates23_51
+      - 🇺🇸UnitedStates29_52
+      - 🇺🇸UnitedStates21_53
+      - 🇺🇸UnitedStates22_54
+      - 🇺🇸UnitedStates19_55
+      - 🇺🇸UnitedStates24_56
+      - 🇺🇸UnitedStates9_57
+      - 🇺🇸UnitedStates17_58
+      - 🇺🇸UnitedStates15_59
+      - XYVPNUSA🇺🇸NewYork_60
+      - 🇺🇸UnitedStates10_61
+      - 🇺🇸UnitedStates8_62
+      - 🇺🇸UnitedStates28_63
+      - 🇺🇸UnitedStates27_64
+      - 🇺🇸UnitedStates26_65
+      - 🇨🇦Canada19_66
+      - 🇺🇸UnitedStates33_67
+      - 🇨🇦Canada26_68
+      - 🇨🇦Canada4_69
+      - 🇨🇦Canada35_70
+      - 🇨🇦Canada23_71
+      - 🇨🇦Canada2_72
+      - 🇺🇸UnitedStates65_73
+      - 🇨🇦Canada69_74
+      - 🇨🇦Canada_75
+      - 🇨🇦Canada46_76
+      - 🇨🇦Canada71_77
+      - 🇨🇦Canada6_78
+      - 🇺🇸UnitedStates43_79
+      - 🇺🇸UnitedStates44_80
+      - 🇨🇦Canada22_81
+      - 🇨🇦Canada43_82
+      - 🇨🇦Canada40_83
+      - 🇨🇦Canada8_84
+      - 🇨🇦Canada15_85
+      - 🇺🇸UnitedStates34_86
+      - 🇨🇦Canada42_87
+      - 🇨🇦Canada25_88
+      - 🇨🇦Canada30_89
+      - 🇨🇦Canada68_90
+      - 🇨🇦Canada10_91
+      - 🇨🇦Canada44_92
+      - 🇨🇦Canada28_93
+      - 🇨🇦Canada34_94
+      - 🇨🇦Canada52_95
+      - 🇨🇦Canada33_96
+      - 🇺🇸UnitedStates66_97
+      - 🇨🇦Canada45_98
+      - 🇨🇦Canada17_99
+      - 🇺🇸UnitedStates40_100
+      - 🇨🇦Canada37_101
+      - 🇨🇦Canada7_102
+      - 🇨🇦Canada20_103
+      - 🇨🇦Canada38_104
+      - 🇨🇦Canada11_105
+      - 🇨🇦Canada14_106
+      - 🇨🇦Canada18_107
+      - 🇺🇸UnitedStates41_108
+      - 🇨🇦Canada13_109
+      - 🇨🇦Canada29_110
+      - 🇨🇦Canada48_111
+      - 🇨🇦Canada5_112
+      - 🇺🇸UnitedStates42_113
+      - 🇨🇦Canada49_114
+      - XYVPNUSA🇺🇸Dalas_115
+      - 🇨🇦Canada47_116
+      - 🇺🇸UnitedStates38_117
+      - 🇰🇷Korea,Republicof27_118
+      - PrivateVPNUSA🇺🇸California_119
+      - 🇺🇸UnitedStates16_120
+      - 🇰🇷Korea,Republicof37_121
+      - PrivateVPNUSA🇺🇸NewJersey_122
+      - 🇨🇦Canada70_123
+      - 🇺🇸UnitedStates35_124
+      - 🇨🇦Canada39_125
+      - 🇨🇦Canada24_126
+      - 🇺🇸UnitedStates31_127
+      - 🇺🇸UnitedStates69_128
+      - 🇨🇦Canada41_129
+      - 🇨🇦Canada31_130
+      - 🇺🇸UnitedStates37_131
+      - 🇨🇦Canada32_132
+      - 🇨🇦Canada12_133
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -830,116 +991,139 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇺🇸【426节点池】US_3114
-      - 🇺🇸【426节点池】US_3106
-      - 🇮🇳【426节点池】IN_1378
-      - 🇮🇳_IN_印度_4
-      - 🇮🇳_IN_印度_5
-      - 🇮🇳India(IN)_6
-      - 🇮🇳India(IN)_7
-      - 🇺🇸【426节点池】US_2770
-      - 🇸🇬Singapore(SG)_9
-      - 🇺🇸【426节点池】US_2547
-      - 🇨🇦Canada(CA)_11
-      - 🇭🇧426未名站_841
-      - 🇺🇸UnitedStates(US)_13
-      - 🇺🇸【426节点池】US_2942
-      - 🇺🇸UnitedStates(US)_15
-      - 🇺🇸【426节点池】US_2323
-      - 🇺🇸【426节点池】US_2435
-      - 🇭🇧426未名站_1246
-      - 🇺🇸UnitedStates(US)_19
-      - 🇸🇬【426节点池】SG_1728
-      - 🇺🇸【426节点池】US_2904
-      - 🇸🇬【426节点池】SG_1748
-      - 🇺🇸UnitedStates(US)_23
-      - 🇸🇬【426节点池】SG_1773
-      - 🇸🇬【426节点池】SG_1720
-      - 🇺🇸【426节点池】US_2188
-      - 🇺🇸UnitedStates(US)_27
-      - 🇸🇬【426节点池】SG_1777
-      - 🇸🇬【426节点池】SG_1682
-      - 🇸🇬【426节点池】SG_1768
-      - 🇸🇬【426节点池】SG_1770
-      - 🇸🇬【426节点池】SG_1654
-      - 🇸🇬【426节点池】SG_1717
-      - 🇸🇬【426节点池】SG_1692
-      - 🇸🇬【426节点池】SG_1774
-      - 🇸🇬【426节点池】SG_1701
-      - 🇸🇬【426节点池】SG_1718
-      - 🇯🇵Japan(JP)_38
-      - 🇯🇵Japan(JP)_39
-      - CYL-科技（2022_01_09）_40
-      - 🇺🇸UnitedStates(US)_41
-      - 🇺🇸UnitedStates(US)_42
-      - 🇸🇬【426节点池】SG_1700
-      - 🇺🇸UnitedStates(US)_44
-      - 🇺🇸UnitedStates(US)_45
-      - 🇺🇸UnitedStates(US)_46
-      - 🇦🇺Australia(AU)_47
-      - 🇭🇧426未名站_943
-      - 🇺🇸UnitedStates(US)_49
-      - 🇺🇸UnitedStates(US)_50
-      - 🇺🇸UnitedStates(US)_51
-      - 🇺🇸UnitedStates(US)_52
-      - 🇺🇸UnitedStates(US)_53
-      - 🇦🇺Australia(AU)_54
-      - 🇺🇸UnitedStates(US)_55
-      - 🇺🇸UnitedStates(US)_56
-      - 🇺🇸UnitedStates(US)_57
-      - 🇦🇺Australia(AU)_58
-      - 🇦🇺Australia(AU)_59
-      - 🇺🇸_US_美国_60
-      - 🇦🇺Australia(AU)_61
-      - 🇦🇺Australia(AU)_62
-      - 🇸🇬【426节点池】SG_1702
-      - 🇸🇬【426节点池】SG_1715
-      - 🇦🇺Australia(AU)_65
-      - 🇸🇬【426节点池】SG_1690
-      - 🇦🇺Australia(AU)_67
-      - 🇦🇺Australia(AU)_68
-      - 🇸🇬【426节点池】SG_1709
-      - 🇰🇷SouthKorea(KR)_70
-      - 🇰🇷SouthKorea(KR)_71
-      - 🇰🇷SouthKorea(KR)_72
-      - 🇰🇷SouthKorea(KR)_73
-      - 🇰🇷SouthKorea(KR)_74
-      - 🇰🇷SouthKorea(KR)_75
-      - 🇰🇷SouthKorea(KR)_76
-      - 🇰🇷SouthKorea(KR)_77
-      - 🇰🇷SouthKorea(KR)_78
-      - 🇰🇷SouthKorea(KR)_79
-      - 🇰🇷SouthKorea(KR)_80
-      - 🇰🇷SouthKorea(KR)_81
-      - 🇰🇷SouthKorea(KR)_82
-      - 🇬🇧UnitedKingdom(GB)_83
-      - 🇬🇧UnitedKingdom(GB)_84
-      - 🇫🇷France(FR)_85
-      - 🇰🇷SouthKorea(KR)_86
-      - 🇰🇷SouthKorea(KR)_87
-      - 🇫🇷France(FR)_88
-      - 🇰🇷SouthKorea(KR)_89
-      - 🇰🇷SouthKorea(KR)_90
-      - 🇰🇷SouthKorea(KR)_91
-      - 🇺🇸【426节点池】US_3128
-      - 🇰🇷SouthKorea(KR)_93
-      - 🇰🇷SouthKorea(KR)_94
-      - 🇺🇸【426节点池】US_2423
-      - 🇺🇸UnitedStates(US)_96
-      - 🇺🇸【426节点池】US_2675
-      - 🇰🇷SouthKorea(KR)_98
-      - 🇵🇱Poland(PL)_99
-      - 🇺🇸【426节点池】US_2868
-      - 🇺🇸UnitedStates(US)_101
-      - 🇺🇸UnitedStates(US)_102
-      - 🇺🇸UnitedStates(US)_103
-      - 🇩🇪Germany(DE)_104
-      - 🇨🇦Canada(CA)_105
-      - 🇭🇧426未名站_950
-      - 🇺🇸UnitedStates(US)_107
-      - 🇺🇸UnitedStates(US)_108
-      - 🇺🇸UnitedStates(US)_109
-      - 🇺🇸UnitedStates(US)_110
+      - 🇰🇷Korea,Republicof48_1
+      - 🇰🇷Korea,Republicof51_2
+      - 🇺🇸UFOSeattle_3
+      - 🇯🇵UFOTokyo4_4
+      - 🇯🇵UFOTokyo5_5
+      - 🇮🇳India_6
+      - 🇰🇷Korea,Republicof45_7
+      - 🇦🇺Australia7_8
+      - 🇰🇷Korea,Republicof28_9
+      - 🇰🇷Korea,Republicof19_10
+      - 🇰🇷Korea,Republicof38_11
+      - 🇰🇷Korea,Republicof9_12
+      - 🇰🇷Korea,Republicof47_13
+      - 🇰🇷Korea,Republicof16_14
+      - 🇰🇷Korea,Republicof15_15
+      - 🇰🇷Korea,Republicof20_16
+      - 🇰🇷Korea,Republicof60_17
+      - 🇰🇷Korea,Republicof41_18
+      - 🇰🇷Korea,Republicof18_19
+      - 🇰🇷Korea,Republicof17_20
+      - 🇰🇷Korea,Republicof31_21
+      - 🇰🇷Korea,Republicof43_22
+      - 🇰🇷Korea,Republicof63_23
+      - 🇰🇷Korea,Republicof33_24
+      - 🇰🇷Korea,Republicof29_25
+      - 🇰🇷Korea,Republicof30_26
+      - 🇰🇷Korea,Republicof32_27
+      - 🇰🇷Korea,Republicof66_28
+      - 🇰🇷Korea,Republicof36_29
+      - 🇰🇷Korea,Republicof56_30
+      - 🇰🇷Korea,Republicof67_31
+      - 🇰🇷Korea,Republicof64_32
+      - 🇰🇷Korea,Republicof10_33
+      - 🇰🇷Korea,Republicof70_34
+      - 🇰🇷Korea,Republicof8_35
+      - 🇨🇦Canada16_36
+      - 🇰🇷Korea,Republicof65_37
+      - 🇰🇷Korea,Republicof34_38
+      - 🇰🇷Korea,Republicof57_39
+      - 🇬🇧UnitedKingdom17_40
+      - 🇰🇷Korea,Republicof69_41
+      - 🇬🇧UnitedKingdom19_42
+      - 🇰🇷Korea,Republicof39_43
+      - XYVPNUK🇬🇧London_44
+      - 🇺🇸UnitedStates61_45
+      - 🇬🇧UnitedKingdom18_46
+      - 🇰🇷Korea,Republicof49_47
+      - 🇰🇷Korea,Republicof50_48
+      - 🇰🇷Korea,Republicof68_49
+      - 🇺🇸UnitedStates18_50
+      - 🇺🇸UnitedStates23_51
+      - 🇺🇸UnitedStates29_52
+      - 🇺🇸UnitedStates21_53
+      - 🇺🇸UnitedStates22_54
+      - 🇺🇸UnitedStates19_55
+      - 🇺🇸UnitedStates24_56
+      - 🇺🇸UnitedStates9_57
+      - 🇺🇸UnitedStates17_58
+      - 🇺🇸UnitedStates15_59
+      - XYVPNUSA🇺🇸NewYork_60
+      - 🇺🇸UnitedStates10_61
+      - 🇺🇸UnitedStates8_62
+      - 🇺🇸UnitedStates28_63
+      - 🇺🇸UnitedStates27_64
+      - 🇺🇸UnitedStates26_65
+      - 🇨🇦Canada19_66
+      - 🇺🇸UnitedStates33_67
+      - 🇨🇦Canada26_68
+      - 🇨🇦Canada4_69
+      - 🇨🇦Canada35_70
+      - 🇨🇦Canada23_71
+      - 🇨🇦Canada2_72
+      - 🇺🇸UnitedStates65_73
+      - 🇨🇦Canada69_74
+      - 🇨🇦Canada_75
+      - 🇨🇦Canada46_76
+      - 🇨🇦Canada71_77
+      - 🇨🇦Canada6_78
+      - 🇺🇸UnitedStates43_79
+      - 🇺🇸UnitedStates44_80
+      - 🇨🇦Canada22_81
+      - 🇨🇦Canada43_82
+      - 🇨🇦Canada40_83
+      - 🇨🇦Canada8_84
+      - 🇨🇦Canada15_85
+      - 🇺🇸UnitedStates34_86
+      - 🇨🇦Canada42_87
+      - 🇨🇦Canada25_88
+      - 🇨🇦Canada30_89
+      - 🇨🇦Canada68_90
+      - 🇨🇦Canada10_91
+      - 🇨🇦Canada44_92
+      - 🇨🇦Canada28_93
+      - 🇨🇦Canada34_94
+      - 🇨🇦Canada52_95
+      - 🇨🇦Canada33_96
+      - 🇺🇸UnitedStates66_97
+      - 🇨🇦Canada45_98
+      - 🇨🇦Canada17_99
+      - 🇺🇸UnitedStates40_100
+      - 🇨🇦Canada37_101
+      - 🇨🇦Canada7_102
+      - 🇨🇦Canada20_103
+      - 🇨🇦Canada38_104
+      - 🇨🇦Canada11_105
+      - 🇨🇦Canada14_106
+      - 🇨🇦Canada18_107
+      - 🇺🇸UnitedStates41_108
+      - 🇨🇦Canada13_109
+      - 🇨🇦Canada29_110
+      - 🇨🇦Canada48_111
+      - 🇨🇦Canada5_112
+      - 🇺🇸UnitedStates42_113
+      - 🇨🇦Canada49_114
+      - XYVPNUSA🇺🇸Dalas_115
+      - 🇨🇦Canada47_116
+      - 🇺🇸UnitedStates38_117
+      - 🇰🇷Korea,Republicof27_118
+      - PrivateVPNUSA🇺🇸California_119
+      - 🇺🇸UnitedStates16_120
+      - 🇰🇷Korea,Republicof37_121
+      - PrivateVPNUSA🇺🇸NewJersey_122
+      - 🇨🇦Canada70_123
+      - 🇺🇸UnitedStates35_124
+      - 🇨🇦Canada39_125
+      - 🇨🇦Canada24_126
+      - 🇺🇸UnitedStates31_127
+      - 🇺🇸UnitedStates69_128
+      - 🇨🇦Canada41_129
+      - 🇨🇦Canada31_130
+      - 🇺🇸UnitedStates37_131
+      - 🇨🇦Canada32_132
+      - 🇨🇦Canada12_133
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
