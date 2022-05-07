@@ -12,7 +12,7 @@ proxies:
   - {"name":"🇰🇷SouthKorea(KR)_5","server":"158.247.206.19","port":3306,"type":"ss","country":"🇰🇷SouthKorea(KR)_5","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
   - {"name":"🇰🇷SouthKorea(KR)_6","server":"158.247.206.19","port":6697,"type":"ss","country":"🇰🇷SouthKorea(KR)_6","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
   - {"name":"🇰🇷SouthKorea(KR)_7","server":"158.247.206.19","port":8000,"type":"ss","country":"🇰🇷SouthKorea(KR)_7","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"name":"Relay_","server":"89.31.126.150","port":812,"type":"ss","country":"Relay_","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"Relay_1","server":"89.31.126.150","port":812,"type":"ss","country":"Relay_1","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"name":"Pool_13","server":"217.197.161.136","port":801,"type":"ss","country":"Pool_13","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"name":"Pool_4","server":"62.216.92.167","port":800,"type":"ss","country":"Pool_4","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"name":"🇺🇸US_535","server":"ahdaeph8.com","port":443,"type":"vmess","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":4,"cipher":"auto","country":"🇺🇸US_535","skip-cert-verify":true,"tls":true,"network":"ws","ws-opts":{"path":"/ws","headers":{"host":"ahdaeph8.com"}}}
@@ -34,7 +34,7 @@ proxies:
   - {"name":"Pool_8","server":"217.197.161.136","port":810,"type":"ss","country":"Pool_8","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"name":"Pool_9","server":"217.197.161.136","port":803,"type":"ss","country":"Pool_9","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"name":"🇨🇳_29","server":"118.193.179.2","port":36923,"type":"ss","country":"🇨🇳_29","cipher":"chacha20-ietf-poly1305","password":"koko666"}
-  - {"name":"Relay_","server":"89.31.126.150","port":802,"type":"ss","country":"Relay_","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"name":"Relay_2","server":"89.31.126.150","port":802,"type":"ss","country":"Relay_2","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"name":"Pool_10","server":"62.216.92.167","port":803,"type":"ss","country":"Pool_10","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"name":"Pool_12","server":"217.197.161.138","port":810,"type":"ss","country":"Pool_12","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"name":"Pool_11","server":"217.197.161.138","port":812,"type":"ss","country":"Pool_11","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
@@ -122,7 +122,7 @@ proxy-groups:
       - 🇰🇷SouthKorea(KR)_5
       - 🇰🇷SouthKorea(KR)_6
       - 🇰🇷SouthKorea(KR)_7
-      - Relay_
+      - Relay_1
       - Pool_13
       - Pool_4
       - 🇺🇸US_535
@@ -144,7 +144,7 @@ proxy-groups:
       - Pool_8
       - Pool_9
       - 🇨🇳_29
-      - Relay_
+      - Relay_2
       - Pool_10
       - Pool_12
       - Pool_11
@@ -232,7 +232,7 @@ proxy-groups:
       - 🇰🇷SouthKorea(KR)_5
       - 🇰🇷SouthKorea(KR)_6
       - 🇰🇷SouthKorea(KR)_7
-      - Relay_
+      - Relay_1
       - Pool_13
       - Pool_4
       - 🇺🇸US_535
@@ -254,7 +254,7 @@ proxy-groups:
       - Pool_8
       - Pool_9
       - 🇨🇳_29
-      - Relay_
+      - Relay_2
       - Pool_10
       - Pool_12
       - Pool_11
@@ -342,7 +342,7 @@ proxy-groups:
       - 🇰🇷SouthKorea(KR)_5
       - 🇰🇷SouthKorea(KR)_6
       - 🇰🇷SouthKorea(KR)_7
-      - Relay_
+      - Relay_1
       - Pool_13
       - Pool_4
       - 🇺🇸US_535
@@ -364,7 +364,7 @@ proxy-groups:
       - Pool_8
       - Pool_9
       - 🇨🇳_29
-      - Relay_
+      - Relay_2
       - Pool_10
       - Pool_12
       - Pool_11
@@ -451,7 +451,7 @@ proxy-groups:
       - 🇰🇷SouthKorea(KR)_5
       - 🇰🇷SouthKorea(KR)_6
       - 🇰🇷SouthKorea(KR)_7
-      - Relay_
+      - Relay_1
       - Pool_13
       - Pool_4
       - 🇺🇸US_535
@@ -473,7 +473,7 @@ proxy-groups:
       - Pool_8
       - Pool_9
       - 🇨🇳_29
-      - Relay_
+      - Relay_2
       - Pool_10
       - Pool_12
       - Pool_11
@@ -560,7 +560,7 @@ proxy-groups:
       - 🇰🇷SouthKorea(KR)_5
       - 🇰🇷SouthKorea(KR)_6
       - 🇰🇷SouthKorea(KR)_7
-      - Relay_
+      - Relay_1
       - Pool_13
       - Pool_4
       - 🇺🇸US_535
@@ -582,7 +582,7 @@ proxy-groups:
       - Pool_8
       - Pool_9
       - 🇨🇳_29
-      - Relay_
+      - Relay_2
       - Pool_10
       - Pool_12
       - Pool_11
@@ -669,7 +669,7 @@ proxy-groups:
       - 🇰🇷SouthKorea(KR)_5
       - 🇰🇷SouthKorea(KR)_6
       - 🇰🇷SouthKorea(KR)_7
-      - Relay_
+      - Relay_1
       - Pool_13
       - Pool_4
       - 🇺🇸US_535
@@ -691,7 +691,7 @@ proxy-groups:
       - Pool_8
       - Pool_9
       - 🇨🇳_29
-      - Relay_
+      - Relay_2
       - Pool_10
       - Pool_12
       - Pool_11
@@ -795,7 +795,7 @@ proxy-groups:
       - 🇰🇷SouthKorea(KR)_5
       - 🇰🇷SouthKorea(KR)_6
       - 🇰🇷SouthKorea(KR)_7
-      - Relay_
+      - Relay_1
       - Pool_13
       - Pool_4
       - 🇺🇸US_535
@@ -817,7 +817,7 @@ proxy-groups:
       - Pool_8
       - Pool_9
       - 🇨🇳_29
-      - Relay_
+      - Relay_2
       - Pool_10
       - Pool_12
       - Pool_11
