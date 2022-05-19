@@ -5,792 +5,739 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563","server":"5.188.111.182","port":826,"name":"Private
-    VPN USA 🇺🇸 California"}
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563","server":"92.38.169.196","port":826,"name":"Private
-    VPN USA 🇺🇸 New Jersey"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"167.88.62.104","port":2376,"name":"XY
-    VPN USA 🇺🇸 Dalas"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"142.202.48.58","port":2376,"name":"XY
-    VPN USA 🇺🇸 New York"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"134.195.196.230","port":5500,"name":"🇨🇦
-    Canada 10"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"134.195.196.149","port":8881,"name":"🇨🇦
-    Canada 11"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"134.195.196.149","port":5003,"name":"🇨🇦
-    Canada 12"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.149","port":6679,"name":"🇨🇦
-    Canada 13"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"134.195.196.149","port":7307,"name":"🇨🇦
-    Canada 14"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"134.195.196.56","port":5500,"name":"🇨🇦
-    Canada 15"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"134.195.196.56","port":445,"name":"🇨🇦
-    Canada 16"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.56","port":9102,"name":"🇨🇦
-    Canada 17"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"134.195.196.36","port":7002,"name":"🇨🇦
-    Canada 18"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.36","port":5001,"name":"🇨🇦
-    Canada 20"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.64","port":8118,"name":"🇨🇦
-    Canada 29"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"134.195.196.107","port":8882,"name":"🇨🇦
-    Canada 31"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.107","port":8118,"name":"🇨🇦
-    Canada 32"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"134.195.196.107","port":7306,"name":"🇨🇦
-    Canada 33"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.230","port":6679,"name":"🇨🇦
-    Canada 4"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.44","port":6679,"name":"🇨🇦
-    Canada 41"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.44","port":5600,"name":"🇨🇦
-    Canada 42"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.147","port":3306,"name":"🇨🇦
-    Canada 48"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"134.195.196.147","port":8881,"name":"🇨🇦
-    Canada 49"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.230","port":9102,"name":"🇨🇦
-    Canada 5"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.196.230","port":4444,"name":"🇨🇦
-    Canada 6"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.110","port":9101,"name":"🇨🇦
-    Canada 68"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"134.195.196.110","port":8009,"name":"🇨🇦
-    Canada 69"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"134.195.196.230","port":445,"name":"🇨🇦
-    Canada 7"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.196.231","port":4444,"name":"🇨🇦
-    Canada 70"}
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"185.160.24.217","port":812,"name":"🇯🇵
-    UFO Tokyo 5"}
-  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"169.197.143.15","port":812,"name":"🇺🇸
-    UFO Seattle"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"142.202.48.114","port":6379,"name":"🇺🇸
-    United States 10"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"142.202.48.34","port":445,"name":"🇺🇸
-    United States 15"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"142.202.48.34","port":6379,"name":"🇺🇸
-    United States 16"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"142.202.48.34","port":4444,"name":"🇺🇸
-    United States 17"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"142.202.48.45","port":6697,"name":"🇺🇸
-    United States 18"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"142.202.48.45","port":5000,"name":"🇺🇸
-    United States 19"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"142.202.48.45","port":5001,"name":"🇺🇸
-    United States 21"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"142.202.48.45","port":8009,"name":"🇺🇸
-    United States 22"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"142.202.48.45","port":7307,"name":"🇺🇸
-    United States 23"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"142.202.48.45","port":5500,"name":"🇺🇸
-    United States 24"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"142.202.48.74","port":8118,"name":"🇺🇸
-    United States 26"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"142.202.48.74","port":445,"name":"🇺🇸
-    United States 28"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"167.88.63.93","port":5004,"name":"🇺🇸
-    United States 31"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"167.88.63.61","port":5004,"name":"🇺🇸
-    United States 34"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"167.88.61.213","port":8091,"name":"🇺🇸
-    United States 61"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"167.88.63.99","port":3389,"name":"🇺🇸
-    United States 65"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"167.88.63.99","port":4444,"name":"🇺🇸
-    United States 66"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"169.197.143.192","port":9101,"name":"🇺🇸
-    United States 69"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"142.202.48.114","port":7306,"name":"🇺🇸
-    United States 8"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.75.137.249","port":9102,"name":"🇺🇸US_9102+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.75.137.249","port":9101,"name":"🇺🇸US_9101+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"38.75.137.249","port":8882,"name":"🇺🇸US_8882+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"38.75.137.249","port":8090,"name":"🇺🇸US_8090+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"38.75.137.249","port":8080,"name":"🇺🇸US_8080+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.75.137.249","port":8009,"name":"🇺🇸US_8009+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.75.137.249","port":8008,"name":"🇺🇸US_8008+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"38.75.137.249","port":8000,"name":"🇺🇸US_8000+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"38.75.137.249","port":7307,"name":"🇺🇸US_7307+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"38.75.137.249","port":7001,"name":"🇺🇸US_7001+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"38.75.137.249","port":6697,"name":"🇺🇸US_6697+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"38.75.137.249","port":6679,"name":"🇺🇸US_6679+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"38.75.137.249","port":6379,"name":"🇺🇸US_6379+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.75.137.249","port":5600,"name":"🇺🇸US_5600+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"38.75.137.249","port":5004,"name":"🇺🇸US_5004+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.75.137.249","port":5001,"name":"🇺🇸US_5001+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"38.75.137.249","port":4444,"name":"🇺🇸US_4444+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.75.137.249","port":3389,"name":"🇺🇸US_3389+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.75.137.249","port":3306,"name":"🇺🇸US_3306+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"38.75.137.249","port":2375,"name":"🇺🇸US_2375+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"54.36.174.181","port":8882,"name":"🇵🇱PL_8882+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"54.36.174.181","port":8881,"name":"🇵🇱PL_8881+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"54.36.174.181","port":8119,"name":"🇵🇱PL_8119+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"54.36.174.181","port":8080,"name":"🇵🇱PL_8080+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"54.36.174.181","port":8008,"name":"🇵🇱PL_8008+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"54.36.174.181","port":7002,"name":"🇵🇱PL_7002+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"54.36.174.181","port":7001,"name":"🇵🇱PL_7001+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"54.36.174.181","port":6697,"name":"🇵🇱PL_6697+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"54.36.174.181","port":6679,"name":"🇵🇱PL_6679+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"54.36.174.181","port":6379,"name":"🇵🇱PL_6379+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"54.36.174.181","port":5500,"name":"🇵🇱PL_5500+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.19","port":9102,"name":"‌‌🇨🇦CA_9102+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.133","port":9101,"name":"‌‌🇨🇦CA_9101+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"134.195.196.165","port":8881,"name":"‌‌🇨🇦CA_8881+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.118","port":8119,"name":"‌‌🇨🇦CA_8119+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.91","port":8118,"name":"‌‌🇨🇦CA_8118+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"134.195.196.165","port":8091,"name":"‌‌🇨🇦CA_8091+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"134.195.196.110","port":8090,"name":"‌‌🇨🇦CA_8090+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"134.195.196.19","port":8080,"name":"‌‌🇨🇦CA_8080+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.170","port":6697,"name":"‌‌🇨🇦CA_6697+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.118","port":6679,"name":"‌‌🇨🇦CA_6679+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.230","port":5601,"name":"‌‌🇨🇦CA_5601+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.97","port":5600,"name":"‌‌🇨🇦CA_5600+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"134.195.196.97","port":5004,"name":"‌‌🇨🇦CA_5004+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"134.195.196.230","port":5003,"name":"‌‌🇨🇦CA_5003+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.91","port":5001,"name":"‌‌🇨🇦CA_5001+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.165","port":5000,"name":"‌‌🇨🇦CA_5000+@"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"167.88.63.89","port":8091,"name":"USA
-    🇺🇸 Georgia"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"167.88.63.89","port":7306,"name":"USA
-    🇺🇸 Georgia"}
-  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"167.88.63.60","port":7306,"name":"USA
-    🇺🇸 Atlanta"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563","server":"5.188.111.182","port":826,"name":"PrivateVPNUSA🇺🇸California\r"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"sF43Xt2gONqcgFX563","server":"92.38.169.196","port":826,"name":"PrivateVPNUSA🇺🇸NewJersey\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"167.88.62.104","port":2376,"name":"XYVPNUSA🇺🇸Dalas\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"142.202.48.58","port":2376,"name":"XYVPNUSA🇺🇸NewYork\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"134.195.196.230","port":5500,"name":"🇨🇦Canada10\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"134.195.196.149","port":8881,"name":"🇨🇦Canada11\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"134.195.196.149","port":5003,"name":"🇨🇦Canada12\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.149","port":6679,"name":"🇨🇦Canada13\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"134.195.196.149","port":7307,"name":"🇨🇦Canada14\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"134.195.196.56","port":5500,"name":"🇨🇦Canada15\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"134.195.196.56","port":445,"name":"🇨🇦Canada16\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.56","port":9102,"name":"🇨🇦Canada17\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"134.195.196.36","port":7002,"name":"🇨🇦Canada18\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.36","port":5001,"name":"🇨🇦Canada20\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.64","port":8118,"name":"🇨🇦Canada29\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"134.195.196.107","port":8882,"name":"🇨🇦Canada31\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.107","port":8118,"name":"🇨🇦Canada32\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"134.195.196.107","port":7306,"name":"🇨🇦Canada33\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.230","port":6679,"name":"🇨🇦Canada4\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.44","port":6679,"name":"🇨🇦Canada41\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.44","port":5600,"name":"🇨🇦Canada42\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.147","port":3306,"name":"🇨🇦Canada48\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"134.195.196.147","port":8881,"name":"🇨🇦Canada49\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.230","port":9102,"name":"🇨🇦Canada5\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.196.230","port":4444,"name":"🇨🇦Canada6\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.110","port":9101,"name":"🇨🇦Canada68\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"134.195.196.110","port":8009,"name":"🇨🇦Canada69\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"134.195.196.230","port":445,"name":"🇨🇦Canada7\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"134.195.196.231","port":4444,"name":"🇨🇦Canada70\r"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"185.160.24.217","port":812,"name":"🇯🇵UFOTokyo5\r"}
+  - {"type":"ss","cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao","server":"169.197.143.15","port":812,"name":"🇺🇸UFOSeattle\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"142.202.48.114","port":6379,"name":"🇺🇸UnitedStates10\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"142.202.48.34","port":445,"name":"🇺🇸UnitedStates15\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"142.202.48.34","port":6379,"name":"🇺🇸UnitedStates16\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"142.202.48.34","port":4444,"name":"🇺🇸UnitedStates17\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"142.202.48.45","port":6697,"name":"🇺🇸UnitedStates18\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"142.202.48.45","port":5000,"name":"🇺🇸UnitedStates19\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"142.202.48.45","port":5001,"name":"🇺🇸UnitedStates21\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"142.202.48.45","port":8009,"name":"🇺🇸UnitedStates22\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"142.202.48.45","port":7307,"name":"🇺🇸UnitedStates23\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"142.202.48.45","port":5500,"name":"🇺🇸UnitedStates24\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"142.202.48.74","port":8118,"name":"🇺🇸UnitedStates26\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"142.202.48.74","port":445,"name":"🇺🇸UnitedStates28\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"167.88.63.93","port":5004,"name":"🇺🇸UnitedStates31\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"167.88.63.61","port":5004,"name":"🇺🇸UnitedStates34\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"167.88.61.213","port":8091,"name":"🇺🇸UnitedStates61\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"167.88.63.99","port":3389,"name":"🇺🇸UnitedStates65\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"167.88.63.99","port":4444,"name":"🇺🇸UnitedStates66\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"169.197.143.192","port":9101,"name":"🇺🇸UnitedStates69\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"142.202.48.114","port":7306,"name":"🇺🇸UnitedStates8\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.75.137.249","port":9102,"name":"🇺🇸US_9102+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"38.75.137.249","port":9101,"name":"🇺🇸US_9101+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"38.75.137.249","port":8882,"name":"🇺🇸US_8882+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"38.75.137.249","port":8090,"name":"🇺🇸US_8090+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"38.75.137.249","port":8080,"name":"🇺🇸US_8080+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.75.137.249","port":8009,"name":"🇺🇸US_8009+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"38.75.137.249","port":8008,"name":"🇺🇸US_8008+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"38.75.137.249","port":8000,"name":"🇺🇸US_8000+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"38.75.137.249","port":7307,"name":"🇺🇸US_7307+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"38.75.137.249","port":7001,"name":"🇺🇸US_7001+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"38.75.137.249","port":6697,"name":"🇺🇸US_6697+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"38.75.137.249","port":6679,"name":"🇺🇸US_6679+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"38.75.137.249","port":6379,"name":"🇺🇸US_6379+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.75.137.249","port":5600,"name":"🇺🇸US_5600+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"38.75.137.249","port":5004,"name":"🇺🇸US_5004+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.75.137.249","port":5001,"name":"🇺🇸US_5001+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM","server":"38.75.137.249","port":4444,"name":"🇺🇸US_4444+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.75.137.249","port":3389,"name":"🇺🇸US_3389+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"38.75.137.249","port":3306,"name":"🇺🇸US_3306+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"faBAoD54k87UJG7","server":"38.75.137.249","port":2375,"name":"🇺🇸US_2375+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"54.36.174.181","port":8882,"name":"🇵🇱PL_8882+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"54.36.174.181","port":8881,"name":"🇵🇱PL_8881+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"54.36.174.181","port":8119,"name":"🇵🇱PL_8119+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"54.36.174.181","port":8080,"name":"🇵🇱PL_8080+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"XKFKl2rULjIp74","server":"54.36.174.181","port":8008,"name":"🇵🇱PL_8008+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"54.36.174.181","port":7002,"name":"🇵🇱PL_7002+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG","server":"54.36.174.181","port":7001,"name":"🇵🇱PL_7001+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"54.36.174.181","port":6697,"name":"🇵🇱PL_6697+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"54.36.174.181","port":6679,"name":"🇵🇱PL_6679+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v","server":"54.36.174.181","port":6379,"name":"🇵🇱PL_6379+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"54.36.174.181","port":5500,"name":"🇵🇱PL_5500+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.19","port":9102,"name":"‌‌🇨🇦CA_9102+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY","server":"134.195.196.133","port":9101,"name":"‌‌🇨🇦CA_9101+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4","server":"134.195.196.165","port":8881,"name":"‌‌🇨🇦CA_8881+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.118","port":8119,"name":"‌‌🇨🇦CA_8119+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN","server":"134.195.196.91","port":8118,"name":"‌‌🇨🇦CA_8118+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"134.195.196.165","port":8091,"name":"‌‌🇨🇦CA_8091+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"134.195.196.110","port":8090,"name":"‌‌🇨🇦CA_8090+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"134.195.196.19","port":8080,"name":"‌‌🇨🇦CA_8080+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.170","port":6697,"name":"‌‌🇨🇦CA_6697+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS","server":"134.195.196.118","port":6679,"name":"‌‌🇨🇦CA_6679+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.230","port":5601,"name":"‌‌🇨🇦CA_5601+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.97","port":5600,"name":"‌‌🇨🇦CA_5600+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"134.195.196.97","port":5004,"name":"‌‌🇨🇦CA_5004+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId","server":"134.195.196.230","port":5003,"name":"‌‌🇨🇦CA_5003+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.91","port":5001,"name":"‌‌🇨🇦CA_5001+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC","server":"134.195.196.165","port":5000,"name":"‌‌🇨🇦CA_5000+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27","server":"167.88.63.89","port":8091,"name":"USA🇺🇸Georgia\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm","server":"38.143.66.20","port":5500,"name":"US+🇺🇸+Seattle+@\r"}
+  - {"type":"ss","cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP","server":"167.88.63.60","port":7306,"name":"USA🇺🇸Atlanta\r"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Private VPN USA 🇺🇸 California
-      - Private VPN USA 🇺🇸 New Jersey
-      - XY VPN USA 🇺🇸 Dalas
-      - XY VPN USA 🇺🇸 New York
-      - 🇨🇦 Canada 10
-      - 🇨🇦 Canada 11
-      - 🇨🇦 Canada 12
-      - 🇨🇦 Canada 13
-      - 🇨🇦 Canada 14
-      - 🇨🇦 Canada 15
-      - 🇨🇦 Canada 16
-      - 🇨🇦 Canada 17
-      - 🇨🇦 Canada 18
-      - 🇨🇦 Canada 20
-      - 🇨🇦 Canada 29
-      - 🇨🇦 Canada 31
-      - 🇨🇦 Canada 32
-      - 🇨🇦 Canada 33
-      - 🇨🇦 Canada 4
-      - 🇨🇦 Canada 41
-      - 🇨🇦 Canada 42
-      - 🇨🇦 Canada 48
-      - 🇨🇦 Canada 49
-      - 🇨🇦 Canada 5
-      - 🇨🇦 Canada 6
-      - 🇨🇦 Canada 68
-      - 🇨🇦 Canada 69
-      - 🇨🇦 Canada 7
-      - 🇨🇦 Canada 70
-      - 🇯🇵 UFO Tokyo 5
-      - 🇺🇸 UFO Seattle
-      - 🇺🇸 United States 10
-      - 🇺🇸 United States 15
-      - 🇺🇸 United States 16
-      - 🇺🇸 United States 17
-      - 🇺🇸 United States 18
-      - 🇺🇸 United States 19
-      - 🇺🇸 United States 21
-      - 🇺🇸 United States 22
-      - 🇺🇸 United States 23
-      - 🇺🇸 United States 24
-      - 🇺🇸 United States 26
-      - 🇺🇸 United States 28
-      - 🇺🇸 United States 31
-      - 🇺🇸 United States 34
-      - 🇺🇸 United States 61
-      - 🇺🇸 United States 65
-      - 🇺🇸 United States 66
-      - 🇺🇸 United States 69
-      - 🇺🇸 United States 8
-      - 🇺🇸US_9102+@
-      - 🇺🇸US_9101+@
-      - 🇺🇸US_8882+@
-      - 🇺🇸US_8090+@
-      - 🇺🇸US_8080+@
-      - 🇺🇸US_8009+@
-      - 🇺🇸US_8008+@
-      - 🇺🇸US_8000+@
-      - 🇺🇸US_7307+@
-      - 🇺🇸US_7001+@
-      - 🇺🇸US_6697+@
-      - 🇺🇸US_6679+@
-      - 🇺🇸US_6379+@
-      - 🇺🇸US_5600+@
-      - 🇺🇸US_5004+@
-      - 🇺🇸US_5001+@
-      - 🇺🇸US_4444+@
-      - 🇺🇸US_3389+@
-      - 🇺🇸US_3306+@
-      - 🇺🇸US_2375+@
-      - 🇵🇱PL_8882+@
-      - 🇵🇱PL_8881+@
-      - 🇵🇱PL_8119+@
-      - 🇵🇱PL_8080+@
-      - 🇵🇱PL_8008+@
-      - 🇵🇱PL_7002+@
-      - 🇵🇱PL_7001+@
-      - 🇵🇱PL_6697+@
-      - 🇵🇱PL_6679+@
-      - 🇵🇱PL_6379+@
-      - 🇵🇱PL_5500+@
-      - ‌‌🇨🇦CA_9102+@
-      - ‌‌🇨🇦CA_9101+@
-      - ‌‌🇨🇦CA_8881+@
-      - ‌‌🇨🇦CA_8119+@
-      - ‌‌🇨🇦CA_8118+@
-      - ‌‌🇨🇦CA_8091+@
-      - ‌‌🇨🇦CA_8090+@
-      - ‌‌🇨🇦CA_8080+@
-      - ‌‌🇨🇦CA_6697+@
-      - ‌‌🇨🇦CA_6679+@
-      - ‌‌🇨🇦CA_5601+@
-      - ‌‌🇨🇦CA_5600+@
-      - ‌‌🇨🇦CA_5004+@
-      - ‌‌🇨🇦CA_5003+@
-      - ‌‌🇨🇦CA_5001+@
-      - ‌‌🇨🇦CA_5000+@
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Atlanta
+      - "PrivateVPNUSA🇺🇸California\r"
+      - "PrivateVPNUSA🇺🇸NewJersey\r"
+      - "XYVPNUSA🇺🇸Dalas\r"
+      - "XYVPNUSA🇺🇸NewYork\r"
+      - "🇨🇦Canada10\r"
+      - "🇨🇦Canada11\r"
+      - "🇨🇦Canada12\r"
+      - "🇨🇦Canada13\r"
+      - "🇨🇦Canada14\r"
+      - "🇨🇦Canada15\r"
+      - "🇨🇦Canada16\r"
+      - "🇨🇦Canada17\r"
+      - "🇨🇦Canada18\r"
+      - "🇨🇦Canada20\r"
+      - "🇨🇦Canada29\r"
+      - "🇨🇦Canada31\r"
+      - "🇨🇦Canada32\r"
+      - "🇨🇦Canada33\r"
+      - "🇨🇦Canada4\r"
+      - "🇨🇦Canada41\r"
+      - "🇨🇦Canada42\r"
+      - "🇨🇦Canada48\r"
+      - "🇨🇦Canada49\r"
+      - "🇨🇦Canada5\r"
+      - "🇨🇦Canada6\r"
+      - "🇨🇦Canada68\r"
+      - "🇨🇦Canada69\r"
+      - "🇨🇦Canada7\r"
+      - "🇨🇦Canada70\r"
+      - "🇯🇵UFOTokyo5\r"
+      - "🇺🇸UFOSeattle\r"
+      - "🇺🇸UnitedStates10\r"
+      - "🇺🇸UnitedStates15\r"
+      - "🇺🇸UnitedStates16\r"
+      - "🇺🇸UnitedStates17\r"
+      - "🇺🇸UnitedStates18\r"
+      - "🇺🇸UnitedStates19\r"
+      - "🇺🇸UnitedStates21\r"
+      - "🇺🇸UnitedStates22\r"
+      - "🇺🇸UnitedStates23\r"
+      - "🇺🇸UnitedStates24\r"
+      - "🇺🇸UnitedStates26\r"
+      - "🇺🇸UnitedStates28\r"
+      - "🇺🇸UnitedStates31\r"
+      - "🇺🇸UnitedStates34\r"
+      - "🇺🇸UnitedStates61\r"
+      - "🇺🇸UnitedStates65\r"
+      - "🇺🇸UnitedStates66\r"
+      - "🇺🇸UnitedStates69\r"
+      - "🇺🇸UnitedStates8\r"
+      - "🇺🇸US_9102+@\r"
+      - "🇺🇸US_9101+@\r"
+      - "🇺🇸US_8882+@\r"
+      - "🇺🇸US_8090+@\r"
+      - "🇺🇸US_8080+@\r"
+      - "🇺🇸US_8009+@\r"
+      - "🇺🇸US_8008+@\r"
+      - "🇺🇸US_8000+@\r"
+      - "🇺🇸US_7307+@\r"
+      - "🇺🇸US_7001+@\r"
+      - "🇺🇸US_6697+@\r"
+      - "🇺🇸US_6679+@\r"
+      - "🇺🇸US_6379+@\r"
+      - "🇺🇸US_5600+@\r"
+      - "🇺🇸US_5004+@\r"
+      - "🇺🇸US_5001+@\r"
+      - "🇺🇸US_4444+@\r"
+      - "🇺🇸US_3389+@\r"
+      - "🇺🇸US_3306+@\r"
+      - "🇺🇸US_2375+@\r"
+      - "🇵🇱PL_8882+@\r"
+      - "🇵🇱PL_8881+@\r"
+      - "🇵🇱PL_8119+@\r"
+      - "🇵🇱PL_8080+@\r"
+      - "🇵🇱PL_8008+@\r"
+      - "🇵🇱PL_7002+@\r"
+      - "🇵🇱PL_7001+@\r"
+      - "🇵🇱PL_6697+@\r"
+      - "🇵🇱PL_6679+@\r"
+      - "🇵🇱PL_6379+@\r"
+      - "🇵🇱PL_5500+@\r"
+      - "‌‌🇨🇦CA_9102+@\r"
+      - "‌‌🇨🇦CA_9101+@\r"
+      - "‌‌🇨🇦CA_8881+@\r"
+      - "‌‌🇨🇦CA_8119+@\r"
+      - "‌‌🇨🇦CA_8118+@\r"
+      - "‌‌🇨🇦CA_8091+@\r"
+      - "‌‌🇨🇦CA_8090+@\r"
+      - "‌‌🇨🇦CA_8080+@\r"
+      - "‌‌🇨🇦CA_6697+@\r"
+      - "‌‌🇨🇦CA_6679+@\r"
+      - "‌‌🇨🇦CA_5601+@\r"
+      - "‌‌🇨🇦CA_5600+@\r"
+      - "‌‌🇨🇦CA_5004+@\r"
+      - "‌‌🇨🇦CA_5003+@\r"
+      - "‌‌🇨🇦CA_5001+@\r"
+      - "‌‌🇨🇦CA_5000+@\r"
+      - "USA🇺🇸Georgia\r"
+      - "US+🇺🇸+Seattle+@\r"
+      - "USA🇺🇸Atlanta\r"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Private VPN USA 🇺🇸 California
-      - Private VPN USA 🇺🇸 New Jersey
-      - XY VPN USA 🇺🇸 Dalas
-      - XY VPN USA 🇺🇸 New York
-      - 🇨🇦 Canada 10
-      - 🇨🇦 Canada 11
-      - 🇨🇦 Canada 12
-      - 🇨🇦 Canada 13
-      - 🇨🇦 Canada 14
-      - 🇨🇦 Canada 15
-      - 🇨🇦 Canada 16
-      - 🇨🇦 Canada 17
-      - 🇨🇦 Canada 18
-      - 🇨🇦 Canada 20
-      - 🇨🇦 Canada 29
-      - 🇨🇦 Canada 31
-      - 🇨🇦 Canada 32
-      - 🇨🇦 Canada 33
-      - 🇨🇦 Canada 4
-      - 🇨🇦 Canada 41
-      - 🇨🇦 Canada 42
-      - 🇨🇦 Canada 48
-      - 🇨🇦 Canada 49
-      - 🇨🇦 Canada 5
-      - 🇨🇦 Canada 6
-      - 🇨🇦 Canada 68
-      - 🇨🇦 Canada 69
-      - 🇨🇦 Canada 7
-      - 🇨🇦 Canada 70
-      - 🇯🇵 UFO Tokyo 5
-      - 🇺🇸 UFO Seattle
-      - 🇺🇸 United States 10
-      - 🇺🇸 United States 15
-      - 🇺🇸 United States 16
-      - 🇺🇸 United States 17
-      - 🇺🇸 United States 18
-      - 🇺🇸 United States 19
-      - 🇺🇸 United States 21
-      - 🇺🇸 United States 22
-      - 🇺🇸 United States 23
-      - 🇺🇸 United States 24
-      - 🇺🇸 United States 26
-      - 🇺🇸 United States 28
-      - 🇺🇸 United States 31
-      - 🇺🇸 United States 34
-      - 🇺🇸 United States 61
-      - 🇺🇸 United States 65
-      - 🇺🇸 United States 66
-      - 🇺🇸 United States 69
-      - 🇺🇸 United States 8
-      - 🇺🇸US_9102+@
-      - 🇺🇸US_9101+@
-      - 🇺🇸US_8882+@
-      - 🇺🇸US_8090+@
-      - 🇺🇸US_8080+@
-      - 🇺🇸US_8009+@
-      - 🇺🇸US_8008+@
-      - 🇺🇸US_8000+@
-      - 🇺🇸US_7307+@
-      - 🇺🇸US_7001+@
-      - 🇺🇸US_6697+@
-      - 🇺🇸US_6679+@
-      - 🇺🇸US_6379+@
-      - 🇺🇸US_5600+@
-      - 🇺🇸US_5004+@
-      - 🇺🇸US_5001+@
-      - 🇺🇸US_4444+@
-      - 🇺🇸US_3389+@
-      - 🇺🇸US_3306+@
-      - 🇺🇸US_2375+@
-      - 🇵🇱PL_8882+@
-      - 🇵🇱PL_8881+@
-      - 🇵🇱PL_8119+@
-      - 🇵🇱PL_8080+@
-      - 🇵🇱PL_8008+@
-      - 🇵🇱PL_7002+@
-      - 🇵🇱PL_7001+@
-      - 🇵🇱PL_6697+@
-      - 🇵🇱PL_6679+@
-      - 🇵🇱PL_6379+@
-      - 🇵🇱PL_5500+@
-      - ‌‌🇨🇦CA_9102+@
-      - ‌‌🇨🇦CA_9101+@
-      - ‌‌🇨🇦CA_8881+@
-      - ‌‌🇨🇦CA_8119+@
-      - ‌‌🇨🇦CA_8118+@
-      - ‌‌🇨🇦CA_8091+@
-      - ‌‌🇨🇦CA_8090+@
-      - ‌‌🇨🇦CA_8080+@
-      - ‌‌🇨🇦CA_6697+@
-      - ‌‌🇨🇦CA_6679+@
-      - ‌‌🇨🇦CA_5601+@
-      - ‌‌🇨🇦CA_5600+@
-      - ‌‌🇨🇦CA_5004+@
-      - ‌‌🇨🇦CA_5003+@
-      - ‌‌🇨🇦CA_5001+@
-      - ‌‌🇨🇦CA_5000+@
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Atlanta
+      - "PrivateVPNUSA🇺🇸California\r"
+      - "PrivateVPNUSA🇺🇸NewJersey\r"
+      - "XYVPNUSA🇺🇸Dalas\r"
+      - "XYVPNUSA🇺🇸NewYork\r"
+      - "🇨🇦Canada10\r"
+      - "🇨🇦Canada11\r"
+      - "🇨🇦Canada12\r"
+      - "🇨🇦Canada13\r"
+      - "🇨🇦Canada14\r"
+      - "🇨🇦Canada15\r"
+      - "🇨🇦Canada16\r"
+      - "🇨🇦Canada17\r"
+      - "🇨🇦Canada18\r"
+      - "🇨🇦Canada20\r"
+      - "🇨🇦Canada29\r"
+      - "🇨🇦Canada31\r"
+      - "🇨🇦Canada32\r"
+      - "🇨🇦Canada33\r"
+      - "🇨🇦Canada4\r"
+      - "🇨🇦Canada41\r"
+      - "🇨🇦Canada42\r"
+      - "🇨🇦Canada48\r"
+      - "🇨🇦Canada49\r"
+      - "🇨🇦Canada5\r"
+      - "🇨🇦Canada6\r"
+      - "🇨🇦Canada68\r"
+      - "🇨🇦Canada69\r"
+      - "🇨🇦Canada7\r"
+      - "🇨🇦Canada70\r"
+      - "🇯🇵UFOTokyo5\r"
+      - "🇺🇸UFOSeattle\r"
+      - "🇺🇸UnitedStates10\r"
+      - "🇺🇸UnitedStates15\r"
+      - "🇺🇸UnitedStates16\r"
+      - "🇺🇸UnitedStates17\r"
+      - "🇺🇸UnitedStates18\r"
+      - "🇺🇸UnitedStates19\r"
+      - "🇺🇸UnitedStates21\r"
+      - "🇺🇸UnitedStates22\r"
+      - "🇺🇸UnitedStates23\r"
+      - "🇺🇸UnitedStates24\r"
+      - "🇺🇸UnitedStates26\r"
+      - "🇺🇸UnitedStates28\r"
+      - "🇺🇸UnitedStates31\r"
+      - "🇺🇸UnitedStates34\r"
+      - "🇺🇸UnitedStates61\r"
+      - "🇺🇸UnitedStates65\r"
+      - "🇺🇸UnitedStates66\r"
+      - "🇺🇸UnitedStates69\r"
+      - "🇺🇸UnitedStates8\r"
+      - "🇺🇸US_9102+@\r"
+      - "🇺🇸US_9101+@\r"
+      - "🇺🇸US_8882+@\r"
+      - "🇺🇸US_8090+@\r"
+      - "🇺🇸US_8080+@\r"
+      - "🇺🇸US_8009+@\r"
+      - "🇺🇸US_8008+@\r"
+      - "🇺🇸US_8000+@\r"
+      - "🇺🇸US_7307+@\r"
+      - "🇺🇸US_7001+@\r"
+      - "🇺🇸US_6697+@\r"
+      - "🇺🇸US_6679+@\r"
+      - "🇺🇸US_6379+@\r"
+      - "🇺🇸US_5600+@\r"
+      - "🇺🇸US_5004+@\r"
+      - "🇺🇸US_5001+@\r"
+      - "🇺🇸US_4444+@\r"
+      - "🇺🇸US_3389+@\r"
+      - "🇺🇸US_3306+@\r"
+      - "🇺🇸US_2375+@\r"
+      - "🇵🇱PL_8882+@\r"
+      - "🇵🇱PL_8881+@\r"
+      - "🇵🇱PL_8119+@\r"
+      - "🇵🇱PL_8080+@\r"
+      - "🇵🇱PL_8008+@\r"
+      - "🇵🇱PL_7002+@\r"
+      - "🇵🇱PL_7001+@\r"
+      - "🇵🇱PL_6697+@\r"
+      - "🇵🇱PL_6679+@\r"
+      - "🇵🇱PL_6379+@\r"
+      - "🇵🇱PL_5500+@\r"
+      - "‌‌🇨🇦CA_9102+@\r"
+      - "‌‌🇨🇦CA_9101+@\r"
+      - "‌‌🇨🇦CA_8881+@\r"
+      - "‌‌🇨🇦CA_8119+@\r"
+      - "‌‌🇨🇦CA_8118+@\r"
+      - "‌‌🇨🇦CA_8091+@\r"
+      - "‌‌🇨🇦CA_8090+@\r"
+      - "‌‌🇨🇦CA_8080+@\r"
+      - "‌‌🇨🇦CA_6697+@\r"
+      - "‌‌🇨🇦CA_6679+@\r"
+      - "‌‌🇨🇦CA_5601+@\r"
+      - "‌‌🇨🇦CA_5600+@\r"
+      - "‌‌🇨🇦CA_5004+@\r"
+      - "‌‌🇨🇦CA_5003+@\r"
+      - "‌‌🇨🇦CA_5001+@\r"
+      - "‌‌🇨🇦CA_5000+@\r"
+      - "USA🇺🇸Georgia\r"
+      - "US+🇺🇸+Seattle+@\r"
+      - "USA🇺🇸Atlanta\r"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Private VPN USA 🇺🇸 California
-      - Private VPN USA 🇺🇸 New Jersey
-      - XY VPN USA 🇺🇸 Dalas
-      - XY VPN USA 🇺🇸 New York
-      - 🇨🇦 Canada 10
-      - 🇨🇦 Canada 11
-      - 🇨🇦 Canada 12
-      - 🇨🇦 Canada 13
-      - 🇨🇦 Canada 14
-      - 🇨🇦 Canada 15
-      - 🇨🇦 Canada 16
-      - 🇨🇦 Canada 17
-      - 🇨🇦 Canada 18
-      - 🇨🇦 Canada 20
-      - 🇨🇦 Canada 29
-      - 🇨🇦 Canada 31
-      - 🇨🇦 Canada 32
-      - 🇨🇦 Canada 33
-      - 🇨🇦 Canada 4
-      - 🇨🇦 Canada 41
-      - 🇨🇦 Canada 42
-      - 🇨🇦 Canada 48
-      - 🇨🇦 Canada 49
-      - 🇨🇦 Canada 5
-      - 🇨🇦 Canada 6
-      - 🇨🇦 Canada 68
-      - 🇨🇦 Canada 69
-      - 🇨🇦 Canada 7
-      - 🇨🇦 Canada 70
-      - 🇯🇵 UFO Tokyo 5
-      - 🇺🇸 UFO Seattle
-      - 🇺🇸 United States 10
-      - 🇺🇸 United States 15
-      - 🇺🇸 United States 16
-      - 🇺🇸 United States 17
-      - 🇺🇸 United States 18
-      - 🇺🇸 United States 19
-      - 🇺🇸 United States 21
-      - 🇺🇸 United States 22
-      - 🇺🇸 United States 23
-      - 🇺🇸 United States 24
-      - 🇺🇸 United States 26
-      - 🇺🇸 United States 28
-      - 🇺🇸 United States 31
-      - 🇺🇸 United States 34
-      - 🇺🇸 United States 61
-      - 🇺🇸 United States 65
-      - 🇺🇸 United States 66
-      - 🇺🇸 United States 69
-      - 🇺🇸 United States 8
-      - 🇺🇸US_9102+@
-      - 🇺🇸US_9101+@
-      - 🇺🇸US_8882+@
-      - 🇺🇸US_8090+@
-      - 🇺🇸US_8080+@
-      - 🇺🇸US_8009+@
-      - 🇺🇸US_8008+@
-      - 🇺🇸US_8000+@
-      - 🇺🇸US_7307+@
-      - 🇺🇸US_7001+@
-      - 🇺🇸US_6697+@
-      - 🇺🇸US_6679+@
-      - 🇺🇸US_6379+@
-      - 🇺🇸US_5600+@
-      - 🇺🇸US_5004+@
-      - 🇺🇸US_5001+@
-      - 🇺🇸US_4444+@
-      - 🇺🇸US_3389+@
-      - 🇺🇸US_3306+@
-      - 🇺🇸US_2375+@
-      - 🇵🇱PL_8882+@
-      - 🇵🇱PL_8881+@
-      - 🇵🇱PL_8119+@
-      - 🇵🇱PL_8080+@
-      - 🇵🇱PL_8008+@
-      - 🇵🇱PL_7002+@
-      - 🇵🇱PL_7001+@
-      - 🇵🇱PL_6697+@
-      - 🇵🇱PL_6679+@
-      - 🇵🇱PL_6379+@
-      - 🇵🇱PL_5500+@
-      - ‌‌🇨🇦CA_9102+@
-      - ‌‌🇨🇦CA_9101+@
-      - ‌‌🇨🇦CA_8881+@
-      - ‌‌🇨🇦CA_8119+@
-      - ‌‌🇨🇦CA_8118+@
-      - ‌‌🇨🇦CA_8091+@
-      - ‌‌🇨🇦CA_8090+@
-      - ‌‌🇨🇦CA_8080+@
-      - ‌‌🇨🇦CA_6697+@
-      - ‌‌🇨🇦CA_6679+@
-      - ‌‌🇨🇦CA_5601+@
-      - ‌‌🇨🇦CA_5600+@
-      - ‌‌🇨🇦CA_5004+@
-      - ‌‌🇨🇦CA_5003+@
-      - ‌‌🇨🇦CA_5001+@
-      - ‌‌🇨🇦CA_5000+@
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Atlanta
+      - "PrivateVPNUSA🇺🇸California\r"
+      - "PrivateVPNUSA🇺🇸NewJersey\r"
+      - "XYVPNUSA🇺🇸Dalas\r"
+      - "XYVPNUSA🇺🇸NewYork\r"
+      - "🇨🇦Canada10\r"
+      - "🇨🇦Canada11\r"
+      - "🇨🇦Canada12\r"
+      - "🇨🇦Canada13\r"
+      - "🇨🇦Canada14\r"
+      - "🇨🇦Canada15\r"
+      - "🇨🇦Canada16\r"
+      - "🇨🇦Canada17\r"
+      - "🇨🇦Canada18\r"
+      - "🇨🇦Canada20\r"
+      - "🇨🇦Canada29\r"
+      - "🇨🇦Canada31\r"
+      - "🇨🇦Canada32\r"
+      - "🇨🇦Canada33\r"
+      - "🇨🇦Canada4\r"
+      - "🇨🇦Canada41\r"
+      - "🇨🇦Canada42\r"
+      - "🇨🇦Canada48\r"
+      - "🇨🇦Canada49\r"
+      - "🇨🇦Canada5\r"
+      - "🇨🇦Canada6\r"
+      - "🇨🇦Canada68\r"
+      - "🇨🇦Canada69\r"
+      - "🇨🇦Canada7\r"
+      - "🇨🇦Canada70\r"
+      - "🇯🇵UFOTokyo5\r"
+      - "🇺🇸UFOSeattle\r"
+      - "🇺🇸UnitedStates10\r"
+      - "🇺🇸UnitedStates15\r"
+      - "🇺🇸UnitedStates16\r"
+      - "🇺🇸UnitedStates17\r"
+      - "🇺🇸UnitedStates18\r"
+      - "🇺🇸UnitedStates19\r"
+      - "🇺🇸UnitedStates21\r"
+      - "🇺🇸UnitedStates22\r"
+      - "🇺🇸UnitedStates23\r"
+      - "🇺🇸UnitedStates24\r"
+      - "🇺🇸UnitedStates26\r"
+      - "🇺🇸UnitedStates28\r"
+      - "🇺🇸UnitedStates31\r"
+      - "🇺🇸UnitedStates34\r"
+      - "🇺🇸UnitedStates61\r"
+      - "🇺🇸UnitedStates65\r"
+      - "🇺🇸UnitedStates66\r"
+      - "🇺🇸UnitedStates69\r"
+      - "🇺🇸UnitedStates8\r"
+      - "🇺🇸US_9102+@\r"
+      - "🇺🇸US_9101+@\r"
+      - "🇺🇸US_8882+@\r"
+      - "🇺🇸US_8090+@\r"
+      - "🇺🇸US_8080+@\r"
+      - "🇺🇸US_8009+@\r"
+      - "🇺🇸US_8008+@\r"
+      - "🇺🇸US_8000+@\r"
+      - "🇺🇸US_7307+@\r"
+      - "🇺🇸US_7001+@\r"
+      - "🇺🇸US_6697+@\r"
+      - "🇺🇸US_6679+@\r"
+      - "🇺🇸US_6379+@\r"
+      - "🇺🇸US_5600+@\r"
+      - "🇺🇸US_5004+@\r"
+      - "🇺🇸US_5001+@\r"
+      - "🇺🇸US_4444+@\r"
+      - "🇺🇸US_3389+@\r"
+      - "🇺🇸US_3306+@\r"
+      - "🇺🇸US_2375+@\r"
+      - "🇵🇱PL_8882+@\r"
+      - "🇵🇱PL_8881+@\r"
+      - "🇵🇱PL_8119+@\r"
+      - "🇵🇱PL_8080+@\r"
+      - "🇵🇱PL_8008+@\r"
+      - "🇵🇱PL_7002+@\r"
+      - "🇵🇱PL_7001+@\r"
+      - "🇵🇱PL_6697+@\r"
+      - "🇵🇱PL_6679+@\r"
+      - "🇵🇱PL_6379+@\r"
+      - "🇵🇱PL_5500+@\r"
+      - "‌‌🇨🇦CA_9102+@\r"
+      - "‌‌🇨🇦CA_9101+@\r"
+      - "‌‌🇨🇦CA_8881+@\r"
+      - "‌‌🇨🇦CA_8119+@\r"
+      - "‌‌🇨🇦CA_8118+@\r"
+      - "‌‌🇨🇦CA_8091+@\r"
+      - "‌‌🇨🇦CA_8090+@\r"
+      - "‌‌🇨🇦CA_8080+@\r"
+      - "‌‌🇨🇦CA_6697+@\r"
+      - "‌‌🇨🇦CA_6679+@\r"
+      - "‌‌🇨🇦CA_5601+@\r"
+      - "‌‌🇨🇦CA_5600+@\r"
+      - "‌‌🇨🇦CA_5004+@\r"
+      - "‌‌🇨🇦CA_5003+@\r"
+      - "‌‌🇨🇦CA_5001+@\r"
+      - "‌‌🇨🇦CA_5000+@\r"
+      - "USA🇺🇸Georgia\r"
+      - "US+🇺🇸+Seattle+@\r"
+      - "USA🇺🇸Atlanta\r"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Private VPN USA 🇺🇸 California
-      - Private VPN USA 🇺🇸 New Jersey
-      - XY VPN USA 🇺🇸 Dalas
-      - XY VPN USA 🇺🇸 New York
-      - 🇨🇦 Canada 10
-      - 🇨🇦 Canada 11
-      - 🇨🇦 Canada 12
-      - 🇨🇦 Canada 13
-      - 🇨🇦 Canada 14
-      - 🇨🇦 Canada 15
-      - 🇨🇦 Canada 16
-      - 🇨🇦 Canada 17
-      - 🇨🇦 Canada 18
-      - 🇨🇦 Canada 20
-      - 🇨🇦 Canada 29
-      - 🇨🇦 Canada 31
-      - 🇨🇦 Canada 32
-      - 🇨🇦 Canada 33
-      - 🇨🇦 Canada 4
-      - 🇨🇦 Canada 41
-      - 🇨🇦 Canada 42
-      - 🇨🇦 Canada 48
-      - 🇨🇦 Canada 49
-      - 🇨🇦 Canada 5
-      - 🇨🇦 Canada 6
-      - 🇨🇦 Canada 68
-      - 🇨🇦 Canada 69
-      - 🇨🇦 Canada 7
-      - 🇨🇦 Canada 70
-      - 🇯🇵 UFO Tokyo 5
-      - 🇺🇸 UFO Seattle
-      - 🇺🇸 United States 10
-      - 🇺🇸 United States 15
-      - 🇺🇸 United States 16
-      - 🇺🇸 United States 17
-      - 🇺🇸 United States 18
-      - 🇺🇸 United States 19
-      - 🇺🇸 United States 21
-      - 🇺🇸 United States 22
-      - 🇺🇸 United States 23
-      - 🇺🇸 United States 24
-      - 🇺🇸 United States 26
-      - 🇺🇸 United States 28
-      - 🇺🇸 United States 31
-      - 🇺🇸 United States 34
-      - 🇺🇸 United States 61
-      - 🇺🇸 United States 65
-      - 🇺🇸 United States 66
-      - 🇺🇸 United States 69
-      - 🇺🇸 United States 8
-      - 🇺🇸US_9102+@
-      - 🇺🇸US_9101+@
-      - 🇺🇸US_8882+@
-      - 🇺🇸US_8090+@
-      - 🇺🇸US_8080+@
-      - 🇺🇸US_8009+@
-      - 🇺🇸US_8008+@
-      - 🇺🇸US_8000+@
-      - 🇺🇸US_7307+@
-      - 🇺🇸US_7001+@
-      - 🇺🇸US_6697+@
-      - 🇺🇸US_6679+@
-      - 🇺🇸US_6379+@
-      - 🇺🇸US_5600+@
-      - 🇺🇸US_5004+@
-      - 🇺🇸US_5001+@
-      - 🇺🇸US_4444+@
-      - 🇺🇸US_3389+@
-      - 🇺🇸US_3306+@
-      - 🇺🇸US_2375+@
-      - 🇵🇱PL_8882+@
-      - 🇵🇱PL_8881+@
-      - 🇵🇱PL_8119+@
-      - 🇵🇱PL_8080+@
-      - 🇵🇱PL_8008+@
-      - 🇵🇱PL_7002+@
-      - 🇵🇱PL_7001+@
-      - 🇵🇱PL_6697+@
-      - 🇵🇱PL_6679+@
-      - 🇵🇱PL_6379+@
-      - 🇵🇱PL_5500+@
-      - ‌‌🇨🇦CA_9102+@
-      - ‌‌🇨🇦CA_9101+@
-      - ‌‌🇨🇦CA_8881+@
-      - ‌‌🇨🇦CA_8119+@
-      - ‌‌🇨🇦CA_8118+@
-      - ‌‌🇨🇦CA_8091+@
-      - ‌‌🇨🇦CA_8090+@
-      - ‌‌🇨🇦CA_8080+@
-      - ‌‌🇨🇦CA_6697+@
-      - ‌‌🇨🇦CA_6679+@
-      - ‌‌🇨🇦CA_5601+@
-      - ‌‌🇨🇦CA_5600+@
-      - ‌‌🇨🇦CA_5004+@
-      - ‌‌🇨🇦CA_5003+@
-      - ‌‌🇨🇦CA_5001+@
-      - ‌‌🇨🇦CA_5000+@
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Atlanta
+      - "PrivateVPNUSA🇺🇸California\r"
+      - "PrivateVPNUSA🇺🇸NewJersey\r"
+      - "XYVPNUSA🇺🇸Dalas\r"
+      - "XYVPNUSA🇺🇸NewYork\r"
+      - "🇨🇦Canada10\r"
+      - "🇨🇦Canada11\r"
+      - "🇨🇦Canada12\r"
+      - "🇨🇦Canada13\r"
+      - "🇨🇦Canada14\r"
+      - "🇨🇦Canada15\r"
+      - "🇨🇦Canada16\r"
+      - "🇨🇦Canada17\r"
+      - "🇨🇦Canada18\r"
+      - "🇨🇦Canada20\r"
+      - "🇨🇦Canada29\r"
+      - "🇨🇦Canada31\r"
+      - "🇨🇦Canada32\r"
+      - "🇨🇦Canada33\r"
+      - "🇨🇦Canada4\r"
+      - "🇨🇦Canada41\r"
+      - "🇨🇦Canada42\r"
+      - "🇨🇦Canada48\r"
+      - "🇨🇦Canada49\r"
+      - "🇨🇦Canada5\r"
+      - "🇨🇦Canada6\r"
+      - "🇨🇦Canada68\r"
+      - "🇨🇦Canada69\r"
+      - "🇨🇦Canada7\r"
+      - "🇨🇦Canada70\r"
+      - "🇯🇵UFOTokyo5\r"
+      - "🇺🇸UFOSeattle\r"
+      - "🇺🇸UnitedStates10\r"
+      - "🇺🇸UnitedStates15\r"
+      - "🇺🇸UnitedStates16\r"
+      - "🇺🇸UnitedStates17\r"
+      - "🇺🇸UnitedStates18\r"
+      - "🇺🇸UnitedStates19\r"
+      - "🇺🇸UnitedStates21\r"
+      - "🇺🇸UnitedStates22\r"
+      - "🇺🇸UnitedStates23\r"
+      - "🇺🇸UnitedStates24\r"
+      - "🇺🇸UnitedStates26\r"
+      - "🇺🇸UnitedStates28\r"
+      - "🇺🇸UnitedStates31\r"
+      - "🇺🇸UnitedStates34\r"
+      - "🇺🇸UnitedStates61\r"
+      - "🇺🇸UnitedStates65\r"
+      - "🇺🇸UnitedStates66\r"
+      - "🇺🇸UnitedStates69\r"
+      - "🇺🇸UnitedStates8\r"
+      - "🇺🇸US_9102+@\r"
+      - "🇺🇸US_9101+@\r"
+      - "🇺🇸US_8882+@\r"
+      - "🇺🇸US_8090+@\r"
+      - "🇺🇸US_8080+@\r"
+      - "🇺🇸US_8009+@\r"
+      - "🇺🇸US_8008+@\r"
+      - "🇺🇸US_8000+@\r"
+      - "🇺🇸US_7307+@\r"
+      - "🇺🇸US_7001+@\r"
+      - "🇺🇸US_6697+@\r"
+      - "🇺🇸US_6679+@\r"
+      - "🇺🇸US_6379+@\r"
+      - "🇺🇸US_5600+@\r"
+      - "🇺🇸US_5004+@\r"
+      - "🇺🇸US_5001+@\r"
+      - "🇺🇸US_4444+@\r"
+      - "🇺🇸US_3389+@\r"
+      - "🇺🇸US_3306+@\r"
+      - "🇺🇸US_2375+@\r"
+      - "🇵🇱PL_8882+@\r"
+      - "🇵🇱PL_8881+@\r"
+      - "🇵🇱PL_8119+@\r"
+      - "🇵🇱PL_8080+@\r"
+      - "🇵🇱PL_8008+@\r"
+      - "🇵🇱PL_7002+@\r"
+      - "🇵🇱PL_7001+@\r"
+      - "🇵🇱PL_6697+@\r"
+      - "🇵🇱PL_6679+@\r"
+      - "🇵🇱PL_6379+@\r"
+      - "🇵🇱PL_5500+@\r"
+      - "‌‌🇨🇦CA_9102+@\r"
+      - "‌‌🇨🇦CA_9101+@\r"
+      - "‌‌🇨🇦CA_8881+@\r"
+      - "‌‌🇨🇦CA_8119+@\r"
+      - "‌‌🇨🇦CA_8118+@\r"
+      - "‌‌🇨🇦CA_8091+@\r"
+      - "‌‌🇨🇦CA_8090+@\r"
+      - "‌‌🇨🇦CA_8080+@\r"
+      - "‌‌🇨🇦CA_6697+@\r"
+      - "‌‌🇨🇦CA_6679+@\r"
+      - "‌‌🇨🇦CA_5601+@\r"
+      - "‌‌🇨🇦CA_5600+@\r"
+      - "‌‌🇨🇦CA_5004+@\r"
+      - "‌‌🇨🇦CA_5003+@\r"
+      - "‌‌🇨🇦CA_5001+@\r"
+      - "‌‌🇨🇦CA_5000+@\r"
+      - "USA🇺🇸Georgia\r"
+      - "US+🇺🇸+Seattle+@\r"
+      - "USA🇺🇸Atlanta\r"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Private VPN USA 🇺🇸 California
-      - Private VPN USA 🇺🇸 New Jersey
-      - XY VPN USA 🇺🇸 Dalas
-      - XY VPN USA 🇺🇸 New York
-      - 🇨🇦 Canada 10
-      - 🇨🇦 Canada 11
-      - 🇨🇦 Canada 12
-      - 🇨🇦 Canada 13
-      - 🇨🇦 Canada 14
-      - 🇨🇦 Canada 15
-      - 🇨🇦 Canada 16
-      - 🇨🇦 Canada 17
-      - 🇨🇦 Canada 18
-      - 🇨🇦 Canada 20
-      - 🇨🇦 Canada 29
-      - 🇨🇦 Canada 31
-      - 🇨🇦 Canada 32
-      - 🇨🇦 Canada 33
-      - 🇨🇦 Canada 4
-      - 🇨🇦 Canada 41
-      - 🇨🇦 Canada 42
-      - 🇨🇦 Canada 48
-      - 🇨🇦 Canada 49
-      - 🇨🇦 Canada 5
-      - 🇨🇦 Canada 6
-      - 🇨🇦 Canada 68
-      - 🇨🇦 Canada 69
-      - 🇨🇦 Canada 7
-      - 🇨🇦 Canada 70
-      - 🇯🇵 UFO Tokyo 5
-      - 🇺🇸 UFO Seattle
-      - 🇺🇸 United States 10
-      - 🇺🇸 United States 15
-      - 🇺🇸 United States 16
-      - 🇺🇸 United States 17
-      - 🇺🇸 United States 18
-      - 🇺🇸 United States 19
-      - 🇺🇸 United States 21
-      - 🇺🇸 United States 22
-      - 🇺🇸 United States 23
-      - 🇺🇸 United States 24
-      - 🇺🇸 United States 26
-      - 🇺🇸 United States 28
-      - 🇺🇸 United States 31
-      - 🇺🇸 United States 34
-      - 🇺🇸 United States 61
-      - 🇺🇸 United States 65
-      - 🇺🇸 United States 66
-      - 🇺🇸 United States 69
-      - 🇺🇸 United States 8
-      - 🇺🇸US_9102+@
-      - 🇺🇸US_9101+@
-      - 🇺🇸US_8882+@
-      - 🇺🇸US_8090+@
-      - 🇺🇸US_8080+@
-      - 🇺🇸US_8009+@
-      - 🇺🇸US_8008+@
-      - 🇺🇸US_8000+@
-      - 🇺🇸US_7307+@
-      - 🇺🇸US_7001+@
-      - 🇺🇸US_6697+@
-      - 🇺🇸US_6679+@
-      - 🇺🇸US_6379+@
-      - 🇺🇸US_5600+@
-      - 🇺🇸US_5004+@
-      - 🇺🇸US_5001+@
-      - 🇺🇸US_4444+@
-      - 🇺🇸US_3389+@
-      - 🇺🇸US_3306+@
-      - 🇺🇸US_2375+@
-      - 🇵🇱PL_8882+@
-      - 🇵🇱PL_8881+@
-      - 🇵🇱PL_8119+@
-      - 🇵🇱PL_8080+@
-      - 🇵🇱PL_8008+@
-      - 🇵🇱PL_7002+@
-      - 🇵🇱PL_7001+@
-      - 🇵🇱PL_6697+@
-      - 🇵🇱PL_6679+@
-      - 🇵🇱PL_6379+@
-      - 🇵🇱PL_5500+@
-      - ‌‌🇨🇦CA_9102+@
-      - ‌‌🇨🇦CA_9101+@
-      - ‌‌🇨🇦CA_8881+@
-      - ‌‌🇨🇦CA_8119+@
-      - ‌‌🇨🇦CA_8118+@
-      - ‌‌🇨🇦CA_8091+@
-      - ‌‌🇨🇦CA_8090+@
-      - ‌‌🇨🇦CA_8080+@
-      - ‌‌🇨🇦CA_6697+@
-      - ‌‌🇨🇦CA_6679+@
-      - ‌‌🇨🇦CA_5601+@
-      - ‌‌🇨🇦CA_5600+@
-      - ‌‌🇨🇦CA_5004+@
-      - ‌‌🇨🇦CA_5003+@
-      - ‌‌🇨🇦CA_5001+@
-      - ‌‌🇨🇦CA_5000+@
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Atlanta
+      - "PrivateVPNUSA🇺🇸California\r"
+      - "PrivateVPNUSA🇺🇸NewJersey\r"
+      - "XYVPNUSA🇺🇸Dalas\r"
+      - "XYVPNUSA🇺🇸NewYork\r"
+      - "🇨🇦Canada10\r"
+      - "🇨🇦Canada11\r"
+      - "🇨🇦Canada12\r"
+      - "🇨🇦Canada13\r"
+      - "🇨🇦Canada14\r"
+      - "🇨🇦Canada15\r"
+      - "🇨🇦Canada16\r"
+      - "🇨🇦Canada17\r"
+      - "🇨🇦Canada18\r"
+      - "🇨🇦Canada20\r"
+      - "🇨🇦Canada29\r"
+      - "🇨🇦Canada31\r"
+      - "🇨🇦Canada32\r"
+      - "🇨🇦Canada33\r"
+      - "🇨🇦Canada4\r"
+      - "🇨🇦Canada41\r"
+      - "🇨🇦Canada42\r"
+      - "🇨🇦Canada48\r"
+      - "🇨🇦Canada49\r"
+      - "🇨🇦Canada5\r"
+      - "🇨🇦Canada6\r"
+      - "🇨🇦Canada68\r"
+      - "🇨🇦Canada69\r"
+      - "🇨🇦Canada7\r"
+      - "🇨🇦Canada70\r"
+      - "🇯🇵UFOTokyo5\r"
+      - "🇺🇸UFOSeattle\r"
+      - "🇺🇸UnitedStates10\r"
+      - "🇺🇸UnitedStates15\r"
+      - "🇺🇸UnitedStates16\r"
+      - "🇺🇸UnitedStates17\r"
+      - "🇺🇸UnitedStates18\r"
+      - "🇺🇸UnitedStates19\r"
+      - "🇺🇸UnitedStates21\r"
+      - "🇺🇸UnitedStates22\r"
+      - "🇺🇸UnitedStates23\r"
+      - "🇺🇸UnitedStates24\r"
+      - "🇺🇸UnitedStates26\r"
+      - "🇺🇸UnitedStates28\r"
+      - "🇺🇸UnitedStates31\r"
+      - "🇺🇸UnitedStates34\r"
+      - "🇺🇸UnitedStates61\r"
+      - "🇺🇸UnitedStates65\r"
+      - "🇺🇸UnitedStates66\r"
+      - "🇺🇸UnitedStates69\r"
+      - "🇺🇸UnitedStates8\r"
+      - "🇺🇸US_9102+@\r"
+      - "🇺🇸US_9101+@\r"
+      - "🇺🇸US_8882+@\r"
+      - "🇺🇸US_8090+@\r"
+      - "🇺🇸US_8080+@\r"
+      - "🇺🇸US_8009+@\r"
+      - "🇺🇸US_8008+@\r"
+      - "🇺🇸US_8000+@\r"
+      - "🇺🇸US_7307+@\r"
+      - "🇺🇸US_7001+@\r"
+      - "🇺🇸US_6697+@\r"
+      - "🇺🇸US_6679+@\r"
+      - "🇺🇸US_6379+@\r"
+      - "🇺🇸US_5600+@\r"
+      - "🇺🇸US_5004+@\r"
+      - "🇺🇸US_5001+@\r"
+      - "🇺🇸US_4444+@\r"
+      - "🇺🇸US_3389+@\r"
+      - "🇺🇸US_3306+@\r"
+      - "🇺🇸US_2375+@\r"
+      - "🇵🇱PL_8882+@\r"
+      - "🇵🇱PL_8881+@\r"
+      - "🇵🇱PL_8119+@\r"
+      - "🇵🇱PL_8080+@\r"
+      - "🇵🇱PL_8008+@\r"
+      - "🇵🇱PL_7002+@\r"
+      - "🇵🇱PL_7001+@\r"
+      - "🇵🇱PL_6697+@\r"
+      - "🇵🇱PL_6679+@\r"
+      - "🇵🇱PL_6379+@\r"
+      - "🇵🇱PL_5500+@\r"
+      - "‌‌🇨🇦CA_9102+@\r"
+      - "‌‌🇨🇦CA_9101+@\r"
+      - "‌‌🇨🇦CA_8881+@\r"
+      - "‌‌🇨🇦CA_8119+@\r"
+      - "‌‌🇨🇦CA_8118+@\r"
+      - "‌‌🇨🇦CA_8091+@\r"
+      - "‌‌🇨🇦CA_8090+@\r"
+      - "‌‌🇨🇦CA_8080+@\r"
+      - "‌‌🇨🇦CA_6697+@\r"
+      - "‌‌🇨🇦CA_6679+@\r"
+      - "‌‌🇨🇦CA_5601+@\r"
+      - "‌‌🇨🇦CA_5600+@\r"
+      - "‌‌🇨🇦CA_5004+@\r"
+      - "‌‌🇨🇦CA_5003+@\r"
+      - "‌‌🇨🇦CA_5001+@\r"
+      - "‌‌🇨🇦CA_5000+@\r"
+      - "USA🇺🇸Georgia\r"
+      - "US+🇺🇸+Seattle+@\r"
+      - "USA🇺🇸Atlanta\r"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Private VPN USA 🇺🇸 California
-      - Private VPN USA 🇺🇸 New Jersey
-      - XY VPN USA 🇺🇸 Dalas
-      - XY VPN USA 🇺🇸 New York
-      - 🇨🇦 Canada 10
-      - 🇨🇦 Canada 11
-      - 🇨🇦 Canada 12
-      - 🇨🇦 Canada 13
-      - 🇨🇦 Canada 14
-      - 🇨🇦 Canada 15
-      - 🇨🇦 Canada 16
-      - 🇨🇦 Canada 17
-      - 🇨🇦 Canada 18
-      - 🇨🇦 Canada 20
-      - 🇨🇦 Canada 29
-      - 🇨🇦 Canada 31
-      - 🇨🇦 Canada 32
-      - 🇨🇦 Canada 33
-      - 🇨🇦 Canada 4
-      - 🇨🇦 Canada 41
-      - 🇨🇦 Canada 42
-      - 🇨🇦 Canada 48
-      - 🇨🇦 Canada 49
-      - 🇨🇦 Canada 5
-      - 🇨🇦 Canada 6
-      - 🇨🇦 Canada 68
-      - 🇨🇦 Canada 69
-      - 🇨🇦 Canada 7
-      - 🇨🇦 Canada 70
-      - 🇯🇵 UFO Tokyo 5
-      - 🇺🇸 UFO Seattle
-      - 🇺🇸 United States 10
-      - 🇺🇸 United States 15
-      - 🇺🇸 United States 16
-      - 🇺🇸 United States 17
-      - 🇺🇸 United States 18
-      - 🇺🇸 United States 19
-      - 🇺🇸 United States 21
-      - 🇺🇸 United States 22
-      - 🇺🇸 United States 23
-      - 🇺🇸 United States 24
-      - 🇺🇸 United States 26
-      - 🇺🇸 United States 28
-      - 🇺🇸 United States 31
-      - 🇺🇸 United States 34
-      - 🇺🇸 United States 61
-      - 🇺🇸 United States 65
-      - 🇺🇸 United States 66
-      - 🇺🇸 United States 69
-      - 🇺🇸 United States 8
-      - 🇺🇸US_9102+@
-      - 🇺🇸US_9101+@
-      - 🇺🇸US_8882+@
-      - 🇺🇸US_8090+@
-      - 🇺🇸US_8080+@
-      - 🇺🇸US_8009+@
-      - 🇺🇸US_8008+@
-      - 🇺🇸US_8000+@
-      - 🇺🇸US_7307+@
-      - 🇺🇸US_7001+@
-      - 🇺🇸US_6697+@
-      - 🇺🇸US_6679+@
-      - 🇺🇸US_6379+@
-      - 🇺🇸US_5600+@
-      - 🇺🇸US_5004+@
-      - 🇺🇸US_5001+@
-      - 🇺🇸US_4444+@
-      - 🇺🇸US_3389+@
-      - 🇺🇸US_3306+@
-      - 🇺🇸US_2375+@
-      - 🇵🇱PL_8882+@
-      - 🇵🇱PL_8881+@
-      - 🇵🇱PL_8119+@
-      - 🇵🇱PL_8080+@
-      - 🇵🇱PL_8008+@
-      - 🇵🇱PL_7002+@
-      - 🇵🇱PL_7001+@
-      - 🇵🇱PL_6697+@
-      - 🇵🇱PL_6679+@
-      - 🇵🇱PL_6379+@
-      - 🇵🇱PL_5500+@
-      - ‌‌🇨🇦CA_9102+@
-      - ‌‌🇨🇦CA_9101+@
-      - ‌‌🇨🇦CA_8881+@
-      - ‌‌🇨🇦CA_8119+@
-      - ‌‌🇨🇦CA_8118+@
-      - ‌‌🇨🇦CA_8091+@
-      - ‌‌🇨🇦CA_8090+@
-      - ‌‌🇨🇦CA_8080+@
-      - ‌‌🇨🇦CA_6697+@
-      - ‌‌🇨🇦CA_6679+@
-      - ‌‌🇨🇦CA_5601+@
-      - ‌‌🇨🇦CA_5600+@
-      - ‌‌🇨🇦CA_5004+@
-      - ‌‌🇨🇦CA_5003+@
-      - ‌‌🇨🇦CA_5001+@
-      - ‌‌🇨🇦CA_5000+@
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Atlanta
+      - "PrivateVPNUSA🇺🇸California\r"
+      - "PrivateVPNUSA🇺🇸NewJersey\r"
+      - "XYVPNUSA🇺🇸Dalas\r"
+      - "XYVPNUSA🇺🇸NewYork\r"
+      - "🇨🇦Canada10\r"
+      - "🇨🇦Canada11\r"
+      - "🇨🇦Canada12\r"
+      - "🇨🇦Canada13\r"
+      - "🇨🇦Canada14\r"
+      - "🇨🇦Canada15\r"
+      - "🇨🇦Canada16\r"
+      - "🇨🇦Canada17\r"
+      - "🇨🇦Canada18\r"
+      - "🇨🇦Canada20\r"
+      - "🇨🇦Canada29\r"
+      - "🇨🇦Canada31\r"
+      - "🇨🇦Canada32\r"
+      - "🇨🇦Canada33\r"
+      - "🇨🇦Canada4\r"
+      - "🇨🇦Canada41\r"
+      - "🇨🇦Canada42\r"
+      - "🇨🇦Canada48\r"
+      - "🇨🇦Canada49\r"
+      - "🇨🇦Canada5\r"
+      - "🇨🇦Canada6\r"
+      - "🇨🇦Canada68\r"
+      - "🇨🇦Canada69\r"
+      - "🇨🇦Canada7\r"
+      - "🇨🇦Canada70\r"
+      - "🇯🇵UFOTokyo5\r"
+      - "🇺🇸UFOSeattle\r"
+      - "🇺🇸UnitedStates10\r"
+      - "🇺🇸UnitedStates15\r"
+      - "🇺🇸UnitedStates16\r"
+      - "🇺🇸UnitedStates17\r"
+      - "🇺🇸UnitedStates18\r"
+      - "🇺🇸UnitedStates19\r"
+      - "🇺🇸UnitedStates21\r"
+      - "🇺🇸UnitedStates22\r"
+      - "🇺🇸UnitedStates23\r"
+      - "🇺🇸UnitedStates24\r"
+      - "🇺🇸UnitedStates26\r"
+      - "🇺🇸UnitedStates28\r"
+      - "🇺🇸UnitedStates31\r"
+      - "🇺🇸UnitedStates34\r"
+      - "🇺🇸UnitedStates61\r"
+      - "🇺🇸UnitedStates65\r"
+      - "🇺🇸UnitedStates66\r"
+      - "🇺🇸UnitedStates69\r"
+      - "🇺🇸UnitedStates8\r"
+      - "🇺🇸US_9102+@\r"
+      - "🇺🇸US_9101+@\r"
+      - "🇺🇸US_8882+@\r"
+      - "🇺🇸US_8090+@\r"
+      - "🇺🇸US_8080+@\r"
+      - "🇺🇸US_8009+@\r"
+      - "🇺🇸US_8008+@\r"
+      - "🇺🇸US_8000+@\r"
+      - "🇺🇸US_7307+@\r"
+      - "🇺🇸US_7001+@\r"
+      - "🇺🇸US_6697+@\r"
+      - "🇺🇸US_6679+@\r"
+      - "🇺🇸US_6379+@\r"
+      - "🇺🇸US_5600+@\r"
+      - "🇺🇸US_5004+@\r"
+      - "🇺🇸US_5001+@\r"
+      - "🇺🇸US_4444+@\r"
+      - "🇺🇸US_3389+@\r"
+      - "🇺🇸US_3306+@\r"
+      - "🇺🇸US_2375+@\r"
+      - "🇵🇱PL_8882+@\r"
+      - "🇵🇱PL_8881+@\r"
+      - "🇵🇱PL_8119+@\r"
+      - "🇵🇱PL_8080+@\r"
+      - "🇵🇱PL_8008+@\r"
+      - "🇵🇱PL_7002+@\r"
+      - "🇵🇱PL_7001+@\r"
+      - "🇵🇱PL_6697+@\r"
+      - "🇵🇱PL_6679+@\r"
+      - "🇵🇱PL_6379+@\r"
+      - "🇵🇱PL_5500+@\r"
+      - "‌‌🇨🇦CA_9102+@\r"
+      - "‌‌🇨🇦CA_9101+@\r"
+      - "‌‌🇨🇦CA_8881+@\r"
+      - "‌‌🇨🇦CA_8119+@\r"
+      - "‌‌🇨🇦CA_8118+@\r"
+      - "‌‌🇨🇦CA_8091+@\r"
+      - "‌‌🇨🇦CA_8090+@\r"
+      - "‌‌🇨🇦CA_8080+@\r"
+      - "‌‌🇨🇦CA_6697+@\r"
+      - "‌‌🇨🇦CA_6679+@\r"
+      - "‌‌🇨🇦CA_5601+@\r"
+      - "‌‌🇨🇦CA_5600+@\r"
+      - "‌‌🇨🇦CA_5004+@\r"
+      - "‌‌🇨🇦CA_5003+@\r"
+      - "‌‌🇨🇦CA_5001+@\r"
+      - "‌‌🇨🇦CA_5000+@\r"
+      - "USA🇺🇸Georgia\r"
+      - "US+🇺🇸+Seattle+@\r"
+      - "USA🇺🇸Atlanta\r"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -813,106 +760,106 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Private VPN USA 🇺🇸 California
-      - Private VPN USA 🇺🇸 New Jersey
-      - XY VPN USA 🇺🇸 Dalas
-      - XY VPN USA 🇺🇸 New York
-      - 🇨🇦 Canada 10
-      - 🇨🇦 Canada 11
-      - 🇨🇦 Canada 12
-      - 🇨🇦 Canada 13
-      - 🇨🇦 Canada 14
-      - 🇨🇦 Canada 15
-      - 🇨🇦 Canada 16
-      - 🇨🇦 Canada 17
-      - 🇨🇦 Canada 18
-      - 🇨🇦 Canada 20
-      - 🇨🇦 Canada 29
-      - 🇨🇦 Canada 31
-      - 🇨🇦 Canada 32
-      - 🇨🇦 Canada 33
-      - 🇨🇦 Canada 4
-      - 🇨🇦 Canada 41
-      - 🇨🇦 Canada 42
-      - 🇨🇦 Canada 48
-      - 🇨🇦 Canada 49
-      - 🇨🇦 Canada 5
-      - 🇨🇦 Canada 6
-      - 🇨🇦 Canada 68
-      - 🇨🇦 Canada 69
-      - 🇨🇦 Canada 7
-      - 🇨🇦 Canada 70
-      - 🇯🇵 UFO Tokyo 5
-      - 🇺🇸 UFO Seattle
-      - 🇺🇸 United States 10
-      - 🇺🇸 United States 15
-      - 🇺🇸 United States 16
-      - 🇺🇸 United States 17
-      - 🇺🇸 United States 18
-      - 🇺🇸 United States 19
-      - 🇺🇸 United States 21
-      - 🇺🇸 United States 22
-      - 🇺🇸 United States 23
-      - 🇺🇸 United States 24
-      - 🇺🇸 United States 26
-      - 🇺🇸 United States 28
-      - 🇺🇸 United States 31
-      - 🇺🇸 United States 34
-      - 🇺🇸 United States 61
-      - 🇺🇸 United States 65
-      - 🇺🇸 United States 66
-      - 🇺🇸 United States 69
-      - 🇺🇸 United States 8
-      - 🇺🇸US_9102+@
-      - 🇺🇸US_9101+@
-      - 🇺🇸US_8882+@
-      - 🇺🇸US_8090+@
-      - 🇺🇸US_8080+@
-      - 🇺🇸US_8009+@
-      - 🇺🇸US_8008+@
-      - 🇺🇸US_8000+@
-      - 🇺🇸US_7307+@
-      - 🇺🇸US_7001+@
-      - 🇺🇸US_6697+@
-      - 🇺🇸US_6679+@
-      - 🇺🇸US_6379+@
-      - 🇺🇸US_5600+@
-      - 🇺🇸US_5004+@
-      - 🇺🇸US_5001+@
-      - 🇺🇸US_4444+@
-      - 🇺🇸US_3389+@
-      - 🇺🇸US_3306+@
-      - 🇺🇸US_2375+@
-      - 🇵🇱PL_8882+@
-      - 🇵🇱PL_8881+@
-      - 🇵🇱PL_8119+@
-      - 🇵🇱PL_8080+@
-      - 🇵🇱PL_8008+@
-      - 🇵🇱PL_7002+@
-      - 🇵🇱PL_7001+@
-      - 🇵🇱PL_6697+@
-      - 🇵🇱PL_6679+@
-      - 🇵🇱PL_6379+@
-      - 🇵🇱PL_5500+@
-      - ‌‌🇨🇦CA_9102+@
-      - ‌‌🇨🇦CA_9101+@
-      - ‌‌🇨🇦CA_8881+@
-      - ‌‌🇨🇦CA_8119+@
-      - ‌‌🇨🇦CA_8118+@
-      - ‌‌🇨🇦CA_8091+@
-      - ‌‌🇨🇦CA_8090+@
-      - ‌‌🇨🇦CA_8080+@
-      - ‌‌🇨🇦CA_6697+@
-      - ‌‌🇨🇦CA_6679+@
-      - ‌‌🇨🇦CA_5601+@
-      - ‌‌🇨🇦CA_5600+@
-      - ‌‌🇨🇦CA_5004+@
-      - ‌‌🇨🇦CA_5003+@
-      - ‌‌🇨🇦CA_5001+@
-      - ‌‌🇨🇦CA_5000+@
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Georgia
-      - USA 🇺🇸 Atlanta
+      - "PrivateVPNUSA🇺🇸California\r"
+      - "PrivateVPNUSA🇺🇸NewJersey\r"
+      - "XYVPNUSA🇺🇸Dalas\r"
+      - "XYVPNUSA🇺🇸NewYork\r"
+      - "🇨🇦Canada10\r"
+      - "🇨🇦Canada11\r"
+      - "🇨🇦Canada12\r"
+      - "🇨🇦Canada13\r"
+      - "🇨🇦Canada14\r"
+      - "🇨🇦Canada15\r"
+      - "🇨🇦Canada16\r"
+      - "🇨🇦Canada17\r"
+      - "🇨🇦Canada18\r"
+      - "🇨🇦Canada20\r"
+      - "🇨🇦Canada29\r"
+      - "🇨🇦Canada31\r"
+      - "🇨🇦Canada32\r"
+      - "🇨🇦Canada33\r"
+      - "🇨🇦Canada4\r"
+      - "🇨🇦Canada41\r"
+      - "🇨🇦Canada42\r"
+      - "🇨🇦Canada48\r"
+      - "🇨🇦Canada49\r"
+      - "🇨🇦Canada5\r"
+      - "🇨🇦Canada6\r"
+      - "🇨🇦Canada68\r"
+      - "🇨🇦Canada69\r"
+      - "🇨🇦Canada7\r"
+      - "🇨🇦Canada70\r"
+      - "🇯🇵UFOTokyo5\r"
+      - "🇺🇸UFOSeattle\r"
+      - "🇺🇸UnitedStates10\r"
+      - "🇺🇸UnitedStates15\r"
+      - "🇺🇸UnitedStates16\r"
+      - "🇺🇸UnitedStates17\r"
+      - "🇺🇸UnitedStates18\r"
+      - "🇺🇸UnitedStates19\r"
+      - "🇺🇸UnitedStates21\r"
+      - "🇺🇸UnitedStates22\r"
+      - "🇺🇸UnitedStates23\r"
+      - "🇺🇸UnitedStates24\r"
+      - "🇺🇸UnitedStates26\r"
+      - "🇺🇸UnitedStates28\r"
+      - "🇺🇸UnitedStates31\r"
+      - "🇺🇸UnitedStates34\r"
+      - "🇺🇸UnitedStates61\r"
+      - "🇺🇸UnitedStates65\r"
+      - "🇺🇸UnitedStates66\r"
+      - "🇺🇸UnitedStates69\r"
+      - "🇺🇸UnitedStates8\r"
+      - "🇺🇸US_9102+@\r"
+      - "🇺🇸US_9101+@\r"
+      - "🇺🇸US_8882+@\r"
+      - "🇺🇸US_8090+@\r"
+      - "🇺🇸US_8080+@\r"
+      - "🇺🇸US_8009+@\r"
+      - "🇺🇸US_8008+@\r"
+      - "🇺🇸US_8000+@\r"
+      - "🇺🇸US_7307+@\r"
+      - "🇺🇸US_7001+@\r"
+      - "🇺🇸US_6697+@\r"
+      - "🇺🇸US_6679+@\r"
+      - "🇺🇸US_6379+@\r"
+      - "🇺🇸US_5600+@\r"
+      - "🇺🇸US_5004+@\r"
+      - "🇺🇸US_5001+@\r"
+      - "🇺🇸US_4444+@\r"
+      - "🇺🇸US_3389+@\r"
+      - "🇺🇸US_3306+@\r"
+      - "🇺🇸US_2375+@\r"
+      - "🇵🇱PL_8882+@\r"
+      - "🇵🇱PL_8881+@\r"
+      - "🇵🇱PL_8119+@\r"
+      - "🇵🇱PL_8080+@\r"
+      - "🇵🇱PL_8008+@\r"
+      - "🇵🇱PL_7002+@\r"
+      - "🇵🇱PL_7001+@\r"
+      - "🇵🇱PL_6697+@\r"
+      - "🇵🇱PL_6679+@\r"
+      - "🇵🇱PL_6379+@\r"
+      - "🇵🇱PL_5500+@\r"
+      - "‌‌🇨🇦CA_9102+@\r"
+      - "‌‌🇨🇦CA_9101+@\r"
+      - "‌‌🇨🇦CA_8881+@\r"
+      - "‌‌🇨🇦CA_8119+@\r"
+      - "‌‌🇨🇦CA_8118+@\r"
+      - "‌‌🇨🇦CA_8091+@\r"
+      - "‌‌🇨🇦CA_8090+@\r"
+      - "‌‌🇨🇦CA_8080+@\r"
+      - "‌‌🇨🇦CA_6697+@\r"
+      - "‌‌🇨🇦CA_6679+@\r"
+      - "‌‌🇨🇦CA_5601+@\r"
+      - "‌‌🇨🇦CA_5600+@\r"
+      - "‌‌🇨🇦CA_5004+@\r"
+      - "‌‌🇨🇦CA_5003+@\r"
+      - "‌‌🇨🇦CA_5001+@\r"
+      - "‌‌🇨🇦CA_5000+@\r"
+      - "USA🇺🇸Georgia\r"
+      - "US+🇺🇸+Seattle+@\r"
+      - "USA🇺🇸Atlanta\r"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
