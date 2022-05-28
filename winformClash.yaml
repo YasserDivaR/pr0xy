@@ -5,44 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
-  - {"type":"ss","name":"🇨🇦Canada4","server":"134.195.196.230","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"🇨🇦Canada31","server":"134.195.196.107","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"🇺🇸UnitedStates26","server":"142.202.48.74","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"🇺🇸UnitedStates66","server":"167.88.63.99","port":4444,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"🇨🇦Canada32","server":"134.195.196.107","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"🇯🇵UFOTokyo5","server":"185.160.24.217","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇨🇦Canada13","server":"134.195.196.149","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
-  - {"type":"ss","name":"🇺🇸UnitedStates17","server":"142.202.48.34","port":4444,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"🇨🇦Canada12","server":"134.195.196.149","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"🇺🇸UnitedStates16","server":"142.202.48.34","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"🇨🇦Canada11","server":"134.195.196.149","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"🇨🇦Canada14","server":"134.195.196.149","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"🇺🇸UnitedStates65","server":"167.88.63.99","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇨🇦Canada33","server":"134.195.196.107","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"🇺🇸UnitedStates31","server":"167.88.63.93","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"🇨🇦Canada6","server":"134.195.196.230","port":4444,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"🇨🇦Canada10","server":"134.195.196.230","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇨🇦Canada29","server":"134.195.196.64","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
-  - {"type":"ss","name":"🇨🇦Canada5","server":"134.195.196.230","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇺🇸UFOSeattle","server":"169.197.143.15","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇺🇸UnitedStates61","server":"167.88.61.213","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"undefined_1","server":"38.75.136.21","port":7001,"cipher":null}
-  - {"type":"ss","name":"undefined_2","server":"38.75.136.102","port":8080,"cipher":null}
-  - {"type":"ss","name":"undefined_3","server":"38.75.136.21","port":8888,"cipher":null}
-  - {"type":"ss","name":"undefined_4","server":"38.68.134.191","port":5003,"cipher":null}
-  - {"type":"ss","name":"undefined_5","server":"167.88.61.60","port":5600,"cipher":null}
-  - {"type":"ss","name":"undefined_6","server":"167.88.61.70","port":8119,"cipher":null}
-  - {"type":"ss","name":"undefined_7","server":"167.88.61.60","port":8090,"cipher":null}
-  - {"type":"ss","name":"undefined_8","server":"38.75.136.49","port":6697,"cipher":null}
-  - {"type":"ss","name":"undefined_9","server":"167.88.61.60","port":8091,"cipher":null}
-  - {"type":"ss","name":"undefined_10","server":"38.75.136.21","port":7307,"cipher":null}
-  - {"type":"ss","name":"undefined_11","server":"38.75.137.9","port":8080,"cipher":null}
-  - {"type":"ss","name":"undefined_12","server":"38.75.136.21","port":443,"cipher":null}
-  - {"type":"ss","name":"undefined_13","server":"38.75.136.139","port":3389,"cipher":null}
-  - {"type":"ss","name":"undefined_14","server":"167.88.61.50","port":7306,"cipher":null}
-  - {"type":"ss","name":"undefined_15","server":"38.75.136.21","port":2376,"cipher":null}
-  - {"type":"ss","name":"undefined_16","server":"38.75.136.21","port":5500,"cipher":null}
-  - {"type":"ss","name":"undefined_17","server":"38.75.136.21","port":6379,"cipher":null}
   - {"type":"vmess","name":"美国06ServerMania","ws-opts":{"path":"/ws","headers":{"host":"usa-buffalo.lvuft.com"}},"server":"usa-buffalo.lvuft.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"印度01Zenlayer","ws-opts":{"path":"/ws","headers":{"host":"aicoo6du.com"}},"server":"129.227.201.234","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"aes-128-gcm","network":"ws","tls":true}
   - {"type":"vmess","name":"印度02Zenlayer","ws-opts":{"path":"/ws","headers":{"host":"aicoo6du.com"}},"server":"aicoo6du.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"aes-128-gcm","network":"ws","tls":true}
@@ -51,107 +13,71 @@ proxies:
   - {"type":"ss","name":"Pool_🇨🇦CA_126+|14.20Mb","server":"196.247.59.156","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"Relay_🇯🇵JP-🇯🇵JP_721+|+9.24Mb","server":"45.66.134.176","port":806,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"Relay_🇯🇵JP-🇯🇵JP_726+|+9.78Mb","server":"45.66.134.176","port":810,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"‌‌🇨🇦CA_8080+@","server":"134.195.196.230","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_8080+@_1","server":"134.195.196.230","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
   - {"type":"ss","name":"Relay_🇯🇵JP-🇯🇵JP_725+|+8.63Mb","server":"45.66.134.176","port":803,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"vmess","name":"CYL-科技（2022.01.09）_1","ws-opts":{"path":"/ws"},"server":"usa-buffalo.lvuft.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"CYL-科技（2022.01.09）","ws-opts":{"path":"/ws"},"server":"usa-buffalo.lvuft.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
   - {"type":"ss","name":"‌‌🇨🇦CA_8008+@","server":"134.195.196.230","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
   - {"type":"ss","name":"Relay_🇯🇵JP-🇯🇵JP_722+|10.62Mb","server":"45.66.134.176","port":807,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"JP+🇯🇵+Tokyo+@+(1)","server":"185.160.24.217","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"‌‌🇨🇦CA_8118+@","server":"134.195.196.230","port":8118,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
   - {"type":"ss","name":"US+🇺🇸+Dallas+@+(3)","server":"38.107.226.146","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
   - {"type":"ss","name":"🇯🇵JP_739+|+8.50Mb","server":"185.160.24.217","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_2058","server":"38.75.136.102","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"vmess","name":"CYL-科技（2022.01.09）_2","ws-opts":{"path":"/ws","headers":{"host":"usa-dallas.lvuft.com"}},"server":"usa-dallas.lvuft.com","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_3179","server":"38.75.136.102","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_2971","server":"38.68.134.71","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"🇺🇸_US_美国","server":"167.88.61.175","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇭🇧426未名站_1098","server":"134.195.196.150","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇭🇧426未名站_825","server":"134.195.196.227","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_2347","server":"38.68.134.71","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇭🇧426未名站_1272","server":"134.195.196.150","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"🇸🇬Singapore(SG)_1","server":"139.99.123.156","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇭🇧426未名站_837","server":"134.195.196.227","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇭🇧426未名站_715","server":"134.195.196.227","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
-  - {"type":"ss","name":"🇭🇧426未名站_887","server":"134.195.196.128","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇺🇸UnitedStates(US)_1","server":"142.202.48.83","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"🇨🇦Canada(CA)_1","server":"134.195.196.64","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_3162","server":"38.75.136.102","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇭🇧426未名站_950","server":"134.195.196.227","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇭🇧426未名站_1194","server":"134.195.196.227","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_3108","server":"38.75.136.102","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"🇨🇦Canada(CA)_2","server":"134.195.196.107","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"🇭🇧426未名站_1044","server":"134.195.196.150","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
-  - {"type":"ss","name":"🇫🇷France(FR)_1","server":"5.39.70.138","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇫🇷France(FR)_2","server":"5.39.70.138","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
-  - {"type":"ss","name":"🇭🇧426未名站_1294","server":"134.195.196.150","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"🇸🇬Singapore(SG)_2","server":"139.99.123.156","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"🇺🇸UnitedStates(US)_2","server":"167.88.61.50","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_3067","server":"38.75.136.21","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇭🇧426未名站_1296","server":"134.195.196.227","port":5600,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇭🇧426未名站_873","server":"134.195.196.150","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇺🇸UnitedStates(US)_3","server":"169.197.141.33","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_2564","server":"38.86.135.27","port":5000,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇭🇧426未名站_1110","server":"134.195.196.150","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"🇭🇧426未名站_1239","server":"134.195.196.150","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇭🇧426未名站_1231","server":"134.195.196.150","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
-  - {"type":"ss","name":"🇭🇧426未名站_1114","server":"134.195.196.150","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_1945","server":"38.86.135.27","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇺🇸【426节点池】US_2536","server":"38.86.135.27","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
-  - {"type":"ss","name":"🇭🇧426未名站_976","server":"134.195.196.150","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
-  - {"type":"ss","name":"🇭🇧426未名站_856","server":"134.195.196.128","port":2375,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
-  - {"type":"ss","name":"🇺🇸UnitedStates(US)_4","server":"38.91.101.210","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"🇭🇧426未名站_1246","server":"169.197.141.187","port":8888,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
-  - {"type":"ss","name":"🇭🇧426未名站_1099","server":"134.195.196.227","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
-  - {"type":"ss","name":"🇭🇧426未名站_717","server":"134.195.196.128","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
-  - {"type":"ss","name":"undefined_18","server":"38.75.136.102","port":5003,"cipher":null}
-  - {"type":"ss","name":"undefined_19","server":"38.68.134.191","port":7307,"cipher":null}
-  - {"type":"ss","name":"undefined_20","server":"167.88.63.89","port":3389,"cipher":null}
-  - {"type":"ss","name":"undefined_21","server":"38.75.136.21","port":8080,"cipher":null}
-  - {"type":"ss","name":"undefined_22","server":"134.195.196.227","port":8009,"cipher":null}
+  - {"type":"ss","name":"FR+🇫🇷+@+(2)","server":"5.39.70.138","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"vmess","name":"Pool_🇺🇸US_1773","ws-opts":{"path":"/ws","headers":{"host":"iesei1ei.com"}},"server":"208.98.48.2","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"Relay_🇨🇦CA-🇨🇦CA_19","ws-opts":{"path":"/ws","headers":{"host":"usa-buffalo.lvuft.com"}},"server":"192.186.129.66","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"IT+🇮🇹+@+(1)","server":"84.33.193.79","port":18760,"cipher":"aes-256-gcm","password":"hg49$WH8943g3"}
+  - {"type":"ss","name":"SE+🇸🇪+Stockholm+@","server":"196.196.156.122","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇵🇱PL_3389+@","server":"54.36.174.181","port":3389,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇵🇱PL_8881+@","server":"54.36.174.181","port":8881,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"ss","name":"🇵🇱PL_5500+@","server":"54.36.174.181","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇵🇱PL_7001+@","server":"54.36.174.181","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"🇵🇱PL_8008+@","server":"54.36.174.181","port":8008,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"🇵🇱PL_6379+@","server":"54.36.174.181","port":6379,"cipher":"aes-256-gcm","password":"zDNVedRFPQexG9v"}
+  - {"type":"ss","name":"🇵🇱PL_6679+@","server":"54.36.174.181","port":6679,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"RO+🇷🇴+@","server":"185.233.150.6","port":18760,"cipher":"aes-256-gcm","password":"hg49$WH8943g3"}
+  - {"type":"ss","name":"🇵🇱PL_8080+@","server":"54.36.174.181","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"🇵🇱PL_7002+@","server":"54.36.174.181","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"🇵🇱PL_3306+@","server":"54.36.174.181","port":3306,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"🇵🇱PL_8119+@","server":"54.36.174.181","port":8119,"cipher":"aes-256-gcm","password":"cdBIDV42DCwnfIN"}
+  - {"type":"ss","name":"🇵🇱PL_5004+@","server":"54.36.174.181","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"🇵🇱PL_6697+@","server":"54.36.174.181","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"🇸🇬_1","server":"217.197.161.136","port":809,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"🇵🇱PL_8882+@","server":"54.36.174.181","port":8882,"cipher":"aes-256-gcm","password":"kDWvXYZoTBcGkC4"}
+  - {"type":"vmess","name":"美国03Sharktech","ws-opts":{"path":"/ws","headers":{"host":"iesei1ei.com"}},"server":"208.98.48.2","port":"443","uuid":"aba50dd4-5484-3b05-b14a-4661caf862d5","alterId":"4","cipher":"aes-128-gcm","network":"ws","tls":true}
+  - {"type":"ss","name":"‌‌🇨🇦CA_6697+@","server":"134.195.196.230","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"United+States+New+Jersey🇺🇸","server":"38.91.100.207","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_5004+@","server":"134.195.196.230","port":5004,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_8009+@","server":"134.195.196.230","port":8009,"cipher":"aes-256-gcm","password":"XKFKl2rULjIp74"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_5001+@","server":"134.195.196.230","port":5001,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"US+🇺🇸+Atlanta+@+(5)","server":"167.88.63.93","port":6697,"cipher":"aes-256-gcm","password":"TEzjfAYq2IjtuoS"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_7306+@","server":"134.195.196.230","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"USA🇺🇸Atlanta","server":"167.88.63.60","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_0443+@","server":"134.195.196.230","port":443,"cipher":"aes-256-gcm","password":"pKEW8JPByTVTLtM"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_7001+@","server":"134.195.196.230","port":7001,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
+  - {"type":"ss","name":"USA🇺🇸Georgia_1","server":"167.88.63.89","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_8090+@_1","server":"134.195.196.230","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"US+🇺🇸+Miami+@+(1)","server":"38.91.107.43","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_2376+@","server":"134.195.196.230","port":2376,"cipher":"aes-256-gcm","password":"faBAoD54k87UJG7"}
+  - {"type":"ss","name":"USA🇺🇸Georgia_2","server":"167.88.63.89","port":7306,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_9101+@","server":"134.195.196.19","port":9101,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_8000+@","server":"134.195.196.19","port":8000,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_5003+@","server":"134.195.196.230","port":5003,"cipher":"aes-256-gcm","password":"g5MeD6Ft3CWlJId"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_8091+@","server":"134.195.196.19","port":8091,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_7307+@","server":"134.195.196.19","port":7307,"cipher":"aes-256-gcm","password":"FoOiGlkAA9yPEGP"}
+  - {"type":"ss","name":"US+🇺🇸+Seattle+@","server":"38.143.66.20","port":5500,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_8090+@_2","server":"134.195.196.19","port":8090,"cipher":"aes-256-gcm","password":"PCnnH6SQSnfoS27"}
+  - {"type":"ss","name":"🇸🇬_2","server":"217.197.161.136","port":812,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"US+🇺🇸+Chicago+@+(10)","server":"162.251.61.221","port":808,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_9102+@","server":"134.195.196.19","port":9102,"cipher":"aes-256-gcm","password":"e4FCWrgpkji3QY"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_5601+@","server":"134.195.196.230","port":5601,"cipher":"aes-256-gcm","password":"Y6R9pAtvxxzmGC"}
+  - {"type":"ss","name":"‌‌🇨🇦CA_8080+@_2","server":"134.195.196.19","port":8080,"cipher":"aes-256-gcm","password":"KixLvKzwjekG00rm"}
+  - {"type":"ss","name":"US+🇺🇸+@+(1)","server":"104.237.224.144","port":18760,"cipher":"chacha20-ietf-poly1305","password":"hg49$WH8943g3"}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇦Canada4
-      - 🇨🇦Canada31
-      - 🇺🇸UnitedStates26
-      - 🇺🇸UnitedStates66
-      - 🇨🇦Canada32
-      - 🇯🇵UFOTokyo5
-      - 🇨🇦Canada13
-      - 🇺🇸UnitedStates17
-      - 🇨🇦Canada12
-      - 🇺🇸UnitedStates16
-      - 🇨🇦Canada11
-      - 🇨🇦Canada14
-      - 🇺🇸UnitedStates65
-      - 🇨🇦Canada33
-      - 🇺🇸UnitedStates31
-      - 🇨🇦Canada6
-      - 🇨🇦Canada10
-      - 🇨🇦Canada29
-      - 🇨🇦Canada5
-      - 🇺🇸UFOSeattle
-      - 🇺🇸UnitedStates61
-      - undefined_1
-      - undefined_2
-      - undefined_3
-      - undefined_4
-      - undefined_5
-      - undefined_6
-      - undefined_7
-      - undefined_8
-      - undefined_9
-      - undefined_10
-      - undefined_11
-      - undefined_12
-      - undefined_13
-      - undefined_14
-      - undefined_15
-      - undefined_16
-      - undefined_17
       - 美国06ServerMania
       - 印度01Zenlayer
       - 印度02Zenlayer
@@ -160,107 +86,71 @@ proxy-groups:
       - Pool_🇨🇦CA_126+|14.20Mb
       - Relay_🇯🇵JP-🇯🇵JP_721+|+9.24Mb
       - Relay_🇯🇵JP-🇯🇵JP_726+|+9.78Mb
-      - ‌‌🇨🇦CA_8080+@
+      - ‌‌🇨🇦CA_8080+@_1
       - Relay_🇯🇵JP-🇯🇵JP_725+|+8.63Mb
-      - CYL-科技（2022.01.09）_1
+      - CYL-科技（2022.01.09）
       - ‌‌🇨🇦CA_8008+@
       - Relay_🇯🇵JP-🇯🇵JP_722+|10.62Mb
       - JP+🇯🇵+Tokyo+@+(1)
       - ‌‌🇨🇦CA_8118+@
       - US+🇺🇸+Dallas+@+(3)
       - 🇯🇵JP_739+|+8.50Mb
-      - 🇺🇸【426节点池】US_2058
-      - CYL-科技（2022.01.09）_2
-      - 🇺🇸【426节点池】US_3179
-      - 🇺🇸【426节点池】US_2971
-      - 🇺🇸_US_美国
-      - 🇭🇧426未名站_1098
-      - 🇭🇧426未名站_825
-      - 🇺🇸【426节点池】US_2347
-      - 🇭🇧426未名站_1272
-      - 🇸🇬Singapore(SG)_1
-      - 🇭🇧426未名站_837
-      - 🇭🇧426未名站_715
-      - 🇭🇧426未名站_887
-      - 🇺🇸UnitedStates(US)_1
-      - 🇨🇦Canada(CA)_1
-      - 🇺🇸【426节点池】US_3162
-      - 🇭🇧426未名站_950
-      - 🇭🇧426未名站_1194
-      - 🇺🇸【426节点池】US_3108
-      - 🇨🇦Canada(CA)_2
-      - 🇭🇧426未名站_1044
-      - 🇫🇷France(FR)_1
-      - 🇫🇷France(FR)_2
-      - 🇭🇧426未名站_1294
-      - 🇸🇬Singapore(SG)_2
-      - 🇺🇸UnitedStates(US)_2
-      - 🇺🇸【426节点池】US_3067
-      - 🇭🇧426未名站_1296
-      - 🇭🇧426未名站_873
-      - 🇺🇸UnitedStates(US)_3
-      - 🇺🇸【426节点池】US_2564
-      - 🇭🇧426未名站_1110
-      - 🇭🇧426未名站_1239
-      - 🇭🇧426未名站_1231
-      - 🇭🇧426未名站_1114
-      - 🇺🇸【426节点池】US_1945
-      - 🇺🇸【426节点池】US_2536
-      - 🇭🇧426未名站_976
-      - 🇭🇧426未名站_856
-      - 🇺🇸UnitedStates(US)_4
-      - 🇭🇧426未名站_1246
-      - 🇭🇧426未名站_1099
-      - 🇭🇧426未名站_717
-      - undefined_18
-      - undefined_19
-      - undefined_20
-      - undefined_21
-      - undefined_22
+      - FR+🇫🇷+@+(2)
+      - Pool_🇺🇸US_1773
+      - Relay_🇨🇦CA-🇨🇦CA_19
+      - IT+🇮🇹+@+(1)
+      - SE+🇸🇪+Stockholm+@
+      - 🇵🇱PL_3389+@
+      - 🇵🇱PL_8881+@
+      - 🇵🇱PL_5500+@
+      - 🇵🇱PL_7001+@
+      - 🇵🇱PL_8008+@
+      - 🇵🇱PL_6379+@
+      - 🇵🇱PL_6679+@
+      - RO+🇷🇴+@
+      - 🇵🇱PL_8080+@
+      - 🇵🇱PL_7002+@
+      - 🇵🇱PL_3306+@
+      - 🇵🇱PL_8119+@
+      - 🇵🇱PL_5004+@
+      - 🇵🇱PL_6697+@
+      - 🇸🇬_1
+      - 🇵🇱PL_8882+@
+      - 美国03Sharktech
+      - ‌‌🇨🇦CA_6697+@
+      - United+States+New+Jersey🇺🇸
+      - ‌‌🇨🇦CA_5004+@
+      - ‌‌🇨🇦CA_8009+@
+      - ‌‌🇨🇦CA_5001+@
+      - US+🇺🇸+Atlanta+@+(5)
+      - ‌‌🇨🇦CA_7306+@
+      - USA🇺🇸Atlanta
+      - ‌‌🇨🇦CA_0443+@
+      - ‌‌🇨🇦CA_7001+@
+      - USA🇺🇸Georgia_1
+      - ‌‌🇨🇦CA_8090+@_1
+      - US+🇺🇸+Miami+@+(1)
+      - ‌‌🇨🇦CA_2376+@
+      - USA🇺🇸Georgia_2
+      - ‌‌🇨🇦CA_9101+@
+      - ‌‌🇨🇦CA_8000+@
+      - ‌‌🇨🇦CA_5003+@
+      - ‌‌🇨🇦CA_8091+@
+      - ‌‌🇨🇦CA_7307+@
+      - US+🇺🇸+Seattle+@
+      - ‌‌🇨🇦CA_8090+@_2
+      - 🇸🇬_2
+      - US+🇺🇸+Chicago+@+(10)
+      - ‌‌🇨🇦CA_9102+@
+      - ‌‌🇨🇦CA_5601+@
+      - ‌‌🇨🇦CA_8080+@_2
+      - US+🇺🇸+@+(1)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇦Canada4
-      - 🇨🇦Canada31
-      - 🇺🇸UnitedStates26
-      - 🇺🇸UnitedStates66
-      - 🇨🇦Canada32
-      - 🇯🇵UFOTokyo5
-      - 🇨🇦Canada13
-      - 🇺🇸UnitedStates17
-      - 🇨🇦Canada12
-      - 🇺🇸UnitedStates16
-      - 🇨🇦Canada11
-      - 🇨🇦Canada14
-      - 🇺🇸UnitedStates65
-      - 🇨🇦Canada33
-      - 🇺🇸UnitedStates31
-      - 🇨🇦Canada6
-      - 🇨🇦Canada10
-      - 🇨🇦Canada29
-      - 🇨🇦Canada5
-      - 🇺🇸UFOSeattle
-      - 🇺🇸UnitedStates61
-      - undefined_1
-      - undefined_2
-      - undefined_3
-      - undefined_4
-      - undefined_5
-      - undefined_6
-      - undefined_7
-      - undefined_8
-      - undefined_9
-      - undefined_10
-      - undefined_11
-      - undefined_12
-      - undefined_13
-      - undefined_14
-      - undefined_15
-      - undefined_16
-      - undefined_17
       - 美国06ServerMania
       - 印度01Zenlayer
       - 印度02Zenlayer
@@ -269,107 +159,71 @@ proxy-groups:
       - Pool_🇨🇦CA_126+|14.20Mb
       - Relay_🇯🇵JP-🇯🇵JP_721+|+9.24Mb
       - Relay_🇯🇵JP-🇯🇵JP_726+|+9.78Mb
-      - ‌‌🇨🇦CA_8080+@
+      - ‌‌🇨🇦CA_8080+@_1
       - Relay_🇯🇵JP-🇯🇵JP_725+|+8.63Mb
-      - CYL-科技（2022.01.09）_1
+      - CYL-科技（2022.01.09）
       - ‌‌🇨🇦CA_8008+@
       - Relay_🇯🇵JP-🇯🇵JP_722+|10.62Mb
       - JP+🇯🇵+Tokyo+@+(1)
       - ‌‌🇨🇦CA_8118+@
       - US+🇺🇸+Dallas+@+(3)
       - 🇯🇵JP_739+|+8.50Mb
-      - 🇺🇸【426节点池】US_2058
-      - CYL-科技（2022.01.09）_2
-      - 🇺🇸【426节点池】US_3179
-      - 🇺🇸【426节点池】US_2971
-      - 🇺🇸_US_美国
-      - 🇭🇧426未名站_1098
-      - 🇭🇧426未名站_825
-      - 🇺🇸【426节点池】US_2347
-      - 🇭🇧426未名站_1272
-      - 🇸🇬Singapore(SG)_1
-      - 🇭🇧426未名站_837
-      - 🇭🇧426未名站_715
-      - 🇭🇧426未名站_887
-      - 🇺🇸UnitedStates(US)_1
-      - 🇨🇦Canada(CA)_1
-      - 🇺🇸【426节点池】US_3162
-      - 🇭🇧426未名站_950
-      - 🇭🇧426未名站_1194
-      - 🇺🇸【426节点池】US_3108
-      - 🇨🇦Canada(CA)_2
-      - 🇭🇧426未名站_1044
-      - 🇫🇷France(FR)_1
-      - 🇫🇷France(FR)_2
-      - 🇭🇧426未名站_1294
-      - 🇸🇬Singapore(SG)_2
-      - 🇺🇸UnitedStates(US)_2
-      - 🇺🇸【426节点池】US_3067
-      - 🇭🇧426未名站_1296
-      - 🇭🇧426未名站_873
-      - 🇺🇸UnitedStates(US)_3
-      - 🇺🇸【426节点池】US_2564
-      - 🇭🇧426未名站_1110
-      - 🇭🇧426未名站_1239
-      - 🇭🇧426未名站_1231
-      - 🇭🇧426未名站_1114
-      - 🇺🇸【426节点池】US_1945
-      - 🇺🇸【426节点池】US_2536
-      - 🇭🇧426未名站_976
-      - 🇭🇧426未名站_856
-      - 🇺🇸UnitedStates(US)_4
-      - 🇭🇧426未名站_1246
-      - 🇭🇧426未名站_1099
-      - 🇭🇧426未名站_717
-      - undefined_18
-      - undefined_19
-      - undefined_20
-      - undefined_21
-      - undefined_22
+      - FR+🇫🇷+@+(2)
+      - Pool_🇺🇸US_1773
+      - Relay_🇨🇦CA-🇨🇦CA_19
+      - IT+🇮🇹+@+(1)
+      - SE+🇸🇪+Stockholm+@
+      - 🇵🇱PL_3389+@
+      - 🇵🇱PL_8881+@
+      - 🇵🇱PL_5500+@
+      - 🇵🇱PL_7001+@
+      - 🇵🇱PL_8008+@
+      - 🇵🇱PL_6379+@
+      - 🇵🇱PL_6679+@
+      - RO+🇷🇴+@
+      - 🇵🇱PL_8080+@
+      - 🇵🇱PL_7002+@
+      - 🇵🇱PL_3306+@
+      - 🇵🇱PL_8119+@
+      - 🇵🇱PL_5004+@
+      - 🇵🇱PL_6697+@
+      - 🇸🇬_1
+      - 🇵🇱PL_8882+@
+      - 美国03Sharktech
+      - ‌‌🇨🇦CA_6697+@
+      - United+States+New+Jersey🇺🇸
+      - ‌‌🇨🇦CA_5004+@
+      - ‌‌🇨🇦CA_8009+@
+      - ‌‌🇨🇦CA_5001+@
+      - US+🇺🇸+Atlanta+@+(5)
+      - ‌‌🇨🇦CA_7306+@
+      - USA🇺🇸Atlanta
+      - ‌‌🇨🇦CA_0443+@
+      - ‌‌🇨🇦CA_7001+@
+      - USA🇺🇸Georgia_1
+      - ‌‌🇨🇦CA_8090+@_1
+      - US+🇺🇸+Miami+@+(1)
+      - ‌‌🇨🇦CA_2376+@
+      - USA🇺🇸Georgia_2
+      - ‌‌🇨🇦CA_9101+@
+      - ‌‌🇨🇦CA_8000+@
+      - ‌‌🇨🇦CA_5003+@
+      - ‌‌🇨🇦CA_8091+@
+      - ‌‌🇨🇦CA_7307+@
+      - US+🇺🇸+Seattle+@
+      - ‌‌🇨🇦CA_8090+@_2
+      - 🇸🇬_2
+      - US+🇺🇸+Chicago+@+(10)
+      - ‌‌🇨🇦CA_9102+@
+      - ‌‌🇨🇦CA_5601+@
+      - ‌‌🇨🇦CA_8080+@_2
+      - US+🇺🇸+@+(1)
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇦Canada4
-      - 🇨🇦Canada31
-      - 🇺🇸UnitedStates26
-      - 🇺🇸UnitedStates66
-      - 🇨🇦Canada32
-      - 🇯🇵UFOTokyo5
-      - 🇨🇦Canada13
-      - 🇺🇸UnitedStates17
-      - 🇨🇦Canada12
-      - 🇺🇸UnitedStates16
-      - 🇨🇦Canada11
-      - 🇨🇦Canada14
-      - 🇺🇸UnitedStates65
-      - 🇨🇦Canada33
-      - 🇺🇸UnitedStates31
-      - 🇨🇦Canada6
-      - 🇨🇦Canada10
-      - 🇨🇦Canada29
-      - 🇨🇦Canada5
-      - 🇺🇸UFOSeattle
-      - 🇺🇸UnitedStates61
-      - undefined_1
-      - undefined_2
-      - undefined_3
-      - undefined_4
-      - undefined_5
-      - undefined_6
-      - undefined_7
-      - undefined_8
-      - undefined_9
-      - undefined_10
-      - undefined_11
-      - undefined_12
-      - undefined_13
-      - undefined_14
-      - undefined_15
-      - undefined_16
-      - undefined_17
       - 美国06ServerMania
       - 印度01Zenlayer
       - 印度02Zenlayer
@@ -378,106 +232,70 @@ proxy-groups:
       - Pool_🇨🇦CA_126+|14.20Mb
       - Relay_🇯🇵JP-🇯🇵JP_721+|+9.24Mb
       - Relay_🇯🇵JP-🇯🇵JP_726+|+9.78Mb
-      - ‌‌🇨🇦CA_8080+@
+      - ‌‌🇨🇦CA_8080+@_1
       - Relay_🇯🇵JP-🇯🇵JP_725+|+8.63Mb
-      - CYL-科技（2022.01.09）_1
+      - CYL-科技（2022.01.09）
       - ‌‌🇨🇦CA_8008+@
       - Relay_🇯🇵JP-🇯🇵JP_722+|10.62Mb
       - JP+🇯🇵+Tokyo+@+(1)
       - ‌‌🇨🇦CA_8118+@
       - US+🇺🇸+Dallas+@+(3)
       - 🇯🇵JP_739+|+8.50Mb
-      - 🇺🇸【426节点池】US_2058
-      - CYL-科技（2022.01.09）_2
-      - 🇺🇸【426节点池】US_3179
-      - 🇺🇸【426节点池】US_2971
-      - 🇺🇸_US_美国
-      - 🇭🇧426未名站_1098
-      - 🇭🇧426未名站_825
-      - 🇺🇸【426节点池】US_2347
-      - 🇭🇧426未名站_1272
-      - 🇸🇬Singapore(SG)_1
-      - 🇭🇧426未名站_837
-      - 🇭🇧426未名站_715
-      - 🇭🇧426未名站_887
-      - 🇺🇸UnitedStates(US)_1
-      - 🇨🇦Canada(CA)_1
-      - 🇺🇸【426节点池】US_3162
-      - 🇭🇧426未名站_950
-      - 🇭🇧426未名站_1194
-      - 🇺🇸【426节点池】US_3108
-      - 🇨🇦Canada(CA)_2
-      - 🇭🇧426未名站_1044
-      - 🇫🇷France(FR)_1
-      - 🇫🇷France(FR)_2
-      - 🇭🇧426未名站_1294
-      - 🇸🇬Singapore(SG)_2
-      - 🇺🇸UnitedStates(US)_2
-      - 🇺🇸【426节点池】US_3067
-      - 🇭🇧426未名站_1296
-      - 🇭🇧426未名站_873
-      - 🇺🇸UnitedStates(US)_3
-      - 🇺🇸【426节点池】US_2564
-      - 🇭🇧426未名站_1110
-      - 🇭🇧426未名站_1239
-      - 🇭🇧426未名站_1231
-      - 🇭🇧426未名站_1114
-      - 🇺🇸【426节点池】US_1945
-      - 🇺🇸【426节点池】US_2536
-      - 🇭🇧426未名站_976
-      - 🇭🇧426未名站_856
-      - 🇺🇸UnitedStates(US)_4
-      - 🇭🇧426未名站_1246
-      - 🇭🇧426未名站_1099
-      - 🇭🇧426未名站_717
-      - undefined_18
-      - undefined_19
-      - undefined_20
-      - undefined_21
-      - undefined_22
+      - FR+🇫🇷+@+(2)
+      - Pool_🇺🇸US_1773
+      - Relay_🇨🇦CA-🇨🇦CA_19
+      - IT+🇮🇹+@+(1)
+      - SE+🇸🇪+Stockholm+@
+      - 🇵🇱PL_3389+@
+      - 🇵🇱PL_8881+@
+      - 🇵🇱PL_5500+@
+      - 🇵🇱PL_7001+@
+      - 🇵🇱PL_8008+@
+      - 🇵🇱PL_6379+@
+      - 🇵🇱PL_6679+@
+      - RO+🇷🇴+@
+      - 🇵🇱PL_8080+@
+      - 🇵🇱PL_7002+@
+      - 🇵🇱PL_3306+@
+      - 🇵🇱PL_8119+@
+      - 🇵🇱PL_5004+@
+      - 🇵🇱PL_6697+@
+      - 🇸🇬_1
+      - 🇵🇱PL_8882+@
+      - 美国03Sharktech
+      - ‌‌🇨🇦CA_6697+@
+      - United+States+New+Jersey🇺🇸
+      - ‌‌🇨🇦CA_5004+@
+      - ‌‌🇨🇦CA_8009+@
+      - ‌‌🇨🇦CA_5001+@
+      - US+🇺🇸+Atlanta+@+(5)
+      - ‌‌🇨🇦CA_7306+@
+      - USA🇺🇸Atlanta
+      - ‌‌🇨🇦CA_0443+@
+      - ‌‌🇨🇦CA_7001+@
+      - USA🇺🇸Georgia_1
+      - ‌‌🇨🇦CA_8090+@_1
+      - US+🇺🇸+Miami+@+(1)
+      - ‌‌🇨🇦CA_2376+@
+      - USA🇺🇸Georgia_2
+      - ‌‌🇨🇦CA_9101+@
+      - ‌‌🇨🇦CA_8000+@
+      - ‌‌🇨🇦CA_5003+@
+      - ‌‌🇨🇦CA_8091+@
+      - ‌‌🇨🇦CA_7307+@
+      - US+🇺🇸+Seattle+@
+      - ‌‌🇨🇦CA_8090+@_2
+      - 🇸🇬_2
+      - US+🇺🇸+Chicago+@+(10)
+      - ‌‌🇨🇦CA_9102+@
+      - ‌‌🇨🇦CA_5601+@
+      - ‌‌🇨🇦CA_8080+@_2
+      - US+🇺🇸+@+(1)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦Canada4
-      - 🇨🇦Canada31
-      - 🇺🇸UnitedStates26
-      - 🇺🇸UnitedStates66
-      - 🇨🇦Canada32
-      - 🇯🇵UFOTokyo5
-      - 🇨🇦Canada13
-      - 🇺🇸UnitedStates17
-      - 🇨🇦Canada12
-      - 🇺🇸UnitedStates16
-      - 🇨🇦Canada11
-      - 🇨🇦Canada14
-      - 🇺🇸UnitedStates65
-      - 🇨🇦Canada33
-      - 🇺🇸UnitedStates31
-      - 🇨🇦Canada6
-      - 🇨🇦Canada10
-      - 🇨🇦Canada29
-      - 🇨🇦Canada5
-      - 🇺🇸UFOSeattle
-      - 🇺🇸UnitedStates61
-      - undefined_1
-      - undefined_2
-      - undefined_3
-      - undefined_4
-      - undefined_5
-      - undefined_6
-      - undefined_7
-      - undefined_8
-      - undefined_9
-      - undefined_10
-      - undefined_11
-      - undefined_12
-      - undefined_13
-      - undefined_14
-      - undefined_15
-      - undefined_16
-      - undefined_17
       - 美国06ServerMania
       - 印度01Zenlayer
       - 印度02Zenlayer
@@ -486,106 +304,70 @@ proxy-groups:
       - Pool_🇨🇦CA_126+|14.20Mb
       - Relay_🇯🇵JP-🇯🇵JP_721+|+9.24Mb
       - Relay_🇯🇵JP-🇯🇵JP_726+|+9.78Mb
-      - ‌‌🇨🇦CA_8080+@
+      - ‌‌🇨🇦CA_8080+@_1
       - Relay_🇯🇵JP-🇯🇵JP_725+|+8.63Mb
-      - CYL-科技（2022.01.09）_1
+      - CYL-科技（2022.01.09）
       - ‌‌🇨🇦CA_8008+@
       - Relay_🇯🇵JP-🇯🇵JP_722+|10.62Mb
       - JP+🇯🇵+Tokyo+@+(1)
       - ‌‌🇨🇦CA_8118+@
       - US+🇺🇸+Dallas+@+(3)
       - 🇯🇵JP_739+|+8.50Mb
-      - 🇺🇸【426节点池】US_2058
-      - CYL-科技（2022.01.09）_2
-      - 🇺🇸【426节点池】US_3179
-      - 🇺🇸【426节点池】US_2971
-      - 🇺🇸_US_美国
-      - 🇭🇧426未名站_1098
-      - 🇭🇧426未名站_825
-      - 🇺🇸【426节点池】US_2347
-      - 🇭🇧426未名站_1272
-      - 🇸🇬Singapore(SG)_1
-      - 🇭🇧426未名站_837
-      - 🇭🇧426未名站_715
-      - 🇭🇧426未名站_887
-      - 🇺🇸UnitedStates(US)_1
-      - 🇨🇦Canada(CA)_1
-      - 🇺🇸【426节点池】US_3162
-      - 🇭🇧426未名站_950
-      - 🇭🇧426未名站_1194
-      - 🇺🇸【426节点池】US_3108
-      - 🇨🇦Canada(CA)_2
-      - 🇭🇧426未名站_1044
-      - 🇫🇷France(FR)_1
-      - 🇫🇷France(FR)_2
-      - 🇭🇧426未名站_1294
-      - 🇸🇬Singapore(SG)_2
-      - 🇺🇸UnitedStates(US)_2
-      - 🇺🇸【426节点池】US_3067
-      - 🇭🇧426未名站_1296
-      - 🇭🇧426未名站_873
-      - 🇺🇸UnitedStates(US)_3
-      - 🇺🇸【426节点池】US_2564
-      - 🇭🇧426未名站_1110
-      - 🇭🇧426未名站_1239
-      - 🇭🇧426未名站_1231
-      - 🇭🇧426未名站_1114
-      - 🇺🇸【426节点池】US_1945
-      - 🇺🇸【426节点池】US_2536
-      - 🇭🇧426未名站_976
-      - 🇭🇧426未名站_856
-      - 🇺🇸UnitedStates(US)_4
-      - 🇭🇧426未名站_1246
-      - 🇭🇧426未名站_1099
-      - 🇭🇧426未名站_717
-      - undefined_18
-      - undefined_19
-      - undefined_20
-      - undefined_21
-      - undefined_22
+      - FR+🇫🇷+@+(2)
+      - Pool_🇺🇸US_1773
+      - Relay_🇨🇦CA-🇨🇦CA_19
+      - IT+🇮🇹+@+(1)
+      - SE+🇸🇪+Stockholm+@
+      - 🇵🇱PL_3389+@
+      - 🇵🇱PL_8881+@
+      - 🇵🇱PL_5500+@
+      - 🇵🇱PL_7001+@
+      - 🇵🇱PL_8008+@
+      - 🇵🇱PL_6379+@
+      - 🇵🇱PL_6679+@
+      - RO+🇷🇴+@
+      - 🇵🇱PL_8080+@
+      - 🇵🇱PL_7002+@
+      - 🇵🇱PL_3306+@
+      - 🇵🇱PL_8119+@
+      - 🇵🇱PL_5004+@
+      - 🇵🇱PL_6697+@
+      - 🇸🇬_1
+      - 🇵🇱PL_8882+@
+      - 美国03Sharktech
+      - ‌‌🇨🇦CA_6697+@
+      - United+States+New+Jersey🇺🇸
+      - ‌‌🇨🇦CA_5004+@
+      - ‌‌🇨🇦CA_8009+@
+      - ‌‌🇨🇦CA_5001+@
+      - US+🇺🇸+Atlanta+@+(5)
+      - ‌‌🇨🇦CA_7306+@
+      - USA🇺🇸Atlanta
+      - ‌‌🇨🇦CA_0443+@
+      - ‌‌🇨🇦CA_7001+@
+      - USA🇺🇸Georgia_1
+      - ‌‌🇨🇦CA_8090+@_1
+      - US+🇺🇸+Miami+@+(1)
+      - ‌‌🇨🇦CA_2376+@
+      - USA🇺🇸Georgia_2
+      - ‌‌🇨🇦CA_9101+@
+      - ‌‌🇨🇦CA_8000+@
+      - ‌‌🇨🇦CA_5003+@
+      - ‌‌🇨🇦CA_8091+@
+      - ‌‌🇨🇦CA_7307+@
+      - US+🇺🇸+Seattle+@
+      - ‌‌🇨🇦CA_8090+@_2
+      - 🇸🇬_2
+      - US+🇺🇸+Chicago+@+(10)
+      - ‌‌🇨🇦CA_9102+@
+      - ‌‌🇨🇦CA_5601+@
+      - ‌‌🇨🇦CA_8080+@_2
+      - US+🇺🇸+@+(1)
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇦Canada4
-      - 🇨🇦Canada31
-      - 🇺🇸UnitedStates26
-      - 🇺🇸UnitedStates66
-      - 🇨🇦Canada32
-      - 🇯🇵UFOTokyo5
-      - 🇨🇦Canada13
-      - 🇺🇸UnitedStates17
-      - 🇨🇦Canada12
-      - 🇺🇸UnitedStates16
-      - 🇨🇦Canada11
-      - 🇨🇦Canada14
-      - 🇺🇸UnitedStates65
-      - 🇨🇦Canada33
-      - 🇺🇸UnitedStates31
-      - 🇨🇦Canada6
-      - 🇨🇦Canada10
-      - 🇨🇦Canada29
-      - 🇨🇦Canada5
-      - 🇺🇸UFOSeattle
-      - 🇺🇸UnitedStates61
-      - undefined_1
-      - undefined_2
-      - undefined_3
-      - undefined_4
-      - undefined_5
-      - undefined_6
-      - undefined_7
-      - undefined_8
-      - undefined_9
-      - undefined_10
-      - undefined_11
-      - undefined_12
-      - undefined_13
-      - undefined_14
-      - undefined_15
-      - undefined_16
-      - undefined_17
       - 美国06ServerMania
       - 印度01Zenlayer
       - 印度02Zenlayer
@@ -594,106 +376,70 @@ proxy-groups:
       - Pool_🇨🇦CA_126+|14.20Mb
       - Relay_🇯🇵JP-🇯🇵JP_721+|+9.24Mb
       - Relay_🇯🇵JP-🇯🇵JP_726+|+9.78Mb
-      - ‌‌🇨🇦CA_8080+@
+      - ‌‌🇨🇦CA_8080+@_1
       - Relay_🇯🇵JP-🇯🇵JP_725+|+8.63Mb
-      - CYL-科技（2022.01.09）_1
+      - CYL-科技（2022.01.09）
       - ‌‌🇨🇦CA_8008+@
       - Relay_🇯🇵JP-🇯🇵JP_722+|10.62Mb
       - JP+🇯🇵+Tokyo+@+(1)
       - ‌‌🇨🇦CA_8118+@
       - US+🇺🇸+Dallas+@+(3)
       - 🇯🇵JP_739+|+8.50Mb
-      - 🇺🇸【426节点池】US_2058
-      - CYL-科技（2022.01.09）_2
-      - 🇺🇸【426节点池】US_3179
-      - 🇺🇸【426节点池】US_2971
-      - 🇺🇸_US_美国
-      - 🇭🇧426未名站_1098
-      - 🇭🇧426未名站_825
-      - 🇺🇸【426节点池】US_2347
-      - 🇭🇧426未名站_1272
-      - 🇸🇬Singapore(SG)_1
-      - 🇭🇧426未名站_837
-      - 🇭🇧426未名站_715
-      - 🇭🇧426未名站_887
-      - 🇺🇸UnitedStates(US)_1
-      - 🇨🇦Canada(CA)_1
-      - 🇺🇸【426节点池】US_3162
-      - 🇭🇧426未名站_950
-      - 🇭🇧426未名站_1194
-      - 🇺🇸【426节点池】US_3108
-      - 🇨🇦Canada(CA)_2
-      - 🇭🇧426未名站_1044
-      - 🇫🇷France(FR)_1
-      - 🇫🇷France(FR)_2
-      - 🇭🇧426未名站_1294
-      - 🇸🇬Singapore(SG)_2
-      - 🇺🇸UnitedStates(US)_2
-      - 🇺🇸【426节点池】US_3067
-      - 🇭🇧426未名站_1296
-      - 🇭🇧426未名站_873
-      - 🇺🇸UnitedStates(US)_3
-      - 🇺🇸【426节点池】US_2564
-      - 🇭🇧426未名站_1110
-      - 🇭🇧426未名站_1239
-      - 🇭🇧426未名站_1231
-      - 🇭🇧426未名站_1114
-      - 🇺🇸【426节点池】US_1945
-      - 🇺🇸【426节点池】US_2536
-      - 🇭🇧426未名站_976
-      - 🇭🇧426未名站_856
-      - 🇺🇸UnitedStates(US)_4
-      - 🇭🇧426未名站_1246
-      - 🇭🇧426未名站_1099
-      - 🇭🇧426未名站_717
-      - undefined_18
-      - undefined_19
-      - undefined_20
-      - undefined_21
-      - undefined_22
+      - FR+🇫🇷+@+(2)
+      - Pool_🇺🇸US_1773
+      - Relay_🇨🇦CA-🇨🇦CA_19
+      - IT+🇮🇹+@+(1)
+      - SE+🇸🇪+Stockholm+@
+      - 🇵🇱PL_3389+@
+      - 🇵🇱PL_8881+@
+      - 🇵🇱PL_5500+@
+      - 🇵🇱PL_7001+@
+      - 🇵🇱PL_8008+@
+      - 🇵🇱PL_6379+@
+      - 🇵🇱PL_6679+@
+      - RO+🇷🇴+@
+      - 🇵🇱PL_8080+@
+      - 🇵🇱PL_7002+@
+      - 🇵🇱PL_3306+@
+      - 🇵🇱PL_8119+@
+      - 🇵🇱PL_5004+@
+      - 🇵🇱PL_6697+@
+      - 🇸🇬_1
+      - 🇵🇱PL_8882+@
+      - 美国03Sharktech
+      - ‌‌🇨🇦CA_6697+@
+      - United+States+New+Jersey🇺🇸
+      - ‌‌🇨🇦CA_5004+@
+      - ‌‌🇨🇦CA_8009+@
+      - ‌‌🇨🇦CA_5001+@
+      - US+🇺🇸+Atlanta+@+(5)
+      - ‌‌🇨🇦CA_7306+@
+      - USA🇺🇸Atlanta
+      - ‌‌🇨🇦CA_0443+@
+      - ‌‌🇨🇦CA_7001+@
+      - USA🇺🇸Georgia_1
+      - ‌‌🇨🇦CA_8090+@_1
+      - US+🇺🇸+Miami+@+(1)
+      - ‌‌🇨🇦CA_2376+@
+      - USA🇺🇸Georgia_2
+      - ‌‌🇨🇦CA_9101+@
+      - ‌‌🇨🇦CA_8000+@
+      - ‌‌🇨🇦CA_5003+@
+      - ‌‌🇨🇦CA_8091+@
+      - ‌‌🇨🇦CA_7307+@
+      - US+🇺🇸+Seattle+@
+      - ‌‌🇨🇦CA_8090+@_2
+      - 🇸🇬_2
+      - US+🇺🇸+Chicago+@+(10)
+      - ‌‌🇨🇦CA_9102+@
+      - ‌‌🇨🇦CA_5601+@
+      - ‌‌🇨🇦CA_8080+@_2
+      - US+🇺🇸+@+(1)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇦Canada4
-      - 🇨🇦Canada31
-      - 🇺🇸UnitedStates26
-      - 🇺🇸UnitedStates66
-      - 🇨🇦Canada32
-      - 🇯🇵UFOTokyo5
-      - 🇨🇦Canada13
-      - 🇺🇸UnitedStates17
-      - 🇨🇦Canada12
-      - 🇺🇸UnitedStates16
-      - 🇨🇦Canada11
-      - 🇨🇦Canada14
-      - 🇺🇸UnitedStates65
-      - 🇨🇦Canada33
-      - 🇺🇸UnitedStates31
-      - 🇨🇦Canada6
-      - 🇨🇦Canada10
-      - 🇨🇦Canada29
-      - 🇨🇦Canada5
-      - 🇺🇸UFOSeattle
-      - 🇺🇸UnitedStates61
-      - undefined_1
-      - undefined_2
-      - undefined_3
-      - undefined_4
-      - undefined_5
-      - undefined_6
-      - undefined_7
-      - undefined_8
-      - undefined_9
-      - undefined_10
-      - undefined_11
-      - undefined_12
-      - undefined_13
-      - undefined_14
-      - undefined_15
-      - undefined_16
-      - undefined_17
       - 美国06ServerMania
       - 印度01Zenlayer
       - 印度02Zenlayer
@@ -702,63 +448,65 @@ proxy-groups:
       - Pool_🇨🇦CA_126+|14.20Mb
       - Relay_🇯🇵JP-🇯🇵JP_721+|+9.24Mb
       - Relay_🇯🇵JP-🇯🇵JP_726+|+9.78Mb
-      - ‌‌🇨🇦CA_8080+@
+      - ‌‌🇨🇦CA_8080+@_1
       - Relay_🇯🇵JP-🇯🇵JP_725+|+8.63Mb
-      - CYL-科技（2022.01.09）_1
+      - CYL-科技（2022.01.09）
       - ‌‌🇨🇦CA_8008+@
       - Relay_🇯🇵JP-🇯🇵JP_722+|10.62Mb
       - JP+🇯🇵+Tokyo+@+(1)
       - ‌‌🇨🇦CA_8118+@
       - US+🇺🇸+Dallas+@+(3)
       - 🇯🇵JP_739+|+8.50Mb
-      - 🇺🇸【426节点池】US_2058
-      - CYL-科技（2022.01.09）_2
-      - 🇺🇸【426节点池】US_3179
-      - 🇺🇸【426节点池】US_2971
-      - 🇺🇸_US_美国
-      - 🇭🇧426未名站_1098
-      - 🇭🇧426未名站_825
-      - 🇺🇸【426节点池】US_2347
-      - 🇭🇧426未名站_1272
-      - 🇸🇬Singapore(SG)_1
-      - 🇭🇧426未名站_837
-      - 🇭🇧426未名站_715
-      - 🇭🇧426未名站_887
-      - 🇺🇸UnitedStates(US)_1
-      - 🇨🇦Canada(CA)_1
-      - 🇺🇸【426节点池】US_3162
-      - 🇭🇧426未名站_950
-      - 🇭🇧426未名站_1194
-      - 🇺🇸【426节点池】US_3108
-      - 🇨🇦Canada(CA)_2
-      - 🇭🇧426未名站_1044
-      - 🇫🇷France(FR)_1
-      - 🇫🇷France(FR)_2
-      - 🇭🇧426未名站_1294
-      - 🇸🇬Singapore(SG)_2
-      - 🇺🇸UnitedStates(US)_2
-      - 🇺🇸【426节点池】US_3067
-      - 🇭🇧426未名站_1296
-      - 🇭🇧426未名站_873
-      - 🇺🇸UnitedStates(US)_3
-      - 🇺🇸【426节点池】US_2564
-      - 🇭🇧426未名站_1110
-      - 🇭🇧426未名站_1239
-      - 🇭🇧426未名站_1231
-      - 🇭🇧426未名站_1114
-      - 🇺🇸【426节点池】US_1945
-      - 🇺🇸【426节点池】US_2536
-      - 🇭🇧426未名站_976
-      - 🇭🇧426未名站_856
-      - 🇺🇸UnitedStates(US)_4
-      - 🇭🇧426未名站_1246
-      - 🇭🇧426未名站_1099
-      - 🇭🇧426未名站_717
-      - undefined_18
-      - undefined_19
-      - undefined_20
-      - undefined_21
-      - undefined_22
+      - FR+🇫🇷+@+(2)
+      - Pool_🇺🇸US_1773
+      - Relay_🇨🇦CA-🇨🇦CA_19
+      - IT+🇮🇹+@+(1)
+      - SE+🇸🇪+Stockholm+@
+      - 🇵🇱PL_3389+@
+      - 🇵🇱PL_8881+@
+      - 🇵🇱PL_5500+@
+      - 🇵🇱PL_7001+@
+      - 🇵🇱PL_8008+@
+      - 🇵🇱PL_6379+@
+      - 🇵🇱PL_6679+@
+      - RO+🇷🇴+@
+      - 🇵🇱PL_8080+@
+      - 🇵🇱PL_7002+@
+      - 🇵🇱PL_3306+@
+      - 🇵🇱PL_8119+@
+      - 🇵🇱PL_5004+@
+      - 🇵🇱PL_6697+@
+      - 🇸🇬_1
+      - 🇵🇱PL_8882+@
+      - 美国03Sharktech
+      - ‌‌🇨🇦CA_6697+@
+      - United+States+New+Jersey🇺🇸
+      - ‌‌🇨🇦CA_5004+@
+      - ‌‌🇨🇦CA_8009+@
+      - ‌‌🇨🇦CA_5001+@
+      - US+🇺🇸+Atlanta+@+(5)
+      - ‌‌🇨🇦CA_7306+@
+      - USA🇺🇸Atlanta
+      - ‌‌🇨🇦CA_0443+@
+      - ‌‌🇨🇦CA_7001+@
+      - USA🇺🇸Georgia_1
+      - ‌‌🇨🇦CA_8090+@_1
+      - US+🇺🇸+Miami+@+(1)
+      - ‌‌🇨🇦CA_2376+@
+      - USA🇺🇸Georgia_2
+      - ‌‌🇨🇦CA_9101+@
+      - ‌‌🇨🇦CA_8000+@
+      - ‌‌🇨🇦CA_5003+@
+      - ‌‌🇨🇦CA_8091+@
+      - ‌‌🇨🇦CA_7307+@
+      - US+🇺🇸+Seattle+@
+      - ‌‌🇨🇦CA_8090+@_2
+      - 🇸🇬_2
+      - US+🇺🇸+Chicago+@+(10)
+      - ‌‌🇨🇦CA_9102+@
+      - ‌‌🇨🇦CA_5601+@
+      - ‌‌🇨🇦CA_8080+@_2
+      - US+🇺🇸+@+(1)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -781,44 +529,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇦Canada4
-      - 🇨🇦Canada31
-      - 🇺🇸UnitedStates26
-      - 🇺🇸UnitedStates66
-      - 🇨🇦Canada32
-      - 🇯🇵UFOTokyo5
-      - 🇨🇦Canada13
-      - 🇺🇸UnitedStates17
-      - 🇨🇦Canada12
-      - 🇺🇸UnitedStates16
-      - 🇨🇦Canada11
-      - 🇨🇦Canada14
-      - 🇺🇸UnitedStates65
-      - 🇨🇦Canada33
-      - 🇺🇸UnitedStates31
-      - 🇨🇦Canada6
-      - 🇨🇦Canada10
-      - 🇨🇦Canada29
-      - 🇨🇦Canada5
-      - 🇺🇸UFOSeattle
-      - 🇺🇸UnitedStates61
-      - undefined_1
-      - undefined_2
-      - undefined_3
-      - undefined_4
-      - undefined_5
-      - undefined_6
-      - undefined_7
-      - undefined_8
-      - undefined_9
-      - undefined_10
-      - undefined_11
-      - undefined_12
-      - undefined_13
-      - undefined_14
-      - undefined_15
-      - undefined_16
-      - undefined_17
       - 美国06ServerMania
       - 印度01Zenlayer
       - 印度02Zenlayer
@@ -827,63 +537,65 @@ proxy-groups:
       - Pool_🇨🇦CA_126+|14.20Mb
       - Relay_🇯🇵JP-🇯🇵JP_721+|+9.24Mb
       - Relay_🇯🇵JP-🇯🇵JP_726+|+9.78Mb
-      - ‌‌🇨🇦CA_8080+@
+      - ‌‌🇨🇦CA_8080+@_1
       - Relay_🇯🇵JP-🇯🇵JP_725+|+8.63Mb
-      - CYL-科技（2022.01.09）_1
+      - CYL-科技（2022.01.09）
       - ‌‌🇨🇦CA_8008+@
       - Relay_🇯🇵JP-🇯🇵JP_722+|10.62Mb
       - JP+🇯🇵+Tokyo+@+(1)
       - ‌‌🇨🇦CA_8118+@
       - US+🇺🇸+Dallas+@+(3)
       - 🇯🇵JP_739+|+8.50Mb
-      - 🇺🇸【426节点池】US_2058
-      - CYL-科技（2022.01.09）_2
-      - 🇺🇸【426节点池】US_3179
-      - 🇺🇸【426节点池】US_2971
-      - 🇺🇸_US_美国
-      - 🇭🇧426未名站_1098
-      - 🇭🇧426未名站_825
-      - 🇺🇸【426节点池】US_2347
-      - 🇭🇧426未名站_1272
-      - 🇸🇬Singapore(SG)_1
-      - 🇭🇧426未名站_837
-      - 🇭🇧426未名站_715
-      - 🇭🇧426未名站_887
-      - 🇺🇸UnitedStates(US)_1
-      - 🇨🇦Canada(CA)_1
-      - 🇺🇸【426节点池】US_3162
-      - 🇭🇧426未名站_950
-      - 🇭🇧426未名站_1194
-      - 🇺🇸【426节点池】US_3108
-      - 🇨🇦Canada(CA)_2
-      - 🇭🇧426未名站_1044
-      - 🇫🇷France(FR)_1
-      - 🇫🇷France(FR)_2
-      - 🇭🇧426未名站_1294
-      - 🇸🇬Singapore(SG)_2
-      - 🇺🇸UnitedStates(US)_2
-      - 🇺🇸【426节点池】US_3067
-      - 🇭🇧426未名站_1296
-      - 🇭🇧426未名站_873
-      - 🇺🇸UnitedStates(US)_3
-      - 🇺🇸【426节点池】US_2564
-      - 🇭🇧426未名站_1110
-      - 🇭🇧426未名站_1239
-      - 🇭🇧426未名站_1231
-      - 🇭🇧426未名站_1114
-      - 🇺🇸【426节点池】US_1945
-      - 🇺🇸【426节点池】US_2536
-      - 🇭🇧426未名站_976
-      - 🇭🇧426未名站_856
-      - 🇺🇸UnitedStates(US)_4
-      - 🇭🇧426未名站_1246
-      - 🇭🇧426未名站_1099
-      - 🇭🇧426未名站_717
-      - undefined_18
-      - undefined_19
-      - undefined_20
-      - undefined_21
-      - undefined_22
+      - FR+🇫🇷+@+(2)
+      - Pool_🇺🇸US_1773
+      - Relay_🇨🇦CA-🇨🇦CA_19
+      - IT+🇮🇹+@+(1)
+      - SE+🇸🇪+Stockholm+@
+      - 🇵🇱PL_3389+@
+      - 🇵🇱PL_8881+@
+      - 🇵🇱PL_5500+@
+      - 🇵🇱PL_7001+@
+      - 🇵🇱PL_8008+@
+      - 🇵🇱PL_6379+@
+      - 🇵🇱PL_6679+@
+      - RO+🇷🇴+@
+      - 🇵🇱PL_8080+@
+      - 🇵🇱PL_7002+@
+      - 🇵🇱PL_3306+@
+      - 🇵🇱PL_8119+@
+      - 🇵🇱PL_5004+@
+      - 🇵🇱PL_6697+@
+      - 🇸🇬_1
+      - 🇵🇱PL_8882+@
+      - 美国03Sharktech
+      - ‌‌🇨🇦CA_6697+@
+      - United+States+New+Jersey🇺🇸
+      - ‌‌🇨🇦CA_5004+@
+      - ‌‌🇨🇦CA_8009+@
+      - ‌‌🇨🇦CA_5001+@
+      - US+🇺🇸+Atlanta+@+(5)
+      - ‌‌🇨🇦CA_7306+@
+      - USA🇺🇸Atlanta
+      - ‌‌🇨🇦CA_0443+@
+      - ‌‌🇨🇦CA_7001+@
+      - USA🇺🇸Georgia_1
+      - ‌‌🇨🇦CA_8090+@_1
+      - US+🇺🇸+Miami+@+(1)
+      - ‌‌🇨🇦CA_2376+@
+      - USA🇺🇸Georgia_2
+      - ‌‌🇨🇦CA_9101+@
+      - ‌‌🇨🇦CA_8000+@
+      - ‌‌🇨🇦CA_5003+@
+      - ‌‌🇨🇦CA_8091+@
+      - ‌‌🇨🇦CA_7307+@
+      - US+🇺🇸+Seattle+@
+      - ‌‌🇨🇦CA_8090+@_2
+      - 🇸🇬_2
+      - US+🇺🇸+Chicago+@+(10)
+      - ‌‌🇨🇦CA_9102+@
+      - ‌‌🇨🇦CA_5601+@
+      - ‌‌🇨🇦CA_8080+@_2
+      - US+🇺🇸+@+(1)
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
