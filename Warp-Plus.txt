@@ -60,4 +60,4 @@ warp://188.114.96.58:3581/?ifp=5-10
 warp://188.114.96.74:7559/?ifp=5-10
 warp://188.114.97.93:7152/?ifp=5-10
 warp://188.114.97.15:7559/?ifp=5-10
-warp://auto
+warp://auto#WarpInWarp ⭐️&&detour=warp://auto#Warp 🇮🇷
