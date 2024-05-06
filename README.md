@@ -80,7 +80,7 @@ https://t.me/WinForm/4443
 ====================================
 ![image](https://github.com/YasserDivaR/pr0xy/assets/20362188/a7ea3f17-2a9d-480c-af83-6271be6070df)
 
-🟡 Shadowsocks ToolBox Installer 2023.5 x64
+🟡 Shadowsocks ToolBox Installer 2024.4 x64
 
 🔴 به بسته جادویی نصب کلاینت های شادوساکس
 
@@ -99,6 +99,5 @@ X:\Program Files\Shadowsocks ToolBox\Nekoray\_Core
 
 🟠 در صورت امکان بجز درایو نصب ویندوز ، برنامه را در مسیری دلخواه نصب کنید
 
-⭕️ Download PicoFile (https://s29.picofile.com/file/8462779476/Shadowsocks_ToolBox_Installer_2023_5_x64.exe.html) 
+⭕️ Download PicoFile (https://s30.picofile.com/file/8474622134/Shadowsocks_ToolBox_Installer_2024_4_x64.exe.html) 
 
-⭕️ Download TrainBit (http://trainbit.com/files/3713012484/Shadowsocks_ToolBox_Installer_2023.5_x64.exe)
