@@ -80,7 +80,9 @@ https://t.me/WinForm/4443
 
 
 ====================================
-![image](https://github.com/YasserDivaR/pr0xy/assets/20362188/a7ea3f17-2a9d-480c-af83-6271be6070df)
+
+
+![image](https://github.com/user-attachments/assets/beb3eb2f-2e12-436f-8862-e32e02104596)
 
 🟡 Shadowsocks ToolBox Installer 2024.12 x64
 
