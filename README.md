@@ -107,6 +107,10 @@ X:\Program Files\Shadowsocks ToolBox\Nekoray\_Core
 ⭕️ Download Telegram File (https://t.me/WinForm/5761) 
 
 ➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖
+
+
 برخی از لینک های کاربردی
+
+
 [آموزش تنظیمات کاربردی و حرفه ای KMPlayer با madVR و Lav Filters](https://yasserdivar.ir/kmplayer-advanced-codec)
 [آموزش تنظیمات کاربردی و حرفه ای PotPlayer با madVR و Lav Filters](https://yasserdivar.ir/potplayer-adcanced-codec)
